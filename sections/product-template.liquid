@@ -46,8 +46,7 @@
       
       <div class="productslide slider-for">
         {%- for media in product.media -%}
-       <div id="{{ media_wrapper_id }}"
-    class="product-single__media-wrapper js{% unless featured_media == media %} hide{% endunless %}">
+       <div class="ratiototla">
             <div class="ratio-box">            
               <img class="the-image" src="{{ media.src | img_url: 'master' }}"
                    alt=""
