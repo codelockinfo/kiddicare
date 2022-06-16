@@ -29,7 +29,7 @@
     
 
     {% if section.settings.show_collection_image and collection.image %}
-      <div class="collection-hero">
+<!--       <div class="collection-hero">
         <div class="collection-hero__image ratio-container lazyload js"
              data-bgset="{% include 'bgset', image: collection.image %}"
              data-sizes="auto"
@@ -44,17 +44,12 @@
           <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
         </noscript>
         <div class="clsrelat collection-hero__title-wrapper">
-          
-      
-          
-          
-<!--           <h1 class="collection-hero__title page-width">
-              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
-              {{ collection.title }}
-          </h1> -->
+
         </div>
-      </div>
-    
+      </div> -->
+  
+      <div class="collection-cls">
+        <div class="main-bg-img-col">
        <div class="width-cls-cll">
             <div>
               <h2 class="heading">{{section.settings.heading}}</h2>
@@ -68,6 +63,8 @@
               </div>
             </div>
           </div>
+        </div>
+    </div>
       {% if is_filter_by_available == false and section.settings.sort_enable == false %}
         <div class="page-width">
           <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
