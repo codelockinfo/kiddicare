@@ -44,7 +44,7 @@
       {%- endfor -%} -->
       
       
-      <div class="productslide ">
+      <div class="productslide slider-for">
         {%- for media in product.media -%}
        <div id="{{ media_wrapper_id }}"
     class="product-single__media-wrapper js{% unless featured_media == media %} hide{% endunless %}">
@@ -95,7 +95,7 @@
           </button>
           {% endif %}
 
-          <ul class="product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
+          <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
             {% if enable_thumbnail_slides == true %}
             <div class="product-single__thumbnails-slider-track" data-slider-track>
               {% endif %}
@@ -998,13 +998,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
 <script>
-$('.productslide').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
+$('.slider-for').slick({
   slidesToShow: 1,
-   slidesToScroll: 1
-
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
 });
 
 </script>
