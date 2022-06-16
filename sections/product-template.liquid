@@ -92,9 +92,9 @@
           {% endif %}
 
           <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
-<!--             {% if enable_thumbnail_slides == true %}
+            {% if enable_thumbnail_slides == false %}
             <div class="product-single__thumbnails-slider-track" data-slider-track>
-              {% endif %} -->
+              {% endif %}
 
               {% for media in product.media %}
               <li class="product-single__thumbnails-item product-single__thumbnails-item--{{ section.settings.media_size }} {% if enable_thumbnail_slides == true %} product-single__thumbnails-item-slide{% endif %} js"{% if enable_thumbnail_slides == true %} data-slider-slide-index="{{ forloop.index0 }}" data-slider-item{% endif %}>
