@@ -10,7 +10,7 @@
 {% endcomment %}
 <div class="grid-view-item{% unless product.available %} grid-view-item--sold-out{% endunless %} product-card">
   <a class="grid-view-item__link grid-view-item__image-container full-width-link" href="{{ product.url }}">
-    <span class="visually-hidden">{{ product.title }}</span>
+    <span class="cls visually-hidden">{{ product.title }}</span>
   </a>
 
   {% capture img_id %}ProductCardImage-{{ section.id }}-{{ product.id }}{% endcapture %}
