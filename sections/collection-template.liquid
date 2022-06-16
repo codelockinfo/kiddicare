@@ -123,7 +123,7 @@
       </div>
     {% endif %}
   </header>
-
+<div class="mgbottom">
   <div class="clscontaincollections page-width" id="Collection">
     {% if section.settings.layout == 'grid' %}
       {% case section.settings.grid %}
@@ -229,6 +229,7 @@
       {% include 'pagination', paginate: paginate %}
     {%- endif -%}
   </div>
+</div>
 </div>
 
 {% endpaginate %}
