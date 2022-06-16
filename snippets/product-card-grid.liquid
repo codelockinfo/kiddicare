@@ -75,6 +75,8 @@
               <span class="kg-title">{{ product.metafields.my_fields.prd_kg}}</span>
               <p class="prd-price"> {{ product.price | money }} </p>
             </div>
+  {% comment %}
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
+  {% endcomment %}
 
 </div>
