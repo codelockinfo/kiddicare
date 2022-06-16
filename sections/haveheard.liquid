@@ -19,7 +19,7 @@
       </div>
       <p class="signup">{{section.settings.dscrit}}</p>
       {% if section.settings.geturl != blank %}
-      	<p class="start_get"><a href="{{section.settings.geturl}}">{{section.settings.getbtn}}</a></p>
+      	<p class="start_get">{{section.settings.getbtn}}</p>
       {% endif %}
     </div>
     <div class="heard2">
@@ -27,6 +27,72 @@
       <img src="{{section.settings.hedmg | img_url:'master'}}" class="hedlinre">
       </div>
     </div>
+    </div>
+
+    <div class="popup">
+      <div class="custom-model-main">
+        <div class="custom-model-inner">        
+          <div class="close-btn">×</div>
+          <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+              <div class="popup-form">
+                <h2 class="sample-heading"> Get my free sample </h2>
+                <div class="flex-field">
+                  <div class="fileds-cls">
+                    <input type="text" name="name" placeholder="First Name"/>
+                  </div>
+                  <div class="fileds-cls">
+                    <input type="text" name="name" placeholder="Last Name"/>
+                  </div>
+                  <div class="fileds-cls">
+                    <input type="email" name="name" placeholder="Email Address"/>
+                  </div>
+                  <div class="fileds-cls">
+                    <input type="number" name="name" placeholder="Phone Number"/>
+                  </div>
+                  <div class="fileds-cls select-cls">
+                    <select name="cars" id="cars">
+                      <option value="volvo">Option 1</option>
+                      <option value="saab">Option 2</option>
+                      <option value="mercedes">Option 3</option>
+                      <option value="audi">Option 4</option>
+                    </select>
+                  </div>
+                  <h2 class="sample-heading"> Delivery Address: </h2>
+                  <div class="flex-field">
+                    <div class="fileds-cls">
+                      <input type="text" name="name" placeholder="Street Address"/>
+                    </div>
+                    <div class="fileds-cls">
+                      <input type="text" name="name" placeholder="Suburb"/>
+                    </div>
+                    <div class="fileds-cls">
+                      <input type="email" name="name" placeholder="City"/>
+                    </div>
+                    <div class="fileds-cls">
+                      <input type="number" name="name" placeholder="Post Code"/>
+                    </div>
+                    <div class="fileds-cls select-cls">
+                      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
+                    </div>
+                    <div class="fileds-cls select-cls">
+                      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
+                    </div>
+                    <div class="fileds-cls condition">
+                      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                      <label for="vehicle1"> Terms & Conditions: One free sample per address. Your sample request will be reviewed and sent within 7 business days.</label><br>
+                    </div>
+                    <div class="fileds-cls btn-all-cls">
+                      <button class="btn">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>  
+<!--                     <div class="bg-overlay"></div> -->
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -118,7 +184,7 @@ color: #FFFFFF;
   .hedlinre{
   	    width: 100%;
   }
-  .start_get a{
+  .start_get{
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -288,7 +354,37 @@ color: #FFFFFF;
     "id" : "geturl",
     "type" : "url",
     "label" : "submit url"
-  }
+  },
+  {
+    "id" : "heading",
+    "type" : "text",
+    "label" : "Heading"
+    },
+    {
+    "id" : "text",
+    "type" : "textarea",
+    "label" : "Text"
+    },
+    {
+    "id" : "text1",
+    "type" : "text",
+    "label" : "Heading 1"
+    },
+    {
+    "id" : "text2",
+    "type" : "text",
+    "label" : "Heading 2"
+    },
+    {
+    "id" : "text3",
+    "type" : "text",
+    "label" : "Heading 3"
+    },
+    {
+    "id" : "text4",
+    "type" : "text",
+    "label" : "Heading 4"
+    }
   ],
   "blocks":[
   {
@@ -319,4 +415,267 @@ color: #FFFFFF;
   ]
   }
   {% endschema %}
+  <style>
+    /* POPUP CSS START */
+  .custom-model-main {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+/*     top: 0; */
+    right: 0;
+/*     bottom: 0; */
+    left: 0;
+    /* z-index: 1050; */
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear, z-index 0.15;
+    -o-transition: opacity 0.15s linear, z-index 0.15;
+    transition: opacity 0.15s linear, z-index 0.15;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 
+  .model-open {
+    z-index: 99999;
+    opacity: 1;
+    overflow: hidden;
+    padding: 3%;
+  }
+  .custom-model-inner {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1200px;
+  }
+  .custom-model-wrap {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+  .model-open .custom-model-inner {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: relative;
+    z-index: 999;
+  }
+  .model-open .bg-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+  }
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0);
+    /*     height: 100vh; */
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+  }
+  .close-btn {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 30px;
+    color: #fff;
+    background: #ea8282;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .pop-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .combo-pop{
+    width: 50%;
+  }
+  .popup-cont{
+    margin: auto;
+  }
+  h2.heading-pop{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #006781;
+  }
+  p.text-pop{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+  }
+  .img-popup img{
+    width: 100%;
+  }
+  .popup-cont{
+    padding: 5%;
+  }
+  .fileds-cls input{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .flex-field{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fileds-cls{
+    width: 48%;
+    margin: 1%;
+  }
+  .fileds-cls.select-cls{
+    width: 100%;
+
+  }
+  .fileds-cls select , .fileds-cls textarea{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .fileds-cls.condition{
+    width: 68%;
+    display: flex;
+    align-items: center;
+  }
+  .condition input{
+    margin-right: 3%;
+    width: unset;
+  }
+  .fileds-cls.btn-all-cls{
+    width: 28%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn-all-cls button{
+    background: #F48F89;
+    border-radius: 50px;
+    padding: 3% 10%;
+  }
+  h2.sample-heading{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #006781;
+  }
+  .condition label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+  }
+    .bdradious{
+  	border: 2px dashed #84DADE;
+    border-radius: 6px;
+    margin: 13px;
+  }
+  .brdpadding {
+    padding: 3%;
+}
+  .button-sample {
+    padding-top: 20px;
+}
+
+    .Free-Sample-section p.text{    	
+    width: 66%;
+    }
+  
+  @media screen and (min-width:800px){
+    .custom-model-main:before {
+      content: "";
+      display: inline-block;
+      height: auto;
+      vertical-align: middle;
+      margin-right: -0px;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width:799px){
+    .custom-model-inner{margin-top: 45px;}
+    .Free-Sample-section h2.heading{
+    	    font-size: 44px;
+    line-height: 47px;
+    }
+       .Free-Sample-section p.text{    	
+    width: 100%;
+    }
+  }
+  @media(max-width:600px){
+    .fileds-cls{
+      width: 100%;
+      margin: 1%;
+    }
+    .fileds-cls.btn-all-cls{
+      width: 100%;
+    }
+    .fileds-cls.condition{
+      width: 100%;
+    }
+    .brdpadding {
+    padding: 12% 3%;
+}
+  }
+  @media(max-width:414px){
+  	.Free-Sample-section h2.heading {
+    font-size: 29px;
+    line-height: 32px;
+}
+    .Free-Sample-section p.text{
+    	font-size: 14px;
+    line-height: 25px;
+    }
+  }
+
+  /* POPUP CSS END */
+  </style>
+  <script>
+    $(".smp-btn").on('click', function() {
+      $(this).closest(".Free-Sample-section").find(".custom-model-main").addClass('model-open');
+    }); 
+    $(".close-btn, .bg-overlay").click(function(){
+      $(".custom-model-main").removeClass('model-open');
+    });
+
+  </script>

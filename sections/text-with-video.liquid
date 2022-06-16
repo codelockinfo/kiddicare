@@ -1,18 +1,18 @@
 <div class="margin-clss">
   <div class="line-dot-section">
     <div class="fix-sector">
-      <div class="main-personal-texts">  
+      <div class="main-personal-texts">
         <div class="personal-texts">
-          <div class="only-texts fade-up animated fadeInUp cls-asap">      
+          <div class="only-texts fade-up animated fadeInUp cls-asap">
             <h2> {{ section.settings.heading }} </h2>
             <p class="natuepera"> {{ section.settings.text }} </p>
           </div>
           <div class="basic_structure2">
             <div class="we_basic_box_image">
               <div class="nutri-wipe" data-scroll="in" data-aos="flip-left">
-                <div class="cls only-image">      
-                  <img src="{{ section.settings.image | img_url:'master' }}">    
-                </div>              
+                <div class="cls only-image">
+                  <span class="video-sem">{{ section.settings.text-video }}</span>
+                </div>
               </div>
             </div>
           </div>
@@ -37,10 +37,11 @@
 "label" : "Text"
 },
 {
-"id" : "image",
-"type" : "image_picker",
-"label" : "Image"
+"id" : "text-video",
+"type" : "textarea",
+"label" : "Text"
 }
+
 ],
 "presets" : [
 {
@@ -53,27 +54,34 @@
 
 
 <style>
-  .margin-clss{
+  .video-sem video{
+    width: 100%;
+  }
+  .margin-clss {
     /*     max-width: 1290px; */
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin:0 10%;
+    margin: 0 10%;
     position: relative;
     z-index: 2;
   }
-  .line-dot-section{
+
+  .line-dot-section {
     border: 2px dashed #84DADE;
     border-radius: 6px;
     margin: -5%;
   }
-  .fix-sector{
+
+  .fix-sector {
     margin: 5%;
-    }
+  }
+
   .basic_structure2:nth-child(2) {
     order: 2;
   }
-  .only-texts ul li:before{
+
+  .only-texts ul li:before {
     content: "";
     display: inline-block;
     width: 0.4em;
@@ -82,23 +90,28 @@
     background: #006781;
     margin: 0 1em 0 0.25em;
   }
-  .margin-clss{
-    padding:5%;
+
+  .margin-clss {
+    padding: 5%;
   }
-  .main-personal-texts{
-    width:100%;
-    margin:auto;
+
+  .main-personal-texts {
+    width: 100%;
+    margin: auto;
   }
-  .personal-texts{
-    display:flex;
-    width:100%;
+
+  .personal-texts {
+    display: flex;
+    width: 100%;
   }
-  .only-texts{
-    width:48%;
-    margin:auto;
-    padding-right:1%;
+
+  .only-texts {
+    width: 48%;
+    margin: auto;
+    padding-right: 1%;
   }
-  .only-texts h2{
+
+  .only-texts h2 {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -107,7 +120,8 @@
     color: #006781;
     letter-spacing: 2px;
   }
-  .natuepera{
+
+  .natuepera {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -115,13 +129,16 @@
     line-height: 29px;
     color: #333333;
   }
-  .basic_structure2{
+
+  .basic_structure2 {
     width: 49%;
-  }	
+  }
+
   .only-texts.fade-up.animated.fadeInUp.cls-asap:nth-child(1) {
     order: 2;
   }
-  .personal-texts ul{
+
+  .personal-texts ul {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -129,32 +146,39 @@
     line-height: 29px;
     color: #333333;
   }
-  @media(max-width:600px){
-    .margin-cls{
+
+  @media(max-width:600px) {
+    .margin-cls {
       height: unset;
     }
+
     h2.bannetitle {
       font-size: 30px !important;
     }
+
     p.bannerparegraph {
       font-size: 16px;
     }
-    .personal-texts{
-      display:block;
+
+    .personal-texts {
+      display: block;
     }
-    .only-texts{
-      width:100%;
-      padding:0;
+
+    .only-texts {
+      width: 100%;
+      padding: 0;
     }
-    .only-image{
-      width:100%;
+
+    .only-image {
+      width: 100%;
     }
-    .only-texts h2{
-      font-size:30px;
-      text-align:center;
+
+    .only-texts h2 {
+      font-size: 30px;
+      text-align: center;
     }
+
     .basic_structure2 {
       width: 100%;
     }
   }
-

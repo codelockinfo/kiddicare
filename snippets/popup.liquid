@@ -1,61 +1,49 @@
-<style>
 
-  .main-logos-section{
-    background: {{section.settings.color}};
-    padding: 3% 0 400px 0;
-  }
-  .All-logos{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-  }
-  img.img-hover{
-    display: none;
-  }
-  .first-logo{
- flex: 0 0 20%;
-    max-width: 16%;
-  }
 
-  .width-cnt h2.heading{
-    font-family: 'Hunterswood';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 57px;
-    text-align: center;
-    color: #006781;
-    letter-spacing: 0px;
-  }
+<div class="main-logos-section" id="{{section.id}}">
+    <div class="Container-cls">
+      <div class="width-cnt">
+        <h2 class="heading">{{section.settings.heading}}</h2>
+        <p class="text">{{section.settings.text}}</p>
+      </div>
+      <div class="All-logos">
+        {% for block in section.blocks %}
+        <div class="first-logo">
+          <div class="logo-cls">
+            <img class="img-normal" src="{{block.settings.image | img_url: 'master'}}">
+            <img class="img-hover" src="{{block.settings.hover | img_url: 'master'}}">
+          </div>
+          <div class="popups">
+            <div class="custom-model-main">
+              <div class="custom-model-inner">        
+                <div class="close-btn">×</div>
+                <div class="custom-model-wrap">
+                  <div class="pop-up-content-wrap">
+                    <div class="pop-flex">
+                      <div class="img-popup combo-pop">
+                        <img src="{{block.settings.image-pop | img_url: 'master' }}">
+                      </div>
+                      <div class="popup-cont combo-pop">
+                        <h2 class="heading-pop">{{block.settings.heading-pop}}</h2>
+                        <p class="text-pop">{{block.settings.text-pop}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>  
+              <div class="bg-overlay"></div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
   
-  .width-cnt p.text{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #333333;
-        width: 44%;
-    margin: 0 auto;
-    padding: 2% 0px 3%;
-  }
-  .logo-cls:hover img.img-normal{
-    display: none;
-  }
-  .logo-cls:hover img.img-hover{
-    display: block !important;
-  }
-  .logo-cls{
-    cursor: pointer;
-  }
-  .pop-up-content-wrap{
-    border: 2px dashed #84DADE;
-    border-radius: 6px;
-  }
 
-  /*   / POPUP CSS START / */
+        
+<style>
+     /*   / POPUP CSS START / */
   .custom-model-main {
     text-align: center;
     overflow: hidden;
@@ -83,7 +71,6 @@
     z-index: 99999;
     opacity: 1;
     overflow: hidden;
-    margin-top: -500px;
   }
   .custom-model-inner {
     -webkit-transform: translate(0, -25%);
@@ -190,7 +177,11 @@
   .popup-cont{
     padding: 5%;
   }
-  
+  .bg-overlay{
+    background: rgba(0,0,0,.6);
+    z-index: 99;
+}
+ 
   @media screen and (min-width:800px){
     .custom-model-main:before {
       content: "";
@@ -265,123 +256,12 @@
 
   /*   / POPUP CSS END / */
 </style>
-
-
-<div class="main-logos-section" id="{{section.id}}">
-  <div class="Container-cls">
-    <div class="width-cnt">
-      <h2 class="heading">{{section.settings.heading}}</h2>
-      <p class="text">{{section.settings.text}}</p>
-    </div>
-    <div class="All-logos">
-      {% for block in section.blocks %}
-      <div class="first-logo">
-        <div class="logo-cls">
-          <img class="img-normal" src="{{block.settings.image | img_url: 'master'}}">
-          <img class="img-hover" src="{{block.settings.hover | img_url: 'master'}}">
-        </div>
-        <div class="popups">
-          <div class="custom-model-main">
-            <div class="custom-model-inner">        
-              <div class="close-btn">×</div>
-              <div class="custom-model-wrap">
-                <div class="pop-up-content-wrap">
-                  <div class="pop-flex">
-                    <div class="img-popup combo-pop">
-                      <img src="{{block.settings.image-pop | img_url: 'master' }}">
-                    </div>
-                    <div class="popup-cont combo-pop">
-                      <h2 class="heading-pop">{{block.settings.heading-pop}}</h2>
-                      <p class="text-pop">{{block.settings.text-pop}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-            </div>  
-            <div class="bg-overlay"></div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-
-{% schema %}
-{
-"name": "Logo Section",
-"settings": [
-{
-"id" : "heading",
-"type" : "text",
-"label" : "Heading"
-},
-{
-"id" : "text",
-"type" : "textarea",
-"label" : "Text"
-},
-{
-"id" : "color",
-"type" : "color",
-"label" : "Background Color"
-}
-],
-"blocks" : [
-{
-"name" : "block",
-"type" : "block",
-"settings" : [
-{
-"id" : "image",
-"type" : "image_picker",
-"label" : "Image"
-},
-{
-"id" : "hover",
-"type" : "image_picker",
-"label" : "Hover Image"
-},
-{
-"type": "header",
-"content": "Popup Details"
-},
-{
-"id" : "image-pop",
-"type" : "image_picker",
-"label" : "Popup Image"
-},
-{
-"id" : "heading-pop",
-"type" : "text",
-"label" : "Heading"
-},
-{
-"id" : "text-pop",
-"type" : "textarea",
-"label" : "Text"
-}
-]
-}
-],
-"presets" : [
-{
-"name" : "Logo Section"
-}
-]
-}
-{% endschema %}
-
-
-
-<script>
-  $(".logo-cls").on('click', function() {
-    $(this).closest(".first-logo").find(".custom-model-main").addClass('model-open');
-  }); 
-  $(".close-btn, .bg-overlay").click(function(){
-    $(".custom-model-main").removeClass('model-open');
-  });
-
-</script>
+  <script>
+    $(".logo-cls").on('click', function() {
+      $(this).closest(".first-logo").find(".custom-model-main").addClass('model-open');
+    }); 
+    $(".close-btn, .bg-overlay").click(function(){
+      $(".custom-model-main").removeClass('model-open');
+    });
+  
+  </script>
