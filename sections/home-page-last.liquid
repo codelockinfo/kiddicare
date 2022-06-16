@@ -1,0 +1,120 @@
+<style>
+
+  .flex-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3%;
+  }
+  .text-section{
+    width: 70%;
+    margin: auto;
+    padding-right: 5%;
+  }
+  .logo-section{
+    width: 30%;
+  }
+  .Last-Sections{
+    background-image: url({{section.settings.bgimage | img_url:'master'}});
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-img-section{
+    background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 22px;
+        padding: 4px;
+  }
+  .colleborder{
+  	    border: 2px dashed #ffffff;
+    border-radius: 6px;
+    margin: 13px;
+  }
+  .Main-Last-Section{
+      padding: 8% 10%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #EDEDED;
+    
+  }
+  .text-section h2.heading{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+  }
+  @media(max-width: 768px){
+    .text-section{
+      width: 100%;
+    }
+    .logo-section{
+      width: 100%;
+    }
+    .flex-section{
+      padding: 10%;
+    }
+    .text-section h2.heading{
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+</style>
+
+
+<div class="Main-Last-Section" id="{{section.id}}">
+  <div class="Last-Sections">
+    <div class="bg-img-section">
+      <div class="colleborder">
+      <div class="flex-section">
+        <div class="text-section">
+          <h2 class="heading">{{section.settings.heading}}</h2>
+        </div>
+        <div class="logo-section">
+          <img src="{{section.settings.image | img_url:'master'}}">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% schema %}
+{
+"name": "Last Section",
+"settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Select Logo"
+},
+{
+"id" : "bgimage",
+"type" : "image_picker",
+"label" : "Background Image"
+}
+],
+"presets" : [
+{
+"name" : "Last Section"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,79 @@
+<style>
+
+  .Main-Custom-Liquid{
+    max-width: 1450px;
+    width: 100%;
+    margin: auto;
+    padding: 3%;
+  }
+  .cnt-CLS{
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .cnt-CLS h2.heading{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #006781;
+  }
+  .cnt-CLS p.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+  }
+
+</style>
+
+
+<div class="Main-Custom-Liquid" id="{{section.id}}">
+  <div class="Html-Cls">
+    <div class="cnt-CLS">
+      <h2 class="heading"> {{ section.settings.heading }} </h2>
+      <p class="text"> {{ section.settings.text }} </p>
+    </div>
+    <p> {{ section.settings.custom }} </p>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Custom Html",
+"settings": [
+{
+"id" : "custom",
+"type" : "html",
+"label" : "Custom Html"
+},
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+}
+],
+"presets" : [
+{
+"name" : "Custom Html"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

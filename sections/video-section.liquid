@@ -1,0 +1,130 @@
+<style>
+  .flex-video{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .custom_container {
+    padding: 3% 0px;
+}
+  .Video-width-cls{
+    width: 50%;
+    margin: auto;
+  }
+  .video-contant{
+    padding-right: 5%;
+  }
+  .button-video button.btn-cls{
+    background: #ea8282!important;
+    border-radius: 50px;
+  }
+  .button-video button a.btn-link{
+    color: #fff;
+  }
+  .video-contant h2.heading{
+    font-family: Hunterswood;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    color: #006781;
+        letter-spacing: 0px;
+  }
+  .video-contant p.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+  }
+  .kiddicarbg {
+    background-color: #E5E5E5;
+}
+  @media(max-width:768px){
+    .flex-video{
+      flex-direction: column-reverse;
+    }
+    .Video-width-cls{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+    .video-contant h2.heading{
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+
+
+</style>
+
+<div class="Main-Video-Section" id="{{section.id}}">
+  <div class="kiddicarbg">
+  <div class="custom_container">
+  <div class="Video-Cls">
+    <div class="flex-video">
+      <div class="video-contant Video-width-cls">
+        <h2 class="heading">{{section.settings.heading}}</h2>
+        <p class="text">{{section.settings.text}}</p>
+        {% if section.settings.btn-link != blank %}
+        <div class="button-video">
+          <button class="btn btn-cls"> <a href="{{section.settings.btn-link}}" class="btn-link"> {{section.settings.btn-text}} </a> </button>
+        </div>
+        {% endif %}
+      </div>
+      <div class="video-main Video-width-cls">
+        {% assign videoId = section.settings.video | split: '?v=' %}
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/{{ videoId[1] }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "Video Section",
+"settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "video",
+"type" : "text",
+"label" : "Video"
+},
+{
+"id" : "btn-text",
+"type" : "text",
+"label" : "Button Text"
+},
+{
+"id" : "btn-link",
+"type" : "url",
+"label" : "Button Link"
+}
+],
+"presets" : [
+{
+"name" : "Video Section"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

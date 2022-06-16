@@ -1,0 +1,715 @@
+<div class="custom_container animated fadeInUp">
+  <h3 class="health_title text-cen">{{section.settings.titlep}}</h3>
+  <div class="avenuue">
+    <div class="them_nava multiple-items">
+      {% for block in section.blocks %}
+      {%- assign collection = collections[block.settings.collection] -%}
+
+
+      {%- for product in collection.products %}
+      <div class="collect_flx25 ">
+        <div class="bx_shdow">
+          <div class="hav_pro">
+            {% if product.featured_image != blank %}
+            <a href="{{ product.url}}" class="cool_img"> <img
+                data-src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
+            {% endif %}
+          </div>
+          <div class="prtilte">
+            <p class="custom_call"> <a href="{{product.url}}">{{ product.title }}</a></p>
+          </div>
+          <div class="text-cent">
+            <div class="starrank">
+              {% if product.metafields.my_fields.star == 1 %}
+              <span class="fa fa-star checked"></span>
+              {% elsif product.metafields.my_fields.star == 2 %}
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              {% elsif product.metafields.my_fields.star == 3 %}
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              {% elsif product.metafields.my_fields.star == 4 %}
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              {% elsif product.metafields.my_fields.star == 5 %}
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              {% endif %}
+              {% if product.metafields.my_fields.review_count != blank %}
+              <span class="count">({{ product.metafields.my_fields.review_count }} )</span>
+              {% endif %}
+            </div>
+
+            <span class="kg-title">{{ product.metafields.my_fields.prd_kg}}</span>
+
+          </div>
+
+          <div class="posi-abso">
+            <h2>{{ product.price | money_without_trailing_zeros }}</h2>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+"name":"custom_productgreenbox",
+"settings":[
+{
+"type": "text",
+"id": "titlep",
+
+"label": "Heading"
+}
+
+],
+"blocks":[
+{
+"type":"image",
+"name":"block",
+"settings":[
+
+{
+"id": "collection",
+"type": "collection",
+"label": {
+"cs": "Kolekce",
+"da": "Kollektion",
+"de": "Kategorie",
+"en": "collection",
+"es": "Colección",
+"fi": "Kokoelma",
+"fr": "Collection",
+"it": "Collezione",
+"ja": "コレクション",
+"ko": "컬렉션",
+"nb": "Samling",
+"nl": "Collectie",
+"pl": "Kolekcja",
+"pt-BR": "Coleção",
+"pt-PT": "Coleção",
+"sv": "Produktserie",
+"th": "คอลเลกชัน",
+"tr": "Koleksiyon",
+"vi": "Bộ sưu tập",
+"zh-CN": "收藏",
+"zh-TW": "商品系列"
+}
+},
+{
+"type": "text",
+"id": "rates",
+"label": "Rate"
+}
+
+
+
+]
+}
+],
+"presets":[
+{
+"name":{
+
+"en":"custom_productgreenbox"
+},
+"category":{
+
+
+"en":"custom_productgreenbox"
+}
+}
+]
+}
+{% endschema %}
+
+<style>
+  #shopify-section-related-prd {
+    margin-top: 8%;
+  }
+
+  .text-cent {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .posi-abso h2 {
+    color: #F48F89;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  span.kg-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+
+  .custom_container {
+    margin: 0 10%;
+  }
+
+  / CSS triangle / .swatch .tooltip:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid gray 10px;
+    bottom: -10px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+  }
+
+  .swatch .swatch-element:hover .tooltip {
+    filter: alpha(opacity=100);
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  .swatch.error {
+    background-color: #E8D2D2 !important;
+    color: #333 !important;
+    padding: 1em;
+    border-radius: 5px;
+  }
+
+  .swatch.error p {
+    margin: 0.7em 0;
+  }
+
+  .swatch.error p:first-child {
+    margin-top: 0;
+  }
+
+  .swatch.error p:last-child {
+    margin-bottom: 0;
+  }
+
+  .swatch.error code {
+    font-family: monospace;
+  }
+
+  .product-form__cart-submit {
+    / width: auto;/ width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .swatch .color.swatch-element input:checked+label {
+    -webkit-box-shadow: 0px 0 5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0 5px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0 5px rgba(0, 0, 0, 1);
+  }
+
+  .custom-swatch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+  .header {
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+  }
+
+  img.hormohimg {
+    z-index: -1;
+    position: relative;
+  }
+
+  .custom-swatch ul {
+    display: flex;
+  }
+
+  .display-none {
+    opacity: 1.9;
+    position: absolute;
+    top: 25%;
+    z-index: 999999999;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px 10px 5px;
+    / display: none;/
+  }
+
+  .custom-swatch ul li:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+
+  }
+
+  .custom-swatch ul li {
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    min-width: 40px;
+    min-height: 30px;
+    margin: 5px 5px 0 0;
+  }
+
+  .custom_top input#Quantity-product-template {
+    width: 200px;
+    margin: 5px 0px;
+    max-height: unset;
+    max-width: 200px;
+  }
+
+  .coll_flex.multiple-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .collect_flx25 {
+    flex: 0 0 25%;
+    max-width: 24%;
+  }
+
+  p.custom_call {
+    text-align: center;
+
+  }
+
+  .posi-abso h2 {
+    text-align: center;
+  }
+
+  h3.col_title {
+    text-align: center;
+  }
+
+  h3.health_title.text-cen {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #006781;
+  }
+  h3.health_title.text-cen {
+    margin-bottom: 4%;
+  }
+  .custom_dog .site-footer__rte {
+    line-height: 30px;
+    font-family: "FuturaBT-Light";
+  }
+
+  .green_boxvideo {
+    padding-top: 100px;
+  }
+
+  .text_celebrat {
+    text-align: center;
+    margin: 50px 0px;
+  }
+
+  p.titlepera {
+    line-height: 28px !important;
+  }
+
+  .them_nava {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+  }
+
+  .collect_flx25 {
+    background-color: #fff;
+    flex: 0 0 33.33%;
+    max-width: calc(33% - 20px);
+    margin: 0 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+  }
+
+  / slick slider / .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slick-list:focus {
+    outline: none;
+  }
+
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+
+  .slick-track:before,
+  .slick-track:after {
+    content: "";
+    display: table;
+  }
+
+  .slick-track:after {
+    clear: both;
+  }
+
+  .slick-loading .slick-track {
+    visibility: hidden;
+  }
+
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+  }
+
+  [dir="rtl"] .slick-slide {
+    float: right;
+  }
+
+  .slick-slide img {
+    display: block;
+  }
+
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+
+  .slick-arrow.slick-hidden {
+    display: none;
+  }
+
+  /*================ Slick Slider Theme ================*/
+  .slick-loading .slick-list {
+    background: #fff var(--slick-img-url) center center no-repeat;
+  }
+
+  / Icons / / Arrows / .slick-prev,
+  .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+  }
+
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    background: transparent;
+    color: transparent;
+  }
+
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 1;
+  }
+
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick-icons, sans-serif";
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .slick-prev {
+    left: -25px;
+  }
+
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -25px;
+  }
+
+  .slick-prev:before {
+    content: "←";
+  }
+
+  [dir="rtl"] .slick-prev:before {
+    content: "→";
+  }
+
+  .slick-next {
+    right: -25px;
+  }
+
+  [dir="rtl"] .slick-next {
+    left: -25px;
+    right: auto;
+  }
+
+  .slick-next:before {
+    content: "→";
+  }
+
+  [dir="rtl"] .slick-next:before {
+    content: "←";
+  }
+
+  / Dots / .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+  }
+
+  .slick-dots {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .slick-dots li button,
+  .slick-dots li a {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .slick-dots li button:hover:before,
+  .slick-dots li button:focus:before,
+  .slick-dots li a:hover:before,
+  .slick-dots li a:focus:before {
+    opacity: 1;
+  }
+
+  .slick-dots li button:before,
+  .slick-dots li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "•";
+    width: 20px;
+    height: 20px;
+    font-family: "slick-icons, sans-serif";
+    font-size: 6px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 0.75;
+  }
+
+  .multiple-items .slick-prev:before {
+    content: "";
+  }
+
+  .multiple-items .slick-next:before {
+    content: "";
+  }
+
+  .custom_call a {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 17px;
+    text-align: center;
+    color: #006781;
+  }
+
+  .starrank {
+    padding: 10px 0px;
+  }
+
+  .multiple-items .slick-prev {
+    left: -100px;
+    z-index: 1;
+  }
+
+  .multiple-items .slick-next {
+    right: -84px;
+    z-index: 1;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .multiple-items .slick-next {
+      right: -25px;
+    }
+
+    .multiple-items .slick-prev {
+      left: -48px;
+      z-index: 2;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .multiple-items .slick-next {
+      right: 0px;
+    }
+
+    .multiple-items .slick-prev {
+      left: -27px;
+    }
+</style>
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+<script>
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    prevArrow: "<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
+    nextArrow: "<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+    responsive: [
+      {
+        breakpoint: 820,
+        settings: {
+
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+
+          slidesToShow: 1
+        }
+      }
+
+    ]
+
+
+  });
+
+</script>

@@ -1,0 +1,35 @@
+<div class="custom_googlemap">
+  <div class="googlecount">
+    <p class="maptitle">{{section.settings.maptitle}}</p>
+    <p class="mapalign">{{section.settings.komap}}</p>
+
+  </div>
+
+</div>
+
+{% schema %}
+  {
+  "name": "googleMap",
+
+  "settings": [
+  {
+    "id" : "maptitle",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "komap",
+    "type" : "textarea",
+    "label" : "Map Iframe"
+  }
+  ],
+
+  "presets" : [
+  {
+    "name" : "googleMap",
+    "category" : "googleMap"
+
+    }
+  ]
+  }
+  {% endschema %}

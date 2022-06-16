@@ -1,0 +1,118 @@
+<div class="earnkiddipoint">
+  <div class="earncontainer">
+    <div class="earn_type">
+      <div class="earntypetext">
+        <div class="earntypetext1">
+          {% if section.settings.kom!= blank %}
+          <div class="earntypetextcontain">
+          <img src="{{section.settings.kom | img_url:'master'}}" class="komeimage">
+          </div>
+          {% endif %}
+        </div>
+         <div class="earntypetext2">
+           <h2 class="kidpoint">{{section.settings.kiddpoint}}</h2>
+           <p class="methodpont">{{section.settings.methodpoint}}</p>
+           <div class="earntypetextcontain">
+           {% for block in section.blocks %}
+              {%- case block.type -%}
+              {%- when 'heading' -%}
+             <div class="kiddititle">
+               <h3 class="placetitle">{{block.settings.title}}</h3>              
+                 </div>
+                   {%- when 'disciption' -%}
+               <div class="kiddiscription">
+               <p class="placedic">{{block.settings.discript}}</p>                           
+             </div>
+             {% endcase %}
+             {% endfor %}
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>  
+
+<style>
+  .earncontainer{
+  	max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .earntypetext{
+  	    display: flex;
+    flex-wrap: wrap;
+  }
+  .earntypetext1{
+  	flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .earntypetext2{
+  	flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+</style>
+
+
+{% schema %}
+  {
+  "name": "EarnKiddipoint",
+
+  "settings": [
+      {
+   "id": "kom",
+   "type": "image_picker",
+    "label": "Banner Image"
+   },
+ {
+    "id" : "kiddpoint",
+    "type" : "text",
+    "label" : "title"
+  },
+ {
+    "id" : "methodpoint",
+    "type" : "text",
+    "label" : "Sub-title"
+  }
+
+  ],
+  "blocks":[
+    {
+       "name": "heading",
+       "type": "heading",
+       "settings": [
+       
+  {
+    "id" : "title",
+    "type" : "text",
+    "label" : "title"
+  }
+
+       ]
+     },
+    {
+       "name": "disciption",
+       "type": "disciption",
+       "settings": [
+       
+  {
+    "id" : "discript",
+    "type" : "textarea",
+    "label" : "Discription"
+  }
+
+       ]
+     }
+
+  ],
+  "presets" : [
+  {
+    "name" : "EarnKiddipoint",
+    "category" : "EarnKiddipoint"
+
+    }
+  ]
+  }
+  {% endschema %}

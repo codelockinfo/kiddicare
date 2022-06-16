@@ -1,0 +1,85 @@
+<style>
+
+  .text-first-section{
+    width: 100%;
+    margin: auto;
+    padding-right: 5%;
+  }
+  .Last-first-Sections{
+    background-image: url({{section.settings.image | img_url:'master'}});
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8% 0;
+  }
+  .bg-img-first-section{
+/*     background-color: rgba(0, 0, 0, 0.4); */
+  }
+  .Main-first-Section{
+    margin: 0%;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  .text-first-section h2.heading{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  @media(max-width: 768px){
+    .flex-first-section{
+      padding: 10%;
+    }
+    .text-first-section h2.heading{
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+</style>
+
+
+<div class="Main-first-Section" id="{{section.id}}">
+  <div class="Last-first-Sections">
+    <div class="bg-img-first-section">
+      <div class="flex-first-section">
+        <div class="text-first-section">
+          <h2 class="heading">{{section.settings.heading}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Page Banner",
+    "settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Image"
+}
+],
+"presets" : [
+{
+"name" : "Page Banner"
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

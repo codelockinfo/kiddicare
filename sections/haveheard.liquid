@@ -1,0 +1,322 @@
+<div class="haveheard_containr">
+<div class=" Video-Cls">
+  <div class="containerpadding">
+    <div class="heard_flex">
+    <div class="heard1">
+      <div class="heard_contain">
+      <h2 class="heard_title">{{section.settings.kome1}}</h2>
+      <p class="heard_disc">{{section.settings.kome2}}</p>
+      </div>
+      <div class="number_flex">
+      	{% for block in section.blocks %}
+        <div class="number_flex1">
+          <div class="number_contain">
+            <h3 class="number_title">{{block.settings.numtitle}}</h3>
+            <p class="nappy_price">{{block.settings.numdicript}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <p class="signup">{{section.settings.dscrit}}</p>
+      {% if section.settings.geturl != blank %}
+      	<p class="start_get"><a href="{{section.settings.geturl}}">{{section.settings.getbtn}}</a></p>
+      {% endif %}
+    </div>
+    <div class="heard2">
+      <div class="head_image">
+      <img src="{{section.settings.hedmg | img_url:'master'}}" class="hedlinre">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<style>
+  
+  .heard_flex{
+      display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+    padding: 19% 0 5%;
+  }
+  .heard1{
+  	    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+ .heard2{
+      flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .number_flex{
+    display: flex;
+    flex-wrap: wrap;
+        padding: 50px 0px 10px;
+  }
+  .number_flex1{
+   flex: 0 0 33.33%;
+    max-width: 33.33%;
+        border-right: 2px dashed #ffffff;
+  }
+  .number_flex1:last-child {
+    border: none;
+}
+  .haveheard_containr {
+    background: #006781;
+/*     padding: 200px 100px 20px 100px; */
+}
+  .heard_title {
+font-family: 'Hunterswood';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+text-align: center;
+color: #84DADE;
+}
+  .heard_disc {
+       width: 83%;
+    margin: 0 auto;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+        padding: 31px 0 0;
+}
+  .number_title{
+  	font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #84DADE;
+  }
+  .signup {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+        margin: 45px auto;
+    width: 70%;
+}
+  .nappy_price {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+  .hedlinre{
+  	    width: 100%;
+  }
+  .start_get a{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 7px 60px 21px;
+    background: #F48F89;
+    border-radius: 50px;
+  }
+  .testimonial_contains {
+    background: #EDEDED;
+    padding-top: 2%;
+}
+  p.start_get a:hover{
+      color: #FFFFFF;
+        text-decoration: none;
+  }
+  .start_get {
+    text-align: center;
+}
+  @media only screen and (max-width: 1300px) {
+    .haveheard_containr{
+    	    padding: 20px 50px 20px 0px;
+    }
+    .heard_title{
+    	    font-size: 50px;
+      line-height: 55px;
+    }
+    .heard_disc{
+    	    width: 100%;
+    }
+    .heard_flex{
+    	justify-content: space-between;
+    }
+    .heard2 {
+    flex: 0 0 50%;
+    max-width: 49%;
+}
+    .heard1 {
+    flex: 0 0 50%;
+    max-width: 49%;
+}
+    .signup{
+    	margin: 25px auto;
+    width: 100%;
+    }
+    .number_flex{
+    	    padding: 15px 0px 10px;
+    }
+    .number_title{
+    	    font-size: 64px;
+    line-height: 70px;
+    }
+    .containerpadding{
+    margin-top: 200px;
+  }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .haveheard_containr {
+    padding: 20px 50px 20px 20px;
+}
+  .heard_title {
+    font-size: 45px;
+    line-height: 55px;
+}
+  }
+  
+    @media only screen and (max-width: 990px) {
+  
+  }
+      @media only screen and (max-width: 768px) {
+  .heard1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+        padding-bottom: 25px;
+}
+        .heard2 {
+    flex: 0 0 100%;
+    max-width: 70%;
+}
+.haveheard_containr {
+    padding: 20px 20px 20px 20px;
+}
+        .head_image{
+        	    text-align: center;
+        }
+        .heard_flex {
+    justify-content: center;
+}
+        .containerpadding{
+    margin-top: 300px;
+  }
+  }
+      @media only screen and (max-width: 540px) {
+  .heard_title {
+    font-size: 33px;
+    line-height: 40px;
+}
+        .heard_disc{
+        	    font-size: 17px;
+    line-height: 24px;
+        }
+        .nappy_price{
+        	    width: 50%;
+        }
+        .number_title{
+        	    width: 20%;
+        }
+   .number_contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+        .number_flex1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-bottom: 2px dashed #ffffff;
+              border-right: none;
+}
+  }
+      @media only screen and (max-width: 414px) {
+  .number_title {
+    font-size: 50px;
+    line-height: 65px;
+       width: 40%;
+}
+        .containerpadding{
+    margin-top: 400px;
+  }
+  }
+</style>
+{% schema %}
+  {
+  "name": "haveheard",
+
+  "settings": [
+  {
+    "id" : "kome1",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "kome2",
+    "type" : "textarea",
+    "label" : "Discription"
+  },
+   {
+   "id": "hedmg",
+   "type": "image_picker",
+    "label": "Banner Image"
+   },
+  {
+    "id" : "dscrit",
+    "type" : "textarea",
+    "label" : "Discription"
+  },
+  {
+    "id" : "getbtn",
+    "type" : "text",
+    "label" : "submit Button"
+  },
+  {
+    "id" : "geturl",
+    "type" : "url",
+    "label" : "submit url"
+  }
+  ],
+  "blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "settings" : [
+  {
+    "id" : "numtitle",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "numdicript",
+    "type" : "text",
+    "label" : "number Discription"
+  }
+   
+  ]
+  }
+
+  ],
+  "presets" : [
+  {
+    "name" : "haveheard",
+    "category" : "haveheard"
+
+    }
+  ]
+  }
+  {% endschema %}
+

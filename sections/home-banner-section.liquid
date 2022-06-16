@@ -1,0 +1,204 @@
+<style>
+  .bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .flex-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3%;
+  }
+  .first-text{
+    margin: auto;
+    padding: 8%;
+    text-align: center;
+  }
+  .width-div{
+    width: 50%;
+  }
+  .secont-image img{
+    width: 100%;
+  }
+  .Main-banner-section h1.heading{
+   font-family: 'Hunterswood';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 90px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+  }
+  .Main-banner-section p.text{
+      font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    width: 97%;
+    margin: 0 auto;
+    padding: 37px 0px 36px;
+  }
+  .btn-cls-div button a.btn-link{
+font-family: 'Hunterswood';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+  }
+  .btn-cls-div button.btn-cls{
+    background: #F48F89;
+    border-radius: 50px;
+        padding: 5px 31px 15px;
+  }
+  ul.slick-dots{
+    position: absolute;
+    margin-top: -5%;
+    width: 100%;
+  }
+  .slick-dots li button:before{
+    font-size: 50px !important;
+  }
+  .btn-cls-div button.btn-cls:hover{
+    background: #ea8282;
+  }
+  .btn-cls-div button a.btn-link:hover{
+    color: #fff;
+  }
+  @media(max-width:1300px){
+    .first-text{
+    	    padding: 8% 0%;
+    }
+  }
+    @media(max-width:885px){
+      .Main-banner-section h1.heading{
+      	    font-size: 43px;
+    line-height: 50px;
+      }
+      
+    }
+  @media(max-width:768px){
+    .flex-div{
+    	flex-direction: column-reverse;
+    }
+    .width-div{
+      width: 100%;
+    }
+    .main-content{
+    	    padding-top: 0px;
+    }
+    ul.slick-dots{
+    	    margin-top: -8%;
+    }
+  }
+  
+  @media(max-width:414px){
+  	.Main-banner-section h1.heading {
+    font-size: 35px;
+    line-height: 40px;
+}
+    .Main-banner-section p.text{
+    	    width: 90%;
+    padding: 10px 0px 16px;
+    }
+  }
+  
+  @media(max-width:414px){
+  
+  }
+</style>
+
+<div class="Main-banner-section" id="{{section.id}}">
+  <div class="container-main">
+    <div class="main-slider multiple-items">
+      {% for block in section.blocks %}
+      <div class="bg-image" style="background-image:url('{{block.settings.bgimage | img_url:'master'}}');">
+        <div class="flex-div">
+          <div class="first-text width-div">
+            <h1 class="heading">{{ block.settings.heading }} </h1>
+            <p class="text"> {{ block.settings.text }} </p>
+            <div class="btn-cls-div">
+              <button class="btn btn-cls"> <a class="btn-link" href="{{block.settings.btn-link}}"> {{ block.settings.btn-text }} </a> </button>
+            </div>
+          </div>
+          <div class="secont-image width-div">
+            <img src="{{ block.settings.image | img_url:'master'}}">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "Home Banner Section",
+"settings": [],
+"blocks" : [
+{
+"name" : "block",
+"type" : "block",
+"settings" : [
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Image"
+},
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "btn-text",
+"type" : "text",
+"label" : "Button Text"
+},
+{
+"id" : "btn-link",
+"type" : "url",
+"label" : "Button Link"
+},
+{
+"id" : "bgimage",
+"type" : "image_picker",
+"label" : "Background Image"
+}
+]
+}
+],
+"presets" : [
+{
+"name" : "Home Banner Section"
+}
+]
+}
+{% endschema %}
+
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+<script>
+  $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      infinite: true
+    });
+</script>

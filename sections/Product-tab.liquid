@@ -1,0 +1,559 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+
+  .Min-Tab-CLS{
+/*     padding: 0 5%; */
+        margin: 0 10%;
+  }
+  .Main-tab-section{
+    padding: 435px 0 300px 0;
+    background: #84DADE;
+  }
+  .main-block-tab{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .Main-product{
+    width: 31%;
+    background: #fff;
+    border-radius: 15px;
+    margin: 1%;
+  }
+  .with-product{
+    display: flex;
+    justify-content: center;
+  }
+  .with-product img.main-img {
+    width: 100%;
+    z-index: 9999;
+  }
+  .with-product img.bg-img {
+    position: absolute;
+    /* width: auto; */
+    opacity: 0;
+    z-index: 99;
+    margin-top: -10%;
+  }
+  .product-descriptio {
+    padding: 5%;
+  }
+  .product-btn {
+    text-align: center;
+  }
+  .product-btn button.btn.prd-btn {
+    background: #ea8282;
+    border-radius: 50px;
+  }
+  .product-btn a.prd-link {
+    color: #fff;
+  }
+  .Tab-Sections h2.Heading{
+      font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 66px;
+    text-align: center;
+    color: #006781;
+    letter-spacing: 0px;
+        margin-bottom: 50px;
+  }
+  .head-cls h2.prd-heading {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #006781;
+    letter-spacing: 0px;
+        width: 90%;
+    margin: 0 auto;
+  }
+  .desc-cls p.prd-desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin: 6% 0;
+  }
+  .with-product:hover img.bg-img{
+    opacity: 1 !important;
+  }
+
+
+  /* tab css START */
+  .tab-pane
+  {
+    padding:0px;
+    height:auto;
+    margin-top: 10%;
+    /*     background:url({{section.settings.bgimage | img_url:'master' }}); */
+    /*     background-repeat: no-repeat; */
+    /*     background-size: cover; */
+  }
+  .all-title-cls .nav-tabs
+  {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+  ul.nav-tabs{
+    border: none;
+  }
+  .all-title-cls .nav-tabs li
+  {
+
+    margin: 1%;
+  }
+  .all-title-cls .nav-tabs li a
+  {
+        padding: 0 0 13px 0px;
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    border-radius: 50px;
+        padding-left: 25px;
+    padding-right: 25px;
+  }
+  ul.clscodflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .all-title-cls .slider
+  {
+    display:inline-block;
+    width:30px;
+    height:4px;
+    border-radius:3px;
+    background-color:#39bcd3;
+    position:absolute;
+    z-index:1200;
+    bottom:0;
+    transition:all .4s linear;
+
+  }
+  .all-title-cls .nav-tabs .active
+  {
+    background-color: #ea8282;
+    border: none;
+    color: #fff;
+  }
+  .clsAddtoCart{
+  padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  button.btn.prd-btn.clsAddtoCart a {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+  /* tab css END  */
+  @media(max-width:768px){
+    .Main-product{
+      width: 100%;
+  }
+    .Main-tab-section{
+    padding: 550px 0 300px 0;
+  }
+    .all-title-cls .nav-tabs li{
+      flex-basis: unset;
+      width: 48%;
+    }
+  }
+  
+   @media(max-width:600px){
+    .all-title-cls .nav-tabs li{
+      width: 100%;
+      flex-basis: unset;
+    }
+     .Tab-Sections h2.Heading{
+     	    font-size: 42px;
+    line-height: 50px;
+     }
+     .head-cls h2.prd-heading{
+     	font-size: 21px;
+    line-height: 27px;
+     }
+     .Main-product{
+     	
+    margin: 1% 1% 5%;
+
+     }
+   }
+
+</style>
+
+
+<div class="Main-tab-section" id="{{section.id}}">
+  <div class="Min-Tab-CLS">
+    <div class="Tab-Sections">
+      <h2 class="Heading">{{section.settings.heading}}</h2>
+    </div>
+    <div class="all-title-cls">
+      <!-- Nav tabs -->
+      <ul class="clscodflex nav nav-tabs nav-justified" role="tablist">
+
+        <li class="nappie">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> {{ section.settings.title1 }}</a>
+        </li>
+        <li class="nappie">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> {{ section.settings.title2 }} </a>
+        </li>
+        <li class="nappie">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> {{ section.settings.title3 }} </a>
+        </li>
+        <li class="nappie">
+          <a class="nav-link" id="forth-tab" data-toggle="tab" href="#forth" role="tab" aria-controls="forth" aria-selected="false"> {{ section.settings.title4 }} </a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="main-block-tab mindust">
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'Nappies' -%}
+            {%- assign product = block.settings.product -%}
+            <div class="Main-product">
+              <div class="with-product">
+                {% if block.settings.prdimag1 == blank %}
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
+                {% else %}
+                <img class="main-img" src="{{block.settings.prdimag1 | img_url: 'master'}}">
+                {% endif %}
+                <img class="bg-img" src="{{block.settings.Nappies1 | img_url: 'master'}}">
+              </div>
+              <div class="product-descriptio">
+                <div class="head-cls">
+                  <h2 class="prd-heading">{{product.title}}</h2>
+                </div>
+                <div class="desc-cls">
+                  <p class="prd-desc">{{block.settings.description1}}</p>
+                </div>
+                <div class="product-btn">
+                  <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href=""> SHOP Now </a></button>
+                </div>
+              </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="main-block-tab mindust">
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'nappypants' -%}
+            {%- assign product = block.settings.product -%}
+            <div class="Main-product">
+              <div class="with-product">
+                {% if block.settings.prdimag2 == blank %}
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
+                {% else %}
+                <img class="main-img" src="{{block.settings.prdimag2 | img_url: 'master'}}">
+                {% endif %}
+                <img class="bg-img" src="{{block.settings.nappypants1 | img_url: 'master'}}">
+              </div>
+              <div class="product-descriptio">
+                <div class="head-cls">
+                  <h2 class="prd-heading">{{product.title}}</h2>
+                </div>
+                <div class="desc-cls">
+                  <p class="prd-desc">{{block.settings.description2}}</p>
+                </div>
+                <div class="product-btn">
+                  <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href=""> Buy Now </a></button>
+                </div>
+              </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="main-block-tab mindust">
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'wipes' -%}
+            {%- assign product = block.settings.product -%}
+            <div class="Main-product">
+              <div class="with-product">
+                {% if block.settings.prdimag3 == blank %}
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
+                {% else %}
+                <img class="main-img" src="{{block.settings.prdimag3 | img_url: 'master'}}">
+                {% endif %}
+                <img class="bg-img" src="{{block.settings.wipes1 | img_url: 'master'}}">
+              </div>
+              <div class="product-descriptio">
+                <div class="head-cls">
+                  <h2 class="prd-heading">{{product.title}}</h2>
+                </div>
+                <div class="desc-cls">
+                  <p class="prd-desc">{{block.settings.description3}}</p>
+                </div>
+                <div class="product-btn">
+                  <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href=""> Buy Now </a></button>
+                </div>
+              </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="tab-pane fade" id="forth" role="tabpanel" aria-labelledby="forth-tab">
+          <div class="main-block-tab mindust">
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'shopall' -%}
+            {%- assign product = block.settings.product -%}
+            <div class="Main-product">
+              <div class="with-product">
+                {% if block.settings.prdimag4 == blank %}
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
+                {% else %}
+                <img class="main-img" src="{{block.settings.prdimag4 | img_url: 'master'}}">
+                {% endif %}
+                <img class="bg-img" src="{{block.settings.shopall1 | img_url: 'master'}}">
+              </div>
+              <div class="product-descriptio">
+                <div class="head-cls">
+                  <h2 class="prd-heading">{{product.title}}</h2>
+                </div>
+                <div class="desc-cls">
+                  <p class="prd-desc">{{block.settings.description4}}</p>
+                </div>
+                <div class="product-btn">
+                  <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href=""> Buy Now </a></button>
+                </div>
+              </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "Product Tab",
+"settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "title1",
+"type" : "text",
+"label" : "Title 1"
+},
+{
+"id" : "title2",
+"type" : "text",
+"label" : "Title 2"
+},
+{
+"id" : "title3",
+"type" : "text",
+"label" : "Title 3"
+},
+{
+"id" : "title4",
+"type" : "text",
+"label" : "Title 4"
+}
+],
+"blocks" : [
+{
+"name" : "Nappies",
+"type" : "Nappies",
+"settings" : [
+{
+"id" : "product",
+"type" : "product",
+"label" : "Product"
+},
+{
+"id" : "prdimag1",
+"type" : "image_picker",
+"label" : "Product Image"
+},
+{
+"id" : "description1",
+"type" : "textarea",
+"label" : "Description"
+},
+{
+"id" : "Nappies1",
+"type" : "image_picker",
+"label" : "Image"
+}
+]
+},
+{
+"name" : "nappypPants",
+"type" : "nappypants",
+"settings" : [
+{
+"id" : "product",
+"type" : "product",
+"label" : "Product"
+},
+{
+"id" : "prdimag2",
+"type" : "image_picker",
+"label" : "Product Image"
+},
+{
+"id" : "description2",
+"type" : "textarea",
+"label" : "Description"
+},
+{
+"id" : "nappypants1",
+"type" : "image_picker",
+"label" : "Image"
+}
+]
+},
+{
+"name" : "wipes",
+"type" : "wipes",
+"settings" : [
+{
+"id" : "product",
+"type" : "product",
+"label" : "Product"
+},
+{
+"id" : "prdimag3",
+"type" : "image_picker",
+"label" : "Product Image"
+},
+{
+"id" : "description3",
+"type" : "textarea",
+"label" : "Description"
+},
+{
+"id" : "wipes1",
+"type" : "image_picker",
+"label" : "Image"
+}
+]
+},
+{
+"name" : "shopall",
+"type" : "shopall",
+"settings" : [
+{
+"id" : "product",
+"type" : "product",
+"label" : "Product"
+},
+{
+"id" : "prdimag4",
+"type" : "image_picker",
+"label" : "Product Image"
+},
+{
+"id" : "description4",
+"type" : "textarea",
+"label" : "Description"
+},
+{
+"id" : "shopall1",
+"type" : "image_picker",
+"label" : "Image"
+}
+]
+}
+],
+"presets" : [
+{
+"name" : "Product Tab"
+}
+]
+}
+{% endschema %}
+
+<script>
+
+  $(".nav-tabs a").click(function() {
+    $('.tab-content .mindust').slick('slickGoTo', 1);
+    var position = $(this).parent().position();
+    var width = $(this).parent().width();
+    $(".slider").css({"left":+ position.left,"width":width});
+
+  });
+  var actWidth = $(".nav-tabs").find(".active").parent("li").width();
+  var actPosition = $(".nav-tabs .active").position();
+  $(".slider").css({"left":+ actPosition.left,"width": actWidth});
+
+
+  //   function someFunction() {
+  //     $('.tab-content .mindust').slick({
+  //       infinite: true,
+  //       arrows: true,
+  //       dots: false,
+  //       speed: 300,
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+  //       prevArrow:"<button type='button' class='custom_tops slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/2169/7469/files/ezgif.com-gif-maker_3.png?v=1647332175' /></button>",
+  //       nextArrow:"<button type='button' class='custom_tops slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/2169/7469/files/ezgif.com-gif-maker_4.png?v=1647332174' /></button>"
+  //     });
+  //   }
+  //   someFunction();
+
+
+  $(".clsAddtoCart").click(function(){
+    var variant_id = $(this).closest(".product-btn").find(".value-var").val();
+    console.log(variant_id);
+    var thisObj = this;
+    var params = {
+      type: 'POST',
+      url: '/cart/add.js',
+      data: {id: variant_id,quantity: '1'},
+      dataType: 'json',
+      success: function(line_item) { 
+        document.location.href = '/cart';
+      },
+    };
+    $.ajax(params);
+  });
+
+</script>

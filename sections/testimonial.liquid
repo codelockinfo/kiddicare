@@ -1,0 +1,467 @@
+<div class="testimonial_contains">
+  <div class="testimonial_slides">
+    <h2 class="customer_title">{{section.settings.title}}</h2>
+    <div class="testimonial_flex childslider">
+      {% for block in section.blocks %}
+      <div class="testimon_flx50">
+      <div class="testimonial_flex1">
+{%if  block.settings.kome!= blank %}
+        <div class="testimonial_contain2">
+    		<img src="{{block.settings.kome | img_url:'master'}}" class="boysmg">
+        </div>
+  {%  endif %}
+      </div>
+      <div class="testimonial_flex2">
+      <div class="testimonial_contain">
+        <h3 class="lorem_title">{{block.settings.child}}</h3>
+        <p class="test_contain">{{block.settings.kome2}}</p>
+        </div>
+      </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div> 
+
+<style>
+
+.testimonial_flex {
+    display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  .testimon_flx50 {
+    flex: 0 0 50%;
+    max-width: 49%;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+        margin-right: 30px;
+}
+  .testimonial_flex1 {
+    flex: 0 0 50%;
+    max-width: 47%;
+}
+  .testimonial_flex2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+        background: #FFFFFF;
+    box-shadow: 0px 6px 6px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    padding: 70px 6px;
+}
+  .testimonial_contain {
+    width: 80%;
+    margin: 0 auto;
+}
+  .test_contain {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+  .lorem_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #006781;
+}
+  
+/  slick slide start  /
+  
+  	.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/*================ Slick Slider Theme ================*/
+.slick-loading .slick-list {
+  background: #fff var(--slick-img-url) center center no-repeat; }
+
+/ Icons /
+/ Arrows /
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none; }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    background: transparent;
+    color: transparent; }
+    .slick-prev:hover:before, .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before {
+      opacity: 1; }
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25; }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick-icons, sans-serif";
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev {
+  left: -25px; }
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -25px; }
+  .slick-prev:before {
+    content: "←"; }
+    [dir="rtl"] .slick-prev:before {
+      content: "→"; }
+
+.slick-next {
+  right: -25px; }
+  [dir="rtl"] .slick-next {
+    left: -25px;
+    right: auto; }
+  .slick-next:before {
+    content: "→"; }
+    [dir="rtl"] .slick-next:before {
+      content: "←"; }
+
+/ Dots /
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .slick-dots li button, .slick-dots li a {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .slick-dots li button:hover:before, .slick-dots li button:focus:before, .slick-dots li a:hover:before, .slick-dots li a:focus:before {
+        opacity: 1; }
+      .slick-dots li button:before, .slick-dots li a:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        width: 20px;
+        height: 20px;
+        font-family: "slick-icons, sans-serif";
+        font-size: 6px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff;
+        opacity: 0.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .slick-dots li.slick-active button:before {
+      color: #fff;
+      opacity: 0.75; }
+
+  /  slick slide end  /
+  
+  .testimonial_contains {
+    background: #EDEDED;
+    padding-bottom: 80px;
+}
+  .customer_title {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #006781;
+    padding: 30px 0px 50px;
+    letter-spacing: 0px;
+  }
+  .drag i{
+  	    font-size: 27px;
+    color: #fff;
+    font-weight: 100;
+    display: inline;
+    background-color: #F48F89;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .testimonial_slides .slick-prev{
+    left: 84px;
+    z-index: 1;
+}
+  .testimonial_slides .slick-next{
+    right: 84px;
+    z-index: 1;
+  }
+  .testimonial_slides .slick-next:before {
+    content: " ";
+  }
+  .testimonial_slides .slick-prev:before {
+    content: " ";
+}
+  .testimonial_slides button:focus{
+  	    outline: none;
+  } 
+  @media only screen and (max-width: 1440px) {
+  	.testimonial_contain {
+    width: 98%;
+    }
+  
+  }
+  @media only screen and (max-width: 1100px) {
+    .customer_title{
+    	    font-size: 50px;
+    }
+  }
+  
+    @media only screen and (max-width: 600px) {
+    .testimonial_flex2 {
+    flex: 0 0 100%;
+    max-width: 100%;      
+    padding: 65px 6px 30px;
+    margin-top: -40px;
+    }
+      .testimonial_flex1 {
+    flex: 0 0 100%;
+    max-width: 72%;
+    margin: 0 auto;
+}
+      .customer_title {
+    font-size: 35px;
+    line-height: 50px;
+}
+      .testimon_flx50 {
+    flex: 0 0 100%;
+    max-width: 100%;
+        display: block !important;
+            padding: 0 15px;
+      }
+      .lorem_title, .test_contain{
+      	    text-align: center;
+      }
+      .testimonial_slides .slick-prev, .testimonial_slides .slick-next{
+      	    top: 108%;
+      }
+      .testimonial_slides .slick-prev {
+    left: 36%;
+      }
+      .testimonial_slides .slick-next {
+        right: 47%;
+      }
+      .testimon_flx50{
+      	    margin-right: 0px;
+      }
+  }
+  @media only screen and (max-width: 414px) {
+  .testimonial_slides .slick-next {
+    right: 44%;
+}
+    .testimonial_slides .slick-prev {
+    left: 33%;
+}
+    .customer_title {
+    font-size: 28px;
+    line-height: 30px;
+}
+  }
+</style>
+
+
+{% schema %}
+  {
+  "name": "testimonial",
+
+  "settings": [
+  {
+    "id" : "title",
+    "type" : "text",
+    "label" : "Heading"
+  }
+  ],
+  "blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "settings" : [
+      {
+   "id": "kome",
+   "type": "image_picker",
+    "label": "Banner Image"
+   },
+ {
+    "id" : "child",
+    "type" : "text",
+    "label" : "Heading"
+  },
+
+  {
+    "id" : "kome2",
+    "type" : "textarea",
+    "label" : "discription"
+  }
+  ]
+  }
+
+  ],
+  "presets" : [
+  {
+    "name" : "testimonial",
+    "category" : "testimonial"
+
+    }
+  ]
+  }
+  {% endschema %}
+
+ <link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+  $('.childslider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1.9,
+    centerMode: true,
+    slidesToScroll: 1,    
+              prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
+            nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+    
+      responsive: [
+    {
+      breakpoint: 1100,
+      settings: {
+  
+        slidesToShow: 1.5
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+      
+        slidesToShow: 1.2
+      }
+    },
+            {
+      breakpoint: 768,
+      settings: {
+      
+        slidesToShow: 1
+      }
+    },
+                   {
+      breakpoint: 600,
+      settings: {
+      centerMode: false,
+        slidesToShow: 1
+      }
+    }
+  ]
+  });
+
+</script>

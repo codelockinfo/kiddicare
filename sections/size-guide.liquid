@@ -1,0 +1,241 @@
+<div class="main-size">
+  <div class="container">
+    <div class="">
+      <div class="'">
+        <h1 class="main-size-title">{{ section.settings.heading }}</h1>
+        <p class="size-text">{{ section.settings.text}}</p>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr >
+          <th>{{ section.settings.text1 }}</th>
+          <th>{{ section.settings.text2 }}</th>
+          <th>{{ section.settings.text3 }}</th>
+          <th>{{ section.settings.text4 }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for block in section.blocks %}
+        <tr class="first-test">
+          <td data-column="First Name">{{ block.settings.text1 }}</td>
+          <td data-column="Last Name">{{ block.settings.text2 }}</td>
+          <td data-column="Job Title">{{ block.settings.text3 }}</td>
+          <td data-column="Twitter">{{ block.settings.text4 }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+
+    </table>
+  </div>
+</div>
+<style>
+  #shopify-section-template--16136996061400__16551845475c833d7c{
+    margin-top: 5%;
+  }
+  .size-text{
+    padding-bottom: 35px;
+    padding-top: 2px;
+  }
+  .main-size-title{
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #006781;
+    text-align: center;
+  }
+  p.size-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    width: 28%;
+    margin: auto;
+  }
+  table { 
+    width: 1400px; 
+    border-collapse: collapse; 
+    margin: 0px auto;
+  }
+
+  tr:nth-of-type(odd) { 
+    background: #fff; 
+  }
+
+  th { 
+    background: #006781; 
+    color: white; 
+    font-weight: bold; 
+  }
+  thead tr{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  td, th { 
+    padding: 10px 50px; 
+    /*     border: 1px solid #ccc;  */
+    text-align: center; 
+    font-size: 20px;
+  }
+  th{
+    border: none;
+  }
+  th:first-child{
+    border-top-left-radius: 10px;
+  }
+  th:last-child{
+    border-top-right-radius: 10px;
+  }
+  .first-test td:first-child {
+    border-left: 1px solid #006781;
+  }
+  .first-test td:last-child {
+    border-right: 1px solid #006781;
+  }
+  .first-test:last-child td{
+    border-bottom: 1px solid #006781;
+  }
+  td{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #333;
+  }
+  @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+      table { 
+        width: 100%; 
+      }
+
+      /* Force table to not be like tables anymore */
+      table, thead, tbody, th, td, tr { 
+        display: block; 
+      }
+
+      /* Hide table headers (but not display: none;, for accessibility) */
+      thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+
+      tr { border: 1px solid #ccc; }
+
+      td { 
+        /* Behave  like a "row" */
+        border: none;
+        /*         border-bottom: 1px solid #eee;  */
+        position: relative;
+        padding-left: 50%; 
+      }
+
+      td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column);
+
+        color: #000;
+        font-weight: bold;
+      }
+
+    }
+</style>
+
+{% schema %}
+{
+"name": "Size Guide",
+"settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "text1",
+"type" : "text",
+"label" : "Heading 1"
+},
+{
+"id" : "text2",
+"type" : "text",
+"label" : "Heading 2"
+},
+{
+"id" : "text3",
+"type" : "text",
+"label" : "Heading 3"
+},
+{
+"id" : "text4",
+"type" : "text",
+"label" : "Heading 4"
+}
+],
+"blocks" : [
+{
+"name" : "block",
+"type" : "block",
+"settings" : [
+{
+"id" : "text1",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text2",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text3",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text4",
+"type" : "text",
+"label" : "Heading"
+}
+]
+}
+],
+"presets" : [
+{
+"name" : "Size Guide"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

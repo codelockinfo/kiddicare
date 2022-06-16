@@ -1,0 +1,225 @@
+<style>
+
+  .Flex-product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .combo-prd{
+    width: 50%;
+    margin: auto;
+  }
+  .combo-prd1{
+   width: 30%;
+    margin: auto;
+  }
+  .img-product img{
+    width: 100%;
+  }
+  .Main-shop-our-product{
+    background: #fff;
+    margin: 0 10%;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 99;
+    opacity: 1;
+    margin-top: -400px;
+  }
+  .content-product{
+    padding: 5%;
+  }
+  .Main-shop-our-product h2.heading{
+font-family: 'Hunterswood';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 60px;
+color: #006781;
+        letter-spacing: 1px;
+    margin-bottom: 30px;
+
+  }
+  .Main-shop-our-product p.text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+  }
+  .Main-shop-our-product button.but-cls a{
+  font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .Main-shop-our-product button.but-cls{
+    background: #ea8282;
+    border-radius: 50px;
+    border: none;
+        padding: 7px 30px 20px;
+  }
+  .Main-shop-our-product button.but-cls:hover{
+    background: #ea8282;
+  }
+  .Main-shop-our-product button.but-cls a:hover{
+    color: #fff;
+  }
+  .Shop-Our-Product{
+  	    border: 2px dashed #84DADE;
+    border-radius: 6px;
+        margin: 13px;
+  }
+  .Main-tab-section {
+    padding: 215px 0 300px 0 !important;
+  }
+  @media(max-width:1500px){
+    .Main-shop-our-product{
+      margin-top: -300px;
+    }
+    .content-product {
+    padding: 1%;
+}
+  }
+  @media(max-width:1300px){
+    .Main-shop-our-product{
+      margin-top: -200px;
+    }
+    .Main-tab-section {
+    padding: 525px 0 300px 0 !important;
+    }
+    .content-product {
+    padding: 0%;
+}
+    .Flex-product{
+    	    padding: 15px;
+          }
+    .combo-prd1 {
+    width: 44%;
+    }
+  }
+  @media(max-width:950px){
+    .Main-shop-our-product{
+      margin-top: -300px;
+    }
+    .Main-tab-section {
+    padding: 570px 0 300px 0 !important;
+}
+  }
+
+  @media(max-width:768px){
+    .combo-prd{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+    .Main-shop-our-product{
+      margin-top: -500px;
+    }
+    .Main-shop-our-product h2.heading{
+    	    font-size: 32px;
+    line-height: 39px;
+
+    }
+    .combo-prd1 {
+    width: 70%;
+}
+  }
+  @media(max-width:540px){
+  	.Main-shop-our-product h2.heading {
+    font-size: 22px;
+    line-height: 30px;
+}
+    .Main-shop-our-product p.text{
+    	font-size: 15px;
+    line-height: 24px;
+    }
+    .Main-shop-our-product button.but-cls a{
+    	font-size: 18px;
+    }
+    .Main-tab-section {
+    padding: 385px 0 300px 0 !important	;
+}
+  }
+  
+  @media(max-width:414px){
+  .Main-tab-section {
+    padding: 360px 0 300px 0 !important;
+}
+  }
+
+
+</style>
+
+
+<div class="Main-shop-our-product" id="{{section.id}}">
+  <div class="Shop-Our-Product">
+    <div class="Flex-product">
+      <div class="img-product combo-prd1">
+        <div>
+        <img src="{{section.settings.image | img_url: 'master'}}">
+        </div>
+      </div>
+      <div class="content-product combo-prd">
+        <h2 class="heading"> {{ section.settings.heading }} </h2>
+        <p class="text"> {{ section.settings.text }} </p>
+        <div class="btn-product">
+          <button class="btn but-cls"> <a href="{{ section.settings.btn-link }}"> {{ section.settings.btn-text }} </a> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+"name": "Shop Our Product",
+"settings": [
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Image"
+},
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "btn-text",
+"type" : "text",
+"label" : "Button Text"
+},
+{
+"id" : "btn-link",
+"type" : "url",
+"label" : "Button Link"
+},
+{
+"id" : "btn-bg-color",
+"type" : "color",
+"label" : "Button Background Color"
+}
+],
+"presets" : [
+{
+"name" : "Shop Our Product"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,57 @@
+<div class="qtydiv"> 
+  <div class="qtybox"> 
+    <span class="btnqty qtyminus icon icon-minus">-</span> 
+    <input type="text" id="quantity" name="quantity" value="1" min="1" class="quantity-selector quantity-input" readonly="">
+    <span class="btnqty qtyplus icon icon-plus">+</span> </div> </div> 
+<style> 
+  .qtybox{    
+    border-radius: 50px;
+    border-color: #f48f89;
+    border: 2px solid #F48F89;
+    color: #006781;
+    font-weight: 700;
+    width: 100%;
+    background: #fff;
+    padding: 5px;
+  }
+  .qtydiv{
+    width:100%;
+  }
+  .qtydiv .quantity-input {
+    border: none;
+    border: none;
+    text-align: center;
+    width: 82%;
+    outline: none;
+    display: inline-block;
+  }
+  .qtydiv .btnqty {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    font-size: 25px;
+    line-height: 5px;
+    padding: 5px 3%;
+
+  }
+  .qtydiv label{ display: block; margin-bottom: 12px; letter-spacing: 2.8px; color: #747a7b;} 
+  .qtydiv .btnqty.qtyminus{ margin-right: 8px; } .qtydiv .btnqty.qtyplus{ margin-left: 8px; } 
+  .qtydiv { display: inline-block;  padding-top: 10px; } 
+</style> 
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script> 
+<script> 
+  $('.qtybox .btnqty').on('click', function()
+                          {
+    console.log("fvdsvfdc");
+
+    var qty = parseInt($(this).parent('.qtybox').find('.quantity-input').val()); 
+    console.log(qty);
+
+    if($(this).hasClass('qtyplus'))
+    { qty++; }
+
+    else { if(qty > 1) 
+    { qty--; } 
+         } 
+    qty = (isNaN(qty))?1:qty; $(this).parent('.qtybox').find('.quantity-input').val(qty); }); 
+</script>

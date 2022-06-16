@@ -1,0 +1,83 @@
+<div class="custom_contacts">
+  <div class="form_details">
+    <h2 class="custom_title">{{section.settings.contacttitle}}</h2>
+  </div>
+  <div class="general-title">
+    <h3 class="general">{{section.settings.generaltitle}}</h3>
+    <p class="titlemail">{{section.settings.mal}}</p>
+  </div>
+</div> 
+
+
+<style>
+  .custom_title{
+color: #84DADE;
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+  .general {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #84DADE;
+    text-transform: uppercase;    
+    margin-bottom: 4px;
+
+}
+  .titlemail {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+      letter-spacing: 1px;
+}
+  .mail_title {
+    font-weight: 700;
+}
+  .custom_contacts {
+    padding-top: 8%;
+}
+  
+
+</style>
+
+
+{% schema %}
+  {
+  "name": "cusom_contact",
+
+  "settings": [
+  {
+    "id" : "contacttitle",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "generaltitle",
+    "type" : "text",
+    "label" : "general title"
+  },
+  {
+    "id" : "mal",
+    "type" : "textarea",
+    "label" : "mail dicriptions"
+  }
+  ],
+  "presets" : [
+  {
+    "name" : "cusom_contact",
+    "category" : "cusom_contact"
+
+    }
+  ]
+  }
+  {% endschema %}

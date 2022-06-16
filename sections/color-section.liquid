@@ -1,0 +1,54 @@
+<style>
+  .main-logos-sections{
+    background: {{section.settings.color}};
+    padding: 3% 0 100px 0;
+    margin-top: -13%;
+  }
+  .All-logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+  }
+</style>
+
+
+<div class="main-logos-sections" id="{{section.id}}">
+  <div class="Container-cls">
+    <div class="All-logos">
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "color Section",
+"settings": [
+{
+"id" : "color",
+"type" : "color",
+"label" : "Background Color"
+}
+],
+
+"presets" : [
+{
+"name" : "color Section"
+}
+]
+}
+{% endschema %}
