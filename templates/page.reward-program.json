@@ -146,6 +146,7 @@
     },
     "16548571639c4f0283": {
       "type": "feature-row",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC00680_1.png",
         "layout": "right",
