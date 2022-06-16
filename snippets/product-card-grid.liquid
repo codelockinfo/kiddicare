@@ -46,7 +46,7 @@
 
 <!--   <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div> -->
        <div class="prd_title">
-              <h3 class="collectionprd-title"> {{ product.title }} </h3> 
+         <h3 class="collectionprd-title"> <a href="{{product.url}}">{{ product.title }} </a></h3> 
               <div class="yyyyyyyy">
                 {% if product.metafields.my_fields.star == 1 %}
                 <span class="fa fa-star checked"></span>
