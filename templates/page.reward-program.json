@@ -290,6 +290,46 @@
     },
     "1655396171fb0f120a": {
       "type": "haveheard",
+      "blocks": {
+        "4b617232-bcd6-43fb-a063-e11847f64eee": {
+          "type": "block",
+          "settings": {
+            "numtitle": "01",
+            "numdicript": "Select your<br>  nappy size",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        },
+        "54d728d1-d956-4b3b-9d4c-0ab2c4a72571": {
+          "type": "block",
+          "settings": {
+            "numtitle": "02",
+            "numdicript": "Select your <br>  delivery cycle",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        },
+        "0faa744d-0d28-46f5-9bf8-5b44ae53d457": {
+          "type": "block",
+          "settings": {
+            "numtitle": "03",
+            "numdicript": "Update your <br> subscription any time!",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        }
+      },
+      "block_order": [
+        "4b617232-bcd6-43fb-a063-e11847f64eee",
+        "54d728d1-d956-4b3b-9d4c-0ab2c4a72571",
+        "0faa744d-0d28-46f5-9bf8-5b44ae53d457"
+      ],
       "settings": {
         "kome1": "Have you heard?",
         "kome2": "Stocking up on your Kiddicare monthly needs has never been easier! All you have top do is:",
