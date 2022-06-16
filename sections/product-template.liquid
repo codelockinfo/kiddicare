@@ -35,14 +35,27 @@
   {%- assign enable_image_zoom = false -%}
   {% endcase %}
 
-  <div class="grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
+  <div class="clsprdcontain grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
     <div class="grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
       {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
-
-      {%- for media in product.media -%}
+{% comment %}
+   {%- for media in product.media -%}
       {% include 'media', media: media, featured_media: featured_media, height: height, enable_image_zoom: enable_image_zoom, image_zoom_size: product_image_zoom_size, image_scale: product_image_scale %}
-      {%- endfor -%}
-
+      {%- endfor -%} 
+      {% endcomment %}
+      
+      <div class="productslide slider-for">
+        {%- for media in product.media -%}
+       <div class="ratiototle">
+            <div class="ratio-box">            
+              <img class="the-image" src="{{ media.src | img_url: 'master' }}">
+      
+            </div>
+          </div>
+      
+      
+      {% endfor %}
+      </div>
       <noscript>
         {% capture product_image_size %}{{ height }}x{% endcapture %}
         <img src="{{ featured_media | img_url: product_image_size, scale: product_image_scale }}" alt="{{ featured_media.alt }}" id="FeaturedMedia-{{ section.id }}" class="product-featured-media" style="max-width: {{ height }}px;">
@@ -65,7 +78,7 @@
 
 
       {% if product.media.size > 1 %}
-      {% if product.media.size > 4 %}
+      {% if product.media.size > 40 %}
       {%- assign enable_thumbnail_slides = true -%}
       {% endif %}
 
@@ -78,8 +91,8 @@
           </button>
           {% endif %}
 
-          <ul class="product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
-            {% if enable_thumbnail_slides == true %}
+          <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
+            {% if enable_thumbnail_slides == false %}
             <div class="product-single__thumbnails-slider-track" data-slider-track>
               {% endif %}
 
@@ -782,3 +795,262 @@
     padding-bottom: 16px;
   }
 </style>
+
+<style>
+  .the-image {
+    background-color: #fff;
+     width: 100%;   
+}
+
+		.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/*================ Slick Slider Theme ================*/
+.slick-loading .slick-list {
+  background: #fff var(--slick-img-url) center center no-repeat; }
+
+/ Icons /
+/ Arrows /
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none; }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    background: transparent;
+    color: transparent; }
+    .slick-prev:hover:before, .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before {
+      opacity: 1; }
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25; }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick-icons, sans-serif";
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev {
+  left: -25px; }
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -25px; }
+  .slick-prev:before {
+    content: "←"; }
+    [dir="rtl"] .slick-prev:before {
+      content: "→"; }
+
+.slick-next {
+  right: -25px; }
+  [dir="rtl"] .slick-next {
+    left: -25px;
+    right: auto; }
+  .slick-next:before {
+    content: "→"; }
+    [dir="rtl"] .slick-next:before {
+      content: "←"; }
+
+/ Dots /
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .slick-dots li button, .slick-dots li a {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .slick-dots li button:hover:before, .slick-dots li button:focus:before, .slick-dots li a:hover:before, .slick-dots li a:focus:before {
+        opacity: 1; }
+      .slick-dots li button:before, .slick-dots li a:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        width: 20px;
+        height: 20px;
+        font-family: "slick-icons, sans-serif";
+        font-size: 6px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff;
+        opacity: 0.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .slick-dots li.slick-active button:before {
+      color: #fff;
+      opacity: 0.75; }
+  
+  .productslide .slick-dots li button:before{
+    font-size: 38px;
+    color: transparent;
+    opacity: 1;
+    width: unset;
+    height: unset;
+    line-height: 13px;
+    border: 1px solid #F48F89;
+    border-radius: 50%;
+  }
+  .productslide .slick-dots li button, .productslide .slick-dots li a{
+  	  width: unset;
+    height: unset;
+  }
+  .productslide .slick-dots{
+  	    position: absolute;
+    left: 44%;
+    bottom: 2%;
+  }
+.productslide .slick-dots li.slick-active button:before {
+    color: #F48F89;
+    opacity: 1;
+}
+ .thumbnails-wrapper .slick-current img{
+    border: 2px solid #F48F89;
+}
+  .clsprdcontain .product-form__cart-submit{
+  	    padding-top: 2px;
+    padding-bottom: 17px;
+  }
+  @media only screen and (max-width: 1440px) {
+    .productslide .slick-dots{    	
+    left: 42%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+  	.productslide .slick-dots li button:before {
+    font-size: 32px;
+      
+    line-height: 10px;
+  }
+</style>
+
+ <link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
+<script>
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+   dots: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+   infinite: true,
+ arrows: false,
+  focusOnSelect: true
+});
+
+</script>
