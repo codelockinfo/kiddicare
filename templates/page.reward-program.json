@@ -94,6 +94,24 @@
     },
     "1655393687d35e5fe2": {
       "type": "reddempoint",
+      "blocks": {
+        "6d8a4d23-0b67-4d34-b747-96184f744333": {
+          "type": "heading",
+          "settings": {
+            "title": "30% off coupon:"
+          }
+        },
+        "760bd556-8b91-4335-afcb-ff42db47aa53": {
+          "type": "disciption",
+          "settings": {
+            "discript": "Exchange 4000 Kiddipoints for a 30% off coupon"
+          }
+        }
+      },
+      "block_order": [
+        "6d8a4d23-0b67-4d34-b747-96184f744333",
+        "760bd556-8b91-4335-afcb-ff42db47aa53"
+      ],
       "settings": {
         "kom": "shopify:\/\/shop_images\/DSC00680_1_540x_2e76180d-83fa-4309-906c-bf5e7eeb98a5.png",
         "kiddpoint": "HOW TO REDEEM KIDDIPOINTS?",
