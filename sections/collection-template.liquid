@@ -38,6 +38,7 @@
         >
           
                   <div class="width-cls-cll">
+                    <div>
           <h2 class="heading">{{section.settings.heading}}</h2>
           <p class="text">{{section.settings.text}}</p>
     
@@ -47,6 +48,7 @@
             <a href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}"> {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else %}{{collection.title}} {% endif %}</a>
             {% endfor %}
           </div>
+                    </div>
         </div>
         
         </div>
