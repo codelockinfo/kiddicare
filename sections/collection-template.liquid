@@ -29,50 +29,56 @@
     
 
     {% if section.settings.show_collection_image and collection.image %}
-      <div class="collection-hero">
+<!--       <div class="collection-hero">
         <div class="collection-hero__image ratio-container lazyload js"
              data-bgset="{% include 'bgset', image: collection.image %}"
              data-sizes="auto"
              data-parent-fit="cover"
              data-image-loading-animation
-        ></div>
+        >
+          
+       
+        
+        </div>
         <noscript>
           <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
         </noscript>
-        <div class="collection-hero__title-wrapper">
-          
-              <div class="width-cls-cll">
-          <h2 class="heading">{{section.settings.heading}}</h2>
-          <p class="text">{{section.settings.text}}</p>
-          <div class="name-coll">
-            {% for block in section.blocks %}
-            {%- assign collection = collections[block.settings.collection] -%}
-            <a href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}"> {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else %}{{collection.title}} {% endif %}</a>
-            {% endfor %}
+        <div class="clsrelat collection-hero__title-wrapper">
+
+        </div>
+      </div> -->
+  
+      <div class="collection-cls">
+        <div class="main-bg-img-col">
+       <div class="width-cls-cll">
+            <div>
+              <h2 class="kidtitle">{{section.settings.heading}}</h2>
+              <p class="text">{{section.settings.text}}</p>
+
+              <div class="name-coll">
+                {% for block in section.blocks %}
+                {%- assign collection = collections[block.settings.collection] -%}
+                <a href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}"> {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else %}{{collection.title}} {% endif %}</a>
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </div>
-          
-          
-          <h1 class="collection-hero__title page-width">
-              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
-              {{ collection.title }}
-          </h1>
-        </div>
-      </div>
+    </div>
       {% if is_filter_by_available == false and section.settings.sort_enable == false %}
         <div class="page-width">
           <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
         </div>
       {% endif %}
       {% if collection.description != blank %}
-        <div class="rte collection-description page-width">
+        <div class="nippititcontain rte collection-description  ">
           {{ collection.description }}
         </div>
       {% endif %}
     {% else %}
       <div class="page-width">
         <div class="section-header text-center">
-          <h1>
+          <h1 class="cooltitle">
               <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
               {{ collection.title }}
           </h1>
@@ -279,6 +285,21 @@
     "zh-TW": "商品系列頁面"
   },
   "settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Image"
+},
     {
       "type": "select",
       "id": "layout",
@@ -535,7 +556,30 @@
       },
       "default": true
     }
-  ]
+  ],
+"blocks" : [
+{
+"name" : "block",
+"type" : "block",
+"settings" : [
+{
+"id" : "collection",
+"type" : "collection",
+"label" : "Collection"
+},
+{
+"id" : "collection-tlt",
+"type" : "text",
+"label" : "Collection Title"
+},
+{
+"id" : "collection-link",
+"type" : "url",
+"label" : "Collection Link"
+}
+]
+}
+]
 }
 {% endschema %}
 
@@ -553,7 +597,7 @@
     overflow: hidden;
 }
   
-.clscontaincollections.page-width {
+.clscontaincollections.page-width, .nippititcontain {
     max-width: 1400px;
     margin:0 auto;
     width: 100%;
@@ -583,6 +627,7 @@
     line-height: 35px;
     text-align: center;
     color: #006781;
+        height: 78px;
   }
   .prd-price {
     font-family: 'Manrope';
@@ -610,4 +655,81 @@
   .customcollections li:hover .main-bg-hover{
       opacity: 1;
   }
+  .clsrelat.collection-hero__title-wrapper:before{
+  	    position: relative;
+  }
+  .width-cls-cll{
+  	    display: flex;
+    align-items: center;
+    justify-content: center;
+        padding: 6% 0% 4%;
+
+  }
+    .main-bg-img-col{
+    background-image: url({{section.settings.image | img_url:'master'}});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .kidtitle{
+  	    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 58px;
+    text-align: center;
+    color: #006781;
+    letter-spacing: 0px;
+  }
+  .width-cls-cll p.text {
+    margin-top: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+     width: 67%;
+     margin-left: auto;
+    margin-right: auto;
+
+}
+  .name-coll {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+  .name-coll a {
+    font-family: 'Hunterswood';
+    width: 18%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin: 1%;
+        padding: 0px 10px 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+  .rte.collection-description h1{
+  	padding-top: 5%;
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #006781;
+    letter-spacing: 0px;
+  }
+  ul.customcollections.grid.grid--uniform.grid--view-items {
+    margin-left: 16px;
+}
+  
+    @media(max-width:1200px){
+      
+    }
 </style>

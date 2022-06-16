@@ -1,5 +1,6 @@
  <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="reddempoint">
 <div class="earnkiddipoint">
   <div class="earncontainer">
     <div class="earn_type">
@@ -34,7 +35,7 @@
   </div>
 
 </div>  
-
+</div>
 <style>
   .earnkiddipoint {
     background: #E5E5E5;
@@ -100,6 +101,9 @@
     border: 0;
     width: 100%;
   }
+  .reddempoint .earntypetext{
+  flex-direction: row-reverse;
+  }
   @media screen and (max-width:768px){
     .earntypetext2{
     	display:block;
@@ -164,7 +168,7 @@
 
 {% schema %}
   {
-  "name": "EarnKiddipoint",
+  "name": "reddempoint",
 
   "settings": [
       {
@@ -215,8 +219,8 @@
   ],
   "presets" : [
   {
-    "name" : "EarnKiddipoint",
-    "category" : "EarnKiddipoint"
+    "name" : "reddempoint",
+    "category" : "reddempoint"
 
     }
   ]

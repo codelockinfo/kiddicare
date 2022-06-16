@@ -521,21 +521,33 @@
             "type": "block",
             "settings": {
               "numtitle": "01",
-              "numdicript": "Select your<br>  nappy size"
+              "numdicript": "Select your<br>  nappy size",
+              "text1": "",
+              "text2": "",
+              "text3": "",
+              "text4": ""
             }
           },
           "3e5304ca-3a58-4922-8dc3-f0881c24f15b": {
             "type": "block",
             "settings": {
               "numtitle": "02",
-              "numdicript": "Select your <br>  delivery cycle"
+              "numdicript": "Select your <br>  delivery cycle",
+              "text1": "",
+              "text2": "",
+              "text3": "",
+              "text4": ""
             }
           },
           "502d9cab-fdc7-4fd7-9c7c-be05cfdcf10e": {
             "type": "block",
             "settings": {
               "numtitle": "03",
-              "numdicript": "Update your <br> subscription any time!"
+              "numdicript": "Update your <br> subscription any time!",
+              "text1": "",
+              "text2": "",
+              "text3": "",
+              "text4": ""
             }
           }
         },
@@ -550,13 +562,12 @@
           "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1.png",
           "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
           "getbtn": "Get Started",
-          "geturl": "",
-          "heading": "",
-          "text": "",
-          "text1": "",
-          "text2": "",
-          "text3": "",
-          "text4": ""
+          "heading": "Kiddicare Critter Milestone",
+          "text": "Wondering which diaper size to choose for your little one? Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
+          "text1": "Kiddicare Critter Milestone",
+          "text2": "Baby Weight in KG",
+          "text3": "Average Number of Nappies a day",
+          "text4": "How long your little one may need this size"
         }
       },
       "165477920102c1e0d7": {
@@ -564,7 +575,8 @@
         "settings": {
           "heading": "Get a FREE Kiddicare® nappy sample",
           "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.",
-          "btn-text": "Get my free sample"
+          "btn-text": "Get my free sample",
+          "btn-link": ""
         }
       },
       "1654835811e1444725": {
@@ -768,6 +780,61 @@
         ],
         "settings": {
           "titlep": "RELATED PRODUCT"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "eb4f0970-7652-4e6e-b2d7-78b5b1debc5c": {
+            "type": "block",
+            "settings": {
+              "collection": "nappies",
+              "collection-tlt": "",
+              "collection-link": ""
+            }
+          },
+          "01c43e7f-d02c-4386-989e-0eefc50778d7": {
+            "type": "block",
+            "settings": {
+              "collection": "nappy-pants",
+              "collection-tlt": "",
+              "collection-link": ""
+            }
+          },
+          "15ac023f-cbea-4eea-88eb-ea8f5e48fc75": {
+            "type": "block",
+            "settings": {
+              "collection": "wipes-1",
+              "collection-tlt": "",
+              "collection-link": ""
+            }
+          },
+          "5a1653e7-dd8b-45df-adaf-ce9cce526cc1": {
+            "type": "block",
+            "settings": {
+              "collection": "wipes",
+              "collection-tlt": "",
+              "collection-link": ""
+            }
+          }
+        },
+        "block_order": [
+          "eb4f0970-7652-4e6e-b2d7-78b5b1debc5c",
+          "01c43e7f-d02c-4386-989e-0eefc50778d7",
+          "15ac023f-cbea-4eea-88eb-ea8f5e48fc75",
+          "5a1653e7-dd8b-45df-adaf-ce9cce526cc1"
+        ],
+        "settings": {
+          "heading": "KIDDICARE PRODUCTS",
+          "text": "Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+          "image": "shopify:\/\/shop_images\/imageedit_3_7937065809_cc59304a-ad81-4cc5-a163-4479c0672067.png",
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
         }
       }
     },
