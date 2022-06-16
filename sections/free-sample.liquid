@@ -1,5 +1,5 @@
 <style>
-  .popup-forms{
+  .popup-formscls{
     margin: 0 2%;
   }
   .Main-Free-Samples{
@@ -66,13 +66,13 @@ color: #006781;
   }
 
   /* POPUP CSS START */
-  .custom-model-main {
+  .custom-model-maincls {
     text-align: center;
     overflow: hidden;
     position: fixed;
-/*     top: 0; */
+    top: 0; 
     right: 0;
-/*     bottom: 0; */
+     bottom: 0; 
     left: 0;
     /* z-index: 1050; */
     -webkit-overflow-scrolling: touch;
@@ -86,13 +86,13 @@ color: #006781;
     overflow-y: auto;
   }
 
-  .model-open {
+  .model-opencls {
     z-index: 99999;
     opacity: 1;
     overflow: hidden;
     padding: 3%;
   }
-  .custom-model-inner {
+  .custom-model-innercls {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
     transform: translate(0, -25%);
@@ -108,7 +108,7 @@ color: #006781;
     margin: 30px auto;
     max-width: 1200px;
   }
-  .custom-model-wrap {
+  .custom-model-wrapcls {
     display: block;
     width: 100%;
     position: relative;
@@ -128,20 +128,20 @@ color: #006781;
     max-height: calc(100vh - 70px);
     overflow-y: auto;
   }
-  .model-open .custom-model-inner {
+  .model-opencls .custom-model-innercls {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     position: relative;
     z-index: 999;
   }
-  .model-open .bg-overlay {
+  .model-opencls .bg-overlay {
     background: rgba(0, 0, 0, 0.6);
     z-index: 99;
   }
-  .bg-overlay {
+  .bg-overlaycls {
     background: rgba(0, 0, 0, 0);
-    /*     height: 100vh; */
+    height: 100%;
     width: 100%;
     position: fixed;
     left: 0;
@@ -153,7 +153,7 @@ color: #006781;
     -o-transition: background 0.15s linear;
     transition: background 0.15s linear;
   }
-  .close-btn {
+  .close-btncls {
     position: absolute;
     right: -20px;
     top: -20px;
@@ -202,7 +202,7 @@ color: #006781;
     width: 100%;
     border-radius: 10px;
   }
-  .flex-field{
+  .flex-fieldcls{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -272,7 +272,7 @@ color: #006781;
     }
   
   @media screen and (min-width:800px){
-    .custom-model-main:before {
+    .custom-model-maincls:before {
       content: "";
       display: inline-block;
       height: auto;
@@ -282,7 +282,7 @@ color: #006781;
     }
   }
   @media screen and (max-width:799px){
-    .custom-model-inner{margin-top: 45px;}
+    .custom-model-innercls{margin-top: 45px;}
     .Free-Sample-sections h2.heading{
     	    font-size: 44px;
     line-height: 47px;
@@ -324,77 +324,13 @@ color: #006781;
 <div class="Main-Free-Samples" id="{{section.id}}">
   <div class="Free-Sample-sections">
     <div class="bdradious">
-      <div class="brdpadding">
+      <div class="CLS brdpadding">
     <h2 class="heading">{{section.settings.heading}}</h2>
     <p class="text">{{section.settings.text}}</p>
     <div class="button-sample">
       <button class="btn smp-btn"> {{ section.settings.btn-text }} </button>
     </div>
-    <div class="popup">
-      <div class="custom-model-main">
-        <div class="custom-model-inner">        
-          <div class="close-btn">×</div>
-          <div class="custom-model-wrap">
-            <div class="pop-up-content-wrap">
-              <div class="popup-forms">
-                <h2 class="sample-heading"> Get my free sample </h2>
-                <div class="flex-field">
-                  <div class="fileds-clss">
-                    <input type="text" name="name" placeholder="First Name"/>
-                  </div>
-                  <div class="fileds-clss">
-                    <input type="text" name="name" placeholder="Last Name"/>
-                  </div>
-                  <div class="fileds-clss">
-                    <input type="email" name="name" placeholder="Email Address"/>
-                  </div>
-                  <div class="fileds-clss">
-                    <input type="number" name="name" placeholder="Phone Number"/>
-                  </div>
-                  <div class="fileds-clss select-cls">
-                    <select name="cars" id="cars">
-                      <option value="volvo">Option 1</option>
-                      <option value="saab">Option 2</option>
-                      <option value="mercedes">Option 3</option>
-                      <option value="audi">Option 4</option>
-                    </select>
-                  </div>
-                  <h2 class="sample-heading"> Delivery Address: </h2>
-                  <div class="flex-field">
-                    <div class="fileds-clss">
-                      <input type="text" name="name" placeholder="Street Address"/>
-                    </div>
-                    <div class="fileds-clss">
-                      <input type="text" name="name" placeholder="Suburb"/>
-                    </div>
-                    <div class="fileds-clss">
-                      <input type="email" name="name" placeholder="City"/>
-                    </div>
-                    <div class="fileds-clss">
-                      <input type="number" name="name" placeholder="Post Code"/>
-                    </div>
-                    <div class="fileds-clss select-cls">
-                      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
-                    </div>
-                    <div class="fileds-clss select-cls">
-                      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
-                    </div>
-                    <div class="fileds-clss condition">
-                      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                      <label for="vehicle1"> Terms & Conditions: One free sample per address. Your sample request will be reviewed and sent within 7 business days.</label><br>
-                    </div>
-                    <div class="fileds-clss btn-all-cls">
-                      <button class="btn">Submit</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>  
-          </div>  
-<!--                     <div class="bg-overlay"></div> -->
-        </div>
-      </div>
-    </div>
+   
     </div>
     </div>
   </div>
@@ -434,13 +370,5 @@ color: #006781;
   {% endschema %}
 
 
-  <script>
-    $(".smp-btn").on('click', function() {
-      $(this).closest(".Free-Sample-sections").find(".custom-model-main").addClass('model-open');
-    }); 
-    $(".close-btn, .bg-overlay").click(function(){
-      $(".custom-model-main").removeClass('model-open');
-    });
-
-  </script>
+ 
 
