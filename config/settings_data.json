@@ -550,7 +550,13 @@
           "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1.png",
           "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
           "getbtn": "Get Started",
-          "geturl": ""
+          "geturl": "\/",
+          "heading": "",
+          "text": "",
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
         }
       },
       "165477920102c1e0d7": {
@@ -558,8 +564,7 @@
         "settings": {
           "heading": "Get a FREE Kiddicare® nappy sample",
           "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.",
-          "btn-text": "Get my free sample",
-          "btn-link": ""
+          "btn-text": "Get my free sample"
         }
       },
       "1654835811e1444725": {
@@ -617,8 +622,7 @@
         "type": "text-with-video",
         "settings": {
           "heading": "DELUXE CRAWLER UNISEX NAPPIES",
-          "text": "Our softest nappy ever, with a five-layer plant-based absorbent inner core provides ultra-fast maximum absorbency, so your baby stays drier and more comfortable for longer. Oh, and did we mention every size has a unique and adorable nappy print.   <ul style=\"list-style-type:disc\">      <li>Deluxe Crawler Unisex Nappies by kiddicare®<\/li>      <li>All kiddicare® nappies are Dermatologically tested<\/li>      <li>Free from Latex, chlorine, fragrance, dioxins, and chemicals<\/li>      <li>Breathable and lightweight with a cotton back sheet<\/li>      <li>Performance-driven, with up to 12 hours of leak protection<\/li>      <li>Super stretch waistbands and leg cuffs for added comfort and flexibility<\/li>    <\/ul>",
-          "image": "shopify:\/\/shop_images\/Wrapper.png"
+          "text": "Our softest nappy ever, with a five-layer plant-based absorbent inner core provides ultra-fast maximum absorbency, so your baby stays drier and more comfortable for longer. Oh, and did we mention every size has a unique and adorable nappy print.   <ul style=\"list-style-type:disc\">      <li>Deluxe Crawler Unisex Nappies by kiddicare®<\/li>      <li>All kiddicare® nappies are Dermatologically tested<\/li>      <li>Free from Latex, chlorine, fragrance, dioxins, and chemicals<\/li>      <li>Breathable and lightweight with a cotton back sheet<\/li>      <li>Performance-driven, with up to 12 hours of leak protection<\/li>      <li>Super stretch waistbands and leg cuffs for added comfort and flexibility<\/li>    <\/ul>"
         }
       },
       "testimonial": {
