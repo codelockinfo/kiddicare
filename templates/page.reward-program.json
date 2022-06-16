@@ -92,6 +92,14 @@
         "methodpoint": "There are a few methods to earn points."
       }
     },
+    "1655393687d35e5fe2": {
+      "type": "reddempoint",
+      "settings": {
+        "kom": "shopify:\/\/shop_images\/DSC00680_1_540x_2e76180d-83fa-4309-906c-bf5e7eeb98a5.png",
+        "kiddpoint": "HOW TO REDEEM KIDDIPOINTS?",
+        "methodpoint": "There are currently two ways to redeem points."
+      }
+    },
     "165485715195a93faa": {
       "type": "feature-row",
       "disabled": true,
@@ -261,6 +269,7 @@
     "1654858921c6518371",
     "1655002784ce955ef7",
     "1655280720bf01902a",
+    "1655393687d35e5fe2",
     "165485715195a93faa",
     "16548571639c4f0283",
     "1654857361bd80999e",
