@@ -288,6 +288,22 @@
         "btn-bg-color": ""
       }
     },
+    "1655396171fb0f120a": {
+      "type": "haveheard",
+      "settings": {
+        "kome1": "Have you heard?",
+        "kome2": "Stocking up on your Kiddicare monthly needs has never been easier! All you have top do is:",
+        "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1_3102d086-166b-42d8-8ae8-0ec6f9e5376b.png",
+        "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
+        "getbtn": "Get Started",
+        "heading": "Kiddicare Critter Milestone",
+        "text": "Wondering which diaper size to choose for your little one? Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
+        "text1": "Kiddicare Critter Milestone",
+        "text2": "Baby Weight in KG",
+        "text3": "Average Number of Nappies a day",
+        "text4": "How long your little one may need this size"
+      }
+    },
     "16552621274bbf6ade": {
       "type": "KiddicareCriiters",
       "settings": {
@@ -312,6 +328,7 @@
     "165485810054779e3e",
     "1655010714b92e731d",
     "165521501584314606",
+    "1655396171fb0f120a",
     "16552621274bbf6ade"
   ]
 }
