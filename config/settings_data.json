@@ -1,1 +1,1186 @@
-{"current":{"color_text":"#006781","color_body_text":"#333333","color_text_field":"#ffffff","color_body_bg":"#ededed","type_header_base_size":36,"type_base_size":18,"currency_code_enabled":false,"sections":{"header":{"type":"header","settings":{"contaurl":"shopify:\/\/pages\/contact-us","align_logo":"left","logo":"shopify:\/\/shop_images\/Kiddicare-LOGO__2020.07.02-02_7e2066bc-b82f-4105-b325-38c85d12cc6f_1.png","logo_max_width":200,"main_linklist":"home-main-menu","main_linklist2":"mobilemenu","message":false,"home_page_only":false,"message_text":"Announce something here","message_link":"","color_bg":"#3a3a3a","color_text":"#ffffff"}},"feature-row":{"type":"feature-row","settings":{"layout":"left","title":"Image with text","text":"<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"","button_link":""}},"feature-columns":{"type":"feature-columns","blocks":{"feature-columns-0":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}},"feature-columns-1":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}},"feature-columns-2":{"type":"text_block","settings":{"enable_image":true,"title":"Add a title or tagline","text":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_label":"","button_link":""}}},"block_order":["feature-columns-0","feature-columns-1","feature-columns-2"],"settings":{"title":"","align_text":"left"}},"collection":{"type":"collection","settings":{"title":"Featured collection","collection":"","grid":4,"rows":2,"show_vendor":false,"show_view_all":false}},"quotes":{"type":"quotes","blocks":{"quotes-0":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-1":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}},"quotes-2":{"type":"quote","settings":{"quote":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name"}}},"block_order":["quotes-0","quotes-1","quotes-2"],"settings":{"title":""}},"image-bar":{"type":"image-bar","blocks":{"image-bar-0":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}},"image-bar-1":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}},"image-bar-2":{"type":"image","settings":{"alignment":"center","link":"","cta_label":""}}},"block_order":["image-bar-0","image-bar-1","image-bar-2"],"settings":{"section_height":"medium"}},"footer":{"type":"footer","blocks":{"3bda3185-63ae-4c56-9bb8-16d9dbcf8356":{"type":"logo","settings":{"kome":"shopify:\/\/shop_images\/Kiddicare-LOGO__2020.07.02-02_7e2066bc-b82f-4105-b325-38c85d12cc6f_1.png","facebook":"<i class=\"fa fa-facebook\" aria-hidden=\"true\"><\/i>","facebookurl":"","facebook2":"<i class=\"fa fa-youtube-play\" aria-hidden=\"true\"><\/i>","facebookurl2":"","facebook3":"<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>","facebookurl3":"","facebook4":"<i class=\"fa fa-instagram\" aria-hidden=\"true\"><\/i>","facebookurl4":""}},"footer-0":{"type":"link_list","settings":{"title":"","menu":"footermenu"}},"footer-1":{"type":"newsletter","settings":{"title":"Sign up to our newsletter!","address":"Sign up to our newsletter and we'll be in touch every now and then to keep you posted on tips, promos and more."}},"05605c8f-699f-4ce4-8640-c4fc9ae58c03":{"type":"socialicon","settings":{"facebook":"<i class=\"fa fa-facebook\" aria-hidden=\"true\"><\/i>","facebookurl":"","facebook2":"<i class=\"fa fa-youtube-play\" aria-hidden=\"true\"><\/i>","facebookurl2":"","facebook3":"<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>","facebookurl3":"","facebook4":"<i class=\"fa fa-instagram\" aria-hidden=\"true\"><\/i>","facebookurl4":""}}},"block_order":["3bda3185-63ae-4c56-9bb8-16d9dbcf8356","footer-0","footer-1","05605c8f-699f-4ce4-8640-c4fc9ae58c03"],"settings":{"show_payment_icons":true,"color_footer_bg":"#f6f6f6","color_footer_text":"#333232","show_currency_selector":true,"show_locale_selector":true}},"1654664828cbe0068f":{"type":"home-banner-section","blocks":{"e637e9fe-9c78-4bc8-b719-67c1a1f61a0c":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_1_1_2d5f6b4c-2b1a-420f-bcc2-50779bafea1d.png","heading":"Deluxe nappies<br> you can trust","text":"Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.","btn-text":"Shop Our Products","btn-link":"","bgimage":"shopify:\/\/shop_images\/imageedit_1_6942636020.png"}},"68adde1c-ce04-4e0a-b450-9784a49884f7":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_1_1_2d5f6b4c-2b1a-420f-bcc2-50779bafea1d.png","heading":"Deluxe nappies <br>you can trust","text":"Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.","btn-text":"Shop Our Products","btn-link":"","bgimage":"shopify:\/\/shop_images\/imageedit_1_6942636020.png"}}},"block_order":["e637e9fe-9c78-4bc8-b719-67c1a1f61a0c","68adde1c-ce04-4e0a-b450-9784a49884f7"],"settings":{}},"1654682159a4d71e27":{"type":"logo-section","blocks":{"ef1d1790-2246-4438-a4fa-c1b5be8556c3":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_1_2.png","hover":"shopify:\/\/shop_images\/Component_2.png","image-pop":"shopify:\/\/shop_images\/DSC00645_1.png","heading-pop":"Ultra-Fast Maximum Absorbency","text-pop":"Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"}},"4f041791-9900-492e-a26b-24383ea9e5d3":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_4.png","hover":"shopify:\/\/shop_images\/Component_2.png","image-pop":"shopify:\/\/shop_images\/DSC00645_1.png","heading-pop":"Ultra-Fast Maximum Absorbency","text-pop":"Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"}},"71fdfd94-6aa0-46dd-8efc-e609470ec65e":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_6.png","hover":"shopify:\/\/shop_images\/Component_2.png","image-pop":"shopify:\/\/shop_images\/DSC00645_1.png","heading-pop":"Ultra-Fast Maximum Absorbency","text-pop":"Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"}},"5d06cc8a-feee-4ea3-bda5-fcb71c883830":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_5.png","hover":"shopify:\/\/shop_images\/Component_2.png","image-pop":"shopify:\/\/shop_images\/DSC00645_1.png","heading-pop":"Ultra-Fast Maximum Absorbency","text-pop":"Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"}},"1912f964-dc6f-4f4f-9552-8315aa4db82d":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_1_2.png","hover":"shopify:\/\/shop_images\/Component_2.png","image-pop":"shopify:\/\/shop_images\/DSC00645_1.png","heading-pop":"Ultra-Fast Maximum Absorbency","text-pop":"Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"}}},"block_order":["ef1d1790-2246-4438-a4fa-c1b5be8556c3","4f041791-9900-492e-a26b-24383ea9e5d3","71fdfd94-6aa0-46dd-8efc-e609470ec65e","5d06cc8a-feee-4ea3-bda5-fcb71c883830","1912f964-dc6f-4f4f-9552-8315aa4db82d"],"settings":{"heading":"A different Kind of Nappy","text":"Crafted with premium cotton blend and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic, and free from harsh chemicals, chlorine, perfumes, lotions, and latex.","color":"#ededed"}},"1654694633dab7abe9":{"type":"testimonial","blocks":{"5aba6f18-ef45-48c3-8c57-a40947a32ad8":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/1_24.png","child":"We love them!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}},"67205641-76f6-4e8d-8aca-d7833e3e1e5f":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/2_3.png","child":"Soft and durable!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}},"a34c7262-2ce7-4282-a25a-f62e9bc485de":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/1_24.png","child":"We love them!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}}},"block_order":["5aba6f18-ef45-48c3-8c57-a40947a32ad8","67205641-76f6-4e8d-8aca-d7833e3e1e5f","a34c7262-2ce7-4282-a25a-f62e9bc485de"],"settings":{"title":"Our Happy customers"}},"165475038718521ee4":{"type":"shop-our-product","settings":{"image":"shopify:\/\/shop_images\/imageedit_2_2123747045_e616d79a-639e-4344-bece-db9f0d90e7c9.png","heading":"Kiddicare Critters","text":"We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!","btn-text":"SHOP Our Products","btn-link":"","btn-bg-color":""}},"1654757751d2f0dda8":{"type":"Product-tab","blocks":{"b00a852a-8951-483c-84f9-6c37072ef15e":{"type":"Nappies","settings":{"product":"baby-wipes-fragrance-free","prdimag1":"shopify:\/\/shop_images\/DSC00645_1_1.png","description1":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","Nappies1":"shopify:\/\/shop_images\/05_1.png"}},"802e5562-8497-47c6-a3fd-b4709f424eaf":{"type":"Nappies","settings":{"product":"baby-wipes-lightly-scented","prdimag1":"shopify:\/\/shop_images\/DSC06613_1.png","description1":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","Nappies1":"shopify:\/\/shop_images\/22_1.png"}},"70a7205a-e1c3-45cc-8a1b-0c8f331182b8":{"type":"Nappies","settings":{"product":"kiddicare-deluxe-crawler-nappies","prdimag1":"shopify:\/\/shop_images\/DSC06677_1.png","description1":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","Nappies1":"shopify:\/\/shop_images\/Hedgehog1_1.png"}},"7542c421-413d-45b4-8d12-c4228c991c02":{"type":"nappypants","settings":{"product":"deluxe-junior-unisex-nappy-pants","prdimag2":"shopify:\/\/shop_images\/DSC06677_1.png","description2":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","nappypants1":"shopify:\/\/shop_images\/Hedgehog1_1.png"}},"91794c42-0016-4510-ab08-f3b75516ff33":{"type":"wipes","settings":{"product":"deluxe-toddler-unisex-nappy-pants-的副本","prdimag3":"shopify:\/\/shop_images\/DSC06613_1.png","description3":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","wipes1":"shopify:\/\/shop_images\/22_1.png"}},"70051772-4340-45f8-b384-6ebbefa14765":{"type":"wipes","settings":{"product":"kiddicare-deluxe-toddler-unisex-nappies","prdimag3":"shopify:\/\/shop_images\/DSC00645_1_1.png","description3":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","wipes1":"shopify:\/\/shop_images\/05_1.png"}},"d47bc674-1ce3-44be-b76d-91455f8c3e6d":{"type":"nappypants","settings":{"product":"deluxe-junior-unisex-nappy-pants","prdimag2":"shopify:\/\/shop_images\/DSC00645_1_1.png","description2":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","nappypants1":"shopify:\/\/shop_images\/Hedgehog1_1.png"}},"84bb450b-8014-456f-9024-499b3e84cd72":{"type":"shopall","settings":{"product":"kiddicare-kids-toiletries-mug","prdimag4":"shopify:\/\/shop_images\/DSC06613_1.png","description4":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","shopall1":"shopify:\/\/shop_images\/05_1.png"}},"6a81b5ea-b1e6-4929-8a26-d87af000d8e1":{"type":"nappypants","settings":{"product":"kiddicare-deluxe-crawler-nappies","prdimag2":"shopify:\/\/shop_images\/DSC00645_1_1.png","description2":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","nappypants1":"shopify:\/\/shop_images\/Hedgehog1_1.png"}},"95840136-517b-4c48-b2ac-de5a4fea8498":{"type":"shopall","settings":{"product":"deluxe-junior-unisex-nappies","prdimag4":"shopify:\/\/shop_images\/DSC06677_1.png","description4":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","shopall1":"shopify:\/\/shop_images\/05_1.png"}},"efb579fb-32de-441e-a869-d015a70083b3":{"type":"wipes","settings":{"product":"deluxe-newborn-unisex-nappies","prdimag3":"shopify:\/\/shop_images\/DSC06613_1.png","description3":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","wipes1":"shopify:\/\/shop_images\/22_1.png"}},"7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d":{"type":"shopall","settings":{"product":"deluxe-toddler-unisex-nappy-pants-的副本","prdimag4":"shopify:\/\/shop_images\/DSC00645_1_1.png","description4":"In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.","shopall1":"shopify:\/\/shop_images\/22_1.png"}}},"block_order":["b00a852a-8951-483c-84f9-6c37072ef15e","802e5562-8497-47c6-a3fd-b4709f424eaf","70a7205a-e1c3-45cc-8a1b-0c8f331182b8","7542c421-413d-45b4-8d12-c4228c991c02","91794c42-0016-4510-ab08-f3b75516ff33","70051772-4340-45f8-b384-6ebbefa14765","d47bc674-1ce3-44be-b76d-91455f8c3e6d","84bb450b-8014-456f-9024-499b3e84cd72","6a81b5ea-b1e6-4929-8a26-d87af000d8e1","95840136-517b-4c48-b2ac-de5a4fea8498","efb579fb-32de-441e-a869-d015a70083b3","7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d"],"settings":{"heading":"Kiddicare Products","title1":"Nappies","title2":"Nappy Pants","title3":"Wipes","title4":"Shop All"}},"165477116711d0623f":{"type":"feature-row","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/imageedit_2_2123747045.png","layout":"left","title":"Kiddicare Critters","text":"<p>We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!<\/p>","button_label":"SHOP Our Products","button_link":"shopify:\/\/collections"}},"165477852872814673":{"type":"haveheard","blocks":{"b9d5e691-b45d-46ea-aec4-98cf54f1841d":{"type":"block","settings":{"numtitle":"01","numdicript":"Select your<br>  nappy size"}},"3e5304ca-3a58-4922-8dc3-f0881c24f15b":{"type":"block","settings":{"numtitle":"02","numdicript":"Select your <br>  delivery cycle"}},"502d9cab-fdc7-4fd7-9c7c-be05cfdcf10e":{"type":"block","settings":{"numtitle":"03","numdicript":"Update your <br> subscription any time!"}}},"block_order":["b9d5e691-b45d-46ea-aec4-98cf54f1841d","3e5304ca-3a58-4922-8dc3-f0881c24f15b","502d9cab-fdc7-4fd7-9c7c-be05cfdcf10e"],"settings":{"kome1":"Have you heard?","kome2":"Stocking up on your Kiddicare monthly needs has never been easier! All you have top do is:","hedmg":"shopify:\/\/shop_images\/IT4A2806-2_1.png","dscrit":"Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.","getbtn":"Get Started","geturl":""}},"165477920102c1e0d7":{"type":"free-sample","settings":{"heading":"Get a FREE Kiddicare® nappy sample","text":"We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.","btn-text":"Get my free sample","btn-link":""}},"1654835811e1444725":{"type":"home-page-last","settings":{"heading":"Kiddicare are proud supporters of Mummys In Need","image":"shopify:\/\/shop_images\/Group_150.png","bgimage":"shopify:\/\/shop_images\/IT4A2764-2_1.png"}},"list-collections-template":{"type":"list-collections-template","settings":{"display_type":"all","sort":"alphabetical","grid":3}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":true,"show_vendor":false,"enable_payment_button":false,"show_share_buttons":false,"media_size":"medium","enable_image_zoom":true,"enable_video_looping":false}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"heading":"You may also like","show_vendor":false}},"cusom_contact":{"type":"cusom_contact","settings":{"contacttitle":"Get in touch","generaltitle":"General enquiries","mal":"<span class=\"mail_title\">Email: <\/span>\nsupport@kiddicare.co.nz<br>\n<span class=\"mail_title\">Hours:<\/span> Monday to Friday 9am-5pm.<br>\n<span class=\"mail_title\">Phone:<\/span> 0800020101 for NZ customers.<br>\n<span class=\"mail_title\">Address:<\/span> 27 Timberly Road, Mangere, Auckland 2022, New Zealand"}},"googleMap":{"type":"googleMap","settings":{"maptitle":"Where to find us","komap":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3719.241389884355!2d72.784053!3d21.2222744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04c145fabcd7b%3A0x4f0a8b4f1a22bb18!2sSneh%20Rashmi%20Botanical%20Garden%20-%20Managed%20by%20Rajhans!5e0!3m2!1sen!2sin!4v1655094452225!5m2!1sen!2sin\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>"}},"text-with-video":{"type":"text-with-video","settings":{"heading":"DELUXE CRAWLER UNISEX NAPPIES","text":"Our softest nappy ever, with a five-layer plant-based absorbent inner core provides ultra-fast maximum absorbency, so your baby stays drier and more comfortable for longer. Oh, and did we mention every size has a unique and adorable nappy print.   <ul style=\"list-style-type:disc\">      <li>Deluxe Crawler Unisex Nappies by kiddicare®<\/li>      <li>All kiddicare® nappies are Dermatologically tested<\/li>      <li>Free from Latex, chlorine, fragrance, dioxins, and chemicals<\/li>      <li>Breathable and lightweight with a cotton back sheet<\/li>      <li>Performance-driven, with up to 12 hours of leak protection<\/li>      <li>Super stretch waistbands and leg cuffs for added comfort and flexibility<\/li>    <\/ul>","image":"shopify:\/\/shop_images\/Wrapper.png"}},"testimonial":{"type":"testimonial","blocks":{"c9136faa-038c-4689-a1bd-f583ff2a77d2":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/2_3.png","child":"We love them!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}},"691bd59a-9726-48ca-9717-972e210b2f36":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/1_24.png","child":"Soft and durable!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}},"fbd9e80c-cdd2-4e9e-8703-ffd38ec53790":{"type":"block","settings":{"kome":"shopify:\/\/shop_images\/2_3.png","child":"Soft and durable!","kome2":"“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"}}},"block_order":["c9136faa-038c-4689-a1bd-f583ff2a77d2","691bd59a-9726-48ca-9717-972e210b2f36","fbd9e80c-cdd2-4e9e-8703-ffd38ec53790"],"settings":{"title":"OUR HAPPY CUSTOMERS"}},"home-page-last":{"type":"home-page-last","settings":{"heading":"KIDDICARE ARE PROUD SUPPORTERS OF MUMMYS IN NEED","image":"shopify:\/\/shop_images\/Group_150.webp","bgimage":"shopify:\/\/shop_images\/IT4A2764-2_1.webp"}},"prd-logo":{"type":"prd-logo","blocks":{"e156af8a-3e72-46f1-b0ed-9036a54f06d9":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png","hover":"shopify:\/\/shop_images\/Component_4.png","heading-pop":"","text-pop":""}},"2f037508-7cd2-42b9-8bd8-1556e4265922":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_1_2.png","hover":"shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png","heading-pop":"","text-pop":""}},"2b930f51-2f6a-4c33-9a88-4ed763c44a60":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_4.png","hover":"shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png","heading-pop":"","text-pop":""}},"f27ddc90-418d-4b61-9a22-69d0e7d96c9b":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_5.png","hover":"shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png","heading-pop":"","text-pop":""}},"f9ee9b08-cac5-4713-a7ee-045ab49595a7":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Component_6_f84c0275-858a-4f8d-b3a9-dc9427ab71ab.png","hover":"shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png","heading-pop":"","text-pop":""}}},"block_order":["e156af8a-3e72-46f1-b0ed-9036a54f06d9","2f037508-7cd2-42b9-8bd8-1556e4265922","2b930f51-2f6a-4c33-9a88-4ed763c44a60","f27ddc90-418d-4b61-9a22-69d0e7d96c9b","f9ee9b08-cac5-4713-a7ee-045ab49595a7"],"settings":{"heading":"","text":"","color":""}},"prd-images":{"type":"prd-images","settings":{"kome1":"WHY IT'S DELUXE","kome2":"Crafted with premium blend cotton and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic and free from harshchemicals, chlorineperfumes, lotions or latex.","hedmg":"shopify:\/\/shop_images\/Group_247.png","dscrit":"","getbtn":"FINE THE RIGHT SIZE","geturl":"shopify:\/\/collections\/nappy-pants"}},"prd-logo2":{"type":"prd-logo2","settings":{"heading":"","text":"","color":""}},"related-prd":{"type":"related-prd","blocks":{"ac7a0031-4508-4a10-b7fc-b3a169732072":{"type":"image","settings":{"collection":"nappies","rates":""}}},"block_order":["ac7a0031-4508-4a10-b7fc-b3a169732072"],"settings":{"titlep":"RELATED PRODUCT"}}},"content_for_index":["1654664828cbe0068f","1654682159a4d71e27","165475038718521ee4","165477116711d0623f","1654757751d2f0dda8","165477920102c1e0d7","165477852872814673","1654694633dab7abe9","1654835811e1444725"]},"presets":{"Default":{"sections":{"header":{"type":"header","settings":{}},"hero-1":{"type":"hero","settings":{"hero_size":"large","text_size":"large"}},"feature-row":{"type":"feature-row","settings":{}},"feature-columns":{"type":"feature-columns","blocks":{"feature-columns-0":{"type":"text_block","settings":{}},"feature-columns-1":{"type":"text_block","settings":{}},"feature-columns-2":{"type":"text_block","settings":{}}},"block_order":["feature-columns-0","feature-columns-1","feature-columns-2"],"settings":{"title":""}},"collection":{"type":"collection","settings":{"grid":4}},"hero-2":{"type":"hero","settings":{"text_size":"large"}},"quotes":{"type":"quotes","blocks":{"quotes-0":{"type":"quote","settings":{}},"quotes-1":{"type":"quote","settings":{}},"quotes-2":{"type":"quote","settings":{}}},"block_order":["quotes-0","quotes-1","quotes-2"],"settings":{"title":""}},"image-bar":{"type":"image-bar","blocks":{"image-bar-0":{"type":"image","settings":{}},"image-bar-1":{"type":"image","settings":{}},"image-bar-2":{"type":"image","settings":{}}},"block_order":["image-bar-0","image-bar-1","image-bar-2"],"settings":{}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"link_list","settings":{}},"footer-1":{"type":"newsletter","settings":{}}},"block_order":["footer-0","footer-1"],"settings":{"show_payment_icons":true}}},"content_for_index":["hero-1","feature-row","feature-columns","collection","hero-2","quotes","image-bar"]},"Light":{"color_text":"#162950","color_body_text":"#6d6d6d","color_sale_text":"#DA2F0C","color_borders":"#e4e4e4","color_button":"#DA2F0C","color_button_text":"#ffffff","color_small_button_text_border":"#162950","color_text_field":"#ffffff","color_text_field_text":"#162950","color_text_field_border":"#909090","color_image_overlay_text":"#ffffff","color_image_overlay":"#3d3d3d","image_overlay_opacity":40,"color_body_bg":"#f8f8f8","type_header_font":"muli_n6","type_header_base_size":26,"type_base_font":"muli_n4","type_base_size":18,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","favicon":"","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"small","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#e8f3f6","checkout_heading_font":"Roboto","checkout_body_font":"Source Sans Pro","checkout_accent_color":"#1990c6","checkout_button_color":"#23314e","checkout_error_color":"#ff6d6d","sections":{"header":{"type":"header","settings":{"align_logo":"left","logo":"","logo_max_width":135,"main_linklist":"main-menu","message":true,"color_bg":"#162950","color_text":"#ffffff"}},"hero":{"type":"hero","settings":{"alignment":"center","hero_size":"x-large","text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"image":"","alignment":"center center"}},"1492095993817":{"type":"image","settings":{"image":"","alignment":"center"}}},"block_order":["slideshow-0","1492095993817"],"settings":{"slideshow_height":"medium","text_size":"medium","autorotate":false,"autorotate_speed":5}},"featured-collections":{"type":"collection","settings":{"grid":3,"rows":1,"show_vendor":true,"show_view_all":true}},"product-template":{"type":"product-template","settings":{"show_quantity_selector":false,"show_vendor":false,"show_share_buttons":true,"media_size":"medium","enable_image_zoom":true,"enable_video_looping":false}},"collection-template":{"type":"collection-template","settings":{"layout":"grid","grid":2,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true}},"1492033809691":{"type":"map","settings":{}},"1492033877875":{"type":"quotes","blocks":{"1492033877875-0":{"type":"quote","settings":{}}},"block_order":["1492033877875-0"],"settings":{}},"1492033924902":{"type":"custom-content","blocks":{"1492033924902-0":{"type":"text","settings":{"width":"100%","alignment":"center","align_text":"center"}}},"block_order":["1492033924902-0"],"settings":{"title":""}},"1492096252560":{"type":"collection-list","blocks":{"1492096252560-0":{"type":"featured_collection","settings":{}},"1492096252560-1":{"type":"featured_collection","settings":{}},"1492096252560-2":{"type":"featured_collection","settings":{}}},"block_order":["1492096252560-0","1492096252560-1","1492096252560-2"],"settings":{"grid":3}},"blog-template":{"type":"blog-template","settings":{"layout":"grid","blog_show_author":true,"blog_show_date":false}},"article-template":{"type":"article-template","settings":{"blog_show_author":true,"blog_show_date":true,"show_share_buttons":true}},"cart-template":{"type":"cart-template","settings":{"cart_notes_enable":false}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{"color_footer_bg":"#f8f8f8","color_footer_text":"#6d6d6d"}}},"content_for_index":["hero","featured-collections","slideshow","1492033924902","1492096252560","1492033877875","1492033809691"]}}}
+{
+  "current": {
+    "color_text": "#006781",
+    "color_body_text": "#333333",
+    "color_text_field": "#ffffff",
+    "color_body_bg": "#ededed",
+    "type_header_base_size": 36,
+    "type_base_size": 18,
+    "currency_code_enabled": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "contaurl": "shopify:\/\/pages\/contact-us",
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Kiddicare-LOGO__2020.07.02-02_7e2066bc-b82f-4105-b325-38c85d12cc6f_1.png",
+          "logo_max_width": 200,
+          "main_linklist": "home-main-menu",
+          "main_linklist2": "mobilemenu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "3bda3185-63ae-4c56-9bb8-16d9dbcf8356": {
+            "type": "logo",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/Kiddicare-LOGO__2020.07.02-02_7e2066bc-b82f-4105-b325-38c85d12cc6f_1.png",
+              "facebook": "<i class=\"fa fa-facebook\" aria-hidden=\"true\"><\/i>",
+              "facebookurl": "",
+              "facebook2": "<i class=\"fa fa-youtube-play\" aria-hidden=\"true\"><\/i>",
+              "facebookurl2": "",
+              "facebook3": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>",
+              "facebookurl3": "",
+              "facebook4": "<i class=\"fa fa-instagram\" aria-hidden=\"true\"><\/i>",
+              "facebookurl4": ""
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footermenu"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Sign up to our newsletter!",
+              "address": "Sign up to our newsletter and we'll be in touch every now and then to keep you posted on tips, promos and more."
+            }
+          },
+          "05605c8f-699f-4ce4-8640-c4fc9ae58c03": {
+            "type": "socialicon",
+            "settings": {
+              "facebook": "<i class=\"fa fa-facebook\" aria-hidden=\"true\"><\/i>",
+              "facebookurl": "",
+              "facebook2": "<i class=\"fa fa-youtube-play\" aria-hidden=\"true\"><\/i>",
+              "facebookurl2": "",
+              "facebook3": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"><\/i>",
+              "facebookurl3": "",
+              "facebook4": "<i class=\"fa fa-instagram\" aria-hidden=\"true\"><\/i>",
+              "facebookurl4": ""
+            }
+          }
+        },
+        "block_order": [
+          "3bda3185-63ae-4c56-9bb8-16d9dbcf8356",
+          "footer-0",
+          "footer-1",
+          "05605c8f-699f-4ce4-8640-c4fc9ae58c03"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      },
+      "1654664828cbe0068f": {
+        "type": "home-banner-section",
+        "blocks": {
+          "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_1_2d5f6b4c-2b1a-420f-bcc2-50779bafea1d.png",
+              "heading": "Deluxe nappies<br> you can trust",
+              "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
+              "btn-text": "Shop Our Products",
+              "btn-link": "",
+              "bgimage": "shopify:\/\/shop_images\/imageedit_1_6942636020.png"
+            }
+          },
+          "68adde1c-ce04-4e0a-b450-9784a49884f7": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_1_2d5f6b4c-2b1a-420f-bcc2-50779bafea1d.png",
+              "heading": "Deluxe nappies <br>you can trust",
+              "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
+              "btn-text": "Shop Our Products",
+              "btn-link": "",
+              "bgimage": "shopify:\/\/shop_images\/imageedit_1_6942636020.png"
+            }
+          }
+        },
+        "block_order": [
+          "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c",
+          "68adde1c-ce04-4e0a-b450-9784a49884f7"
+        ],
+        "settings": {
+        }
+      },
+      "1654682159a4d71e27": {
+        "type": "logo-section",
+        "blocks": {
+          "ef1d1790-2246-4438-a4fa-c1b5be8556c3": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_2.png",
+              "hover": "shopify:\/\/shop_images\/Component_2.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1.png",
+              "heading-pop": "Ultra-Fast Maximum Absorbency",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          },
+          "4f041791-9900-492e-a26b-24383ea9e5d3": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_4.png",
+              "hover": "shopify:\/\/shop_images\/Component_2.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1.png",
+              "heading-pop": "Ultra-Fast Maximum Absorbency",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          },
+          "71fdfd94-6aa0-46dd-8efc-e609470ec65e": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_6.png",
+              "hover": "shopify:\/\/shop_images\/Component_2.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1.png",
+              "heading-pop": "Ultra-Fast Maximum Absorbency",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          },
+          "5d06cc8a-feee-4ea3-bda5-fcb71c883830": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_5.png",
+              "hover": "shopify:\/\/shop_images\/Component_2.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1.png",
+              "heading-pop": "Ultra-Fast Maximum Absorbency",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          },
+          "1912f964-dc6f-4f4f-9552-8315aa4db82d": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_2.png",
+              "hover": "shopify:\/\/shop_images\/Component_2.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1.png",
+              "heading-pop": "Ultra-Fast Maximum Absorbency",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          }
+        },
+        "block_order": [
+          "ef1d1790-2246-4438-a4fa-c1b5be8556c3",
+          "4f041791-9900-492e-a26b-24383ea9e5d3",
+          "71fdfd94-6aa0-46dd-8efc-e609470ec65e",
+          "5d06cc8a-feee-4ea3-bda5-fcb71c883830",
+          "1912f964-dc6f-4f4f-9552-8315aa4db82d"
+        ],
+        "settings": {
+          "heading": "A different Kind of Nappy",
+          "text": "Crafted with premium cotton blend and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic, and free from harsh chemicals, chlorine, perfumes, lotions, and latex.",
+          "color": "#ededed"
+        }
+      },
+      "1654694633dab7abe9": {
+        "type": "testimonial",
+        "blocks": {
+          "5aba6f18-ef45-48c3-8c57-a40947a32ad8": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/1_24.png",
+              "child": "We love them!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          },
+          "67205641-76f6-4e8d-8aca-d7833e3e1e5f": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/2_3.png",
+              "child": "Soft and durable!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          },
+          "a34c7262-2ce7-4282-a25a-f62e9bc485de": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/1_24.png",
+              "child": "We love them!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          }
+        },
+        "block_order": [
+          "5aba6f18-ef45-48c3-8c57-a40947a32ad8",
+          "67205641-76f6-4e8d-8aca-d7833e3e1e5f",
+          "a34c7262-2ce7-4282-a25a-f62e9bc485de"
+        ],
+        "settings": {
+          "title": "Our Happy customers"
+        }
+      },
+      "165475038718521ee4": {
+        "type": "shop-our-product",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/imageedit_2_2123747045_e616d79a-639e-4344-bece-db9f0d90e7c9.png",
+          "heading": "Kiddicare Critters",
+          "text": "We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!",
+          "btn-text": "SHOP Our Products",
+          "btn-link": "",
+          "btn-bg-color": ""
+        }
+      },
+      "1654757751d2f0dda8": {
+        "type": "Product-tab",
+        "blocks": {
+          "b00a852a-8951-483c-84f9-6c37072ef15e": {
+            "type": "Nappies",
+            "settings": {
+              "product": "baby-wipes-fragrance-free",
+              "prdimag1": "shopify:\/\/shop_images\/DSC00645_1_1.png",
+              "description1": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "Nappies1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "802e5562-8497-47c6-a3fd-b4709f424eaf": {
+            "type": "Nappies",
+            "settings": {
+              "product": "baby-wipes-lightly-scented",
+              "prdimag1": "shopify:\/\/shop_images\/DSC06613_1.png",
+              "description1": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "Nappies1": "shopify:\/\/shop_images\/22_1.png"
+            }
+          },
+          "70a7205a-e1c3-45cc-8a1b-0c8f331182b8": {
+            "type": "Nappies",
+            "settings": {
+              "product": "kiddicare-deluxe-crawler-nappies",
+              "prdimag1": "shopify:\/\/shop_images\/DSC06677_1.png",
+              "description1": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "Nappies1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
+            }
+          },
+          "7542c421-413d-45b4-8d12-c4228c991c02": {
+            "type": "nappypants",
+            "settings": {
+              "product": "deluxe-junior-unisex-nappy-pants",
+              "prdimag2": "shopify:\/\/shop_images\/DSC06677_1.png",
+              "description2": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
+            }
+          },
+          "91794c42-0016-4510-ab08-f3b75516ff33": {
+            "type": "wipes",
+            "settings": {
+              "product": "deluxe-toddler-unisex-nappy-pants-的副本",
+              "prdimag3": "shopify:\/\/shop_images\/DSC06613_1.png",
+              "description3": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "wipes1": "shopify:\/\/shop_images\/22_1.png"
+            }
+          },
+          "70051772-4340-45f8-b384-6ebbefa14765": {
+            "type": "wipes",
+            "settings": {
+              "product": "kiddicare-deluxe-toddler-unisex-nappies",
+              "prdimag3": "shopify:\/\/shop_images\/DSC00645_1_1.png",
+              "description3": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "wipes1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "d47bc674-1ce3-44be-b76d-91455f8c3e6d": {
+            "type": "nappypants",
+            "settings": {
+              "product": "deluxe-junior-unisex-nappy-pants",
+              "prdimag2": "shopify:\/\/shop_images\/DSC00645_1_1.png",
+              "description2": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
+            }
+          },
+          "84bb450b-8014-456f-9024-499b3e84cd72": {
+            "type": "shopall",
+            "settings": {
+              "product": "kiddicare-kids-toiletries-mug",
+              "prdimag4": "shopify:\/\/shop_images\/DSC06613_1.png",
+              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "shopall1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "6a81b5ea-b1e6-4929-8a26-d87af000d8e1": {
+            "type": "nappypants",
+            "settings": {
+              "product": "kiddicare-deluxe-crawler-nappies",
+              "prdimag2": "shopify:\/\/shop_images\/DSC00645_1_1.png",
+              "description2": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
+            }
+          },
+          "95840136-517b-4c48-b2ac-de5a4fea8498": {
+            "type": "shopall",
+            "settings": {
+              "product": "deluxe-junior-unisex-nappies",
+              "prdimag4": "shopify:\/\/shop_images\/DSC06677_1.png",
+              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "shopall1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "efb579fb-32de-441e-a869-d015a70083b3": {
+            "type": "wipes",
+            "settings": {
+              "product": "deluxe-newborn-unisex-nappies",
+              "prdimag3": "shopify:\/\/shop_images\/DSC06613_1.png",
+              "description3": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "wipes1": "shopify:\/\/shop_images\/22_1.png"
+            }
+          },
+          "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d": {
+            "type": "shopall",
+            "settings": {
+              "product": "deluxe-toddler-unisex-nappy-pants-的副本",
+              "prdimag4": "shopify:\/\/shop_images\/DSC00645_1_1.png",
+              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "shopall1": "shopify:\/\/shop_images\/22_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "b00a852a-8951-483c-84f9-6c37072ef15e",
+          "802e5562-8497-47c6-a3fd-b4709f424eaf",
+          "70a7205a-e1c3-45cc-8a1b-0c8f331182b8",
+          "7542c421-413d-45b4-8d12-c4228c991c02",
+          "91794c42-0016-4510-ab08-f3b75516ff33",
+          "70051772-4340-45f8-b384-6ebbefa14765",
+          "d47bc674-1ce3-44be-b76d-91455f8c3e6d",
+          "84bb450b-8014-456f-9024-499b3e84cd72",
+          "6a81b5ea-b1e6-4929-8a26-d87af000d8e1",
+          "95840136-517b-4c48-b2ac-de5a4fea8498",
+          "efb579fb-32de-441e-a869-d015a70083b3",
+          "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d"
+        ],
+        "settings": {
+          "heading": "Kiddicare Products",
+          "title1": "Nappies",
+          "title2": "Nappy Pants",
+          "title3": "Wipes",
+          "title4": "Shop All"
+        }
+      },
+      "165477116711d0623f": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/imageedit_2_2123747045.png",
+          "layout": "left",
+          "title": "Kiddicare Critters",
+          "text": "<p>We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!<\/p>",
+          "button_label": "SHOP Our Products",
+          "button_link": "shopify:\/\/collections"
+        }
+      },
+      "165477852872814673": {
+        "type": "haveheard",
+        "blocks": {
+          "b9d5e691-b45d-46ea-aec4-98cf54f1841d": {
+            "type": "block",
+            "settings": {
+              "numtitle": "01",
+              "numdicript": "Select your<br>  nappy size"
+            }
+          },
+          "3e5304ca-3a58-4922-8dc3-f0881c24f15b": {
+            "type": "block",
+            "settings": {
+              "numtitle": "02",
+              "numdicript": "Select your <br>  delivery cycle"
+            }
+          },
+          "502d9cab-fdc7-4fd7-9c7c-be05cfdcf10e": {
+            "type": "block",
+            "settings": {
+              "numtitle": "03",
+              "numdicript": "Update your <br> subscription any time!"
+            }
+          }
+        },
+        "block_order": [
+          "b9d5e691-b45d-46ea-aec4-98cf54f1841d",
+          "3e5304ca-3a58-4922-8dc3-f0881c24f15b",
+          "502d9cab-fdc7-4fd7-9c7c-be05cfdcf10e"
+        ],
+        "settings": {
+          "kome1": "Have you heard?",
+          "kome2": "Stocking up on your Kiddicare monthly needs has never been easier! All you have top do is:",
+          "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1.png",
+          "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
+          "getbtn": "Get Started",
+          "geturl": ""
+        }
+      },
+      "165477920102c1e0d7": {
+        "type": "free-sample",
+        "settings": {
+          "heading": "Get a FREE Kiddicare® nappy sample",
+          "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.",
+          "btn-text": "Get my free sample",
+          "btn-link": ""
+        }
+      },
+      "1654835811e1444725": {
+        "type": "home-page-last",
+        "settings": {
+          "heading": "Kiddicare are proud supporters of Mummys In Need",
+          "image": "shopify:\/\/shop_images\/Group_150.png",
+          "bgimage": "shopify:\/\/shop_images\/IT4A2764-2_1.png"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false,
+          "media_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "cusom_contact": {
+        "type": "cusom_contact",
+        "settings": {
+          "contacttitle": "Get in touch",
+          "generaltitle": "General enquiries",
+          "mal": "<span class=\"mail_title\">Email: <\/span>\nsupport@kiddicare.co.nz<br>\n<span class=\"mail_title\">Hours:<\/span> Monday to Friday 9am-5pm.<br>\n<span class=\"mail_title\">Phone:<\/span> 0800020101 for NZ customers.<br>\n<span class=\"mail_title\">Address:<\/span> 27 Timberly Road, Mangere, Auckland 2022, New Zealand"
+        }
+      },
+      "googleMap": {
+        "type": "googleMap",
+        "settings": {
+          "maptitle": "Where to find us",
+          "komap": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3719.241389884355!2d72.784053!3d21.2222744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04c145fabcd7b%3A0x4f0a8b4f1a22bb18!2sSneh%20Rashmi%20Botanical%20Garden%20-%20Managed%20by%20Rajhans!5e0!3m2!1sen!2sin!4v1655094452225!5m2!1sen!2sin\" width=\"100%\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>"
+        }
+      },
+      "text-with-video": {
+        "type": "text-with-video",
+        "settings": {
+          "heading": "DELUXE CRAWLER UNISEX NAPPIES",
+          "text": "Our softest nappy ever, with a five-layer plant-based absorbent inner core provides ultra-fast maximum absorbency, so your baby stays drier and more comfortable for longer. Oh, and did we mention every size has a unique and adorable nappy print.   <ul style=\"list-style-type:disc\">      <li>Deluxe Crawler Unisex Nappies by kiddicare®<\/li>      <li>All kiddicare® nappies are Dermatologically tested<\/li>      <li>Free from Latex, chlorine, fragrance, dioxins, and chemicals<\/li>      <li>Breathable and lightweight with a cotton back sheet<\/li>      <li>Performance-driven, with up to 12 hours of leak protection<\/li>      <li>Super stretch waistbands and leg cuffs for added comfort and flexibility<\/li>    <\/ul>",
+          "image": "shopify:\/\/shop_images\/Wrapper.png"
+        }
+      },
+      "testimonial": {
+        "type": "testimonial",
+        "blocks": {
+          "c9136faa-038c-4689-a1bd-f583ff2a77d2": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/2_3.png",
+              "child": "We love them!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          },
+          "691bd59a-9726-48ca-9717-972e210b2f36": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/1_24.png",
+              "child": "Soft and durable!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          },
+          "fbd9e80c-cdd2-4e9e-8703-ffd38ec53790": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/2_3.png",
+              "child": "Soft and durable!",
+              "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
+            }
+          }
+        },
+        "block_order": [
+          "c9136faa-038c-4689-a1bd-f583ff2a77d2",
+          "691bd59a-9726-48ca-9717-972e210b2f36",
+          "fbd9e80c-cdd2-4e9e-8703-ffd38ec53790"
+        ],
+        "settings": {
+          "title": "OUR HAPPY CUSTOMERS"
+        }
+      },
+      "home-page-last": {
+        "type": "home-page-last",
+        "settings": {
+          "heading": "KIDDICARE ARE PROUD SUPPORTERS OF MUMMYS IN NEED",
+          "image": "shopify:\/\/shop_images\/Group_150.webp",
+          "bgimage": "shopify:\/\/shop_images\/IT4A2764-2_1.webp"
+        }
+      },
+      "prd-logo": {
+        "type": "prd-logo",
+        "blocks": {
+          "e156af8a-3e72-46f1-b0ed-9036a54f06d9": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png",
+              "hover": "shopify:\/\/shop_images\/Component_4.png",
+              "heading-pop": "",
+              "text-pop": ""
+            }
+          },
+          "2f037508-7cd2-42b9-8bd8-1556e4265922": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_2.png",
+              "hover": "shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png",
+              "heading-pop": "",
+              "text-pop": ""
+            }
+          },
+          "2b930f51-2f6a-4c33-9a88-4ed763c44a60": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_4.png",
+              "hover": "shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png",
+              "heading-pop": "",
+              "text-pop": ""
+            }
+          },
+          "f27ddc90-418d-4b61-9a22-69d0e7d96c9b": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_5.png",
+              "hover": "shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png",
+              "heading-pop": "",
+              "text-pop": ""
+            }
+          },
+          "f9ee9b08-cac5-4713-a7ee-045ab49595a7": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_6_f84c0275-858a-4f8d-b3a9-dc9427ab71ab.png",
+              "hover": "shopify:\/\/shop_images\/Component_2_beb036d6-5f85-4398-a6b0-c320b5fb2e3a.png",
+              "heading-pop": "",
+              "text-pop": ""
+            }
+          }
+        },
+        "block_order": [
+          "e156af8a-3e72-46f1-b0ed-9036a54f06d9",
+          "2f037508-7cd2-42b9-8bd8-1556e4265922",
+          "2b930f51-2f6a-4c33-9a88-4ed763c44a60",
+          "f27ddc90-418d-4b61-9a22-69d0e7d96c9b",
+          "f9ee9b08-cac5-4713-a7ee-045ab49595a7"
+        ],
+        "settings": {
+          "heading": "",
+          "text": "",
+          "color": ""
+        }
+      },
+      "prd-images": {
+        "type": "prd-images",
+        "settings": {
+          "kome1": "WHY IT'S DELUXE",
+          "kome2": "Crafted with premium blend cotton and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic and free from harshchemicals, chlorineperfumes, lotions or latex.",
+          "hedmg": "shopify:\/\/shop_images\/Group_247.png",
+          "dscrit": "",
+          "getbtn": "FINE THE RIGHT SIZE",
+          "geturl": "shopify:\/\/collections\/nappy-pants"
+        }
+      },
+      "prd-logo2": {
+        "type": "prd-logo2",
+        "settings": {
+          "heading": "",
+          "text": "",
+          "color": ""
+        }
+      },
+      "related-prd": {
+        "type": "related-prd",
+        "blocks": {
+          "ac7a0031-4508-4a10-b7fc-b3a169732072": {
+            "type": "image",
+            "settings": {
+              "collection": "nappies",
+              "rates": ""
+            }
+          }
+        },
+        "block_order": [
+          "ac7a0031-4508-4a10-b7fc-b3a169732072"
+        ],
+        "settings": {
+          "titlep": "RELATED PRODUCT"
+        }
+      }
+    },
+    "content_for_index": [
+      "1654664828cbe0068f",
+      "1654682159a4d71e27",
+      "165475038718521ee4",
+      "165477116711d0623f",
+      "1654757751d2f0dda8",
+      "165477920102c1e0d7",
+      "165477852872814673",
+      "1654694633dab7abe9",
+      "1654835811e1444725"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+          }
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {
+              }
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {
+          }
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
