@@ -1,1 +1,149 @@
-{"wrapper":"div#div_id.div_class[attribute-one=value]","sections":{"main":{"type":"collection-banner","blocks":{"0d5e63dd-7906-4902-bd05-9b67a03c4c9a":{"type":"block","settings":{"collection":"nappies","collection-tlt":"NAPPIES","collection-link":"shopify:\/\/collections\/nappies"}},"10fc3ccf-c690-4a4a-8713-4eab332a49a8":{"type":"block","settings":{"collection":"nappy-pants","collection-tlt":"NAPPY PANTS","collection-link":"shopify:\/\/collections\/nappy-pants"}},"a4400a5f-2361-4913-8c54-727df2e739da":{"type":"block","settings":{"collection":"wipes-1","collection-tlt":"WIPES","collection-link":""}},"93cba672-8be4-43f4-9a44-ef4db10257d7":{"type":"block","settings":{"collection":"toys","collection-tlt":"SHOP ALL","collection-link":"shopify:\/\/collections"}}},"block_order":["0d5e63dd-7906-4902-bd05-9b67a03c4c9a","10fc3ccf-c690-4a4a-8713-4eab332a49a8","a4400a5f-2361-4913-8c54-727df2e739da","93cba672-8be4-43f4-9a44-ef4db10257d7"],"settings":{"heading":"Kiddicare Products","text":"Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.","image":"shopify:\/\/shop_images\/imageedit_3_7937065809.webp"}},"16552936331a96ba2d":{"type":"size-guide","blocks":{"8181061d-f1df-4f1b-83da-fb456aa59b82":{"type":"block","settings":{"text1":"Newborn","text2":"6 - 11 KG","text3":"6 - 9","text4":"1 Month"}},"b848b46d-c493-486e-a7da-8e09aa28abff":{"type":"block","settings":{"text1":"Infant","text2":"4 - 7 KG","text3":"6 - 9","text4":"2 - 3 Months"}},"17bbfe45-a06b-475c-b9eb-7eda5edf3459":{"type":"block","settings":{"text1":"Crawler","text2":"6 - 11KG","text3":"6 - 9","text4":"2 - 3 Months"}},"1bfb12fd-90f9-4898-8bcf-f97d3edf2d94":{"type":"block","settings":{"text1":"Toddler","text2":"10 - 14 KG","text3":"5 - 7","text4":"10 Months"}},"83a23b2b-b142-4b2c-8719-f801f0524e0f":{"type":"block","settings":{"text1":"Walker","text2":"13 - 18 KG","text3":"5 - 7","text4":"10 Months"}},"d45a4673-2f74-407c-8cbb-b5a24a0ff0b1":{"type":"block","settings":{"text1":"Junior","text2":"16 KG +","text3":"5 - 7","text4":"14 Months"}}},"block_order":["8181061d-f1df-4f1b-83da-fb456aa59b82","b848b46d-c493-486e-a7da-8e09aa28abff","17bbfe45-a06b-475c-b9eb-7eda5edf3459","1bfb12fd-90f9-4898-8bcf-f97d3edf2d94","83a23b2b-b142-4b2c-8719-f801f0524e0f","d45a4673-2f74-407c-8cbb-b5a24a0ff0b1"],"settings":{"heading":"KIDDING SIZING GUIDE","text":"Wondering which diaper size to choose for your little one?  Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:","text1":"Kiddicare Critter Milestone","text2":"Baby Weight in KG","text3":"Average Number of Nappies a day","text4":"How long your little one may need this size"}},"165529357205331910":{"type":"clp-free-sample","settings":{"heading":"Get a FREE Kiddicare® nappy sample","text":"We put so much love into making Kiddicare nappies and we truly believe our nappies are the best!  We would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.","button_label":"Get my free sample","button_link":"shopify:\/\/products\/deluxe-toddler-unisex-nappy-pants"}},"1655292975ecd9815f":{"type":"color-section","settings":{"color":"#006781"}}},"order":["main","16552936331a96ba2d","165529357205331910","1655292975ecd9815f"]}
+{
+  "wrapper": "div#div_id.div_class[attribute-one=value]",
+  "sections": {
+    "main": {
+      "type": "collection-banner",
+      "blocks": {
+        "0d5e63dd-7906-4902-bd05-9b67a03c4c9a": {
+          "type": "block",
+          "settings": {
+            "collection": "nappies",
+            "collection-tlt": "NAPPIES",
+            "collection-link": "shopify:\/\/collections\/nappies"
+          }
+        },
+        "10fc3ccf-c690-4a4a-8713-4eab332a49a8": {
+          "type": "block",
+          "settings": {
+            "collection": "nappy-pants",
+            "collection-tlt": "NAPPY PANTS",
+            "collection-link": "shopify:\/\/collections\/nappy-pants"
+          }
+        },
+        "a4400a5f-2361-4913-8c54-727df2e739da": {
+          "type": "block",
+          "settings": {
+            "collection": "wipes-1",
+            "collection-tlt": "WIPES",
+            "collection-link": ""
+          }
+        },
+        "93cba672-8be4-43f4-9a44-ef4db10257d7": {
+          "type": "block",
+          "settings": {
+            "collection": "toys",
+            "collection-tlt": "SHOP ALL",
+            "collection-link": "shopify:\/\/pages\/collection"
+          }
+        }
+      },
+      "block_order": [
+        "0d5e63dd-7906-4902-bd05-9b67a03c4c9a",
+        "10fc3ccf-c690-4a4a-8713-4eab332a49a8",
+        "a4400a5f-2361-4913-8c54-727df2e739da",
+        "93cba672-8be4-43f4-9a44-ef4db10257d7"
+      ],
+      "settings": {
+        "heading": "Kiddicare Products",
+        "text": "Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+        "image": "shopify:\/\/shop_images\/imageedit_3_7937065809.webp"
+      }
+    },
+    "16552936331a96ba2d": {
+      "type": "size-guide",
+      "blocks": {
+        "8181061d-f1df-4f1b-83da-fb456aa59b82": {
+          "type": "block",
+          "settings": {
+            "text1": "Newborn",
+            "text2": "6 - 11 KG",
+            "text3": "6 - 9",
+            "text4": "1 Month"
+          }
+        },
+        "b848b46d-c493-486e-a7da-8e09aa28abff": {
+          "type": "block",
+          "settings": {
+            "text1": "Infant",
+            "text2": "4 - 7 KG",
+            "text3": "6 - 9",
+            "text4": "2 - 3 Months"
+          }
+        },
+        "17bbfe45-a06b-475c-b9eb-7eda5edf3459": {
+          "type": "block",
+          "settings": {
+            "text1": "Crawler",
+            "text2": "6 - 11KG",
+            "text3": "6 - 9",
+            "text4": "2 - 3 Months"
+          }
+        },
+        "1bfb12fd-90f9-4898-8bcf-f97d3edf2d94": {
+          "type": "block",
+          "settings": {
+            "text1": "Toddler",
+            "text2": "10 - 14 KG",
+            "text3": "5 - 7",
+            "text4": "10 Months"
+          }
+        },
+        "83a23b2b-b142-4b2c-8719-f801f0524e0f": {
+          "type": "block",
+          "settings": {
+            "text1": "Walker",
+            "text2": "13 - 18 KG",
+            "text3": "5 - 7",
+            "text4": "10 Months"
+          }
+        },
+        "d45a4673-2f74-407c-8cbb-b5a24a0ff0b1": {
+          "type": "block",
+          "settings": {
+            "text1": "Junior",
+            "text2": "16 KG +",
+            "text3": "5 - 7",
+            "text4": "14 Months"
+          }
+        }
+      },
+      "block_order": [
+        "8181061d-f1df-4f1b-83da-fb456aa59b82",
+        "b848b46d-c493-486e-a7da-8e09aa28abff",
+        "17bbfe45-a06b-475c-b9eb-7eda5edf3459",
+        "1bfb12fd-90f9-4898-8bcf-f97d3edf2d94",
+        "83a23b2b-b142-4b2c-8719-f801f0524e0f",
+        "d45a4673-2f74-407c-8cbb-b5a24a0ff0b1"
+      ],
+      "settings": {
+        "heading": "KIDDING SIZING GUIDE",
+        "text": "Wondering which diaper size to choose for your little one?  Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
+        "text1": "Kiddicare Critter Milestone",
+        "text2": "Baby Weight in KG",
+        "text3": "Average Number of Nappies a day",
+        "text4": "How long your little one may need this size"
+      }
+    },
+    "165529357205331910": {
+      "type": "clp-free-sample",
+      "settings": {
+        "heading": "Get a FREE Kiddicare® nappy sample",
+        "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best!  We would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack.",
+        "button_label": "Get my free sample",
+        "button_link": "shopify:\/\/products\/deluxe-toddler-unisex-nappy-pants"
+      }
+    },
+    "1655292975ecd9815f": {
+      "type": "color-section",
+      "settings": {
+        "color": "#006781"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16552936331a96ba2d",
+    "165529357205331910",
+    "1655292975ecd9815f"
+  ]
+}
