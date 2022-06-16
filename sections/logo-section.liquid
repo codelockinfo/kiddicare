@@ -1,24 +1,32 @@
 <style>
+  .clsmain-logos-section {
+    background: {
+        {
+        section.settings.color
+      }
+    }
 
-  .main-logos-section{
-    background: {{section.settings.color}};
+    ;
     padding: 3% 0 400px 0;
   }
-  .All-logos{
+
+  .clsAll-logos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
   }
-  img.img-hover{
+
+  img.clsimg-hover {
     display: none;
   }
-  .first-logo{
- flex: 0 0 20%;
+
+  .clsfirst-logo {
+    flex: 0 0 20%;
     max-width: 16%;
   }
 
-  .width-cnt h2.heading{
+  .clswidth-cnt h2.clsheading {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -28,8 +36,8 @@
     color: #006781;
     letter-spacing: 0px;
   }
-  
-  .width-cnt p.text{
+
+  .clswidth-cnt p.clstext {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -37,30 +45,28 @@
     line-height: 28px;
     text-align: center;
     color: #333333;
-        width: 44%;
+    width: 44%;
     margin: 0 auto;
     padding: 2% 0px 3%;
   }
-  .logo-cls:hover img.img-normal{
+
+  .clslogo-cls:hover img.clsimg-normal {
     display: none;
   }
-  .logo-cls:hover img.img-hover{
+
+  .clslogo-cls:hover img.clsimg-hover {
     display: block !important;
   }
-  .logo-cls{
+
+  .clslogo-cls {
     cursor: pointer;
   }
-  .pop-up-content-wrap{
-    border: 2px dashed #84DADE;
-    border-radius: 6px;
-  }
 
-  /*   / POPUP CSS START / */
-  .custom-model-main {
+  .clscustom-model-main {
     text-align: center;
     overflow: hidden;
     position: fixed;
-    /*   top: 0; */
+    top: 0;
     right: 0;
     left: 0;
     -webkit-overflow-scrolling: touch;
@@ -71,21 +77,22 @@
     transition: opacity 0.15s linear, z-index 0.15;
     z-index: -1;
   }
-  .Container-cls{  	
-     max-width: 1600px;
+
+  .clsContainer-cls {
+    max-width: 1600px;
     margin: 0 auto;
     width: 100%;
     padding: 0 15px;
-        padding-bottom: 8%;
+    padding-bottom: 8%;
   }
 
-  .model-open {
+  .clsmodel-open {
     z-index: 99999;
     opacity: 1;
     overflow: hidden;
-    margin-top: -500px;
   }
-  .custom-model-inner {
+
+  .clscustom-model-inner {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
     transform: translate(0, -25%);
@@ -101,15 +108,15 @@
     margin: 30px auto;
     max-width: 1200px;
   }
-  .custom-model-wrap {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+
+  .clscustom-model-wrap {
     display: block;
     width: 100%;
     position: relative;
     background-color: #fff;
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     background-clip: padding-box;
@@ -120,55 +127,72 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .model-open .custom-model-inner {
+
+  .clsmodel-open .clscustom-model-inner {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     position: relative;
     z-index: 999;
   }
-  .model-open .bg-overlay {
+
+  .clsmodel-open .clsbg-overlay {
     background: rgba(0, 0, 0, 0.6);
     z-index: 99;
   }
-  .bg-overlay {
+
+  .clsbg-overlay {
     background: rgba(0, 0, 0, 0);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     left: 0;
-/*     top: 0; */
+    top: 0;
     right: 0;
-/*     bottom: 0; */
+    bottom: 0;
     z-index: 0;
     -webkit-transition: background 0.15s linear;
     -o-transition: background 0.15s linear;
     transition: background 0.15s linear;
   }
-  .close-btn {
+
+  .clsclose-btn {
     position: absolute;
     right: -20px;
     top: -20px;
     cursor: pointer;
     z-index: 99;
-    font-size: 40px;
-    color: #000;
-    background: #fff;
+    font-size: 30px;
+    color: #fff;
+    background: #ea8282;
     width: 50px;
     border-radius: 50%;
   }
-  .pop-flex{
+
+  .clspop-up-content-wrap {
+    margin: 27px;
+  }
+
+  .clspop-flex {
+    border: 2px dashed #84DADE;
+    border-radius: 6px;
+  }
+
+  .clspop-flex {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  .combo-pop{
+
+  .clscombo-pop {
     width: 50%;
   }
-  .popup-cont{
+
+  .clspopup-cont {
     margin: auto;
   }
-  h2.heading-pop{
+
+  h2.clsheading-pop {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -176,7 +200,8 @@
     line-height: 42px;
     color: #006781;
   }
-  p.text-pop{
+
+  p.clstext-pop {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -184,15 +209,17 @@
     line-height: 28px;
     color: #333333;
   }
-  .img-popup img{
+
+  .clsimg-popup img {
     width: 100%;
   }
-  .popup-cont{
+
+  .clspopup-cont {
     padding: 5%;
   }
-  
-  @media screen and (min-width:800px){
-    .custom-model-main:before {
+
+  @media screen and (min-width:800px) {
+    .clscustom-model-main:before {
       content: "";
       display: inline-block;
       height: auto;
@@ -201,106 +228,105 @@
       height: 100%;
     }
   }
-  @media screen and (max-width:799px){
-    .custom-model-inner{margin-top: 45px;}
-  }
-  @media(max-width:1500px){
-    .main-logos-section {
-    padding: 3% 0 300px 0;
-}
-  }
-  @media(max-width:1300px){
-    .main-logos-section {
-    padding: 3% 0 200px 0;
-}
-      .width-cnt p.text{
-    	    width: 55%;
-    }
-  }
-  @media(max-width:950px){
-    .main-logos-section {
-    padding: 3% 0 300px 0;
-}
-    .width-cnt p.text{
-    	    width: 68%;
+
+  @media screen and (max-width:799px) {
+    .clscustom-model-inner {
+      margin-top: 45px;
     }
   }
 
-  @media(max-width:768px){
-    .first-logo {
+  @media(max-width:1500px) {
+    .clsmain-logos-section {
+      padding: 3% 0 300px 0;
+    }
+  }
+
+  @media(max-width:1300px) {
+    .clsmain-logos-section {
+      padding: 3% 0 200px 0;
+    }
+
+    .clswidth-cnt p.text {
+      width: 55%;
+    }
+  }
+
+  @media(max-width:950px) {
+    .clsmain-logos-section {
+      padding: 3% 0 300px 0;
+    }
+
+    .clswidth-cnt p.clstext {
+      width: 68%;
+    }
+  }
+
+  @media(max-width:768px) {
+    .clsfirst-logo {
       width: 33.33%;
     }
-    .main-logos-section {
-    padding: 3% 0 550px 0;
-}
-    .width-cnt h2.heading{
-    	    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
+
+    .clsmain-logos-section {
+      padding: 3% 0 550px 0;
+    }
+
+    .clswidth-cnt h2.clsheading {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
     }
   }
-  @media(max-width:600px){
-    .pop-flex .combo-pop {
+
+  @media(max-width:600px) {
+    .clscustom-model-wrap{
+      width: 94%;
+      margin: auto;
+    }
+    .clsclose-btn{
+      right: 4px;
+    }
+    .clspop-flex .clscombo-pop {
       width: 100%;
     }
-    .width-cnt p.text {
-    width: 76%;
-}
-  }
-  
-  @media(max-width:540px){
-  	.first-logo {
-    flex: 0 0 33%;
-    max-width: calc(33% - 20px);
-    margin: 0 10px;
-}
-    .All-logos{
-    	justify-content: center;
-    }
-    .width-cnt p.text{
-    	    width: 100%;
+
+    .clswidth-cnt p.clstext {
+      width: 76%;
     }
   }
 
+  @media(max-width:540px) {
+    .clsfirst-logo {
+      flex: 0 0 33%;
+      max-width: calc(33% - 20px);
+      margin: 0 10px;
+    }
 
-  /*   / POPUP CSS END / */
+    .clsAll-logos {
+      justify-content: center;
+    }
+
+    .clswidth-cnt p.clstext {
+      width: 100%;
+    }
+  }
 </style>
 
 
-<div class="main-logos-section" id="{{section.id}}">
-  <div class="Container-cls">
-    <div class="width-cnt">
-      <h2 class="heading">{{section.settings.heading}}</h2>
-      <p class="text">{{section.settings.text}}</p>
+<div class="clsmain-logos-section" id="{{section.id}}">
+  <div class="clsContainer-cls">
+    <div class="clswidth-cnt">
+      <h2 class="clsheading">{{section.settings.heading}}</h2>
+      <p class="clstext">{{section.settings.text}}</p>
     </div>
-    <div class="All-logos">
+    <div class="clsAll-logos">
       {% for block in section.blocks %}
-      <div class="first-logo">
-        <div class="logo-cls">
-          <img class="img-normal" src="{{block.settings.image | img_url: 'master'}}">
-          <img class="img-hover" src="{{block.settings.hover | img_url: 'master'}}">
+      <div class="clsfirst-logo">
+        <div class="clslogo-cls" data-src="{{block.settings.image-pop | img_url: 'master' }}"
+          data-heading="{{block.settings.heading-pop}}" data-text="{{block.settings.text-pop}}">
+          <img class="clsimg-normal" src="{{block.settings.image | img_url: 'master'}}">
+          <img class="clsimg-hover" src="{{block.settings.hover | img_url: 'master'}}">
         </div>
-        <div class="popups">
-          <div class="custom-model-main">
-            <div class="custom-model-inner">        
-              <div class="close-btn">×</div>
-              <div class="custom-model-wrap">
-                <div class="pop-up-content-wrap">
-                  <div class="pop-flex">
-                    <div class="img-popup combo-pop">
-                      <img src="{{block.settings.image-pop | img_url: 'master' }}">
-                    </div>
-                    <div class="popup-cont combo-pop">
-                      <h2 class="heading-pop">{{block.settings.heading-pop}}</h2>
-                      <p class="text-pop">{{block.settings.text-pop}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-            </div>  
-            <div class="bg-overlay"></div>
-          </div>
-        </div>
+
       </div>
       {% endfor %}
     </div>
@@ -373,15 +399,3 @@
 ]
 }
 {% endschema %}
-
-
-
-<script>
-  $(".logo-cls").on('click', function() {
-    $(this).closest(".first-logo").find(".custom-model-main").addClass('model-open');
-  }); 
-  $(".close-btn, .bg-overlay").click(function(){
-    $(".custom-model-main").removeClass('model-open');
-  });
-
-</script>

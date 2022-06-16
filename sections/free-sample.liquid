@@ -1,20 +1,20 @@
 <style>
-  .popup-form{
+  .popup-forms{
     margin: 0 2%;
   }
-  .Main-Free-Sample{
+  .Main-Free-Samples{
     position: absolute;
     /* background: #fff; */
     width: 100%;
     margin-top: -200px;
   }
-  .Free-Sample-section{
+  .Free-Sample-sections{
     margin: 0 10%;
     background: #fff;
     padding: 2px;
     border-radius: 10px;
   }
-  .Free-Sample-section h2.heading{
+  .Free-Sample-sections h2.heading{
 font-family: 'Hunterswood';
 font-style: normal;
 font-weight: 400;
@@ -26,7 +26,7 @@ text-align: center;
 color: #006781;
 
   }
-  .Free-Sample-section p.text{
+  .Free-Sample-sections p.text{
    font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -198,7 +198,7 @@ color: #006781;
   .popup-cont{
     padding: 5%;
   }
-  .fileds-cls input{
+  .fileds-clss input{
     width: 100%;
     border-radius: 10px;
   }
@@ -208,19 +208,19 @@ color: #006781;
     width: 100%;
     justify-content: space-between;
   }
-  .fileds-cls{
+  .fileds-clss{
     width: 48%;
     margin: 1%;
   }
-  .fileds-cls.select-cls{
+  .fileds-clss.select-cls{
     width: 100%;
 
   }
-  .fileds-cls select , .fileds-cls textarea{
+  .fileds-clss select , .fileds-clss textarea{
     width: 100%;
     border-radius: 10px;
   }
-  .fileds-cls.condition{
+  .fileds-clss.condition{
     width: 68%;
     display: flex;
     align-items: center;
@@ -229,7 +229,7 @@ color: #006781;
     margin-right: 3%;
     width: unset;
   }
-  .fileds-cls.btn-all-cls{
+  .fileds-clss.btn-all-cls{
     width: 28%;
     margin: auto;
     text-align: center;
@@ -283,23 +283,23 @@ color: #006781;
   }
   @media screen and (max-width:799px){
     .custom-model-inner{margin-top: 45px;}
-    .Free-Sample-section h2.heading{
+    .Free-Sample-sections h2.heading{
     	    font-size: 44px;
     line-height: 47px;
     }
-       .Free-Sample-section p.text{    	
+       .Free-Sample-sections p.text{    	
     width: 100%;
     }
   }
   @media(max-width:600px){
-    .fileds-cls{
+    .fileds-clss{
       width: 100%;
       margin: 1%;
     }
-    .fileds-cls.btn-all-cls{
+    .fileds-clss.btn-all-cls{
       width: 100%;
     }
-    .fileds-cls.condition{
+    .fileds-clss.condition{
       width: 100%;
     }
     .brdpadding {
@@ -307,11 +307,11 @@ color: #006781;
 }
   }
   @media(max-width:414px){
-  	.Free-Sample-section h2.heading {
+  	.Free-Sample-sections h2.heading {
     font-size: 29px;
     line-height: 32px;
 }
-    .Free-Sample-section p.text{
+    .Free-Sample-sections p.text{
     	font-size: 14px;
     line-height: 25px;
     }
@@ -321,8 +321,8 @@ color: #006781;
 </style>
 
 
-<div class="Main-Free-Sample" id="{{section.id}}">
-  <div class="Free-Sample-section">
+<div class="Main-Free-Samples" id="{{section.id}}">
+  <div class="Free-Sample-sections">
     <div class="bdradious">
       <div class="brdpadding">
     <h2 class="heading">{{section.settings.heading}}</h2>
@@ -336,22 +336,22 @@ color: #006781;
           <div class="close-btn">×</div>
           <div class="custom-model-wrap">
             <div class="pop-up-content-wrap">
-              <div class="popup-form">
+              <div class="popup-forms">
                 <h2 class="sample-heading"> Get my free sample </h2>
                 <div class="flex-field">
-                  <div class="fileds-cls">
+                  <div class="fileds-clss">
                     <input type="text" name="name" placeholder="First Name"/>
                   </div>
-                  <div class="fileds-cls">
+                  <div class="fileds-clss">
                     <input type="text" name="name" placeholder="Last Name"/>
                   </div>
-                  <div class="fileds-cls">
+                  <div class="fileds-clss">
                     <input type="email" name="name" placeholder="Email Address"/>
                   </div>
-                  <div class="fileds-cls">
+                  <div class="fileds-clss">
                     <input type="number" name="name" placeholder="Phone Number"/>
                   </div>
-                  <div class="fileds-cls select-cls">
+                  <div class="fileds-clss select-cls">
                     <select name="cars" id="cars">
                       <option value="volvo">Option 1</option>
                       <option value="saab">Option 2</option>
@@ -361,29 +361,29 @@ color: #006781;
                   </div>
                   <h2 class="sample-heading"> Delivery Address: </h2>
                   <div class="flex-field">
-                    <div class="fileds-cls">
+                    <div class="fileds-clss">
                       <input type="text" name="name" placeholder="Street Address"/>
                     </div>
-                    <div class="fileds-cls">
+                    <div class="fileds-clss">
                       <input type="text" name="name" placeholder="Suburb"/>
                     </div>
-                    <div class="fileds-cls">
+                    <div class="fileds-clss">
                       <input type="email" name="name" placeholder="City"/>
                     </div>
-                    <div class="fileds-cls">
+                    <div class="fileds-clss">
                       <input type="number" name="name" placeholder="Post Code"/>
                     </div>
-                    <div class="fileds-cls select-cls">
+                    <div class="fileds-clss select-cls">
                       <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
                     </div>
-                    <div class="fileds-cls select-cls">
+                    <div class="fileds-clss select-cls">
                       <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
                     </div>
-                    <div class="fileds-cls condition">
+                    <div class="fileds-clss condition">
                       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                       <label for="vehicle1"> Terms & Conditions: One free sample per address. Your sample request will be reviewed and sent within 7 business days.</label><br>
                     </div>
-                    <div class="fileds-cls btn-all-cls">
+                    <div class="fileds-clss btn-all-cls">
                       <button class="btn">Submit</button>
                     </div>
                   </div>
@@ -436,7 +436,7 @@ color: #006781;
 
   <script>
     $(".smp-btn").on('click', function() {
-      $(this).closest(".Free-Sample-section").find(".custom-model-main").addClass('model-open');
+      $(this).closest(".Free-Sample-sections").find(".custom-model-main").addClass('model-open');
     }); 
     $(".close-btn, .bg-overlay").click(function(){
       $(".custom-model-main").removeClass('model-open');

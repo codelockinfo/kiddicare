@@ -3161,7 +3161,7 @@ theme.MobileNav = (function() {
     cache.mobileNavToggle.focus();
 
     window.removeEventListener('keyup', keyUpHandler);
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 
   function mobileNavRemoveTrapFocus() {

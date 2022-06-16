@@ -232,6 +232,27 @@
     <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
     <li id="a11y-selection-message">{{ 'general.accessibility.selection_help' | t }}</li>
   </ul>
+  <div class="clspopup">
+    <div class="clscustom-model-main">
+      <div class="clscustom-model-inner">        
+        <div class="clsclose-btn">×</div>
+        <div class="clscustom-model-wrap">
+          <div class="clspop-up-content-wrap">
+            <div class="clspop-flex">
+              <div class="clsimg-popup clscombo-pop">
+                <img src="" class="imgecls">
+              </div>
+              <div class="clspopup-cont clscombo-pop">
+                <h2 class="clsheading-pop"></h2>
+                <p class="clstext-pop"></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>  
+      <div class="clsbg-overlay"></div>
+    </div>
+  </div>
 </body>
 </html>
 
@@ -249,3 +270,19 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
    src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Manrope-Regular_178f6d54-08f0-435a-b435-41fe4ed13d3b.ttf?v=1655356829");
   }
 </style>
+<script>
+  $(".clslogo-cls").on('click', function() {
+    console.log("hiiii");
+    $(".clscustom-model-main").addClass('clsmodel-open');
+    $dataSrc = $(this).attr("data-src");
+    $dataHeading = $(this).attr("data-heading");
+    $dataText = $(this).attr("data-text");
+    $(".imgecls").attr("src",$dataSrc);
+    $(".clsheading-pop").html($dataHeading);
+    $(".clstext-pop").html($dataText);
+  }); 
+  $(".clsclose-btn, .clsbg-overlay").click(function(){
+    $(".clscustom-model-main").removeClass('clsmodel-open');
+  });
+
+</script>
