@@ -24,13 +24,13 @@
       {%- assign is_filter_by_available = true -%}
     {%- endif -%}
     
-    lk,lkj
+    
     
     
 
     {% if section.settings.show_collection_image and collection.image %}
       <div class="collection-hero">
-        <div class="collection-hero__image  lazyload js"
+        <div class="collection-hero__image ratio-container lazyload js"
              data-bgset="{% include 'bgset', image: collection.image %}"
              data-sizes="auto"
              data-parent-fit="cover"
@@ -39,7 +39,12 @@
         <noscript>
           <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
         </noscript>
-      
+        <div class="collection-hero__title-wrapper">
+          <h1 class="collection-hero__title page-width">
+              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
+              {{ collection.title }}
+          </h1>
+        </div>
       </div>
       {% if is_filter_by_available == false and section.settings.sort_enable == false %}
         <div class="page-width">
@@ -122,13 +127,6 @@
       </div>
     {% endif %}
   </header>
-  
-
-          <h1 class="collection-hero__title ">
-              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
-              {{ collection.title }}
-          </h1>
-       
 <div class="mgbottom">
   <div class="clscontaincollections page-width" id="Collection">
     {% if section.settings.layout == 'grid' %}
