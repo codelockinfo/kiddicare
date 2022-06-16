@@ -35,7 +35,7 @@
   {%- assign enable_image_zoom = false -%}
   {% endcase %}
 
-  <div class="clsvfv grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
+  <div class="grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
     <div class="grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
       {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 {% comment %}
@@ -78,7 +78,7 @@
 
 
       {% if product.media.size > 1 %}
-      {% if product.media.size > 90 %}
+      {% if product.media.size > 40 %}
       {%- assign enable_thumbnail_slides = true -%}
       {% endif %}
 
@@ -92,7 +92,7 @@
           {% endif %}
 
           <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
-            {% if enable_thumbnail_slides == true %}
+            {% if enable_thumbnail_slides == false %}
             <div class="product-single__thumbnails-slider-track" data-slider-track>
               {% endif %}
 
@@ -144,8 +144,8 @@
       {% endif %}
     </div>
 
-  
-      <div class="product-single__meta grid__item {{ product_description_width }}">
+    <div class="grid__item {{ product_description_width }}">
+      <div class="product-single__meta">
         <div class="yyyyyyyy">
           {% if product.metafields.my_fields.star == 1 %}
           <span class="fa fa-star checked"></span>
@@ -318,7 +318,7 @@
       {% if section.settings.show_share_buttons %}
       {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product.featured_media %}
       {% endif %}
-
+    </div>
   </div>
 </div>
 
