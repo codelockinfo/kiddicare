@@ -46,7 +46,15 @@
       
       <div class="productslide">
         {%- for media in product.media -%}
-      
+       <div class="outer-ratiobox">
+            <div class="ratio-box">            
+              <img class="the-image" src="{{ media.src | img_url: 'master' }}"
+                   alt=""
+                   width="600"
+                   height="600"
+                   />
+            </div>
+          </div>
       
       
       {% endfor %}
