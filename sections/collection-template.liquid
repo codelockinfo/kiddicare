@@ -40,6 +40,19 @@
           <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
         </noscript>
         <div class="collection-hero__title-wrapper">
+          
+              <div class="width-cls-cll">
+          <h2 class="heading">{{section.settings.heading}}</h2>
+          <p class="text">{{section.settings.text}}</p>
+          <div class="name-coll">
+            {% for block in section.blocks %}
+            {%- assign collection = collections[block.settings.collection] -%}
+            <a href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}"> {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else %}{{collection.title}} {% endif %}</a>
+            {% endfor %}
+          </div>
+        </div>
+          
+          
           <h1 class="collection-hero__title page-width">
               <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
               {{ collection.title }}
