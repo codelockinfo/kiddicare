@@ -94,9 +94,9 @@
           </button>
           {% endif %}
 
-          <ul class=" product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
+          <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
             {% if enable_thumbnail_slides == true %}
-            <div class="slider-nav product-single__thumbnails-slider-track" data-slider-track>
+            <div class="product-single__thumbnails-slider-track" data-slider-track>
               {% endif %}
 
               {% for media in product.media %}
