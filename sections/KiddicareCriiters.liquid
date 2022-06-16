@@ -148,6 +148,7 @@
       <div class="content-product combo-prd2">
         <h2 class="heading"> {{ section.settings.heading }} </h2>
         <p class="text"> {{ section.settings.text }} </p>
+        <p class="sign_text">{{ section.settings.signtext }}</p>
         <div class="btn-product">
           <button class="btn but-cls"> <a href="{{ section.settings.btn-link }}"> {{ section.settings.btn-text }} </a> </button>
         </div>
@@ -175,6 +176,11 @@
 "id" : "text",
 "type" : "textarea",
 "label" : "Text"
+},
+{
+"id" : "signtext",
+"type" : "textarea",
+"label" : "Textarea"
 },
 {
 "id" : "btn-text",
