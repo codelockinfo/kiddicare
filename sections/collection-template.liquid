@@ -71,9 +71,11 @@
         </div>
       {% endif %}
       {% if collection.description != blank %}
+    <div class="mgclcollection">
         <div class="nippititcontain rte collection-description  ">
           {{ collection.description }}
         </div>
+    </div>
       {% endif %}
     {% else %}
       <div class="page-width">
@@ -728,6 +730,9 @@
   ul.customcollections.grid.grid--uniform.grid--view-items {
     margin-left: 16px;
 }
+  .nippititcontain{
+  
+  }
   
     @media(max-width:1200px){
       
