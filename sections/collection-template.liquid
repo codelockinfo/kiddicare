@@ -25,18 +25,7 @@
     {%- endif -%}
     
     
-          <div class="main-bg-img-col">
-        <div class="width-cls-cll">
-          <h2 class="heading">{{section.settings.heading}}</h2>
-          <p class="text">{{section.settings.text}}</p>
-          <div class="name-coll">
-            {% for block in section.blocks %}
-            {%- assign collection = collections[block.settings.collection] -%}
-            <a href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}"> {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else %}{{collection.title}} {% endif %}</a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
+    
     
 
     {% if section.settings.show_collection_image and collection.image %}
