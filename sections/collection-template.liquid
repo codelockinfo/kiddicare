@@ -295,6 +295,11 @@
 "type" : "textarea",
 "label" : "Text"
 },
+{
+"id" : "image",
+"type" : "image_picker",
+"label" : "Image"
+},
     {
       "type": "select",
       "id": "layout",
@@ -657,5 +662,11 @@
     align-items: center;
     justify-content: center;
 
+  }
+    .main-bg-img-col{
+    background-image: url({{section.settings.image | img_url:'master'}});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 </style>
