@@ -781,6 +781,20 @@
         "settings": {
           "titlep": "RELATED PRODUCT"
         }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "heading": "KIDDICARE PRODUCTS",
+          "text": "Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
       }
     },
     "content_for_index": [
