@@ -106,11 +106,25 @@
           "settings": {
             "discript": "Exchange 4000 Kiddipoints for a 30% off coupon"
           }
+        },
+        "41ac6433-5357-4c41-9abe-5731b4e81846": {
+          "type": "heading",
+          "settings": {
+            "title": "Order discount:"
+          }
+        },
+        "4b62d8d3-076b-43b9-8dff-de4232a5ce2f": {
+          "type": "disciption",
+          "settings": {
+            "discript": "Exchange Kiddipoints for a discount. Every 100 points can be exchanged for $1."
+          }
         }
       },
       "block_order": [
         "6d8a4d23-0b67-4d34-b747-96184f744333",
-        "760bd556-8b91-4335-afcb-ff42db47aa53"
+        "760bd556-8b91-4335-afcb-ff42db47aa53",
+        "41ac6433-5357-4c41-9abe-5731b4e81846",
+        "4b62d8d3-076b-43b9-8dff-de4232a5ce2f"
       ],
       "settings": {
         "kom": "shopify:\/\/shop_images\/DSC00680_1_540x_2e76180d-83fa-4309-906c-bf5e7eeb98a5.png",
