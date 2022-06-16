@@ -35,13 +35,9 @@
              data-sizes="auto"
              data-parent-fit="cover"
              data-image-loading-animation
-        ></div>
-        <noscript>
-          <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
-        </noscript>
-        <div class="clsrelat collection-hero__title-wrapper">
+        >
           
-              <div class="width-cls-cll">
+                  <div class="width-cls-cll">
           <h2 class="heading">{{section.settings.heading}}</h2>
           <p class="text">{{section.settings.text}}</p>
     
@@ -52,6 +48,14 @@
             {% endfor %}
           </div>
         </div>
+        
+        </div>
+        <noscript>
+          <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
+        </noscript>
+        <div class="clsrelat collection-hero__title-wrapper">
+          
+      
           
           
           <h1 class="collection-hero__title page-width">
