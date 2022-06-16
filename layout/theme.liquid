@@ -425,6 +425,7 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
 <script>
   $(".clslogo-cls").on('click', function() {
     console.log("hiiii");
+    $(".clspopup").css("display","block");
     $(".clscustom-model-main").addClass('clsmodel-open');
     $dataSrc = $(this).attr("data-src");
     $dataHeading = $(this).attr("data-heading");
@@ -434,22 +435,27 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
     $(".clstext-pop").html($dataText);
   }); 
   $(".clsclose-btn, .clsbg-overlay").click(function(){
+    $(".clspopup").css("display","none");
     $(".clscustom-model-main").removeClass('clsmodel-open');
   });
 
     $(".smp-btn").on('click', function() {
       console.log("hfuhfuhfudhfuhuhguhgu");
+      $(".popupcls").css("display","block");
       $(".custom-model-maincls").addClass('model-opencls');
     }); 
     $(".close-btncls, .bg-overlay").click(function(){
+      $(".popupcls").css("display","none");
       $(".custom-model-maincls").removeClass('model-opencls');
     });
 
       $(".start_get").on('click', function() {
         console.log("hello");
+        $(".popups").css("display","block");
         $(".custom-model-mains").addClass('model-opens');
       }); 
       $(".close-btns, .bg-overlays").click(function(){
+        $(".popups").css("display","none");
         $(".custom-model-mains").removeClass('model-opens');
       });
   
