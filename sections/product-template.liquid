@@ -46,7 +46,8 @@
       
       <div class="productslide ">
         {%- for media in product.media -%}
-       <div class="outer-ratiobox product-single__media-wrapper ">
+       <div id="{{ media_wrapper_id }}"
+    class="product-single__media-wrapper js{% unless featured_media == media %} hide{% endunless %}">
             <div class="ratio-box">            
               <img class="the-image" src="{{ media.src | img_url: 'master' }}"
                    alt=""
