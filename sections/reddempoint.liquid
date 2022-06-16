@@ -1,12 +1,221 @@
+ <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="earnkiddipoint">
+  <div class="earncontainer">
+    <div class="earn_type">
+      <div class="earntypetext">
+        <div class="earntypetext1">
+          {% if section.settings.kom!= blank %}
+          <div class="earntypetextcontain">
+          <img src="{{section.settings.kom | img_url:'master'}}" class="komeimage">
+          </div>
+          {% endif %}
+        </div>
+         <div class="earntypetext2">
+           <h2 class="kidpoint">{{section.settings.kiddpoint}}</h2>
+           <p class="methodpont">{{section.settings.methodpoint}}</p>
+           <div class="earntypetextcontain">
+           {% for block in section.blocks %}
+              {%- case block.type -%}
+              {%- when 'heading' -%}
+             <div class="kiddititle">
+               <h3 class="placetitle">{{block.settings.title}}</h3>              
+                 </div>
+                   {%- when 'disciption' -%}
+               <div class="kiddiscription">
+               <p class="placedic">{{block.settings.discript}}</p>                           
+             </div>
+             {% endcase %}
+             {% endfor %}
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>  
+
+<style>
+  .earnkiddipoint {
+    background: #E5E5E5;
+  }
+  .earncontainer{
+  	margin:0 10%;
+  }
+  .earntypetext{
+  	display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .earntypetext1{
+  	flex: 0 0 50%;
+    max-width: 48%;
+  }
+  .earntypetext2{
+  	flex: 0 0 50%;
+    max-width: 48%;
+  }
+  .kidpoint {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0;
+    width:80%;
+  }
+  .methodpont {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #006781;
+    margin-top:38px;
+  }
+  .placetitle {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #006781;
+    margin-bottom:10px;
+  }
+  .placedic {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    width:85%;
+  }
+  .komeimage{
+    max-width: 100%;
+    border: 0;
+    width: 100%;
+  }
+  @media screen and (max-width:768px){
+    .earntypetext2{
+    	display:block;
+    }
+    .earntypetext1{
+    	flex:0 0 100%;
+      	max-width:100%;
+    }
+    .earntypetext2{
+    	flex:0 0 100%;
+        max-width:100%;
+    }
+   	.kidpoint{
+    	width:100%;
+    }
+    .methodpont{
+    	width:100%;
+    }
+    .placedic{
+    	width:100%;
+    }
+    .placetitle{
+    	width:100%;
+    }
+  }
+  @media screen and (max-width:546px){
+  	.earntypetext1{
+    	flex:0 0 100%;
+      	max-width:100%;
+    }
+    .earntypetext2{
+    	flex:0 0 100%;
+        max-width:100%;
+    }
+    .kidpoint{
+    	width:100%;
+    }
+    .methodpont{
+    	width:100%;
+    }
+    .placedic{
+    	width:100%;
+    }
+    .placetitle{
+    	width:100%;
+    }
+  }
+	@media screen and (max-width:900px){
+  	.earntypetext1{
+    	flex:0 0 100%;
+      	max-width:100%;
+    }
+    .earntypetext2{
+    	flex:0 0 100%;
+        max-width:100%;
+    }
+  }
+
+  
+</style>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "EarnKiddipoint",
+
+  "settings": [
+      {
+   "id": "kom",
+   "type": "image_picker",
+    "label": "Banner Image"
+   },
+ {
+    "id" : "kiddpoint",
+    "type" : "text",
+    "label" : "title"
+  },
+ {
+    "id" : "methodpoint",
+    "type" : "text",
+    "label" : "Sub-title"
   }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  ],
+  "blocks":[
+    {
+       "name": "heading",
+       "type": "heading",
+       "settings": [
+       
+  {
+    "id" : "title",
+    "type" : "text",
+    "label" : "title"
+  }
 
-{% javascript %}
-{% endjavascript %}
+       ]
+     },
+    {
+       "name": "disciption",
+       "type": "disciption",
+       "settings": [
+       
+  {
+    "id" : "discript",
+    "type" : "textarea",
+    "label" : "Discription"
+  }
+
+       ]
+     }
+
+  ],
+  "presets" : [
+  {
+    "name" : "EarnKiddipoint",
+    "category" : "EarnKiddipoint"
+
+    }
+  ]
+  }
+  {% endschema %}
