@@ -25,14 +25,14 @@
   <div class="product-card__image-with-placeholder-wrapper" data-image-loading-animation>
     <div id="{{ wrapper_id }}" class="grid-view-item__image-wrapper product-card__image-wrapper js">
       <div style="padding-top:{% unless preview_image == blank %}{{ 1 | divided_by: preview_image.aspect_ratio | times: 100 }}%{% else %}100%{% endunless %};">
-        <img id="{{ img_id }}"
+       <a href="{{product.url}}"> <img id="{{ img_id }}"
               class="grid-view-item__image lazyload"
               alt="{{ preview_image.alt }}"
               data-src="{{ img_url }}"
               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
               data-aspectratio="{{ preview_image.aspect_ratio }}"
               data-sizes="auto"
-              data-image>
+                                       data-image></a>
          <img class="main-bg-hover" src="https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Component_8_1.png?v=1655012800">
       </div>
       
