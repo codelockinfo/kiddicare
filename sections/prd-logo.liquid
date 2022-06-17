@@ -1,5 +1,5 @@
 <style>
-  #shopify-section-prd-logo{  
+  #shopify-section-prd-logo {
     position: absolute;
     z-index: 2;
     margin-top: -8%;
@@ -7,34 +7,47 @@
     margin-right: auto;
     width: 100%;
   }
+
   div#prd-logo {
     max-width: 1400px;
     margin: auto;
     width: 100%;
   }
-  .main-logos-section{
-    background: {{section.settings.color}};
-/*     padding: 3% 0 20% 0; */
+
+  .main-logos-section {
+    background: {
+        {
+        section.settings.color
+      }
+    }
+
+    ;
+    /*     padding: 3% 0 20% 0; */
   }
-  .All-logos{
+
+  .All-logos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  img.img-hover{
+
+  img.img-hover {
     display: none;
   }
-  .first-logo{
+
+  .first-logo {
     width: 20%;
-    padding:3%;
+    padding: 3%;
   }
-  .width-cnt{
+
+  .width-cnt {
     max-width: 900px;
     margin: auto;
     text-align: center;
     width: 100%;
   }
-  .width-cnt h2.heading{
+
+  .width-cnt h2.heading {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -43,7 +56,8 @@
     text-align: center;
     color: #006781;
   }
-  .width-cnt p.text{
+
+  .width-cnt p.text {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -52,106 +66,115 @@
     text-align: center;
     color: #333333;
   }
-  .logo-cls:hover img.img-normal{
-      display: none;
-   }
-  .logo-cls:hover img.img-hover{
-      display: block !important;
-   }
-  .logo-cls{
+
+  .logo-cls:hover img.img-normal {
+    display: none;
+  }
+
+  .logo-cls:hover img.img-hover {
+    display: block !important;
+  }
+
+  .logo-cls {
     cursor: pointer;
   }
-  
-  
-/*   / POPUP CSS START / */
-  .custom-model-main {
-  text-align: center;
-  overflow: hidden;
-  position: fixed;
-/*   top: 0; */
-  right: 0;
-    left: 0;
-/*   bottom: 0; */
-/*   left: 0; / z-index: 1050; / */
-  -webkit-overflow-scrolling: touch;
-  outline: 0;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear, z-index 0.15;
-  -o-transition: opacity 0.15s linear, z-index 0.15;
-  transition: opacity 0.15s linear, z-index 0.15;
-  z-index: -1;
-/*   overflow-x: hidden; */
-/*   overflow-y: auto; */
-}
 
-.model-open {
-  z-index: 99999;
-  opacity: 1;
-  overflow: hidden;
-}
-.custom-model-inner {
-  -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  transform: translate(0, -25%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  transition: -webkit-transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  margin: 30px auto;
-  max-width: 1200px;
-}
-.custom-model-wrap {
-  display: block;
-  width: 100%;
-  position: relative;
-  background-color: #fff;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  background-clip: padding-box;
-  outline: 0;
-  text-align: left;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-/*   max-height: calc(100vh - 70px); */
-/* 	overflow-y: auto; */
-}
-.model-open .custom-model-inner {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  position: relative;
-  z-index: 999;
-}
-.model-open .bg-overlay {
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 99;
-}
-.bg-overlay {
-  background: rgba(0, 0, 0, 0);
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  -webkit-transition: background 0.15s linear;
-  -o-transition: background 0.15s linear;
-  transition: background 0.15s linear;
-}
-.close-btn {
-  position: absolute;
+
+  /*   / POPUP CSS START / */
+  .custom-model-main {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    /*   top: 0; */
+    right: 0;
+    left: 0;
+    /*   bottom: 0; */
+    /*   left: 0; / z-index: 1050; / */
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear, z-index 0.15;
+    -o-transition: opacity 0.15s linear, z-index 0.15;
+    transition: opacity 0.15s linear, z-index 0.15;
+    z-index: -1;
+    /*   overflow-x: hidden; */
+    /*   overflow-y: auto; */
+  }
+
+  .model-open {
+    z-index: 99999;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .custom-model-inner {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1200px;
+  }
+
+  .custom-model-wrap {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*   max-height: calc(100vh - 70px); */
+    /* 	overflow-y: auto; */
+  }
+
+  .model-open .custom-model-inner {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: relative;
+    z-index: 999;
+  }
+
+  .model-open .bg-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+  }
+
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+  }
+
+  .close-btn {
+    position: absolute;
     right: -20px;
     top: -20px;
     cursor: pointer;
@@ -161,19 +184,23 @@
     background: #fff;
     width: 50px;
     border-radius: 50%;
-}
-  .pop-flex{
+  }
+
+  .pop-flex {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  .combo-pop{
+
+  .combo-pop {
     width: 50%;
   }
-  .popup-cont{
+
+  .popup-cont {
     margin: auto;
   }
-  h2.heading-pop{
+
+  h2.heading-pop {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -181,7 +208,8 @@
     line-height: 42px;
     color: #006781;
   }
-  p.text-pop{
+
+  p.text-pop {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -189,37 +217,43 @@
     line-height: 28px;
     color: #333333;
   }
-  .img-popup img{
+
+  .img-popup img {
     width: 100%;
   }
-  .popup-cont{
+
+  .popup-cont {
     padding: 5%;
   }
+
   @media only screen and (max-width: 1300px) {
-    #shopify-section-prd-logo { 
+    #shopify-section-prd-logo {
       margin-top: -10%;
     }
   }
-@media screen and (min-width:800px){
-	.custom-model-main:before {
-	  content: "";
-	  display: inline-block;
-	  height: auto;
-	  vertical-align: middle;
-	  margin-right: -0px;
-	  height: 100%;
-	}
-}
-@media screen and (max-width:799px){
-  .custom-model-inner{margin-top: 45px;}
-}
 
-  
-/*   / POPUP CSS END / */
+  @media screen and (min-width:800px) {
+    .custom-model-main:before {
+      content: "";
+      display: inline-block;
+      height: auto;
+      vertical-align: middle;
+      margin-right: -0px;
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width:799px) {
+    .custom-model-inner {
+      margin-top: 45px;
+    }
+  }
+
+
+  /*   / POPUP CSS END / */
 </style>
 
 <style>
- 
   .clswidth-cnt h2.clsheading {
     font-family: 'Hunterswood';
     font-style: normal;
@@ -262,7 +296,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    bottom:5%;
+    bottom: 5%;
     left: 0;
     -webkit-overflow-scrolling: touch;
     outline: 0;
@@ -300,7 +334,7 @@
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-     margin: 3% auto; 
+    margin: 3% auto;
     max-width: 1200px;
   }
 
@@ -412,14 +446,13 @@
   .clspopup-cont {
     padding: 5%;
   }
-  
 
-  
+
+
 
 
   @media screen and (min-width:800px) {
     .clscustom-model-main:before {
-      {% comment %} content: ""; {% endcomment %}
       display: inline-block;
       height: auto;
       vertical-align: middle;
@@ -440,38 +473,43 @@
     .clsmain-logos-section {
       padding: 3% 0 200px 0;
     }
-    .clswidth-cnt p.clstext{
+
+    .clswidth-cnt p.clstext {
       width: 65%;
-}
+    }
 
     .clswidth-cnt p.text {
       width: 55%;
     }
-    .clscustom-model-inner{
+
+    .clscustom-model-inner {
       width: 85%;
       margin: 5% auto;
-}
-  }
-    @media screen and (max-width:1200px) {
-    .clswidth-cnt p.clstext{
-    	    width: 65%;
     }
-    .clscustom-model-inner{
+  }
+
+  @media screen and (max-width:1200px) {
+    .clswidth-cnt p.clstext {
+      width: 65%;
+    }
+
+    .clscustom-model-inner {
       width: 85%;
       margin: 8% auto;
-}
+    }
   }
+
   @media screen and (max-width:1024px) {
-    .clscustom-model-inner{
+    .clscustom-model-inner {
       width: 85%;
       margin: 5% auto;
-}
+    }
   }
-  
-    @media screen and (max-width:991px) {
-.clswidth-cnt p.clstext {
-    width: 90%;
-}
+
+  @media screen and (max-width:991px) {
+    .clswidth-cnt p.clstext {
+      width: 90%;
+    }
   }
 
   @media(max-width:950px) {
@@ -483,22 +521,24 @@
       width: 68%;
     }
   }
-  
-    @media screen and (max-width:799px) {
+
+  @media screen and (max-width:799px) {
     .clscustom-model-inner {
       margin-top: 45px;
     }
-    .clscustom-model-inner{
+
+    .clscustom-model-inner {
       width: 85%;
       margin: 17% auto;
-}
+    }
   }
 
   @media(max-width:768px) {
-    .clscustom-model-inner{
+    .clscustom-model-inner {
       width: 85%;
       margin: 20% auto;
-}
+    }
+
     .clsfirst-logo {
       width: 33.33%;
     }
@@ -506,22 +546,25 @@
     .clsmain-logos-section {
       padding: 3% 0 550px 0;
     }
-    .clspop-flex{
+
+    .clspop-flex {
       align-items: center;
     }
   }
 
   @media(max-width:600px) {
-    
-    .clscustom-model-wrap{
+
+    .clscustom-model-wrap {
       width: 94%;
       margin: auto;
       height: 528px;
       overflow: scroll;
     }
-    .clsclose-btn{
+
+    .clsclose-btn {
       right: 4px;
     }
+
     .clspop-flex .clscombo-pop {
       width: 100%;
     }
@@ -529,9 +572,10 @@
     .clswidth-cnt p.clstext {
       width: 76%;
     }
+
     .clswidth-cnt p.clstext {
-    width: 100%;
-}
+      width: 100%;
+    }
   }
 
   @media(max-width:540px) {
@@ -661,10 +705,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-  $(".logo-cls").on('click', function() {
+  $(".logo-cls").on('click', function () {
     $(this).closest(".first-logo").find(".custom-model-main").addClass('model-open');
-  }); 
-  $(".close-btn, .bg-overlay").click(function(){
+  });
+  $(".close-btn, .bg-overlay").click(function () {
     $(".custom-model-main").removeClass('model-open');
   });
 

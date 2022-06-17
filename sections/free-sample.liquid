@@ -1,33 +1,37 @@
 <style>
-  .popup-formscls{
+  .popup-formscls {
     margin: 0 2%;
   }
-  .Main-Free-Samples{
+
+  .Main-Free-Samples {
     position: absolute;
     /* background: #fff; */
     width: 100%;
     margin-top: -200px;
   }
-  .Free-Sample-sections{
+
+  .Free-Sample-sections {
     margin: 0 10%;
     background: #fff;
     padding: 2px;
     border-radius: 10px;
   }
-  .Free-Sample-sections h2.heading{
-font-family: 'Hunterswood';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 72px;
-text-align: center;
+
+  .Free-Sample-sections h2.heading {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
     letter-spacing: 1px;
     margin-bottom: 19px;
-color: #006781;
+    color: #006781;
 
   }
-  .Free-Sample-sections p.text{
-   font-family: 'Manrope';
+
+  .Free-Sample-sections p.text {
+    font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -36,8 +40,9 @@ color: #006781;
     margin: 0 auto;
     color: #333333;
   }
-  button.btn.smp-btn{
-  	    font-family: 'Hunterswood';
+
+  button.btn.smp-btn {
+    font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -46,22 +51,27 @@ color: #006781;
     color: #FFFFFF;
     padding: 3px 30px 20px;
   }
-  .button-sample button.smp-btn{
+
+  .button-sample button.smp-btn {
     background: #ea8282;
     border-radius: 50px;
   }
-  .button-sample button.smp-btn a{
+
+  .button-sample button.smp-btn a {
     color: #fff;
   }
-  .button-sample button.smp-btn:hover{
+
+  .button-sample button.smp-btn:hover {
     background: #ea8282;
     border-radius: 50px;
   }
-  .button-sample button.smp-btn a:hover{
+
+  .button-sample button.smp-btn a:hover {
     color: #fff;
     text-decoration: none;
   }
-  .button-sample{
+
+  .button-sample {
     text-align: center;
   }
 
@@ -70,9 +80,9 @@ color: #006781;
     text-align: center;
     overflow: hidden;
     position: fixed;
-    top: 0; 
+    top: 0;
     right: 0;
-     bottom: 0; 
+    bottom: 0;
     left: 0;
     /* z-index: 1050; */
     -webkit-overflow-scrolling: touch;
@@ -92,6 +102,7 @@ color: #006781;
     overflow: hidden;
     padding: 3%;
   }
+
   .custom-model-innercls {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
@@ -105,9 +116,9 @@ color: #006781;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    {% comment %} margin: 30px auto; {% endcomment %}
     max-width: 1200px;
   }
+
   .custom-model-wrapcls {
     display: block;
     width: 100%;
@@ -128,13 +139,14 @@ color: #006781;
     max-height: calc(100vh - 70px);
     overflow-y: scroll;
     overflow-x: hidden;
-    {% comment %} overflow-y: auto; {% endcomment %}
     margin: 1%;
   }
-  .pop-up-content-wrapcls{
+
+  .pop-up-content-wrapcls {
     border: 2px dashed #84DADE;
     border-radius: 6px;
   }
+
   .model-opencls .custom-model-innercls {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -142,10 +154,12 @@ color: #006781;
     position: relative;
     z-index: 999;
   }
-  .model-opencls .bg-overlaycls{
+
+  .model-opencls .bg-overlaycls {
     background: rgba(0, 0, 0, 0.6);
     z-index: 99;
   }
+
   .bg-overlaycls {
     background: rgba(0, 0, 0, 0);
     height: 100%;
@@ -160,6 +174,7 @@ color: #006781;
     -o-transition: background 0.15s linear;
     transition: background 0.15s linear;
   }
+
   .close-btncls {
     position: absolute;
     right: -20px;
@@ -172,18 +187,22 @@ color: #006781;
     width: 50px;
     border-radius: 50%;
   }
-  .pop-flex{
+
+  .pop-flex {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  .combo-pop{
+
+  .combo-pop {
     width: 50%;
   }
-  .popup-cont{
+
+  .popup-cont {
     margin: auto;
   }
-  h2.heading-pop{
+
+  h2.heading-pop {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -191,7 +210,8 @@ color: #006781;
     line-height: 42px;
     color: #006781;
   }
-  p.text-pop{
+
+  p.text-pop {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -199,54 +219,67 @@ color: #006781;
     line-height: 28px;
     color: #333333;
   }
-  .img-popup img{
+
+  .img-popup img {
     width: 100%;
   }
-  .popup-cont{
+
+  .popup-cont {
     padding: 5%;
   }
-  .fileds-clss input{
+
+  .fileds-clss input {
     width: 100%;
     border-radius: 10px;
   }
-  .flex-fieldcls{
+
+  .flex-fieldcls {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
   }
-  .fileds-clss{
+
+  .fileds-clss {
     width: 48%;
     margin: 1%;
   }
-  .fileds-clss.select-cls{
+
+  .fileds-clss.select-cls {
     width: 100%;
 
   }
-  .fileds-clss select , .fileds-clss textarea{
+
+  .fileds-clss select,
+  .fileds-clss textarea {
     width: 100%;
     border-radius: 10px;
   }
-  .fileds-clss.condition{
+
+  .fileds-clss.condition {
     width: 68%;
     display: flex;
     align-items: center;
   }
-  .condition input{
+
+  .condition input {
     margin-right: 3%;
     width: unset;
   }
-  .fileds-clss.btn-all-cls{
+
+  .fileds-clss.btn-all-cls {
     width: 28%;
     margin: auto;
     text-align: center;
   }
-  .btn-all-cls button{
+
+  .btn-all-cls button {
     background: #F48F89;
     border-radius: 50px;
     padding: 3% 10%;
   }
-  h2.sample-heading{
+
+  h2.sample-heading {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -254,7 +287,8 @@ color: #006781;
     line-height: 40px;
     color: #006781;
   }
-  .condition label{
+
+  .condition label {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -262,32 +296,34 @@ color: #006781;
     line-height: 26px;
     color: #333333;
   }
-    .bdradious{
-  	border: 2px dashed #84DADE;
+
+  .bdradious {
+    border: 2px dashed #84DADE;
     border-radius: 6px;
     margin: 13px;
   }
+
   .brdpadding {
     padding: 3%;
-}
+  }
+
   .button-sample {
     padding-top: 20px;
-}
-
-    .Free-Sample-section p.text{    	
-    width: 66%;
-    }
-  
-  @media screen and (max-width:991px){
-  	.Free-Sample-sections {
-    margin-left: 2%;
-    margin-right: 2%;
-}
   }
-  
-  @media screen and (min-width:800px){
+
+  .Free-Sample-section p.text {
+    width: 66%;
+  }
+
+  @media screen and (max-width:991px) {
+    .Free-Sample-sections {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+
+  @media screen and (min-width:800px) {
     .custom-model-maincls:before {
-      {% comment %} content: ""; {% endcomment %}
       display: inline-block;
       height: auto;
       vertical-align: middle;
@@ -295,41 +331,52 @@ color: #006781;
       height: 100%;
     }
   }
-  @media screen and (max-width:799px){
-    .custom-model-innercls{margin-top: 45px;    bottom: 27px;
+
+  @media screen and (max-width:799px) {
+    .custom-model-innercls {
+      margin-top: 45px;
+      bottom: 27px;
     }
-    .Free-Sample-sections h2.heading{
-    	    font-size: 44px;
-    line-height: 47px;
+
+    .Free-Sample-sections h2.heading {
+      font-size: 44px;
+      line-height: 47px;
     }
-       .Free-Sample-sections p.text{    	
-    width: 100%;
+
+    .Free-Sample-sections p.text {
+      width: 100%;
     }
   }
-  @media(max-width:600px){
-    .fileds-clss{
+
+  @media(max-width:600px) {
+    .fileds-clss {
       width: 100%;
       margin: 1%;
     }
-    .fileds-clss.btn-all-cls{
+
+    .fileds-clss.btn-all-cls {
       width: 100%;
       margin-bottom: 5%;
     }
-    .fileds-clss.condition{
+
+    .fileds-clss.condition {
       width: 100%;
     }
+
     .brdpadding {
-    padding: 12% 3%;
-}
+      padding: 12% 3%;
+    }
   }
-  @media(max-width:414px){
-  	.Free-Sample-sections h2.heading {
-    font-size: 29px;
-    line-height: 32px;
-}
-    .Free-Sample-sections p.text{
-    	font-size: 14px;
-    line-height: 25px;
+
+  @media(max-width:414px) {
+    .Free-Sample-sections h2.heading {
+      font-size: 29px;
+      line-height: 32px;
+    }
+
+    .Free-Sample-sections p.text {
+      font-size: 14px;
+      line-height: 25px;
     }
   }
 
@@ -341,50 +388,46 @@ color: #006781;
   <div class="Free-Sample-sections">
     <div class="bdradious">
       <div class="CLS brdpadding">
-    <h2 class="heading">{{section.settings.heading}}</h2>
-    <p class="text">{{section.settings.text}}</p>
-    <div class="button-sample">
-      <button class="btn smp-btn"> {{ section.settings.btn-text }} </button>
-    </div>
-   
-    </div>
+        <h2 class="heading">{{section.settings.heading}}</h2>
+        <p class="text">{{section.settings.text}}</p>
+        <div class="button-sample">
+          <button class="btn smp-btn"> {{ section.settings.btn-text }} </button>
+        </div>
+
+      </div>
     </div>
   </div>
 </div>
 
-  {% schema %}
-  {
-  "name": "Free Sample",
-  "settings": [
-  {
-  "id" : "heading",
-  "type" : "text",
-  "label" : "Heading"
-  },
-  {
-  "id" : "text",
-  "type" : "textarea",
-  "label" : "Text"
-  },
-  {
-  "id" : "btn-text",
-  "type" : "text",
-  "label" : "Bbutton"
-  },
-  {
-  "id" : "btn-link",
-  "type" : "url",
-  "label" : "Button Text"
-  }
-  ],
-  "presets" : [
-  {
-  "name" : "Free Sample"
-  }
-  ]
-  }
-  {% endschema %}
-
-
- 
-
+{% schema %}
+{
+"name": "Free Sample",
+"settings": [
+{
+"id" : "heading",
+"type" : "text",
+"label" : "Heading"
+},
+{
+"id" : "text",
+"type" : "textarea",
+"label" : "Text"
+},
+{
+"id" : "btn-text",
+"type" : "text",
+"label" : "Bbutton"
+},
+{
+"id" : "btn-link",
+"type" : "url",
+"label" : "Button Text"
+}
+],
+"presets" : [
+{
+"name" : "Free Sample"
+}
+]
+}
+{% endschema %}
