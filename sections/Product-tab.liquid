@@ -7,7 +7,6 @@
 <style>
 
   .Min-Tab-CLS{
-/*     padding: 0 5%; */
         margin: 0 10%;
   }
   .Main-tab-section{
@@ -36,7 +35,6 @@
   }
   .with-product img.bg-img {
     position: absolute;
-    /* width: auto; */
     opacity: 0;
     z-index: 99;
     margin-top: -10%;
@@ -60,7 +58,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 66px;
+    line-height: 85px;
     text-align: center;
     color: #006781;
     letter-spacing: 0px;
@@ -99,9 +97,6 @@
     padding:0px;
     height:auto;
     margin-top: 10%;
-    /*     background:url({{section.settings.bgimage | img_url:'master' }}); */
-    /*     background-repeat: no-repeat; */
-    /*     background-size: cover; */
   }
   .all-title-cls .nav-tabs
   {
@@ -175,6 +170,12 @@
     height: 300px;
 }  
 }
+    @media screen and (max-width:991px){
+  	.Free-Sample-sections {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  }
   /* tab css END  */
   @media(max-width:768px){
     .Main-product{
