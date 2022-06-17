@@ -7198,6 +7198,11 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 #PageContainer {
   padding-top: 80px;
 }
+#stockist-widget .stockist-result-list {
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: auto !important;
+}
 
 @media screen and (max-width: 749px) {
 #PageContainer {

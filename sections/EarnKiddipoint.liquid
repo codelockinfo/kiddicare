@@ -2,7 +2,9 @@
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <div class="kiddidinner">
 <div class="earnkiddipoint">
+ 
   <div class="earncontainer">
+     <div class="bddottedearn">
     <div class="earn_type">
       <div class="earntypetext">
         <div class="earntypetext1">
@@ -35,9 +37,15 @@
     </div>
   </div>
   </div>
+  </div>
 </div>  
 
 <style>
+  .bddottedearn{
+  	    border-top: 2px dashed #FFFFFF;
+    border-bottom: 2px dashed #FFFFFF;
+    padding: 6% 0%;
+  }
   .earnkiddipoint {
     background: #E5E5E5;
         padding-top: 3%;
@@ -117,13 +125,17 @@
     .earntypetext2{
     	display:block;
     }
+    .earntypetext{
+    	    justify-content: center;
+    }
     .earntypetext1{
     	flex:0 0 100%;
-      	max-width:100%;
+      	max-width:80%;
     }
     .earntypetext2{
     	flex:0 0 100%;
         max-width:100%;
+          text-align: center;
     }
    	.kidpoint{
     	width:100%;
@@ -137,12 +149,17 @@
     .placetitle{
     	width:100%;
     }
+    
   }
   @media screen and (max-width:546px){
   	.earntypetext1{
     	flex:0 0 100%;
       	max-width:100%;
     }
+  .kidpoint {
+    font-size: 45px !important;
+    line-height: 54px !important;
+}
     .earntypetext2{
     	flex:0 0 100%;
         max-width:100%;
@@ -160,16 +177,7 @@
     	width:100%;
     }
   }
-	@media screen and (max-width:900px){
-  	.earntypetext1{
-    	flex:0 0 100%;
-      	max-width:100%;
-    }
-    .earntypetext2{
-    	flex:0 0 100%;
-        max-width:100%;
-    }
-  }
+
 
   
 </style>
