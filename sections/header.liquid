@@ -1010,3 +1010,18 @@
     justify-content: space-evenly;
   }
 </style>
+
+<script>
+$(window).scroll(function() {
+  var sticky = $('.mobile-menu'),
+    scroll = $(window).scrollTop();
+   
+  if (scroll >= 40) { 
+    sticky.addClass('fixed'); }
+  else { 
+   sticky.removeClass('fixed');
+
+}
+});
+
+</script>
