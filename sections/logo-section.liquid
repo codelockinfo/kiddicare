@@ -68,6 +68,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    bottom:5%;
     left: 0;
     -webkit-overflow-scrolling: touch;
     outline: 0;
@@ -105,7 +106,7 @@
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    margin: 30px auto;
+     margin: 3% auto; 
     max-width: 1200px;
   }
 
@@ -224,7 +225,7 @@
 
   @media screen and (min-width:800px) {
     .clscustom-model-main:before {
-      content: "";
+      {% comment %} content: ""; {% endcomment %}
       display: inline-block;
       height: auto;
       vertical-align: middle;
@@ -245,16 +246,34 @@
     .clsmain-logos-section {
       padding: 3% 0 200px 0;
     }
+    .clswidth-cnt p.clstext{
+      width: 65%;
+}
 
     .clswidth-cnt p.text {
       width: 55%;
     }
+    .clscustom-model-inner{
+      width: 85%;
+      margin: 5% auto;
+}
   }
     @media screen and (max-width:1200px) {
     .clswidth-cnt p.clstext{
     	    width: 65%;
     }
+    .clscustom-model-inner{
+      width: 85%;
+      margin: 8% auto;
+}
   }
+  @media screen and (max-width:1024px) {
+    .clscustom-model-inner{
+      width: 85%;
+      margin: 20% auto;
+}
+  }
+  
     @media screen and (max-width:991px) {
 .clswidth-cnt p.clstext {
     width: 90%;
@@ -275,9 +294,17 @@
     .clscustom-model-inner {
       margin-top: 45px;
     }
+    .clscustom-model-inner{
+      width: 85%;
+      margin: 17% auto;
+}
   }
 
   @media(max-width:768px) {
+    .clscustom-model-inner{
+      width: 85%;
+      margin: 20% auto;
+}
     .clsfirst-logo {
       width: 33.33%;
     }
@@ -285,13 +312,18 @@
     .clsmain-logos-section {
       padding: 3% 0 550px 0;
     }
-
+    .clspop-flex{
+      align-items: center;
+    }
   }
 
   @media(max-width:600px) {
+    
     .clscustom-model-wrap{
       width: 94%;
       margin: auto;
+      height: 528px;
+      overflow: scroll;
     }
     .clsclose-btn{
       right: 4px;

@@ -105,7 +105,7 @@ color: #006781;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    margin: 30px auto;
+    {% comment %} margin: 30px auto; {% endcomment %}
     max-width: 1200px;
   }
   .custom-model-wrapcls {
@@ -296,7 +296,8 @@ color: #006781;
     }
   }
   @media screen and (max-width:799px){
-    .custom-model-innercls{margin-top: 45px;}
+    .custom-model-innercls{margin-top: 45px;    bottom: 27px;
+    }
     .Free-Sample-sections h2.heading{
     	    font-size: 44px;
     line-height: 47px;
@@ -312,6 +313,7 @@ color: #006781;
     }
     .fileds-clss.btn-all-cls{
       width: 100%;
+      margin-bottom: 5%;
     }
     .fileds-clss.condition{
       width: 100%;
