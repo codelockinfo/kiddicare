@@ -1024,7 +1024,7 @@ $(window).scroll(function() {
   var sticky = $('.clssitedrpper '),
     scroll = $(window).scrollTop();
    
-  if (scroll >= 40) { 
+  if (scroll > 0) { 
     sticky.addClass('fixed'); }
   else { 
    sticky.removeClass('fixed');
