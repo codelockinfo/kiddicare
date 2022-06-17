@@ -1009,4 +1009,27 @@
   .clssitedrpper .site-header__icons-wrapper {
     justify-content: space-evenly;
   }
+  .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
 </style>
+
+<script>
+$(window).scroll(function() {
+  console.log("rgf");
+  var sticky = $('.clssitedrpper '),
+    scroll = $(window).scrollTop();
+   
+  if (scroll > 0) { 
+    sticky.addClass('fixed'); }
+  else { 
+   sticky.removeClass('fixed');
+
+}
+});
+
+</script>
