@@ -1,27 +1,27 @@
-<div class="haveheard_containr">
-  <div class="containerpadding">
-    <div class="heard_flex">
-      <div class="heard1">
-        <div class="heard_contain">
-          <h2 class="heard_title">{{section.settings.kome1}}</h2>
-          <p class="heard_disc">{{section.settings.kome2}}</p>
+<div class="haveheard_containrs">
+  <div class="containerpaddings">
+    <div class="heard_flexs">
+      <div class="heard1s">
+        <div class="heard_contains">
+          <h2 class="heard_titles">{{section.settings.kome1}}</h2>
+          <p class="heard_discs">{{section.settings.kome2}}</p>
         </div>
-        <div class="number_flex">
+        <div class="number_flexs">
           {% for block in section.blocks %}
-          <div class="number_flex1">
-            <div class="number_contain">
-              <h3 class="number_title">{{block.settings.numtitle}}</h3>
-              <p class="nappy_price">{{block.settings.numdicript}}</p>
+          <div class="number_flex1s">
+            <div class="number_contains">
+              <h3 class="number_titles">{{block.settings.numtitle}}</h3>
+              <p class="nappy_prices">{{block.settings.numdicript}}</p>
             </div>
           </div>
           {% endfor %}
         </div>
-        <p class="signup">{{section.settings.dscrit}}</p>
-        <p class="start_get cls-find"><a href="{{section.settings.geturl}}">{{section.settings.getbtn}}</a></p>
+        <p class="signups">{{section.settings.dscrit}}</p>
+        <p class="start_gets cls-finds"><a href="{{section.settings.geturl}}">{{section.settings.getbtn}}</a></p>
       </div>
-      <div class="heard2">
-        <div class="head_image">
-          <img src="{{section.settings.hedmg | img_url:'master'}}" class="hedlinre">
+      <div class="heard2s">
+        <div class="head_images">
+          <img src="{{section.settings.hedmg | img_url:'master'}}" class="hedlinres">
         </div>
       </div>
     </div>
@@ -29,49 +29,49 @@
 </div>
 
 <style>
-  h2.heard_title {
+  h2.heard_titles {
     text-align: left;
   }
 
-  p.heard_disc {
+  p.heard_discs {
     text-align: left;
     width: 100%;
     padding-right: 9%;
   }
 
-  .heard_flex {
+  .heard_flexs {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  .heard1 {
+  .heard1s {
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-  .heard2 {
+  .heard2s {
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-  .number_flex {
+  .number_flexs {
     display: flex;
     flex-wrap: wrap;
     padding: 50px 0px 10px;
   }
 
-  .number_flex1 {
+  .number_flex1s {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     border-right: 2px dashed #ffffff;
   }
 
-  .number_flex1:last-child {
+  .number_flex1s:last-child {
     border: none;
   }
 
-  .haveheard_containr {
+  .haveheard_containrs {
     background: #006781;
     padding: 300px 100px 200px 100px;
     margin-top: -9%;
@@ -79,7 +79,7 @@
     z-index: 1;
   }
 
-  .heard_title {
+  .heard_titles {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -90,7 +90,7 @@
     letter-spacing: 0px;
   }
 
-  .heard_disc {
+  .heard_discs {
     font-family: 'Manrope';
     font-style: normal;
     /*     font-weight: 700; */
@@ -102,7 +102,7 @@
     margin: 0 auto;
   }
 
-  .number_title {
+  .number_titles {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -112,7 +112,7 @@
     color: #84DADE;
   }
 
-  .signup {
+  .signups {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -124,7 +124,7 @@
     width: 60%;
   }
 
-  .nappy_price {
+  .nappy_prices {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -134,11 +134,11 @@
     color: #FFFFFF;
   }
 
-  .hedlinre {
+  .hedlinres {
     width: 100%;
   }
 
-  .start_get a {
+  .start_gets a {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -154,119 +154,126 @@
     padding-right: 20px;
   }
 
-  .cls-find {
+  .cls-finds {
     text-align: left;
   }
 
   @media only screen and (max-width: 1280px) {
-    .haveheard_containr {
-      padding: 200px 50px 100px 0px;
-    }
-
-    .heard_title {
+    .heard_titles {
       font-size: 50px;
       line-height: 55px;
     }
 
-    .heard_disc {
+    .heard_discs {
       width: 72%;
       text-align: left;
 
     }
 
-    .heard_flex {
+    .heard_flexs {
       justify-content: space-between;
     }
 
-    .heard2 {
+    .heard2s {
       flex: 0 0 50%;
       max-width: 49%;
     }
 
-    .heard1 {
+    .heard1s {
       flex: 0 0 50%;
       max-width: 49%;
     }
 
-    .signup {
+    .signups {
       margin: 25px auto;
       width: 100%;
     }
 
-    .number_flex {
+    .number_flexs {
       padding: 15px 0px 10px;
     }
 
-    .number_title {
+    .number_titles {
       font-size: 64px;
       line-height: 70px;
     }
   }
 
   @media only screen and (max-width: 1100px) {
-    .haveheard_containr {
+    .haveheard_containrs {
       padding: 20px 50px 20px 20px;
     }
 
-    .heard_title {
+    .heard_titles {
       font-size: 45px;
       line-height: 55px;
     }
   }
-
+  @media only screen and (max-width: 1280px){
+    .qtydiv .btnqty.qtyminus {
+      margin-right: 0px;
+  }
+  }
+  
   @media only screen and (max-width: 990px) {}
 
   @media only screen and (max-width: 768px) {
-    .heard1 {
+    .heard1s {
       flex: 0 0 100%;
       max-width: 100%;
       padding-bottom: 25px;
     }
-
-    .heard2 {
+    .cls-finds {
+      text-align: center;
+    } 
+    .heard2s {
       flex: 0 0 100%;
       max-width: 70%;
     }
 
-    .haveheard_containr {
+    .haveheard_containrs {
       padding: 20px 20px 20px 20px;
     }
 
-    .head_image {
+    .head_images {
       text-align: center;
     }
 
-    .heard_flex {
+    .heard_flexs {
       justify-content: center;
     }
   }
 
-  @media only screen and (max-width: 540px) {
-    .heard_title {
+  @media only screen and (max-width: 749px) {
+    .heard2s {
+      flex: 0 0 100%;
+      max-width: 90%;
+  }
+    .heard_titles {
       font-size: 33px;
       line-height: 40px;
     }
 
-    .heard_disc {
+    .heard_discs {
       font-size: 17px;
       line-height: 24px;
     }
 
-    .nappy_price {
+    .nappy_prices {
       width: 50%;
     }
 
-    .number_title {
+    .number_titles {
       width: 20%;
     }
 
-    .number_contain {
+    .number_contains {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
 
-    .number_flex1 {
+    .number_flex1s {
       flex: 0 0 100%;
       max-width: 100%;
       border-bottom: 2px dashed #ffffff;
@@ -275,7 +282,7 @@
   }
 
   @media only screen and (max-width: 414px) {
-    .number_title {
+    .number_titles {
       font-size: 50px;
       line-height: 65px;
       width: 40%;
