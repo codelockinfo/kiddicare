@@ -29,41 +29,48 @@
 </div>
 
 <style>
-  h2.heard_title{
+  h2.heard_title {
     text-align: left;
   }
-  p.heard_disc{
+
+  p.heard_disc {
     text-align: left;
     width: 100%;
     padding-right: 9%;
   }
-  .heard_flex{
+
+  .heard_flex {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
-  .heard1{
+
+  .heard1 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-  .heard2{
+  .heard2 {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .number_flex{
+
+  .number_flex {
     display: flex;
     flex-wrap: wrap;
     padding: 50px 0px 10px;
   }
-  .number_flex1{
+
+  .number_flex1 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     border-right: 2px dashed #ffffff;
   }
+
   .number_flex1:last-child {
     border: none;
   }
+
   .haveheard_containr {
     background: #006781;
     padding: 300px 100px 200px 100px;
@@ -71,6 +78,7 @@
     position: relative;
     z-index: 1;
   }
+
   .heard_title {
     font-family: 'Hunterswood';
     font-style: normal;
@@ -81,10 +89,11 @@
     color: #84DADE;
     letter-spacing: 0px;
   }
+
   .heard_disc {
     font-family: 'Manrope';
     font-style: normal;
-/*     font-weight: 700; */
+    /*     font-weight: 700; */
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -92,7 +101,8 @@
     width: 67%;
     margin: 0 auto;
   }
-  .number_title{
+
+  .number_title {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
@@ -101,6 +111,7 @@
     text-align: center;
     color: #84DADE;
   }
+
   .signup {
     font-family: 'Manrope';
     font-style: normal;
@@ -112,6 +123,7 @@
     margin: 45px auto;
     width: 60%;
   }
+
   .nappy_price {
     font-family: 'Manrope';
     font-style: normal;
@@ -121,57 +133,71 @@
     text-align: center;
     color: #FFFFFF;
   }
-  .hedlinre{
+
+  .hedlinre {
     width: 100%;
   }
-  .start_get a{
+
+  .start_get a {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 36px;
     text-align: center;
+    padding-top: 2px;
+    padding-bottom: 17px;
     color: #FFFFFF;
-    border-radius: 50px;
-    padding: 13px 30px;
     background: #F48F89;
     border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
   .cls-find {
     text-align: left;
   }
-  @media only screen and (max-width: 1300px) {
-    .haveheard_containr{
+
+  @media only screen and (max-width: 1280px) {
+    .haveheard_containr {
       padding: 200px 50px 100px 0px;
     }
-    .heard_title{
+
+    .heard_title {
       font-size: 50px;
       line-height: 55px;
     }
-    .heard_disc{
+
+    .heard_disc {
       width: 72%;
       text-align: left;
 
     }
-    .heard_flex{
+
+    .heard_flex {
       justify-content: space-between;
     }
+
     .heard2 {
       flex: 0 0 50%;
       max-width: 49%;
     }
+
     .heard1 {
       flex: 0 0 50%;
       max-width: 49%;
     }
-    .signup{
+
+    .signup {
       margin: 25px auto;
       width: 100%;
     }
-    .number_flex{
+
+    .number_flex {
       padding: 15px 0px 10px;
     }
-    .number_title{
+
+    .number_title {
       font-size: 64px;
       line-height: 70px;
     }
@@ -181,55 +207,65 @@
     .haveheard_containr {
       padding: 20px 50px 20px 20px;
     }
+
     .heard_title {
       font-size: 45px;
       line-height: 55px;
     }
   }
 
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 990px) {}
 
-  }
   @media only screen and (max-width: 768px) {
     .heard1 {
       flex: 0 0 100%;
       max-width: 100%;
       padding-bottom: 25px;
     }
+
     .heard2 {
       flex: 0 0 100%;
       max-width: 70%;
     }
+
     .haveheard_containr {
       padding: 20px 20px 20px 20px;
     }
-    .head_image{
+
+    .head_image {
       text-align: center;
     }
+
     .heard_flex {
       justify-content: center;
     }
   }
+
   @media only screen and (max-width: 540px) {
     .heard_title {
       font-size: 33px;
       line-height: 40px;
     }
-    .heard_disc{
+
+    .heard_disc {
       font-size: 17px;
       line-height: 24px;
     }
-    .nappy_price{
+
+    .nappy_price {
       width: 50%;
     }
-    .number_title{
+
+    .number_title {
       width: 20%;
     }
+
     .number_contain {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
+
     .number_flex1 {
       flex: 0 0 100%;
       max-width: 100%;
@@ -237,6 +273,7 @@
       border-right: none;
     }
   }
+
   @media only screen and (max-width: 414px) {
     .number_title {
       font-size: 50px;
@@ -310,4 +347,3 @@
 ]
 }
 {% endschema %}
-

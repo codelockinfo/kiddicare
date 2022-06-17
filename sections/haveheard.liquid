@@ -18,7 +18,15 @@
         {% endfor %}
       </div>
       <p class="signup">{{section.settings.dscrit}}</p>
-      	<p class="start_get" data-tblheading="{{section.settings.heading}}" data-text="{{ section.settings.text}}" data-text1="{{ section.settings.text1 }}" data-text2="{{ section.settings.text2 }}" data-text3="{{ section.settings.text3 }}" data-text4="{{ section.settings.text4 }}"><span >{{section.settings.getbtn}}</span></p>
+          {% if section.settings.getbtn!= blank %}
+      	<p class="start_get" data-tblheading="{{section.settings.heading}}" data-text="{{ section.settings.text}}" data-text1="{{ section.settings.text1 }}" data-text2="{{ section.settings.text2 }}" data-text3="{{ section.settings.text3 }}" data-text4="{{ section.settings.text4 }}">
+      
+          <span>
+            {{section.settings.getbtn}}
+          </span>
+     
+      </p>
+           {% endif %}
     </div>
     <div class="heard2">
       <div class="head_image">
@@ -136,13 +144,20 @@
   }
   }
   @media only screen and (max-width: 768px) {
-
     p.size-text {
       width: 55%;
   }
   table {
     max-width: 600px;
 }
+  }
+  
+  @media only screen and (max-width: 540px) {
+  
+  }
+  
+  @media only screen and (max-width: 414px) {
+  
   }
   /* Size */
   /* POPUP CSS START */
@@ -152,12 +167,13 @@
   .container.main-guide{
     border: 2px dashed #84DADE;
     border-radius: 6px;
+<<<<<<< HEAD
     overflow: auto;
     {% comment %} max-width: 1140px; {% endcomment %}
 
+=======
+>>>>>>> 9b09aaa856eb211a476dbf97a745e6e9f2fb5957
   }
-  .container.main-guide td, th{
-    padding :10px 10px;}
   .custom-model-mains {
     text-align: center;
     overflow: hidden;
@@ -557,9 +573,9 @@ color: #FFFFFF;
     	    font-size: 64px;
     line-height: 70px;
     }
-    .containerpadding{
+/*     .containerpadding{
     margin-top: 200px;
-  }
+  } */
   }
   
   @media only screen and (max-width: 1300px) {
@@ -619,9 +635,9 @@ color: #FFFFFF;
         .heard_flex {
     justify-content: center;
 }
-        .containerpadding{
+/*         .containerpadding{
     margin-top: 300px;
-  }
+  } */
   }
   @media (max-width: 576px){
     .container.main-guide {
@@ -661,9 +677,9 @@ color: #FFFFFF;
     line-height: 65px;
        width: 40%;
 }
-        .containerpadding{
+/*         .containerpadding{
     margin-top: 400px;
-  }
+  } */
   }
 
 </style>
