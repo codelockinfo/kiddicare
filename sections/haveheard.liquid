@@ -18,7 +18,15 @@
         {% endfor %}
       </div>
       <p class="signup">{{section.settings.dscrit}}</p>
-      	<p class="start_get" data-tblheading="{{section.settings.heading}}" data-text="{{ section.settings.text}}" data-text1="{{ section.settings.text1 }}" data-text2="{{ section.settings.text2 }}" data-text3="{{ section.settings.text3 }}" data-text4="{{ section.settings.text4 }}"><span >{{section.settings.getbtn}}</span></p>
+          {% if section.settings.getbtn!= blank %}
+      	<p class="start_get" data-tblheading="{{section.settings.heading}}" data-text="{{ section.settings.text}}" data-text1="{{ section.settings.text1 }}" data-text2="{{ section.settings.text2 }}" data-text3="{{ section.settings.text3 }}" data-text4="{{ section.settings.text4 }}">
+      
+          <span>
+            {{section.settings.getbtn}}
+          </span>
+     
+      </p>
+           {% endif %}
     </div>
     <div class="heard2">
       <div class="head_image">
