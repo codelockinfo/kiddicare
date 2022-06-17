@@ -7226,3 +7226,6 @@ button:focus {outline:0;}
       font-family: 'Hunterswood';
     font-weight: 400 !important;
 }
+#stockist-widget .stockist-list-result>.stockist-result-distance>.stockist-icon{
+	    line-height: 38px !important;
+}
