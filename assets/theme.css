@@ -7220,7 +7220,7 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 button:focus {outline:0;}
 
 .stockist-feature-color {
-    color: #287f95;
+    color: #287f95 !important;
     font-size: 20px;
     line-height: 30px;
     font-weight: 400 !important;
