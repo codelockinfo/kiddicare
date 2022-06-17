@@ -7036,9 +7036,6 @@ footer.site-footer{
 
 /* CSS END BY CLS 001 */
 /* CSS START CLS002 */
-#shopify-section-template--16146024759512__165529357205331910{
-  margin-bottom: 6%;
-}
 #Quantity-product-template{
 display:none !important;
 }
@@ -7165,3 +7162,6 @@ form#product_form_6762814767256 {
 div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 	    padding: 7% 0 5%;
 } 
+.clsmain-logos-section{
+	    background: #EDEDED;
+}

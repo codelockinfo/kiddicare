@@ -18,90 +18,13 @@
         {% endfor %}
       </div>
       <p class="signup">{{section.settings.dscrit}}</p>
-      	<p class="start_get"><span>{{section.settings.getbtn}}</span></p>
+      	<p class="start_get" data-tblheading="{{section.settings.heading}}" data-text="{{ section.settings.text}}" data-text1="{{ section.settings.text1 }}" data-text2="{{ section.settings.text2 }}" data-text3="{{ section.settings.text3 }}" data-text4="{{ section.settings.text4 }}"><span >{{section.settings.getbtn}}</span></p>
     </div>
     <div class="heard2">
       <div class="head_image">
-      <img src="{{section.settings.hedmg | img_url:'master'}}" class="hedlinre">
+      <img src="{{ section.settings.hedmg | img_url:'master'}}" class="hedlinre"  loading="lazy">
       </div>
     </div>
-    </div>
-    <div class="popup">
-      <div class="custom-model-main">
-        <div class="custom-model-inner">        
-          <div class="close-btn">×</div>
-          <div class="custom-model-wrap">
-            <div class="pop-up-content-wrap">
-              <div class="popup-form">
-                <h2 class="sample-heading">  </h2>
-                <div class="flex-field">
-                  <div class="main-size">
-                    <div class="container main-guide">
-                      <div class="">
-                        <div class="'">
-                          <h1 class="main-size-title">{{ section.settings.heading }}</h1>
-                          <p class="size-text">{{ section.settings.text}}</p>
-                        </div>
-                      </div>
-                      <table>
-                        <thead>
-                          <tr >
-                            <th>{{ section.settings.text1 }}</th>
-                            <th>{{ section.settings.text2 }}</th>
-                            <th>{{ section.settings.text3 }}</th>
-                            <th>{{ section.settings.text4 }}</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                        
-                          <tr class="first-test">
-                            <td data-column="First Name">Newborn</td>
-                            <td data-column="Last Name">6 - 11 KG	</td>
-                            <td data-column="Job Title">6 - 9	</td>
-                            <td data-column="Twitter">1 Month </td>
-                          </tr>
-                          <tr class="first-test">
-                            <td data-column="First Name">Infant</td>
-                            <td data-column="Last Name">4 - 7 KG</td>
-                            <td data-column="Job Title">6 - 9</td>
-                            <td data-column="Twitter">2 - 3 Months</td>
-                          </tr>
-                          <tr class="first-test">
-                            <td data-column="First Name">Crawler</td>
-                            <td data-column="Last Name">6 - 11KG</td>
-                            <td data-column="Job Title">6 - 9</td>
-                            <td data-column="Twitter">2 - 3 Months</td>
-                          </tr>
-                          <tr class="first-test">
-                            <td data-column="First Name">Toddler</td>
-                            <td data-column="Last Name">10 - 14 KG</td>
-                            <td data-column="Job Title">5 - 7</td>
-                            <td data-column="Twitter">10 Months</td>
-                          </tr>
-                          <tr class="first-test">
-                            <td data-column="First Name">Walker</td>
-                            <td data-column="Last Name">13 - 18 KG</td>
-                            <td data-column="Job Title">5 - 7</td>
-                            <td data-column="Twitter">10 Months</td>
-                          </tr>
-                          <tr class="first-test">
-                            <td data-column="First Name">Junior</td>
-                            <td data-column="Last Name">16 KG +</td>
-                            <td data-column="Job Title">5 - 7</td>
-                            <td data-column="Twitter">14 Months</td>
-                          </tr>
-                          
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>  
-          </div>  
-<!--                     <div class="bg-overlay"></div> -->
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -191,11 +114,26 @@
     text-align: center;
     color: #333;
   }
+  @media only screen and (max-width: 1230px) {
+    table { 
+
+      width: 1042px; 
+    }
+
+  }
+  @media only screen and (max-width: 1180px) {
+    table { 
+
+      width: 1020px; 
+    }
+
+  }
   @media 
     only screen and (max-width: 760px),
     (min-device-width: 768px) and (max-device-width: 1024px)  {
 
       table { 
+
         width: 100%; 
       }
 
@@ -243,13 +181,17 @@
   .main-guide{
     margin-bottom: 5%;
   }
-  .custom-model-main {
+  .container.main-guide{
+    border: 2px dashed #84DADE;
+    border-radius: 6px;
+  }
+  .custom-model-mains {
     text-align: center;
     overflow: hidden;
     position: fixed;
-/*     top: 0; */
+    top: 0; 
     right: 0;
-/*     bottom: 0; */
+     bottom: 45px; 
     left: 0;
     /* z-index: 1050; */
     -webkit-overflow-scrolling: touch;
@@ -263,13 +205,13 @@
     overflow-y: auto;
   }
 
-  .model-open {
+  .model-opens {
     z-index: 99999;
     opacity: 1;
     overflow: hidden;
     padding: 3%;
   }
-  .custom-model-inner {
+  .custom-model-inners {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
     transform: translate(0, -25%);
@@ -285,7 +227,7 @@
     margin: 30px auto;
     max-width: 1200px;
   }
-  .custom-model-wrap {
+  .custom-model-wraps {
     display: block;
     width: 100%;
     position: relative;
@@ -303,22 +245,24 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     max-height: calc(100vh - 70px);
-    overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    {% comment %} overflow-y: auto; {% endcomment %}
   }
-  .model-open .custom-model-inner {
+  .model-opens .custom-model-inners {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
     position: relative;
     z-index: 999;
   }
-  .model-open .bg-overlay {
+  .model-opens .bg-overlays {
     background: rgba(0, 0, 0, 0.6);
     z-index: 99;
   }
-  .bg-overlay {
+  .bg-overlays {
     background: rgba(0, 0, 0, 0);
-    /*     height: 100vh; */
+        {% comment %} height: 100px; {% endcomment %}
     width: 100%;
     position: fixed;
     left: 0;
@@ -330,7 +274,7 @@
     -o-transition: background 0.15s linear;
     transition: background 0.15s linear;
   }
-  .close-btn {
+  .close-btns {
     position: absolute;
     right: -20px;
     top: -20px;
@@ -826,14 +770,3 @@ color: #FFFFFF;
   ]
   }
   {% endschema %}
-
-  <script>
-    $(".start_get").on('click', function() {
-      console.log("hello");
-      $(this).closest(".haveheard_containr").find(".custom-model-main").addClass('model-open');
-    }); 
-    $(".close-btn, .bg-overlay").click(function(){
-      $(".custom-model-main").removeClass('model-open');
-    });
-
-  </script>
