@@ -818,7 +818,7 @@
             "type": "block",
             "settings": {
               "collection": "wipes",
-              "collection-tlt": "",
+              "collection-tlt": "shop all",
               "collection-link": ""
             }
           }
