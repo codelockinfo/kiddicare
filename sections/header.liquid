@@ -237,7 +237,7 @@
       <button type="button"
         class="btn--link js-toggle-submenu mobile-nav__link{% if link.child_active %} mobile-nav__link--active{% endif %}"
         data-target="{{ child_list_handle }}" data-level="1" aria-expanded="false">
-        <span class="mobile-nav__label">{{ link.title | escape }}</span>
+        <span class="mobile-nav__label"> <a href="{{ link.url }}">{{ link.title | escape }}</a></span>
         <div class="mobile-nav__icon">
           {% include 'icon-chevron-right' %}
         </div>
@@ -256,7 +256,7 @@
             </div>
             <span
               class="mobile-nav__sublist-link mobile-nav__sublist-header mobile-nav__sublist-header--main-nav-parent">
-              <span class="mobile-nav__label">{{ link.title | escape }}</span>
+              <span class="mobile-nav__label">  <a href="{{ link.url }}">{{ link.title | escape }}</a></span>
             </span>
           </div>
         </li>
