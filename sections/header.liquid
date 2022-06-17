@@ -1009,6 +1009,20 @@
   .clssitedrpper .site-header__icons-wrapper {
     justify-content: space-evenly;
   }
+  .fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: smoothScroll 1s forwards;
+}
+  @keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
 </style>
 
 <script>
