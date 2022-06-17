@@ -33,7 +33,7 @@
           "settings": {
             "collection": "toys",
             "collection-tlt": "SHOP ALL",
-            "collection-link": "shopify:\/\/pages\/collection"
+            "collection-link": "shopify:\/\/pages\/collections"
           }
         }
       },
