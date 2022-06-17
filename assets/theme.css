@@ -7205,3 +7205,7 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 }
 }
 /* header sticky code */
+/* Remove outline for non-keyboard :focus */
+*:focus:not(.focus-visible) {  outline: none;
+}
+button:focus {outline:0;}
