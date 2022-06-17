@@ -7203,7 +7203,11 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
     overflow-y: auto;
     overflow-x: auto !important;
 }
-
+@media screen and (max-width: 768px) {
+  #stockist-widget.stockist-responsive .stockist-result-list {
+    height: 500px !important;
+}
+}
 @media screen and (max-width: 749px) {
 #PageContainer {
   padding-top: 70px;
