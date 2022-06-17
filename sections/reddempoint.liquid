@@ -29,6 +29,9 @@
              {% endcase %}
              {% endfor %}
            </div>
+               <div class="button-videosign">
+          <button class="signtitle"> <a href="{{section.settings.signurl}}" class="btn-link">{{section.settings.signbtn}}</a> </button>
+        </div>
         </div>
       </div>
     </div>
@@ -37,8 +40,12 @@
 </div>  
 </div>
 <style>
+  .reddempoint .earnkiddipoint{  	
+    padding-top: 7%;
+  }
   .earnkiddipoint {
     background: #E5E5E5;
+        padding-top: 3%;
   }
   .earncontainer{
   	    max-width: 1400px;
@@ -54,11 +61,11 @@
   }
   .earntypetext1{
   	flex: 0 0 50%;
-    max-width: 40%;
+    max-width: 45%;
   }
   .earntypetext2{
   	flex: 0 0 50%;
-    max-width: 48%;
+    max-width: 50%;
   }
   .kidpoint {
     font-family: 'Hunterswood';
@@ -104,6 +111,27 @@
   .reddempoint .earntypetext{
   flex-direction: row-reverse;
   }
+  .signtitle {
+    background: #ea8282;
+    border-radius: 50px;
+    border: none;
+   padding: 0px 70px 12px;
+}
+  .signtitle .btn-link {
+    font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    background: #ea8282;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  .button-videosign {
+    margin-top: 46px;
+}
   @media screen and (max-width:768px){
     .earntypetext2{
     	display:block;
@@ -185,6 +213,16 @@
     "id" : "methodpoint",
     "type" : "text",
     "label" : "Sub-title"
+  },
+ {
+    "id" : "signbtn",
+    "type" : "text",
+    "label" : "button"
+  },
+ {
+    "id" : "signurl",
+    "type" : "url",
+    "label" : "signup url"
   }
 
   ],

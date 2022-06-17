@@ -129,7 +129,9 @@
       "settings": {
         "kom": "shopify:\/\/shop_images\/DSC00680_1_540x_2e76180d-83fa-4309-906c-bf5e7eeb98a5.png",
         "kiddpoint": "HOW TO REDEEM KIDDIPOINTS?",
-        "methodpoint": "There are currently two ways to redeem points."
+        "methodpoint": "There are currently two ways to redeem points.",
+        "signbtn": "Sign me up!",
+        "signurl": "shopify:\/\/collections\/subscribe_wipes"
       }
     },
     "165485715195a93faa": {
@@ -280,10 +282,66 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/imageedit_2_2123747045_d50e6bbc-7db3-4480-840f-62094ed06585.png",
         "heading": "KIDDICARE CRITTERS",
-        "text": "At Kiddicare, we see the milestones of growth in your newborn as a significant accomplishment, and we believe that your little critter should be rewarded with one of ours!\n\n\nSign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
+        "text": "At Kiddicare, we see the milestones of growth in your newborn as a significant accomplishment, and we believe that your little critter should be rewarded with one of ours!<br>\n\n\nSign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
         "btn-text": "Sign me up!",
         "btn-link": "",
         "btn-bg-color": ""
+      }
+    },
+    "1655396171fb0f120a": {
+      "type": "haveheard",
+      "blocks": {
+        "4b617232-bcd6-43fb-a063-e11847f64eee": {
+          "type": "block",
+          "settings": {
+            "numtitle": "01",
+            "numdicript": "Select your<br>  nappy size",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        },
+        "54d728d1-d956-4b3b-9d4c-0ab2c4a72571": {
+          "type": "block",
+          "settings": {
+            "numtitle": "02",
+            "numdicript": "Select your <br>  delivery cycle",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        },
+        "0faa744d-0d28-46f5-9bf8-5b44ae53d457": {
+          "type": "block",
+          "settings": {
+            "numtitle": "03",
+            "numdicript": "Update your <br> subscription any time!",
+            "text1": "",
+            "text2": "",
+            "text3": "",
+            "text4": ""
+          }
+        }
+      },
+      "block_order": [
+        "4b617232-bcd6-43fb-a063-e11847f64eee",
+        "54d728d1-d956-4b3b-9d4c-0ab2c4a72571",
+        "0faa744d-0d28-46f5-9bf8-5b44ae53d457"
+      ],
+      "settings": {
+        "kome1": "Have you heard?",
+        "kome2": "Stocking up on your Kiddicare monthly needs has never been easier! All you have top do is:",
+        "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1_3102d086-166b-42d8-8ae8-0ec6f9e5376b.png",
+        "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
+        "getbtn": "Get Started",
+        "heading": "Kiddicare Critter Milestone",
+        "text": "Wondering which diaper size to choose for your little one? Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
+        "text1": "Kiddicare Critter Milestone",
+        "text2": "Baby Weight in KG",
+        "text3": "Average Number of Nappies a day",
+        "text4": "How long your little one may need this size"
       }
     },
     "16552621274bbf6ade": {
@@ -291,7 +349,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/imageedit_2_2123747045_d50e6bbc-7db3-4480-840f-62094ed06585.png",
         "heading": "Kiddicare critters",
-        "text": "At Kiddicare, we see the milestones of growth in your newborn as a significant accomplishment, and we believe that your little critter should be rewarded with one of ours!\nSign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
+        "text": "At Kiddicare, we see the milestones of growth in your newborn as a significant accomplishment, and we believe that your little critter should be rewarded with one of ours!",
+        "signtext": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
         "btn-text": "Sign me up!",
         "btn-link": "",
         "btn-bg-color": ""
@@ -309,6 +368,7 @@
     "165485810054779e3e",
     "1655010714b92e731d",
     "165521501584314606",
+    "1655396171fb0f120a",
     "16552621274bbf6ade"
   ]
 }

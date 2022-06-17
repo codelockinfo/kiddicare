@@ -6,8 +6,11 @@
     width: 100%;
   }
   .combo-prd{
-    width: 50%;
+    width: 30%;
     margin: auto;
+  }
+  .combo-prd2{
+  width: 50%;
   }
   .img-product img{
     width: 100%;
@@ -25,39 +28,40 @@
     padding: 5%;
   }
   .Main-shop-our-product h2.heading{
-font-family: 'Hunterswood';
+    font-family: 'Hunterswood';
     font-style: normal;
-    font-weight: bold;
-    font-size: 43px;
+    font-weight: 400;
+    font-size: 50px;
     line-height: 60px;
     color: #006781;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
   }
   .Main-shop-our-product p.text{
-    font-family: 'Manrope';
+      font-family: 'Manrope';
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 28px;
     color: #333333;
   }
   .Main-shop-our-product button.but-cls a{
-    font-family: 'Hunterswood';
+ font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 30px;
+    line-height: 42px;
     text-align: center;
     color: #fff;
     background: #ea8282;
     text-transform: uppercase;
-        letter-spacing: 0px;
+    letter-spacing: 2px;
   }
   .Main-shop-our-product button.but-cls{
-    background: #ea8282;
+       background: #ea8282;
     border-radius: 50px;
     border: none;
-        padding: 12px 20px;
+    padding: 0px 70px 12px;
   }
   .Main-shop-our-product button.but-cls:hover{
     background: #ea8282;
@@ -70,6 +74,7 @@ font-family: 'Hunterswood';
     border-radius: 6px;
         margin: 13px;
   } */
+  
   @media(max-width:1500px){
     .Main-shop-our-product{
       margin-top: -300px;
@@ -140,9 +145,10 @@ font-family: 'Hunterswood';
       <div class="img-product combo-prd">
         <img src="{{section.settings.image | img_url: 'master'}}">
       </div>
-      <div class="content-product combo-prd">
+      <div class="content-product combo-prd2">
         <h2 class="heading"> {{ section.settings.heading }} </h2>
         <p class="text"> {{ section.settings.text }} </p>
+        <p class="text">{{ section.settings.signtext }}</p>
         <div class="btn-product">
           <button class="btn but-cls"> <a href="{{ section.settings.btn-link }}"> {{ section.settings.btn-text }} </a> </button>
         </div>
@@ -170,6 +176,11 @@ font-family: 'Hunterswood';
 "id" : "text",
 "type" : "textarea",
 "label" : "Text"
+},
+{
+"id" : "signtext",
+"type" : "textarea",
+"label" : "Textarea"
 },
 {
 "id" : "btn-text",

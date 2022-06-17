@@ -1,4 +1,4 @@
-{% case section.settings.grid %}
+{% case section.settings.grid %}prd-title
   {% when 2 %}
     {%- assign max_height = 530 -%}
   {% when 3 %}
@@ -71,9 +71,11 @@
         </div>
       {% endif %}
       {% if collection.description != blank %}
+    <div class="mgclcollection">
         <div class="nippititcontain rte collection-description  ">
           {{ collection.description }}
         </div>
+    </div>
       {% endif %}
     {% else %}
       <div class="page-width">
@@ -728,7 +730,12 @@
   ul.customcollections.grid.grid--uniform.grid--view-items {
     margin-left: 16px;
 }
+  .nippititcontain{
   
+  }
+  .mgclcollection, .filters-toolbar-wrapper {
+    margin-left: 40px;
+}
     @media(max-width:1200px){
       
     }
