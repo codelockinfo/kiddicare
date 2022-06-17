@@ -315,8 +315,8 @@
             </div>
           </div>  
         </div>  
-          <div class="bg-overlaycls"></div> 
       </div>
+      <div class="bg-overlaycls"></div> 
     </div>
   </div>
 
@@ -332,18 +332,18 @@
                 <div class="main-size">
                   <div class="container main-guide">
                     <div class="">
-                      <div class="'">JJJKJJKJKKJK
-                        {% comment %} <h1 class="main-size-title">{{ section.settings.heading }}</h1>
-                        <p class="size-text">{{ section.settings.text}}</p> {% endcomment %}
+                      <div class="'">
+                         <h1 class="main-size-title">{{ section.settings.heading }}</h1>
+                        <p class="size-text">{{ section.settings.text}}</p>
                       </div>
                     </div>
-                    {% comment %} <table>
+                    <table>
                       <thead>
                         <tr >
-                          <th>{{ section.settings.text1 }}</th>
-                          <th>{{ section.settings.text2 }}</th>
-                          <th>{{ section.settings.text3 }}</th>
-                          <th>{{ section.settings.text4 }}</th>
+                          <th class="dataText1">{{ section.settings.text2 }}</th>
+                          <th class="dataText2">{{ section.settings.text3 }}</th>
+                          <th class="dataText3">{{ section.settings.text4 }}</th>
+                          <th class="dataText4">{{ section.settings.text1 }}</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -385,15 +385,15 @@
                           <td data-column="Twitter">14 Months</td>
                         </tr>
                       </tbody>
-                    </table> {% endcomment %}
+                    </table> 
                   </div>
                 </div>
               </div>
             </div>
           </div>  
         </div>  
-                  <div class="bg-overlays"></div> 
       </div>
+      <div class="bg-overlays"></div> 
     </div>
   </div>
 </body>
@@ -451,6 +451,21 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
 
       $(".start_get").on('click', function() {
         console.log("hello");
+        $dataTblheading = $(this).attr("data-tblheading");
+        $dataText = $(this).attr("data-text");
+        $dataText1 = $(this).attr("data-text1");
+        $dataText2 = $(this).attr("data-text2");
+        $dataText3 = $(this).attr("data-text3");
+        $dataText4 = $(this).attr("data-text4");
+
+        
+        $(".main-size-title").html($dataTblheading);
+        $(".size-text").html($dataText);
+        $(".dataText1").html($dataText1);
+        $(".dataText2").html($dataText2);
+        $(".dataText3").html($dataText3);
+        $(".dataText4").html($dataText4);
+
         $(".popups").css("display","block");
         $(".custom-model-mains").addClass('model-opens');
       }); 
