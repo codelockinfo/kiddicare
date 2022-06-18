@@ -463,7 +463,6 @@ $(document).ready(function(){
     console.log($url + " URL");
       $('.name-coll a').each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
-        console.log($pageURL + " PAGEURL");
         $matchresult = $pageURL.match($url);
         console.log($matchresult);
         if($matchresult != '' && $matchresult != 'null' ){
