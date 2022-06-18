@@ -460,13 +460,10 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
 $(document).ready(function(){
 
  $url = document.location.pathname.split('/')[2];
-    console.log($url + " URL");
       $('.name-coll a').each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
         $matchresult = $pageURL.match($url);
-        console.log($matchresult);
         if($matchresult != '' && $matchresult !== null ){
-          console.log("MATCH ! ..");
           $(this).addClass("active");
         }
       });
