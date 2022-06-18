@@ -464,10 +464,9 @@ $(document).ready(function(){
       $('.name-coll a').each(function () {
         $pageURL = $(this).attr("href").split('/')[2];
         console.log($pageURL + "PAGEURL");
-        if($url ===  $pageURL ){
+        if($url ==  $pageURL ){
           console.log("MATCH ! ..");
           $(this).addClass("active");
-            return false;
         }
       });
 });
