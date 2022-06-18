@@ -235,7 +235,6 @@
                 </option>
           {% endfor %}
         </select>
-         {% include 'qty-picker' %}
         </div>
         {% if section.settings.show_quantity_selector %}
         <div class="product-form__controls-group">
@@ -246,6 +245,7 @@
                    class="product-form__input product-form__input--quantity" data-quantity-input
                    >
           </div>
+           {% include 'qty-picker' %}
         </div>
         {% endif %}
         <div class="product-form__error-message-wrapper product-form__error-message-wrapper--hidden{% if section.settings.enable_payment_button %} product-form__error-message-wrapper--has-payment-button{% endif %}"
