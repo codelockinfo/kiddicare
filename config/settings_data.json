@@ -818,7 +818,7 @@
             "type": "block",
             "settings": {
               "collection": "shop-all",
-              "collection-tlt": "",
+              "collection-tlt": "Shop All",
               "collection-link": "shopify:\/\/pages\/collections"
             }
           }
