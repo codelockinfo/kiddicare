@@ -7036,9 +7036,8 @@ footer.site-footer{
 
 /* CSS END BY CLS 001 */
 /* CSS START CLS002 */
-.name-coll .code-current
-{
-color:#000;
+a.tab.active {
+    color: #006781;
 }
 #shopify-section-template--16146346672344__165529357205331910{
 margin-bottom:3%;
