@@ -461,7 +461,7 @@ $(document).ready(function(){
 
  $url = document.location.pathname.split('/')[2];
     console.log($url + "URL");
-      $('.name-coll a').forEach(function () {
+      $('.name-coll a').each(function () {
         $pageURL = $(this).attr("href").split('/')[2];
         console.log($pageURL + "PAGEURL");
         if($url ==  $pageURL ){
