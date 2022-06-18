@@ -273,7 +273,7 @@
                   <input type="text" id="{{ formId }}-lastname"  name="contact[lastname]" placeholder="Last Name"/>
                 </div>
                 <div class="fileds-clss">
-                    <input
+                    <input 
                       type="email"
                       id="{{ formId }}-email"
                       name="contact[email]"
@@ -298,10 +298,10 @@
             	</div>
                 
                 <div class="fileds-clss">
-                  <input type="number" name="contact[phone]" placeholder="Phone Number"/>
+                  <input type="number" name="contact[phone]" id="{{ formId }}-phone"  placeholder="Phone Number"/>
                 </div>
                 <div class="fileds-clss select-cls">
-                  <select name="contact[nappisize]" id="nappySize" placeholder="Select nappy size ..">
+                  <select name="contact[nappisize]" id="{{ formId }}-nappysize"  placeholder="Select nappy size ..">
                     <option value="1">Option 1</option>
                     <option value="2">Option 2</option>
                     <option value="3">Option 3</option>
@@ -311,16 +311,16 @@
                 <h2 class="sample-heading"> Delivery Address: </h2>
                 <div class="flex-field">
                   <div class="fileds-clss">
-                    <input type="text" name="contact[streetaddress]" placeholder="Street Address"/>
+                    <input type="text" name="contact[streetaddress]" id="{{ formId }}-address"  placeholder="Street Address"/>
                   </div>
                   <div class="fileds-clss">
-                    <input type="text" name="contact[suburb]" placeholder="Suburb"/>
+                    <input type="text" name="contact[suburb]" id="{{ formId }}-suburb"  placeholder="Suburb"/>
                   </div>
                   <div class="fileds-clss">
-                    <input type="text" name="contact[city]" placeholder="City"/>
-                  </div>
+                    <input type="text" name="contact[city]" id="{{ formId }}-city"   placeholder="City"/>
+                  </div> 
                   <div class="fileds-clss">
-                    <input type="number" name="contact[postcode]" placeholder="Post Code"/>
+                    <input type="number" name="contact[postcode]" id="{{ formId }}-postcode"  placeholder="Post Code"/>
                   </div>
                   <div class="fileds-clss select-cls">
                     <textarea id="w3review" name="contact[w3review1]" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
