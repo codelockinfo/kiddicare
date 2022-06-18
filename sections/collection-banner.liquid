@@ -294,7 +294,7 @@
             {% for block in section.blocks %}
             {%- assign collection = collections[block.settings.collection] -%}
             <a class="tab"  href="{%- if block.settings.collection-link != blank -%}{{block.settings.collection-link}}{%- else -%}{{collection.url -}}{%- endif -%}">
-              {%- if block.settings.collection-tlt != blank -%}{{ block.settings.collection-tlt}}{%- else
+              {%- if block.settings.collection-tlt != blank -%}{{ block.settings.collection-tlt -}}{%- else
               -%}{{collection.title}} {%- endif -%}</a>
             {% endfor %}
           </div>
