@@ -549,3 +549,20 @@ $(document).ready(function(){
 });
 
 </script>
+
+
+ <script>
+  $( document).ready(function() {
+    $(".name-coll a").click(function(e){
+        e.preventDefault()
+
+        var value = $(this).attr('href');
+     console.log(value);
+//         $('.block_collection.active').removeClass('active ');
+//         $(value).addClass('active ');
+
+        $('a').removeClass('code-current');
+        $(this).addClass('code-current');
+    })
+  })
+  </script>
