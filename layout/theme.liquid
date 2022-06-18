@@ -553,6 +553,11 @@ $(document).ready(function(){
 
  <script>
   $( document).ready(function() {
+    / get btn url and click images /
+$('.name-coll a').click(function() {
+url = $(this).find(".name-coll a").attr('href');
+window.location.href = url;
+});
     $(".name-coll .tab").click(function(e){
         e.preventDefault()
 
