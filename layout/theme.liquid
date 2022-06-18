@@ -555,11 +555,12 @@ $(document).ready(function(){
   $( document).ready(function() {
     / get btn url and click images /
 $('.name-coll a').click(function() {
+  e.preventDefault()
 url = $(this).find(".name-coll a").attr('href');
-window.location.href = url;
+console.log(window.location.href = url);
 });
-    $(".name-coll .tab").click(function(e){
-        e.preventDefault()
+//     $(".name-coll .tab").click(function(e){
+//         e.preventDefault()
 
 //         var value = $(this).attr('href');
 //      console.log(value);
@@ -567,7 +568,7 @@ window.location.href = url;
 //         $(value).addClass('active ');
 
 //         $('.tab').removeClass('code-current');
-        $(this).addClass('code-current');
-    })
-  })
+//         $(this).addClass('code-current');
+//     })
+//   })
   </script>
