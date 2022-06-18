@@ -558,7 +558,8 @@ $('.name-coll a').click(function() {
   console.log("hello");
   e.preventDefault()
 url = $(this).find(".name-coll a").attr('href');
-console.log(window.location.href = url);
+console.log(url);
+  window.location.href = url;
 });
 //     $(".name-coll .tab").click(function(e){
 //         e.preventDefault()
