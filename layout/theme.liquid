@@ -535,7 +535,7 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
  <script>
   $(document).ready(function() {
-	$('.name-coll a').click(function(e) {
+	$('.name-coll').click(function(e) {
   console.log("hello");
   e.preventDefault()
 url = $(this).find(".name-coll a").attr('href');
