@@ -273,29 +273,29 @@
                   <input type="text" name="name" placeholder="Last Name"/>
                 </div>
                 <div class="fileds-clss">
-              <input
-                type="email"
-                id="{{ formId }}-email"
-                name="contact[email]"
-                autocorrect="off"
-                autocapitalize="off"
-                 placeholder="Email Address"
-                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-                aria-required="true"
-                {%- if form.errors contains 'email' -%}
-                  class="input--error"
-                  aria-invalid="true"
-                  aria-describedby="{{ formId }}-email-error"
-                {%- endif -%}
-                >
-              {%- if form.errors contains 'email' -%}
-                <span id="{{ formId}}-email-error" class="input-error-message">
-                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-                  {% include 'icon-error' %}
-                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
-                </span>
-              {%- endif -%}
-            </div>
+                    <input
+                      type="email"
+                      id="{{ formId }}-email"
+                      name="contact[email]"
+                      autocorrect="off"
+                      autocapitalize="off"
+                       placeholder="Email Address"
+                      value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                      aria-required="true"
+                      {%- if form.errors contains 'email' -%}
+                        class="input--error"
+                        aria-invalid="true"
+                        aria-describedby="{{ formId }}-email-error"
+                      {%- endif -%}
+                      >
+                    {%- if form.errors contains 'email' -%}
+                      <span id="{{ formId}}-email-error" class="input-error-message">
+                        <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                        {% include 'icon-error' %}
+                        <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                      </span>
+                    {%- endif -%}
+            	</div>
                 
                 <div class="fileds-clss">
                   <input type="email" name="name" placeholder="Email Address"/>
