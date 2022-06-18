@@ -461,10 +461,10 @@ $(document).ready(function(){
 
  $url = document.location.pathname.split('/')[2];
     console.log($url + "URL");
-      $('.name-coll a').each(function (i, obj) {
+      $('.name-coll').find("a").each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
         console.log($pageURL + "PAGEURL");
-        if($url ==  $pageURL ){
+        if($url ==  $pageURL){
           console.log("MATCH ! ..");
           $(this).addClass("active");
         }
