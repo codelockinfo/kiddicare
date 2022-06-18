@@ -262,6 +262,9 @@
           <div class="pop-up-content-wrapcls">
             <div class="popup-formscls">
               <h2 class="sample-heading"> Get my free sample </h2>
+              {%- assign formId = 'ContactFormPopup' -%}
+              {% form 'contact', id: formId %}
+                    {% include 'form-status', form: form, form_id: formId %}
               <div class="flex-fieldcls">
                 <div class="fileds-clss">
                   <input type="text" name="name" placeholder="First Name"/>
@@ -312,6 +315,7 @@
                   </div>
                 </div>
               </div>
+                {% endform %}
             </div>
           </div>  
         </div>  
