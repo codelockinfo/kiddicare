@@ -7253,3 +7253,7 @@ button:focus {outline:0;}
 .grecaptcha-badge { 
     visibility: hidden;
 }
+
+table{
+margin-bottom: 5%;
+}
