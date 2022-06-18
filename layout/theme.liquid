@@ -463,9 +463,6 @@ console.log("hello");
 var clsthis = this;
 var url = $(this).closest("a").attr('href');
 window.location.href = url;
-var value = $(".variant-id").val();
-url += '?variant=' + value;
-$(this).closest("a").attr("href", url);
 });
 });
 </script>
