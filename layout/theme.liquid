@@ -272,11 +272,34 @@
                 <div class="fileds-clss">
                   <input type="text" name="name" placeholder="Last Name"/>
                 </div>
+                <div class="clsform_table  grid__item medium-up--one-half">
+              <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true"></span></label>
+              <input
+                type="email"
+                id="{{ formId }}-email"
+                name="contact[email]"
+                autocorrect="off"
+                autocapitalize="off"
+                 placeholder="Email Address"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                {%- if form.errors contains 'email' -%}
+                  class="input--error"
+                  aria-invalid="true"
+                  aria-describedby="{{ formId }}-email-error"
+                {%- endif -%}
+                >
+              {%- if form.errors contains 'email' -%}
+                <span id="{{ formId}}-email-error" class="input-error-message">
+                  <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                  {% include 'icon-error' %}
+                  <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                </span>
+              {%- endif -%}
+            </div>
+                
                 <div class="fileds-clss">
-                  <input type="email" name="name" placeholder="Email Address"/>
-                </div>
-                <div class="fileds-clss">
-                  <input type="number" name="name" placeholder="Phone Number"/>
+                  <input type="number" name="phone-name" placeholder="Phone Number"/>
                 </div>
                 <div class="fileds-clss select-cls">
                   <select name="cars" id="cars">
@@ -289,25 +312,25 @@
                 <h2 class="sample-heading"> Delivery Address: </h2>
                 <div class="flex-field">
                   <div class="fileds-clss">
-                    <input type="text" name="name" placeholder="Street Address"/>
+                    <input type="text" name="streetaddress" placeholder="Street Address"/>
                   </div>
                   <div class="fileds-clss">
-                    <input type="text" name="name" placeholder="Suburb"/>
+                    <input type="text" name="suburb" placeholder="Suburb"/>
                   </div>
                   <div class="fileds-clss">
-                    <input type="text" name="name" placeholder="City"/>
+                    <input type="text" name="city" placeholder="City"/>
                   </div>
                   <div class="fileds-clss">
-                    <input type="number" name="name" placeholder="Post Code"/>
+                    <input type="number" name="postcode" placeholder="Post Code"/>
                   </div>
                   <div class="fileds-clss select-cls">
-                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
+                    <textarea id="w3review" name="w3review1" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
                   </div>
                   <div class="fileds-clss select-cls">
-                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
+                    <textarea id="w3review" name="w3review2" rows="4" cols="50" placeholder="How did you find out about our free samples?"></textarea>
                   </div>
                   <div class="fileds-clss condition">
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="true">
                     <label for="vehicle1"> Terms & Conditions: One free sample per address. Your sample request will be reviewed and sent within 7 business days.</label><br>
                   </div>
                   <div class="fileds-clss btn-all-cls">
