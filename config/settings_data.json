@@ -758,7 +758,13 @@
           "hedmg": "shopify:\/\/shop_images\/Group_247.png",
           "dscrit": "",
           "getbtn": "FINE THE RIGHT SIZE",
-          "geturl": "shopify:\/\/collections\/nappy-pants"
+          "geturl": "shopify:\/\/collections\/nappy-pants",
+          "heading": "Kiddicare Critter Milestone",
+          "text": "Wondering which diaper size to choose for your little one? Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
+          "text1": "Kiddicare Critter Milestone",
+          "text2": "Baby Weight in KG",
+          "text3": "Average Number of Nappies a day",
+          "text4": "How long your little one may need this size"
         }
       },
       "prd-logo2": {
@@ -840,6 +846,13 @@
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
         }
       }
     },
