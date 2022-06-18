@@ -465,7 +465,7 @@ $(document).ready(function(){
         $pageURL = $(this).attr("href").split('/')[2];
         $matchresult = $pageURL.match($url);
         console.log($matchresult);
-        if($matchresult != '' && $matchresult != 'null' ){
+        if($matchresult != '' && $matchresult != 'undefined' ){
           console.log("MATCH ! ..");
           $(this).addClass("active");
         }
