@@ -7036,6 +7036,9 @@ footer.site-footer{
 
 /* CSS END BY CLS 001 */
 /* CSS START CLS002 */
+.qty_var{
+display:flex;
+}
 a.tab.active {
     color: #006781;
 }
