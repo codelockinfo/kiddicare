@@ -455,6 +455,21 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
     }
   }
 </style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+$('.name-coll').click(function(){
+console.log("hello");
+var clsthis = this;
+var url = $(this).closest("a").attr('href');
+window.location.href = url;
+var value = $(".variant-id").val();
+url += '?variant=' + value;
+$(this).closest("a").attr("href", url);
+});
+});
+</script>
+
 <script>
   $(".clslogo-cls").on('click', function() {
     console.log("hiiii");
@@ -532,7 +547,7 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
       });
   
 </script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
 <!-- <script>
   $(document).ready(function() {
     $('.name-coll').click(function() {
