@@ -293,7 +293,7 @@
           <div class="name-coll">
             {% for block in section.blocks %}
             {%- assign collection = collections[block.settings.collection] -%}
-            <a class="tab" data-collctionname="{{collection.url}}"
+            <a class="tab" data-collctionname="{{collection.title}}"
               href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}">
               {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else
               %}{{collection.title}} {% endif %}</a>
