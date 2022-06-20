@@ -434,15 +434,6 @@
               "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
             }
           },
-          "84bb450b-8014-456f-9024-499b3e84cd72": {
-            "type": "shopall",
-            "settings": {
-              "product": "kiddicare-kids-toiletries-mug",
-              "prdimag4": "shopify:\/\/shop_images\/DSC06613_1.png",
-              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "shopall1": "shopify:\/\/shop_images\/05_1.png"
-            }
-          },
           "6a81b5ea-b1e6-4929-8a26-d87af000d8e1": {
             "type": "nappypants",
             "settings": {
@@ -452,15 +443,6 @@
               "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
             }
           },
-          "95840136-517b-4c48-b2ac-de5a4fea8498": {
-            "type": "shopall",
-            "settings": {
-              "product": "deluxe-junior-unisex-nappies",
-              "prdimag4": "shopify:\/\/shop_images\/DSC06677_1.png",
-              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "shopall1": "shopify:\/\/shop_images\/05_1.png"
-            }
-          },
           "efb579fb-32de-441e-a869-d015a70083b3": {
             "type": "wipes",
             "settings": {
@@ -468,6 +450,24 @@
               "prdimag3": "shopify:\/\/shop_images\/DSC06613_1.png",
               "description3": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
               "wipes1": "shopify:\/\/shop_images\/22_1.png"
+            }
+          },
+          "84bb450b-8014-456f-9024-499b3e84cd72": {
+            "type": "shopall",
+            "settings": {
+              "product": "kiddicare-kids-toiletries-mug",
+              "prdimag4": "shopify:\/\/shop_images\/DSC06613_1.png",
+              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "shopall1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "95840136-517b-4c48-b2ac-de5a4fea8498": {
+            "type": "shopall",
+            "settings": {
+              "product": "deluxe-junior-unisex-nappies",
+              "prdimag4": "shopify:\/\/shop_images\/DSC06677_1.png",
+              "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "shopall1": "shopify:\/\/shop_images\/05_1.png"
             }
           },
           "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d": {
@@ -488,10 +488,10 @@
           "91794c42-0016-4510-ab08-f3b75516ff33",
           "70051772-4340-45f8-b384-6ebbefa14765",
           "d47bc674-1ce3-44be-b76d-91455f8c3e6d",
-          "84bb450b-8014-456f-9024-499b3e84cd72",
           "6a81b5ea-b1e6-4929-8a26-d87af000d8e1",
-          "95840136-517b-4c48-b2ac-de5a4fea8498",
           "efb579fb-32de-441e-a869-d015a70083b3",
+          "84bb450b-8014-456f-9024-499b3e84cd72",
+          "95840136-517b-4c48-b2ac-de5a4fea8498",
           "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d"
         ],
         "settings": {
