@@ -9691,6 +9691,8 @@ function headerSize() {
   var $headerHeight = $('div#shopify-section-header').outerHeight();
   $('#PageContainer').css('padding-top', $headerHeight);
 }
+$(document).ready(function(){
 
 $(window).on("load", headerSize);
-$(window).on("resize", $.debounce(500, headerSize));
+$(window).on("resize", $debounce(500, headerSize));
+});
