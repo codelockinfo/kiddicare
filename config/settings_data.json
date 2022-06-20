@@ -454,6 +454,7 @@
           },
           "84bb450b-8014-456f-9024-499b3e84cd72": {
             "type": "shopall",
+            "disabled": true,
             "settings": {
               "product": "kiddicare-kids-toiletries-mug",
               "prdimag4": "shopify:\/\/shop_images\/DSC06613_1.png",
@@ -463,6 +464,7 @@
           },
           "95840136-517b-4c48-b2ac-de5a4fea8498": {
             "type": "shopall",
+            "disabled": true,
             "settings": {
               "product": "deluxe-junior-unisex-nappies",
               "prdimag4": "shopify:\/\/shop_images\/DSC06677_1.png",
@@ -472,6 +474,7 @@
           },
           "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d": {
             "type": "shopall",
+            "disabled": true,
             "settings": {
               "product": "deluxe-toddler-unisex-nappy-pants-的副本",
               "prdimag4": "shopify:\/\/shop_images\/DSC00645_1_1.png",
@@ -499,7 +502,8 @@
           "title1": "Nappies",
           "title2": "Nappy Pants",
           "title3": "Wipes",
-          "title4": "Shop All"
+          "title4": "Shop All",
+          "url": "shopify:\/\/pages\/collections"
         }
       },
       "165477116711d0623f": {
