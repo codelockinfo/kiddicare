@@ -7046,7 +7046,7 @@ a.tab.active {
 margin-bottom:3%;
 }
 #Quantity-product-template{
-display:none !important;
+/* display:none !important; */
 }
 .product-form__item label{
 display:none;
