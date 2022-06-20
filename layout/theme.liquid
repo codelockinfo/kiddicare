@@ -556,7 +556,9 @@ $(document).ready(function(){
         var text = str.replace(number, str);  
         console.log(text);
 //         jQuery("#drawer-popup").text(text);
-        $("#drawer-popup").replaceWith(text);
+//         $("#drawer-popup").replaceWith(text);
+        $("#drawer-popup").append("Some appended text.");
+
       });
 </script>
 
