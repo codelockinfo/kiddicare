@@ -553,7 +553,7 @@ $(document).ready(function(){
         console.log(str);
         var number = $('#drawer-popup').html();
         console.log(number);
-        str = text.replace(number, str);  
+        var text = str.replace(number, str);  
         jQuery("#drawer-popup").str(text);
         console.log(qty);
       });
