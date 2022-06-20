@@ -38,15 +38,3 @@
     </div>
   </div>
 </div>
-<style>
-  $("button.btn.product-form__cart-submit").on('click', function() {
-        console.log("hey jjjjj");
-        var str = $("#quantity").val();
-        console.log(str);
-        var number = $('#drawer-popup').html();
-        console.log(number);
-        var text = str.replace(number, str);  
-        console.log(text);
-         $('#drawer-popup').html(text);
-      });
-</style>
