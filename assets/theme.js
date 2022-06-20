@@ -9694,5 +9694,5 @@ function headerSize() {
 $(document).ready(function(){
 
 $(window).on("load", headerSize);
-$(window).on("resize", $debounce(500, headerSize));
+$(window).on("resize", $.debounce(500, headerSize));
 });
