@@ -7254,7 +7254,6 @@ button:focus {outline:0;}
     font-size: 23px;
     line-height: 30px;
       font-family: 'Hunterswood';
-    font-weight: 400 !important;
 }
 #stockist-widget .stockist-list-result>.stockist-result-distance>.stockist-icon{
       line-height: 38px !important;
@@ -7262,11 +7261,9 @@ button:focus {outline:0;}
 .stockist-search-filter-checkbox label{
   
     color: #287f95 !important;
-    font-size: 23px;
+    font-size: 18px;
     line-height: 11px;
     font-family: 'Hunterswood';
-    font-weight: 400 !important;
-
 }
 .page-width {
     padding-top: 50px;
