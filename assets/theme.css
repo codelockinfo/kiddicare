@@ -7293,11 +7293,13 @@ margin-bottom: 5%;
   background-color: #fef8f5;
 }
 #stockist-widget .stockist-map{
+  left: 370px;
   padding: 10px 10px 10px 0;
   background-color: #fef8f5 !important;
 }
 #stockist-widget .stockist-horizontal .stockist-side-panel{
   padding-right: 10px !important;
+  width: 350px !important;
 }
 #stockist-widget .stockist-search-filters{
   margin: 15px 0 30px !important;
