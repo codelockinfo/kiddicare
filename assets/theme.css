@@ -7295,3 +7295,6 @@ margin-bottom: 5%;
 #stockist-widget .stockist-map{
   padding: 10px 0;
 }
+#stockist-widget .stockist-result-list{
+  background-color: #e5e3df;
+}
