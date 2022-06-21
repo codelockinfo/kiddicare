@@ -7301,3 +7301,6 @@ margin-bottom: 5%;
 #stockist-widget .stockist-horizontal .stockist-result-list{
   background-color: #e5e3df;
 }
+#stockist-widget .stockist-search-filters{
+  margin: 10px 0 30px;
+}
