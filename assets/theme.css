@@ -7286,3 +7286,9 @@ button:focus {outline:0;}
 .main-guide table{
 margin-bottom: 5%;
 }
+
+/* About_Us */
+#stockist-widget .stockist-horizontal{
+  padding: 10px;
+  background-color: #FFF;
+}
