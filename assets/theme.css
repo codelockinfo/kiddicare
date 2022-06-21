@@ -7259,11 +7259,12 @@ button:focus {outline:0;}
       line-height: 38px !important;
 }
 .stockist-search-filter-checkbox label{
-  
-    color: #287f95 !important;
-    font-size: 18px;
-    line-height: 11px;
-    font-family: 'Hunterswood';
+  font-size: 15px;
+  font-family: Hogar Bold,Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #3a3a3a;
+  line-height: 1.5;
 }
 .page-width {
     padding-top: 50px;
