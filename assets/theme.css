@@ -7248,7 +7248,7 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 *:focus:not(.focus-visible) {  outline: none;
 }
 button:focus {outline:0;}
-.stockist-result-addr-1, .stockist-result-addr-2 {
+.stockist-result-addr-1, .stockist-result-addr-2, .stockist-result-addr-country, .stockist-result-addr-locality {
     font-size: 15px;
 }
 .stockist-feature-color {
