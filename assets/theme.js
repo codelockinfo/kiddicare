@@ -2676,8 +2676,6 @@ theme.Helpers = (function() {
    * @return {String}      The serialized form data
    */
   function serialize(form) {
-     console.log("contact form");
-    return false
     var arr = [];
     Array.prototype.slice.call(form.elements).forEach(function(field) {
       if (
@@ -2703,8 +2701,6 @@ theme.Helpers = (function() {
         encodeURIComponent(field.name) + '=' + encodeURIComponent(field.value)
       );
     });
-    console.log("contact form");
-    return false
     return arr.join('&');
   }
   function cookiesEnabled() {
