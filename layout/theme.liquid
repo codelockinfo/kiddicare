@@ -471,9 +471,9 @@ function getParameter(p)
         }
     }
 }
+  var name = getParameter('name');
+console.log(name);
  $url = document.location.pathname.split('/')[2];
-  console.log(document.location.pathname + "$url");
-  console.log( document.location.pathname.split('/')[1] + "PARAM")
       $('.name-coll a').each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
         $matchresult = $pageURL.match($url);
