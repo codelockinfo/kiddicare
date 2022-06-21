@@ -7290,12 +7290,12 @@ margin-bottom: 5%;
 /* About_Us */
 #stockist-widget .stockist-horizontal{
   padding: 10px;
-  background-color: #fef8f5;
+  background-color: #FFF;
 }
 #stockist-widget .stockist-map{
   left: 370px;
   padding: 10px 10px 10px 0;
-  background-color: #fef8f5 !important;
+  background-color: #FFF !important;
 }
 #stockist-widget .stockist-horizontal .stockist-side-panel{
   padding-right: 10px !important;
