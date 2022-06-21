@@ -7219,6 +7219,9 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 #PageContainer {
   padding-top: 80px;
 }
+#stockist-widget .stockist-result-list ul {
+    margin-right: 0px !important;
+}
 #stockist-widget .stockist-result-list {
     margin: 0;
     overflow-y: auto;
