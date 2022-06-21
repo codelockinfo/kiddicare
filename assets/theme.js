@@ -2701,6 +2701,7 @@ theme.Helpers = (function() {
         encodeURIComponent(field.name) + '=' + encodeURIComponent(field.value)
       );
     });
+    console.log("contact form");
     return arr.join('&');
   }
   function cookiesEnabled() {
