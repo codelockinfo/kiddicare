@@ -5250,6 +5250,8 @@ theme.FormStatus = (function() {
   };
 
   function init() {
+     console.log("contact form");
+    return false
     var statusMessages = document.querySelectorAll(selectors.statusMessage);
 
     statusMessages.forEach(function(statusMessage) {
