@@ -7253,7 +7253,7 @@ button:focus {outline:0;}
     color: #287f95 !important;
     font-size: 23px;
     line-height: 30px;
-      font-family: 'Hunterswood';
+    font-family: 'Hunterswood';
 }
 #stockist-widget .stockist-list-result>.stockist-result-distance>.stockist-icon{
       line-height: 38px !important;
