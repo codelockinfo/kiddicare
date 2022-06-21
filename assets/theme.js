@@ -8291,6 +8291,14 @@ theme.Product = (function() {
         this.loaderStatus.setAttribute('aria-hidden', false);
       } else {
         console.log("else");
+           console.log("hey jjjjj");
+        var str = $("#quantity").val();
+        console.log(str);
+        var number = $('#drawer-popup').html();
+        console.log(number);
+        var text = str.replace(number, str);  
+        console.log(text);
+         $('#drawer-popup').html(text);
         this.addToCart.removeAttribute('aria-disabled');
         this.addToCartText.classList.remove(this.classes.hidden);
         this.loader.classList.add(this.classes.hidden);
