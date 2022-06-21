@@ -7181,11 +7181,15 @@ background:#ededed;
   background-color: #db807b !important;
 }
 #stockist-widget .stockist-query-entry .stockist-search-field {
-    border: 1px dashed #ccc;
     outline: 0;
     text-indent: 0;
     border-radius: 18px;
     font-size: 14px;
+}
+input.stockist-search-field {
+    border: 1px dashed #005E78!important;
+    border-radius: 10px;
+    color: #006781;
 }
 .stockist-result-distance .stockist-icon{
   color:#db807b !important;
