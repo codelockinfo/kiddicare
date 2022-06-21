@@ -8279,6 +8279,7 @@ theme.Product = (function() {
 
     _handleButtonLoadingState: function(isLoading) {
       if (isLoading) {
+        console.log("loading");
         this.addToCart.setAttribute('aria-disabled', true);
         this.addToCartText.classList.add(this.classes.hidden);
         this.loader.classList.remove(this.classes.hidden);
@@ -8289,6 +8290,7 @@ theme.Product = (function() {
 
         this.loaderStatus.setAttribute('aria-hidden', false);
       } else {
+        console.log("else");
         this.addToCart.removeAttribute('aria-disabled');
         this.addToCartText.classList.remove(this.classes.hidden);
         this.loader.classList.add(this.classes.hidden);
