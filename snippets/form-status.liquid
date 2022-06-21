@@ -15,8 +15,11 @@
 
 <script>
   console.log("HHIIIIIIIIIIII");
-$(".flex-fieldcls").css("display","none");
-  return false;
+  setInterval(
+   if($(document).hasClass("flex-fieldcls")){
+  		$(".flex-fieldcls").css("display","none");
+  }
+ , 1000);
 </script>
 {%- endif -%}
 
