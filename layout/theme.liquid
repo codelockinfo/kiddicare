@@ -472,7 +472,13 @@ function getParameter(p)
     }
 }
   var contact_posted = getParameter('contact_posted');
-console.log(contact_posted);
+  console.log(contact_posted);
+   
+  if(contact_posted == true){
+     $(".popupcls").css("display","block");
+      $(".custom-model-maincls").addClass('model-opencls');
+  }
+  
  $url = document.location.pathname.split('/')[2];
       $('.name-coll a').each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
