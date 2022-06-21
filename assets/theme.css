@@ -7171,7 +7171,7 @@ button.btn.newsletter__submit {
 /*       background-color: #fff; */
 }
 .stockist-result-list ul{
-background:#ededed;
+background:#fef8f5;
 }
 
 .stockist-result-list{
@@ -7290,11 +7290,11 @@ margin-bottom: 5%;
 /* About_Us */
 #stockist-widget .stockist-horizontal{
   padding: 10px;
-  background-color: #FEF8F5;
+  background-color: #fef8f5;
 }
 #stockist-widget .stockist-map{
   padding: 10px 10px 10px 0;
-  background-color: #FEF8F5 !important;
+  background-color: #fef8f5 !important;
 }
 #stockist-widget .stockist-horizontal .stockist-side-panel{
   padding-right: 10px !important;
