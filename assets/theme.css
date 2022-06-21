@@ -7251,6 +7251,10 @@ button:focus {outline:0;}
 .stockist-result-addr-1, .stockist-result-addr-2, .stockist-result-addr-country, .stockist-result-addr-locality, a.stockist-feature-color, .stockist-result-filter {
     font-size: 15px;
 }
+#stockist-widget .stockist-result-list::-webkit-scrollbar-thumb {
+    background: #7CD6DB;
+    border-radius: 10px;
+}
 .stockist-feature-color {
     color: #287f95 !important;
     font-size: 20px;
