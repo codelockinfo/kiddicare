@@ -15,13 +15,14 @@
 
 <script>
   console.log("HHIIIIIIIIIIII");
-  setInterval(
-    console.log("setinterval");
+  
+  setInterval(function () {
+   console.log("setinterval");
    if($(popupcls).hasClass(flex-fieldcls)){
   		$(".flex-fieldcls").css("display","none");
   }
- , 1000);
-</script>
+  }, 1000);
+
 {%- endif -%}
 
 {% comment %} We need to add this so the errors are output in the right order {% endcomment %}
