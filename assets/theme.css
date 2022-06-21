@@ -7290,10 +7290,10 @@ margin-bottom: 5%;
 /* About_Us */
 #stockist-widget .stockist-horizontal{
   padding: 10px;
-  background-color: #e5e3df;
+  background-color: #FEF8F5;
 }
 #stockist-widget .stockist-map{
-  padding: 10px 0;
+  padding: 10px 10px 10px 0;
 }
 #stockist-widget .stockist-horizontal .stockist-side-panel{
   padding-right: 10px !important;
