@@ -398,15 +398,6 @@
               "Nappies1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
             }
           },
-          "7542c421-413d-45b4-8d12-c4228c991c02": {
-            "type": "nappypants",
-            "settings": {
-              "product": "deluxe-junior-unisex-nappy-pants",
-              "prdimag2": "shopify:\/\/shop_images\/DSC06677_1.png",
-              "description2": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
-            }
-          },
           "91794c42-0016-4510-ab08-f3b75516ff33": {
             "type": "wipes",
             "settings": {
@@ -423,6 +414,15 @@
               "prdimag3": "shopify:\/\/shop_images\/DSC00645_1_1.png",
               "description3": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
               "wipes1": "shopify:\/\/shop_images\/05_1.png"
+            }
+          },
+          "7542c421-413d-45b4-8d12-c4228c991c02": {
+            "type": "nappypants",
+            "settings": {
+              "product": "deluxe-toddler-unisex-nappy-pants",
+              "prdimag2": "shopify:\/\/shop_images\/DSC06677_1.png",
+              "description2": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "nappypants1": "shopify:\/\/shop_images\/Hedgehog1_1.png"
             }
           },
           "d47bc674-1ce3-44be-b76d-91455f8c3e6d": {
@@ -484,9 +484,9 @@
           "b00a852a-8951-483c-84f9-6c37072ef15e",
           "802e5562-8497-47c6-a3fd-b4709f424eaf",
           "70a7205a-e1c3-45cc-8a1b-0c8f331182b8",
-          "7542c421-413d-45b4-8d12-c4228c991c02",
           "91794c42-0016-4510-ab08-f3b75516ff33",
           "70051772-4340-45f8-b384-6ebbefa14765",
+          "7542c421-413d-45b4-8d12-c4228c991c02",
           "d47bc674-1ce3-44be-b76d-91455f8c3e6d",
           "6a81b5ea-b1e6-4929-8a26-d87af000d8e1",
           "efb579fb-32de-441e-a869-d015a70083b3",
