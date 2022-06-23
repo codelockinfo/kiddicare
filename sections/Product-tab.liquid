@@ -273,11 +273,11 @@
             <div class="Main-product">
               <div class="with-product">
                 {% if block.settings.prdimag1 == blank %}
-                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}" ff>
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}" >
                 {% else %} 
-                <img class="main-img" src="{{block.settings.prdimag1 | img_url: 'master'}}" ddd>
+                <img class="main-img" src="{{block.settings.prdimag1 | img_url: 'master'}}" data-hover-src="{{block.settings.Nappies1 | img_url: 'master'}}">
                 {% endif %}
-<!--                 <img class="bg-img" src=""> -->
+
               </div>
               <div class="product-descriptio">
                 <div class="head-cls">
