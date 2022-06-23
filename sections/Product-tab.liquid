@@ -594,5 +594,8 @@
   });
   $(".main-img").hover(function(){
   console.log("image hover");
+    $dataHoversrc = $(this).attr("data-hover-src");
+    console.log(<img class="bg-img" src=" +$dataHoversrc +"/>);
+    $(this).closest(".Main-product").append("<img class="bg-img" src=" +$dataHoversrc +"/>");
   });
 </script>
