@@ -302,14 +302,14 @@
             {%- case block.type -%}
             {%- when 'nappypants' -%}
             {%- assign product = block.settings.product -%}
-            <div class="Main-product">
+            <div class="Main-product" >
               <div class="with-product">
                 {% if block.settings.prdimag2 == blank %}
                 <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
                 {% else %}
                 <img class="main-img" src="{{block.settings.prdimag2 | img_url: 'master'}}">
                 {% endif %}
-                <img class="bg-img" src="{{block.settings.nappypants1 | img_url: 'master'}}">
+<!--               / <img class="bg-img" src="{{block.settings.nappypants1 | img_url: 'master'}}"> -->
               </div>
               <div class="product-descriptio">
                 <div class="head-cls">
