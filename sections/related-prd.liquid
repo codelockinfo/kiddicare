@@ -12,7 +12,7 @@
           <div class="hav_pro">
             {% if product.featured_image != blank %}
             <a href="{{ product.url}}" class="cool_img"> <img
-                data-src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
+                                                              data-src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
             {% endif %}
           </div>
           <div class="prtilte">
@@ -173,7 +173,7 @@
   .custom_container {
     margin: 0 10%;
   }
- .swatch .tooltip:after {
+  .swatch .tooltip:after {
     border-left: solid transparent 10px;
     border-right: solid transparent 10px;
     border-top: solid gray 10px;
@@ -368,7 +368,7 @@
     border-radius: 10px;
 
   }
-.slick-slider {
+  .slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -474,7 +474,7 @@
   /*================ Slick Slider Theme ================*/
   .slick-loading .slick-list {
     background: #fff var(--slick-img-url) center center no-repeat;
-  }
+      }
 
   / Icons / / Arrows / .slick-prev,
   .slick-next {
@@ -668,7 +668,7 @@
       z-index: 2;
     }
     .bx_shdow {
-        padding: 0 15px;
+      padding: 0 15px;
     }
   }
 
@@ -676,41 +676,41 @@
     .multiple-items .slick-next {
       right: 0px;
     }
-#shopify-section-related-prd {
-    padding: 0 20px;
-}
+    #shopify-section-related-prd {
+      padding: 0 20px;
+    }
     .multiple-items .slick-prev {
       left: -27px;
     }
   }
-    @media only screen and (max-width: 1024px) {
-      .multiple-items .slick-next {
-        right: -30px;
-      }
-
-      .multiple-items .slick-prev {
-        left: -55px;
-      }
-
-      .haveheard_containr {
-        padding: 200px 100px 200px 100px;
-      }
-      .qtydiv .quantity-input {
-        width: 75%;
-      }
+  @media only screen and (max-width: 1024px) {
+    .multiple-items .slick-next {
+      right: -30px;
     }
-    @media only screen and (max-width: 749px) {
-      .multiple-items .slick-prev {
-        left: -27px;
+
+    .multiple-items .slick-prev {
+      left: -55px;
+    }
+
+    .haveheard_containr {
+      padding: 200px 100px 200px 100px;
+    }
+    .qtydiv .quantity-input {
+      width: 75%;
+    }
+  }
+  @media only screen and (max-width: 749px) {
+    .multiple-items .slick-prev {
+      left: -27px;
     }
     .multiple-items .slick-next {
       right: 0px;
+    }
+    h3.health_title.text-cen {
+      font-size: 40px;
+      line-height: 65px;
+    }
   }
-      h3.health_title.text-cen {
-        font-size: 40px;
-        line-height: 65px;
-    }
-    }
 
 </style>
 <link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
@@ -724,6 +724,8 @@
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     prevArrow: "<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
     responsive: [
