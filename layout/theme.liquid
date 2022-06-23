@@ -518,6 +518,8 @@ $(document).ready(function(){
       var contact_posted = getParameter('contact_posted');
       console.log(contact_posted);
       if(contact_posted == "false" || contact_posted == undefined ){
+        console.log("hiii");
+        return false;
       location.href = "https://kiddicare.co.nz/";
       }
     });
