@@ -516,7 +516,11 @@ function getParameter(p)
     $(".close-btncls, .bg-overlay").click(function(){
       $(".popupcls").css("display","none");
       $(".custom-model-maincls").removeClass('model-opencls');
+      var contact_posted = getParameter('contact_posted');
+      console.log(contact_posted);
+      if(contact_posted == "false"){
       location.href = "https://kiddicare.co.nz/";
+      }
     });
 
 //       $(".start_get").on('click', function() {
@@ -572,6 +576,7 @@ function getParameter(p)
       console.log("hfuhfuhfudhfuhuhguhgu");
       $(".popupcls").css("display","block");
       $(".custom-model-maincls").addClass('model-opencls');
+          
     }); 
 
     
