@@ -7304,3 +7304,10 @@ margin-bottom: 5%;
 #stockist-widget .stockist-search-filters{
   margin: 15px 0 30px !important;
 }
+
+/* hover menu */
+.site-nav--has-dropdown:hover .site-nav__dropdown,
+.site-nav--has-dropdown:focus .site-nav__dropdown {
+ display: block;
+}
+.site-nav__dropdown { top: 30px; }
