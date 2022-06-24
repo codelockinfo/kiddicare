@@ -595,7 +595,8 @@
   $(".main-img").hover(function(){
   console.log("image hover");
     $dataHoversrc = $(this).attr("data-hover-src");
-    console.log('<img class="bg-img" src=" '+$dataHoversrc +'"/>');
+    $mainproductDiv = $(this).closest(".Main-product");
+    $bgimgDiv = $mainproductDiv.find("bg-img");
     $(this).closest(".Main-product").find(".with-product").append('<img class="bg-img" src=" '+$dataHoversrc +'"/>');
   });
 </script>
