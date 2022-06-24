@@ -275,7 +275,7 @@
                 {% if block.settings.prdimag1 == blank %}
                 <img class="main-img" src="{{product.featured_image | img_url: 'master'}}" >
                 {% else %} 
-                <img class="main-img" src="{{block.settings.prdimag1 | img_url: 'master'}}" data-hover-src="{{block.settings.Nappies1 | img_url: 'master'}}">
+                <img class="main-img" src="{{block.settings.prdimag1 | img_url: 'master'}}" >
                 {% endif %}
 				<img class="bg-img" src="{{block.settings.Nappies1 | img_url: 'master'}}"/>
               </div>
