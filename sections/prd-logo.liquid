@@ -16,7 +16,7 @@
 
   .main-logos-section {
     background: {
-        {
+      {
         section.settings.color
       }
     }
@@ -284,13 +284,13 @@
 
   .clslogo-cls:hover img.clsimg-hover {
     display: block !important;
-      transition: 2s;
+    transition: 2s;
   }
 
   .clslogo-cls {
     cursor: pointer;
   }
- 
+
   .clscustom-model-main {
     text-align: center;
     overflow: hidden;
@@ -605,31 +605,31 @@
       {% for block in section.blocks %}
       <div class="first-logo">
         <div class="clslogo-cls" data-src="{{block.settings.image-pop | img_url: 'master' }}"
-          data-heading="{{block.settings.heading-pop}}" data-text="{{block.settings.text-pop}}">
+             data-heading="{{block.settings.heading-pop}}" data-text="{{block.settings.text-pop}}">
           <img class="img-normal" src="{{block.settings.image | img_url: 'master'}}">
           <img class="img-hover" src="{{block.settings.hover | img_url: 'master'}}">
         </div>
         <!-- <div class="popup">
-          <div class="custom-model-main">
-            <div class="custom-model-inner">        
-              <div class="close-btn">×</div>
-              <div class="custom-model-wrap">
-                <div class="pop-up-content-wrap">
-                  <div class="pop-flex">
-                    <div class="img-popup combo-pop">
-                      <img src="{{block.settings.image-pop | img_url: 'master' }}">
-                    </div>
-                    <div class="popup-cont combo-pop">
-                      <h2 class="heading-pop">{{block.settings.heading-pop}}</h2>
-                      <p class="text-pop">{{block.settings.text-pop}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>  
-            </div>  
-            <div class="bg-overlay"></div>
-          </div>
-        </div> -->
+<div class="custom-model-main">
+<div class="custom-model-inner">        
+<div class="close-btn">×</div>
+<div class="custom-model-wrap">
+<div class="pop-up-content-wrap">
+<div class="pop-flex">
+<div class="img-popup combo-pop">
+<img src="{{block.settings.image-pop | img_url: 'master' }}">
+</div>
+<div class="popup-cont combo-pop">
+<h2 class="heading-pop">{{block.settings.heading-pop}}</h2>
+<p class="text-pop">{{block.settings.text-pop}}</p>
+</div>
+</div>
+</div>
+</div>  
+</div>  
+<div class="bg-overlay"></div>
+</div>
+</div> -->
       </div>
       {% endfor %}
     </div>
