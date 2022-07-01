@@ -20,14 +20,6 @@
             "collection-link": "shopify:\/\/collections\/nappy-pants"
           }
         },
-        "a4400a5f-2361-4913-8c54-727df2e739da": {
-          "type": "block",
-          "settings": {
-            "collection": "nappy-pants",
-            "collection-tlt": "WIPES",
-            "collection-link": "shopify:\/\/collections\/wipe"
-          }
-        },
         "93cba672-8be4-43f4-9a44-ef4db10257d7": {
           "type": "block",
           "settings": {
@@ -40,7 +32,6 @@
       "block_order": [
         "0d5e63dd-7906-4902-bd05-9b67a03c4c9a",
         "10fc3ccf-c690-4a4a-8713-4eab332a49a8",
-        "a4400a5f-2361-4913-8c54-727df2e739da",
         "93cba672-8be4-43f4-9a44-ef4db10257d7"
       ],
       "settings": {
