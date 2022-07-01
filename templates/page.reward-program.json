@@ -166,7 +166,7 @@
           "type": "block",
           "settings": {
             "numtitle": "01",
-            "numdicript": "Select your <br> nappy size",
+            "numdicript": "Select your nappy size",
             "text1": "",
             "text2": "",
             "text3": "",
@@ -207,6 +207,7 @@
         "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1.png",
         "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
         "getbtn": "",
+        "geturl": "",
         "heading": "",
         "text": "",
         "text1": "",
@@ -336,6 +337,7 @@
         "hedmg": "shopify:\/\/shop_images\/IT4A2806-2_1_3102d086-166b-42d8-8ae8-0ec6f9e5376b.png",
         "dscrit": "Sign up for our subscription program and receive a free Kiddicare Critter for every new milestone your baby achieves.",
         "getbtn": "",
+        "geturl": "",
         "heading": "Kiddicare Critter Milestone",
         "text": "Wondering which diaper size to choose for your little one? Here's a simple diaper size chart you can use as a quick guide to the best diaper size for your baby:",
         "text1": "Kiddicare Critter Milestone",
