@@ -31,9 +31,11 @@
              {% endcase %}
              {% endfor %}
            </div>
+           {% if section.settings.signurl != blank %}
            <div class="button-videosign">
           <button class="signtitle"> <a href="{{section.settings.signurl}}" class="btn-link">{{section.settings.signbtn}}</a> </button>
         </div>
+           {% endif %}
         </div>
       </div>
     </div>
