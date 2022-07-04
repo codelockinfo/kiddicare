@@ -487,7 +487,7 @@
             "settings": {
               "product": "kiddicare-toy-bear",
               "description5": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "Nappies5": "shopify:\/\/shop_images\/Hedgehog1_1.png"
+              "toys5": "shopify:\/\/shop_images\/Hedgehog1_1.png"
             }
           },
           "e788e059-be82-4961-a105-d286c1185faf": {
@@ -495,7 +495,7 @@
             "settings": {
               "product": "kiddicare-toy-lion",
               "description5": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "Nappies5": "shopify:\/\/shop_images\/22_1.png"
+              "toys5": "shopify:\/\/shop_images\/22_1.png"
             }
           },
           "87c86caf-b1d6-461d-af98-b6a3c69ac9d8": {
@@ -503,7 +503,7 @@
             "settings": {
               "product": "kiddicare-toy-raccoon",
               "description5": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
-              "Nappies5": "shopify:\/\/shop_images\/05_1.png"
+              "toys5": "shopify:\/\/shop_images\/05_1.png"
             }
           }
         },
