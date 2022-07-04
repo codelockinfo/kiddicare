@@ -164,10 +164,10 @@
             {% endif %}
             <div class="dis_link_none">
             <div class="link_shap">
-              <p class="social_share"><a href="{{block.settings.facebookurl}}">{{block.settings.facebook}}</a></p>
-                <p class="social_share"><a href="{{block.settings.facebookurl2}}">{{block.settings.facebook2}}</a></p>
-                <p class="social_share"><a href="{{block.settings.facebookurl3}}">{{block.settings.facebook3}}</a></p>
-                <p class="social_share"><a href="{{block.settings.facebookurl4}}">{{block.settings.facebook4}}</a></p>
+              {% if block.settings.facebookurl != blank %}<p class="social_share"><a href="{{block.settings.facebookurl}}">{{block.settings.facebook}}</a></p>{% endif %}
+                {% if block.settings.facebookurl2 != blank %}<p class="social_share"><a href="{{block.settings.facebookurl2}}">{{block.settings.facebook2}}</a></p>{% endif %}
+                {% if block.settings.facebookurl3 != blank %}<p class="social_share"><a href="{{block.settings.facebookurl3}}">{{block.settings.facebook3}}</a></p>{% endif %}
+                {% if block.settings.facebookurl4 != blank %}<p class="social_share"><a href="{{block.settings.facebookurl4}}">{{block.settings.facebook4}}</a></p>{% endif %}
             </div>
       
             </div>
