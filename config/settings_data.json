@@ -481,6 +481,13 @@
               "description4": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
               "shopall1": "shopify:\/\/shop_images\/22_1.png"
             }
+          },
+          "a1838f0c-c152-43da-be8e-109717c60d6f": {
+            "type": "Toys",
+            "settings": {
+              "product": "kiddicare-toy-bear",
+              "description5": ""
+            }
           }
         },
         "block_order": [
@@ -495,7 +502,8 @@
           "efb579fb-32de-441e-a869-d015a70083b3",
           "84bb450b-8014-456f-9024-499b3e84cd72",
           "95840136-517b-4c48-b2ac-de5a4fea8498",
-          "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d"
+          "7cc0c2ef-01d5-49c5-a5ed-cb44ce150b4d",
+          "a1838f0c-c152-43da-be8e-109717c60d6f"
         ],
         "settings": {
           "heading": "Kiddicare Products",
@@ -503,6 +511,7 @@
           "title2": "Nappy Pants",
           "title3": "Wipes",
           "title4": "Shop All",
+          "title5": "Toys",
           "url": "shopify:\/\/pages\/collections"
         }
       },
