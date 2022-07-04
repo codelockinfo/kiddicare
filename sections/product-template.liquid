@@ -189,21 +189,7 @@
 
         {% form 'product', product, class:form_classes, novalidate: 'novalidate', data-product-form: '' %}
         {{ form | payment_terms }}
-        <div class="line-high"></div>
-        <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
-
-        {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-        <div class="product__policies rte" data-product-policies>
-          {%- if cart.taxes_included -%}
-          {{ 'products.product.include_taxes' | t }}
-          {%- endif -%}
-          {%- if shop.shipping_policy.body != blank -%}
-          {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-          {%- endif -%}
-        </div>
-        {%- endif -%}
+        
 
 
         {% unless product.has_only_default_variant %}
@@ -286,6 +272,24 @@
           </div>
         </div>
         {% endform %}
+        
+        <div class="line-high"></div>
+        <div class="product-single__description rte">
+          {{ product.description }}
+        </div>
+
+        {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+        <div class="product__policies rte" data-product-policies>
+          {%- if cart.taxes_included -%}
+          {{ 'products.product.include_taxes' | t }}
+          {%- endif -%}
+          {%- if shop.shipping_policy.body != blank -%}
+          {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+          {%- endif -%}
+        </div>
+        {%- endif -%}
+        
+        
       </div>
 
       {%- comment -%}
