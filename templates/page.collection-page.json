@@ -24,15 +24,24 @@
           "type": "block",
           "settings": {
             "collection": "toys",
-            "collection-tlt": "SHOP ALL",
+            "collection-tlt": "Toys",
             "collection-link": "shopify:\/\/pages\/collections"
+          }
+        },
+        "bf91352e-8a52-423f-8006-b9e6b37688af": {
+          "type": "block",
+          "settings": {
+            "collection": "shop-all",
+            "collection-tlt": "Shop all",
+            "collection-link": ""
           }
         }
       },
       "block_order": [
         "0d5e63dd-7906-4902-bd05-9b67a03c4c9a",
         "10fc3ccf-c690-4a4a-8713-4eab332a49a8",
-        "93cba672-8be4-43f4-9a44-ef4db10257d7"
+        "93cba672-8be4-43f4-9a44-ef4db10257d7",
+        "bf91352e-8a52-423f-8006-b9e6b37688af"
       ],
       "settings": {
         "heading": "Kiddicare Products",
