@@ -632,7 +632,7 @@
         "type": "googleMap",
         "settings": {
           "maptitle": "Where to find us",
-          "komap": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe class=\"gmap_iframe\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/maps.google.com\/maps?width=600&height=400&hl=en&q=27%20Timberly%20Road,%20M%C4%81ngere,%20Auckland%202022,%20New%20Zealand&t=&z=14&ie=UTF8&iwloc=B&output=embed\"><\/iframe><a href=\"https:\/\/www.kokagames.com\/fnf-friday-night-funkin-mods\/\">FNF Mods<\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}<\/style>\n<\/div>"
+          "komap": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe class=\"gmap_iframe\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https:\/\/maps.google.com\/maps?width=600&height=400&hl=en&q=27%20Timberly%20Road,%20M%C4%81ngere,%20Auckland%202022,%20New%20Zealand&t=&z=14&ie=UTF8&iwloc=B&output=embed\"><\/iframe><a href=\"https:\/\/www.kokagames.com\/fnf-friday-night-funkin-mods\/\">FNF Mods<\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}<\/style>\n<\/div>"
         }
       },
       "text-with-video": {
