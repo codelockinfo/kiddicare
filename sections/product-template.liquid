@@ -284,10 +284,7 @@
         </div>
         {% endform %}
       </div>
-      <div class="line-high"></div>
-        <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
+      
 
       {%- comment -%}
       Live region for announcing updated price and availability to screen readers
@@ -321,6 +318,10 @@
       {% endif %}
     </div>
   </div>
+  <div class="line-high"></div>
+        <div class="product-single__description rte">
+          {{ product.description }}
+        </div>
 </div>
 
 {% unless product == empty %}
