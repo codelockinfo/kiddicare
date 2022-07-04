@@ -89,7 +89,9 @@
       "settings": {
         "kom": "shopify:\/\/shop_images\/DSC00641_1_df8f708a-2df2-49d2-b3dc-ab26b5c410df.png",
         "kiddpoint": "How to earn Kiddipoints?",
-        "methodpoint": "There are a few methods to earn points."
+        "methodpoint": "There are a few methods to earn points.",
+        "signbtn": "Sign me up!",
+        "signurl": "https:\/\/kiddicare.co.nz\/account\/register"
       }
     },
     "1655393687d35e5fe2": {
