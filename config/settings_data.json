@@ -525,7 +525,7 @@
             "type": "block",
             "settings": {
               "numtitle": "01",
-              "numdicript": "Select your<br>  nappy size",
+              "numdicript": "Select your <br> nappy size",
               "text1": "",
               "text2": "",
               "text3": "",
@@ -536,7 +536,7 @@
             "type": "block",
             "settings": {
               "numtitle": "02",
-              "numdicript": "Select your <br>  delivery cycle",
+              "numdicript": "Select your<br>delivery cycle",
               "text1": "",
               "text2": "",
               "text3": "",
