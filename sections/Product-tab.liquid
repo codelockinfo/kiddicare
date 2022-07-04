@@ -309,6 +309,9 @@
         <li class="nappie">
           <a class="nav-link"  href="{{ section.settings.url }}"  id="#"> {{ section.settings.title4 }} </a>
         </li>
+        <li class="nappie">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#toys" role="tab" aria-controls="toys" aria-selected="false"> {{ section.settings.title5 }} </a>
+        </li>
       </ul>
 
       <!-- Tab panes -->
@@ -441,6 +444,38 @@
             {% endfor %}
           </div>
         </div>
+        <div class="tab-pane fade" id="toys" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="main-block-tab mindust">
+            {% for block in section.blocks %}
+            {%- case block.type -%}
+            {%- when 'Toys' -%}
+            {%- assign product = block.settings.product -%}
+            <div class="Main-product" >
+              <div class="with-product">
+                {% if block.settings.prdimag5 == blank %}
+                <img class="main-img" src="{{product.featured_image | img_url: 'master'}}">
+                {% else %}
+                <img class="main-img" src="{{block.settings.prdimag5 | img_url: 'master'}}">
+                {% endif %}
+
+              </div>
+              <div class="product-descriptio">
+                <div class="head-cls">
+                  <h2 class="prd-heading">{{product.title}}</h2>
+                </div>
+                <div class="desc-cls">
+                  <p class="prd-desc">{{block.settings.description5}}</p>
+                </div>
+                <div class="product-btn">
+                  <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href=""> SHOP Now </a></button>
+                </div>
+              </div>
+            </div>
+            {%- endcase -%}
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -535,7 +570,7 @@
 "label" : "Description"
 },
 {
-"id" : "Toys5",
+"id" : "Nappies5",
 "type" : "image_picker",
 "label" : "Image"
 }
