@@ -34,7 +34,7 @@
       "settings": {
         "custom": "<div data-stockist-widget-tag=\"u6566\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>",
         "heading": "Where to buy",
-        "text": "If your local supermarket does not have kiddicare® on their shelves, ask them to stock us — and get your friends and family to ask too—this lets them know that there is a local demand."
+        "text": "Kiddicare is available at leading supermarkets all over New Zealand, but if your local supermarket does not have Kiddicare on their shelves, please ask them to stock is and get your friends and family to ask them too."
       }
     },
     "1654861286fae7c8b3": {
