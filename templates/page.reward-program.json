@@ -20,6 +20,18 @@
     "1655280720bf01902a": {
       "type": "EarnKiddipoint",
       "blocks": {
+        "acaab253-a548-4ac0-a7b9-910218fd0773": {
+          "type": "heading",
+          "settings": {
+            "title": "Sign Up :"
+          }
+        },
+        "e458253b-d662-4abd-bea0-962e71ca572e": {
+          "type": "disciption",
+          "settings": {
+            "discript": "You will receive 500 Kiddipoints simply for signing up!"
+          }
+        },
         "635d933b-8e76-4f43-89f1-5126effdf923": {
           "type": "heading",
           "settings": {
@@ -35,13 +47,13 @@
         "da15b46b-7ad0-41c5-aeb6-bbe6b819733a": {
           "type": "heading",
           "settings": {
-            "title": "Celebrate a birthday:"
+            "title": "Happy birthday from us :"
           }
         },
         "98e3b874-eb16-4daa-a03d-e49649447a10": {
           "type": "disciption",
           "settings": {
-            "discript": "You will recieve a gift of 1000 Kiddipoints. Your birthday needs to be entered for at least 30 days before you can recieve this gift."
+            "discript": "You will get a gift of 1000 Kiddipoints on your birthday, but you will need to make sure you let us know when your birthday is at least 30 days before you can receive this gift."
           }
         },
         "3f67d060-89e9-4db6-ba88-5a2806dec5b3": {
@@ -65,17 +77,19 @@
         "ce8edf4b-7057-4306-bbe7-acfd5307eda4": {
           "type": "heading",
           "settings": {
-            "title": "Like us on Facebook\/Follow us on Instagram:"
+            "title": "Like us on Facebook or follow us on Instagram:"
           }
         },
         "35984e32-a754-437d-a822-5e55c09c71b4": {
           "type": "disciption",
           "settings": {
-            "discript": "If you've already liked us on Facebook\/followed us on Instagram, don't worry! You can still get the points by clicking on those two buttons."
+            "discript": "Give us a like or follow us and we will give you 250 Kiddipoints – easy! If you've already liked us on Facebook\/followed us on Instagram, don't worry! You can still get the points by clicking on those two buttons again."
           }
         }
       },
       "block_order": [
+        "acaab253-a548-4ac0-a7b9-910218fd0773",
+        "e458253b-d662-4abd-bea0-962e71ca572e",
         "635d933b-8e76-4f43-89f1-5126effdf923",
         "b1c8bc37-a2bd-46bd-a00d-93815e6863ab",
         "da15b46b-7ad0-41c5-aeb6-bbe6b819733a",
