@@ -1,1 +1,56 @@
-{"sections":{"16548606409dd08a9b":{"type":"first-page-banner","settings":{"heading":"About us","image":"shopify:\/\/shop_images\/DSC06701_1.png"}},"165486064456333b9d":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/DSC00644_2.png","layout":"right","title":"WHY IT'S DELUXE","text":"<p>Since the day we bought our very own nappy making machine, we’ve been on a mission to create the perfect nappy.<\/p><p><br\/>We use non-traditional materials which allows us to say a big ‘No thank you!’ to wetness, discomfort and bursting nappies.<\/p><p><br\/>Thanks to years of research, we can now say that these nappies have double the absorbency whilst being our softness creations yet.<\/p>","button_label":"","button_link":""}},"1654860713f22663bd":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/DSC00644_2.png","layout":"left","title":"Our Story","text":"<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh.<\/p><p><br\/>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus.<\/p>","button_label":"","button_link":""}},"1654861862d2d417ec":{"type":"custom-html","settings":{"custom":"<div data-stockist-widget-tag=\"u6566\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>","heading":"Where to buy","text":"If your local supermarket does not have kiddicare® on their shelves, ask them to stock us — and get your friends and family to ask too—this lets them know that there is a local demand."}},"1654861286fae7c8b3":{"type":"home-page-last","settings":{"heading":"Kiddicare are proud supporters of Mummys In Need","image":"shopify:\/\/shop_images\/Group_150.png","bgimage":"shopify:\/\/shop_images\/IT4A2764-2_1_1.png"}}},"order":["16548606409dd08a9b","165486064456333b9d","1654860713f22663bd","1654861862d2d417ec","1654861286fae7c8b3"]}
+{
+  "sections": {
+    "16548606409dd08a9b": {
+      "type": "first-page-banner",
+      "settings": {
+        "heading": "About us",
+        "image": "shopify:\/\/shop_images\/DSC06701_1.png"
+      }
+    },
+    "165486064456333b9d": {
+      "type": "feature-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00644_2.png",
+        "layout": "right",
+        "title": "WHY IT  IS  DELUXE",
+        "text": "<p>Simple, it is our softest nappy ever, gentle on skins with all the good stuff none of the nasties, your baby will feel like they’re sitting on a cloud.<\/p><p><br>With ultra-fast maximum absorbency keeping your little one dryer and more comfortable for up to 12 hours with ultra-dry leak protecting meaning better night’s sleep for mums, dads and bubs.<\/p><p><br>And all of this at a price you will love!<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1654860713f22663bd": {
+      "type": "feature-row",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00644_2.png",
+        "layout": "left",
+        "title": "Our Story",
+        "text": "<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh.<\/p><p><br>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1654861862d2d417ec": {
+      "type": "custom-html",
+      "settings": {
+        "custom": "<div data-stockist-widget-tag=\"u6566\">Loading store locator\nfrom <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script>",
+        "heading": "Where to buy",
+        "text": "If your local supermarket does not have kiddicare® on their shelves, ask them to stock us — and get your friends and family to ask too—this lets them know that there is a local demand."
+      }
+    },
+    "1654861286fae7c8b3": {
+      "type": "home-page-last",
+      "settings": {
+        "heading": "Kiddicare are proud supporters of Mummys In Need",
+        "image": "shopify:\/\/shop_images\/Group_150.png",
+        "bgimage": "shopify:\/\/shop_images\/IT4A2764-2_1_1.png"
+      }
+    }
+  },
+  "order": [
+    "16548606409dd08a9b",
+    "165486064456333b9d",
+    "1654860713f22663bd",
+    "1654861862d2d417ec",
+    "1654861286fae7c8b3"
+  ]
+}
