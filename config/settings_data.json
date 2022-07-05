@@ -725,8 +725,8 @@
               "image": "shopify:\/\/shop_images\/Component_1_2.png",
               "hover": "shopify:\/\/shop_images\/02.png",
               "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
-              "heading-pop": "A Good Night’s Sleep for Mums, Dads & Bubs",
-              "text-pop": "Our innovative design provides up to 12 hours of ultra-dry leak protection, giving everybody a good night’s sleep."
+              "heading-pop": "ULTRA-FAST MAXIMUM ABSORBENCY",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
             }
           },
           "2b930f51-2f6a-4c33-9a88-4ed763c44a60": {
@@ -735,17 +735,7 @@
               "image": "shopify:\/\/shop_images\/Component_4.png",
               "hover": "shopify:\/\/shop_images\/01.png",
               "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
-              "heading-pop": "Our Softest Nappy Ever",
-              "text-pop": "Our new deluxe nappies are so soft that your baby will feel as if they’re sitting in a cloud."
-            }
-          },
-          "f9ee9b08-cac5-4713-a7ee-045ab49595a7": {
-            "type": "block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Component_6_f84c0275-858a-4f8d-b3a9-dc9427ab71ab.png",
-              "hover": "shopify:\/\/shop_images\/04.png",
-              "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
-              "heading-pop": "Stylish Nappy Prints",
+              "heading-pop": "ULTRA-FAST MAXIMUM ABSORBENCY",
               "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
             }
           },
@@ -755,8 +745,18 @@
               "image": "shopify:\/\/shop_images\/Component_5.png",
               "hover": "shopify:\/\/shop_images\/03.png",
               "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
-              "heading-pop": "Gentle On Skin",
-              "text-pop": "Kiddicare Deluxe nappies have all the good stuff with none of the bad – no harmful chemicals, perfumes, lotions, or latex."
+              "heading-pop": "ULTRA-FAST MAXIMUM ABSORBENCY",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
+            }
+          },
+          "f9ee9b08-cac5-4713-a7ee-045ab49595a7": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Component_6_f84c0275-858a-4f8d-b3a9-dc9427ab71ab.png",
+              "hover": "shopify:\/\/shop_images\/04.png",
+              "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
+              "heading-pop": "ULTRA-FAST MAXIMUM ABSORBENCY",
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
             }
           },
           "2f037508-7cd2-42b9-8bd8-1556e4265922": {
@@ -766,15 +766,15 @@
               "hover": "shopify:\/\/shop_images\/05.png",
               "image-pop": "shopify:\/\/shop_images\/DSC00645_1_cddfbfb9-2eb5-47b0-92fb-c8f16b7fc53a.png",
               "heading-pop": "ULTRA-FAST MAXIMUM ABSORBENCY",
-              "text-pop": "Five layers of plant-based protection act fast to absorb every drop, leaving your baby feeling nice and dry."
+              "text-pop": "Thanks to years of research, these nappies have double the absorbency whilst being our lightest creations yet. Genius!"
             }
           }
         },
         "block_order": [
           "e156af8a-3e72-46f1-b0ed-9036a54f06d9",
           "2b930f51-2f6a-4c33-9a88-4ed763c44a60",
-          "f9ee9b08-cac5-4713-a7ee-045ab49595a7",
           "f27ddc90-418d-4b61-9a22-69d0e7d96c9b",
+          "f9ee9b08-cac5-4713-a7ee-045ab49595a7",
           "2f037508-7cd2-42b9-8bd8-1556e4265922"
         ],
         "settings": {
