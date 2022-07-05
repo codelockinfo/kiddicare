@@ -362,7 +362,7 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/Swinging-Monkey.gif",
           "heading": "Kiddicare Critters",
-          "text": "<div align=\"justify\">We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!<\/div>",
+          "text": "We’ve been working hard with some of the best in the business to perfetct the design of our nappies, inside and out. New Zealand’s leading designers created our stunning packaging, which features the irresistibly cute Kiddicare family of animals. Many hours went into developing the perfect cuddly characters, who were lovingly handmade by a very talented New Zealand toymaker. Kiddicare nappies and wipes now bring a smile to babies and parents alike!",
           "btn-text": "SHOP Our Products",
           "btn-link": "shopify:\/\/pages\/collections",
           "btn-bg-color": ""
@@ -853,6 +853,14 @@
               "collection-link": "shopify:\/\/collections\/wipe"
             }
           },
+          "0946b636-302c-4b09-8ac0-6004b63fb64e": {
+            "type": "block",
+            "settings": {
+              "collection": "toys",
+              "collection-tlt": "Toys",
+              "collection-link": "shopify:\/\/collections\/toys"
+            }
+          },
           "5a1653e7-dd8b-45df-adaf-ce9cce526cc1": {
             "type": "block",
             "settings": {
@@ -866,6 +874,7 @@
           "eb4f0970-7652-4e6e-b2d7-78b5b1debc5c",
           "01c43e7f-d02c-4386-989e-0eefc50778d7",
           "15ac023f-cbea-4eea-88eb-ea8f5e48fc75",
+          "0946b636-302c-4b09-8ac0-6004b63fb64e",
           "5a1653e7-dd8b-45df-adaf-ce9cce526cc1"
         ],
         "settings": {
