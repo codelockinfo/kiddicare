@@ -7312,6 +7312,6 @@ margin-bottom: 5%;
 }
 .site-nav__dropdown { top: 30px; }
 
-.filters-toolbar .filters-toolbar__item--count{
+.filters-toolbar .filters-toolbar__item--count , .filters-toolbar__product-count{
   display: none;
 }
