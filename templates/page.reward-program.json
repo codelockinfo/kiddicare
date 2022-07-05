@@ -120,7 +120,7 @@
         "760bd556-8b91-4335-afcb-ff42db47aa53": {
           "type": "disciption",
           "settings": {
-            "discript": "Exchange 4000 Kiddipoints for a 30% off coupon"
+            "discript": "Exchange 4000 Kiddipoints for a 30% off coupon for your next order"
           }
         },
         "41ac6433-5357-4c41-9abe-5731b4e81846": {
@@ -132,7 +132,7 @@
         "4b62d8d3-076b-43b9-8dff-de4232a5ce2f": {
           "type": "disciption",
           "settings": {
-            "discript": "Exchange Kiddipoints for a discount. Every 100 points can be exchanged for $1."
+            "discript": "Exchange Kiddipoints for  discounts. Every 100 points can be exchanged for $1 off on your next purchase."
           }
         }
       },
