@@ -7311,3 +7311,7 @@ margin-bottom: 5%;
  display: block;
 }
 .site-nav__dropdown { top: 30px; }
+
+.filters-toolbar .filters-toolbar__item--count{
+  display: none;
+}
