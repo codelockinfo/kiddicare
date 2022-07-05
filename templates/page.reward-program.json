@@ -322,8 +322,8 @@
         "54d728d1-d956-4b3b-9d4c-0ab2c4a72571": {
           "type": "block",
           "settings": {
-            "numtitle": "02",
-            "numdicript": "Select your <br> delivery cycle",
+            "numtitle": "B",
+            "numdicript": "Select when <br> you need them",
             "text1": "",
             "text2": "",
             "text3": "",
@@ -333,8 +333,8 @@
         "0faa744d-0d28-46f5-9bf8-5b44ae53d457": {
           "type": "block",
           "settings": {
-            "numtitle": "03",
-            "numdicript": "Update your <br> subscription any time!",
+            "numtitle": "C",
+            "numdicript": "Update your <br> subscription any time online!",
             "text1": "",
             "text2": "",
             "text3": "",
