@@ -7320,3 +7320,7 @@ margin-bottom: 5%;
 .filters-toolbar .filters-toolbar__item--count , .filters-toolbar__product-count{
   display: none;
 }
+
+body.template-index .main-slider .slick-slide img {
+    max-height: 845px;
+}
