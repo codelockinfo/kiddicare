@@ -168,10 +168,11 @@
         {% endfor %}
         {% endfor %}
         {% assign sizesArr = sizes | split: '_' | uniq %}
-
+		<ul>
         {% for size in sizesArr %}
-        <span>{{ size }}</span>
+        <li>{{ size }}</li>
         {% endfor %}
+  		</ul>
   <div class="mgbottom">
     <div class="clscontaincollections page-width" id="Collection">
       {% if section.settings.layout == 'grid' %}
