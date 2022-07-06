@@ -160,13 +160,13 @@
   </header>
   
         {% assign sizes = '' %}
-  {% for product in collection.products %}
+        {% for product in collection.products %}
         {% for variant in product.variants %}
         {% if variant.available %}
         {% assign sizes = sizes | append: variant.options[0] | append: '_' %}
         {% endif %}
         {% endfor %}
-{% endfor %}
+        {% endfor %}
         {% assign sizesArr = sizes | split: '_' | uniq %}
 
         {% for size in sizesArr %}
