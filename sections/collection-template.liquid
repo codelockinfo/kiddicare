@@ -154,7 +154,11 @@
               collection.products_count }}</span>
           </div>
         </div>
-        dfgfd
+      </div>
+    </div>
+    {% endif %}
+  </header>
+   dfgfd
         {% assign sizes = '' %}
         {% for variant in product.variants %}
         {% if variant.available %}
@@ -167,10 +171,6 @@
         {% for size in sizesArr %}
         <span>{{ size }}</span>
         {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-  </header>
   <div class="mgbottom">
     <div class="clscontaincollections page-width" id="Collection">
       {% if section.settings.layout == 'grid' %}
