@@ -7325,5 +7325,5 @@ body.template-index .main-slider .slick-slide img {
     max-height: 845px;
 }
 .qtydiv .btnqty{
-	font-size: 35px;
+	font-size: 35px !important;
 }
