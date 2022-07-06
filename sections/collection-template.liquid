@@ -154,6 +154,18 @@
               collection.products_count }}</span>
           </div>
         </div>
+        {% assign sizes = '' %}
+        {% for variant in product.variants %}
+        {% if variant.available %}
+        {% assign sizes = sizes | append: variant.options[0] | append: '_' %}
+        {% endif %}
+        {% endfor %}
+
+        {% assign sizesArr = sizes | split: '_' | uniq %}
+
+        {% for size in sizesArr %}
+        <span>{{ size }}</span>
+        {% endfor %}
       </div>
     </div>
     {% endif %}
