@@ -362,6 +362,13 @@
               "child": "Cost Effective!",
               "kome2": "Good quality and price. Definitely worth to buy."
             }
+          },
+          "f42cddbb-f3ae-4bcf-a757-60ed4994cf8b": {
+            "type": "block",
+            "settings": {
+              "child": "",
+              "kome2": ""
+            }
           }
         },
         "block_order": [
@@ -369,7 +376,8 @@
           "67205641-76f6-4e8d-8aca-d7833e3e1e5f",
           "a34c7262-2ce7-4282-a25a-f62e9bc485de",
           "a25ddc4d-5d03-4dfa-be88-556033fcbc00",
-          "409d777f-a937-4abc-aa83-fb7df5ca147f"
+          "409d777f-a937-4abc-aa83-fb7df5ca147f",
+          "f42cddbb-f3ae-4bcf-a757-60ed4994cf8b"
         ],
         "settings": {
           "title": "Our Happy customers"
