@@ -354,13 +354,22 @@
               "child": "Amazing Pants!",
               "kome2": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
             }
+          },
+          "409d777f-a937-4abc-aa83-fb7df5ca147f": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/6.jpg",
+              "child": "Cost Effective!",
+              "kome2": "Good quality and price. Definitely worth to buy."
+            }
           }
         },
         "block_order": [
           "5aba6f18-ef45-48c3-8c57-a40947a32ad8",
           "67205641-76f6-4e8d-8aca-d7833e3e1e5f",
           "a34c7262-2ce7-4282-a25a-f62e9bc485de",
-          "a25ddc4d-5d03-4dfa-be88-556033fcbc00"
+          "a25ddc4d-5d03-4dfa-be88-556033fcbc00",
+          "409d777f-a937-4abc-aa83-fb7df5ca147f"
         ],
         "settings": {
           "title": "Our Happy customers"
