@@ -182,7 +182,7 @@
             "type": "link_list",
             "settings": {
               "title": "",
-              "menu": "footermenu"
+              "menu": "footer"
             }
           },
           "footer-1": {
