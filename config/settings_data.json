@@ -346,12 +346,21 @@
               "child": "We love the Kiddicare Toy!",
               "kome2": "It is a cute toy for babies and toddlers. And not only for toddlers even the elders like it too much. It has a good and soft material. The quality is up to the mark and my baby loves it"
             }
+          },
+          "a25ddc4d-5d03-4dfa-be88-556033fcbc00": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/3.jpg",
+              "child": "Amazing Pants!",
+              "kome2": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+            }
           }
         },
         "block_order": [
           "5aba6f18-ef45-48c3-8c57-a40947a32ad8",
           "67205641-76f6-4e8d-8aca-d7833e3e1e5f",
-          "a34c7262-2ce7-4282-a25a-f62e9bc485de"
+          "a34c7262-2ce7-4282-a25a-f62e9bc485de",
+          "a25ddc4d-5d03-4dfa-be88-556033fcbc00"
         ],
         "settings": {
           "title": "Our Happy customers"
