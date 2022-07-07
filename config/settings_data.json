@@ -244,11 +244,22 @@
               "btn-link": "shopify:\/\/pages\/collections",
               "bgimage": "shopify:\/\/shop_images\/imageedit_1_6942636020.webp"
             }
+          },
+          "6f6a6364-e1fe-4f39-9a46-004ca408f81a": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner-3.jpg",
+              "heading": "",
+              "text": "",
+              "btn-text": "",
+              "btn-link": ""
+            }
           }
         },
         "block_order": [
           "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c",
-          "68adde1c-ce04-4e0a-b450-9784a49884f7"
+          "68adde1c-ce04-4e0a-b450-9784a49884f7",
+          "6f6a6364-e1fe-4f39-9a46-004ca408f81a"
         ],
         "settings": {
         }
