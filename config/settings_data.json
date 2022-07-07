@@ -346,12 +346,21 @@
               "child": "We love them!",
               "kome2": "“Curabitur arcu erat, accumsan imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.”"
             }
+          },
+          "7a9e6601-bc22-4cb6-aad1-e6aa766aba67": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/kiddicare_home_page_bannner_image_-new_1.png",
+              "child": "We love kiddicare",
+              "kome2": "......."
+            }
           }
         },
         "block_order": [
           "5aba6f18-ef45-48c3-8c57-a40947a32ad8",
           "67205641-76f6-4e8d-8aca-d7833e3e1e5f",
-          "a34c7262-2ce7-4282-a25a-f62e9bc485de"
+          "a34c7262-2ce7-4282-a25a-f62e9bc485de",
+          "7a9e6601-bc22-4cb6-aad1-e6aa766aba67"
         ],
         "settings": {
           "title": "Our Happy customers"
