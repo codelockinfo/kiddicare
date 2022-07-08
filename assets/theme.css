@@ -1422,7 +1422,9 @@ ol {
 
 /*================ #Links and Buttons ================*/
 a:not([disabled]):hover, a:focus {
-  color: var(--color-text-focus); }
+  color: var(--color-text-focus);
+    text-decoration: underline;
+    }
 
 .password-powered-by a:not([disabled]):hover, .password-powered-by a:focus {
   color: var(--color-text-focus);
