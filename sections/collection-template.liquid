@@ -60,7 +60,7 @@
               {%- assign collectionpro = collections[block.settings.collection] -%}
               {%- assign collection = collections[block.settings.collection] -%}
               <a class="tab"
-                href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}">
+                href="">
                 {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else
                 %}{{collection.title}} {% endif %}</a>
               {% endfor %}
@@ -177,8 +177,8 @@
       {% endcase %}
 
       <ul
-        class="customcollections grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
-        {% for product in collectionpro.products %}
+        class="customcollections grid grid--uniform{% if collectionpro.products_count > 0 %} grid--view-items{% endif %}">
+        {% for product in collectionpro.products %}{{collectionpro.title}}
         <li class="CLS grid__item grid__item--{{section.id}} {{ grid_item_width }}">
           {% include 'product-card-grid', max_height: max_height, product: product, show_vendor:
           section.settings.show_vendor %}
