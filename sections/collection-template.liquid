@@ -109,10 +109,10 @@ data-image-loading-animation
     <div class="filters-toolbar-wrapper{% if is_filter_by_available %} filters-toolbar--has-filter{% endif %}">
       <div class="clscontaincollections page-width">
         <div class="filters-toolbar">
-<!--           <div class="filters-toolbar__item-wrapper">
+          <div class="filters-toolbar__item-wrapper">
             {% if section.settings.tags_enable %}
             {% unless collection.all_tags.size == 0 %}
-            <div class="filters-toolbar__item-child">
+<!--             <div class="filters-toolbar__item-child">
               <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' |
                 t }}</label>
               <div class="filters-toolbar__input-wrapper select-group">
@@ -127,12 +127,12 @@ data-image-loading-animation
                 </select>
                 {% include 'icon-chevron-down' %}
               </div>
-            </div>
+            </div> -->
             {% endunless %}
             {% endif %}
 
             {% if section.settings.sort_enable %}
-            <div class="filters-toolbar__item-child">
+<!--             <div class="filters-toolbar__item-child">
               {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
               <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t
                 }}</label>
@@ -147,9 +147,9 @@ data-image-loading-animation
                 </select>
                 {% include 'icon-chevron-down' %}
               </div>
-            </div>
+            </div> -->
             {% endif %}
-          </div> -->
+          </div>
 
           <div class="filter-cls">
             <div class="filters-toolbar__item-child">
