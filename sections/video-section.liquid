@@ -132,8 +132,7 @@ color: #006781;
       {% assign select = section.settings.select-cls %}
       {% if select == "gif" %}
        <div class="video-main Video-width-cls">
-        {% assign videoId = section.settings.video | split: '?v=' %}
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/{{ videoId[1] }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <img src="{{ section.settings.image | img_url:'master' }}">
       </div>
       {% endif %}
       {% if select == "video" %}
