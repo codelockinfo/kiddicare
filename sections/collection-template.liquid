@@ -174,7 +174,7 @@
       {% when 5 %}
       {%- assign grid_item_width = 'small--one-whole medium-up--one-fifth' -%}
       {% endcase %}
-{% for collectioncusotm in collections.all %}
+{% for collectioncusotm in collections %}
       {{collectioncusotm.title}}////
       {% endfor %}
       <ul
