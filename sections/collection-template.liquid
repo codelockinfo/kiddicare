@@ -58,10 +58,12 @@ data-image-loading-animation
             <div class="name-coll">
               {% for block in section.blocks %}
               {%- assign collectionss = collections[block.settings.collection] -%}
+              {% if block.settings.collection-link != blank %}
               <a class="tab"
                  href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}">
                 {% if block.settings.collection-tlt != blank %} {{ block.settings.collection-tlt}} {% else
                 %}{{collectionss.title}} {% endif %}</a>
+              {% endif %}
               {% endfor %}
             </div>
           </div>
