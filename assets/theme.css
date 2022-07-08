@@ -7327,3 +7327,7 @@ body.template-index .main-slider .slick-slide img {
 .qtydiv .btnqty{
 	font-size: 35px !important;
 }
+
+.page-container .main-content{
+  padding: 5% 0;
+}
