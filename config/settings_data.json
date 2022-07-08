@@ -920,7 +920,7 @@
           "show_collection_image": true,
           "show_vendor": false,
           "sort_enable": false,
-          "tags_enable": true
+          "tags_enable": false
         }
       },
       "cart-template": {
