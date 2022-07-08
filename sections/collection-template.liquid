@@ -160,7 +160,7 @@ data-image-loading-animation
                   {% for block in section.blocks %}
                   {% case block.type %}
                   {% when 'tag' %}
-                  <option class="sold{{forloop.index}} value="{{ block.settings.tag-cls }} ">{{ block.settings.tag-cls }} </option>
+                  <option class="sold " value="{{ block.settings.tag-cls }} ">{{ block.settings.tag-cls }} </option>
                   {% endcase %}
 					{% endfor %}
                 </select>
