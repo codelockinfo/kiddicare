@@ -249,8 +249,8 @@
             "type": "block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Banner-3.jpg",
-              "heading": "Did You Know?",
-              "text": "Subscribe & Save 30%",
+              "heading": "Subscribe & Save 30%",
+              "text": "",
               "btn-text": "shop now",
               "btn-link": "shopify:\/\/collections",
               "bgimage": "shopify:\/\/shop_images\/color.jpg"
