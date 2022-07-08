@@ -878,6 +878,7 @@ data-image-loading-animation
   $('.filter-cls #FilterTags').on('change', function () {
           var abc = $(this).val(); // get selected value
           var url = window.location.href;
+    console.log("url");
     var redirect = url+'/'+abc;
     window.location = redirect; 
       });
