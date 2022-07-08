@@ -866,8 +866,8 @@ data-image-loading-animation
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
   $(document).ready(function(){
-    $(".sold").click(function(){
-      $(this).addClass("active");
+    $("option").click(function(){
+      $(this).find(".sold").addClass("active");
     });
     console.log("hii");
    var abc = $(".filter-cls #FilterTags").val();
