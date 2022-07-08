@@ -1462,7 +1462,8 @@ a[href^="tel"] {
     .btn, .shopify-payment-button .shopify-payment-button__button--unbranded {
       padding: 10px 18px; } }
   .btn:not([disabled]):hover, .shopify-payment-button .shopify-payment-button__button--unbranded:not([disabled]):hover, .btn:focus, .shopify-payment-button .shopify-payment-button__button--unbranded:focus {
-    color: var(--color-btn-primary-text);
+/*     color: var(--color-btn-primary-text); */
+          color: #003e4e;
     background-color: var(--color-btn-primary-focus); }
   .btn .icon-arrow-right, .shopify-payment-button .shopify-payment-button__button--unbranded .icon-arrow-right,
   .btn .icon-arrow-left,
