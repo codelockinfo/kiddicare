@@ -869,13 +869,10 @@ data-image-loading-animation
     console.log("hii");
    var abc = $(".filter-cls #FilterTags").val();
     console.log(abc);ddd
+    var url = window.location.href;
+    var redirect = url+'/'+abc;
+    window.location = redirect; 
   });
   
-  $('.filter-cls #FilterTags').on('change', function () {
-          var url = $(this).val(); // get selected value
-          if (url) { // require a URL
-              window.location/url; // redirect
-          }
-          return false;
-      });
+ 
 </script>
