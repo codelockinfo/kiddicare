@@ -1465,7 +1465,9 @@ a[href^="tel"] {
 /*     color: var(--color-btn-primary-text); */
           color: #003e4e;
     text-decoration: underline;
-    background-color: var(--color-btn-primary-focus); }
+/*     background-color: var(--color-btn-primary-focus); */
+      background-color: #F48F89;
+        }
   .btn .icon-arrow-right, .shopify-payment-button .shopify-payment-button__button--unbranded .icon-arrow-right,
   .btn .icon-arrow-left,
   .shopify-payment-button .shopify-payment-button__button--unbranded .icon-arrow-left {
