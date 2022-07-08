@@ -57,6 +57,7 @@
 
             <div class="name-coll">
               {% for block in section.blocks %}
+              {%- assign collectionpro = block.settings.collection -%}
               {%- assign collection = collections[block.settings.collection] -%}
               <a class="tab"
                 href="{% if block.settings.collection-link != blank %} {{ block.settings.collection-link}} {% else %}{{collection.url}} {% endif %}">
@@ -177,7 +178,7 @@
 
       <ul
         class="customcollections grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
-        {% for product in collection.products %}{{collection.title}},
+        {% for product in collectionpro.products %}{{collection.title}},
         <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
           {% include 'product-card-grid', max_height: max_height, product: product, show_vendor:
           section.settings.show_vendor %}
