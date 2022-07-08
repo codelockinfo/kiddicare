@@ -7336,3 +7336,8 @@ h1{
     font-style: normal;
     font-weight: 400;
 }
+form label{
+  font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+}
