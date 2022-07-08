@@ -242,7 +242,7 @@
               "text": "Get your Free Kiddicare Nappy Sample",
               "btn-text": "Click Here",
               "btn-link": "shopify:\/\/pages\/get-a-free-sample",
-              "bgimage": "shopify:\/\/shop_images\/Untitled-3_1.png"
+              "bgimage": "shopify:\/\/shop_images\/Untitled-3.png"
             }
           },
           "1269a67e-8398-4aa9-9c83-e4405baf0f9a": {
@@ -899,7 +899,7 @@
             "settings": {
               "collection": "shop-all",
               "collection-tlt": "Shop All",
-              "collection-link": "shopify:\/\/pages\/collections"
+              "collection-link": "shopify:\/\/collections\/shop-all"
             }
           }
         },
@@ -928,14 +928,6 @@
         "settings": {
           "cart_ajax_enable": true,
           "cart_notes_enable": false
-        }
-      },
-      "blog-template": {
-        "type": "blog-template",
-        "settings": {
-          "layout": "list",
-          "blog_show_author": true,
-          "blog_show_date": true
         }
       }
     },
