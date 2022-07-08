@@ -155,7 +155,8 @@ data-image-loading-animation
             <div class="filters-toolbar__item-child">
               <label class="filters-toolbar__label select-label" for="FilterTags">Filter by</label>
               <div class="filters-toolbar__input-wrapper select-group">
-                <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input="">
+                <select class="filters-toolbar__input " name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input="">
+                  <option value="/collections/frontpage"> Select tag </option>
                   {% for block in section.blocks %}
                   {% case block.type %}
                   {% when 'tag' %}
