@@ -238,10 +238,10 @@
             "type": "block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Untitled-4.png",
-              "heading": "Deluxe nappies <br>you can trust",
-              "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
-              "btn-text": "Shop Our Products",
-              "btn-link": "shopify:\/\/pages\/collections",
+              "heading": "Free Kiddicare <br>Nappy Sample",
+              "text": "Get your Free Kiddicare Nappy Sample",
+              "btn-text": "Click Here",
+              "btn-link": "shopify:\/\/pages\/get-a-free-sample",
               "bgimage": "shopify:\/\/shop_images\/Untitled-3.png"
             }
           },
