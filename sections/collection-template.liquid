@@ -157,7 +157,7 @@ data-image-loading-animation
                   {% for block in section.blocks %}
                   {% case block.type %}
                   {% when 'tag' %}
-                  <option value="/collections/frontpage">All products</option>
+                  <option value="/collections/frontpage">{{ block.settings.tag-cls }} </option>
                   {% endcase %}
 					{% endfor %}
                 </select>
