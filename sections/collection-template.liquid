@@ -130,7 +130,7 @@
             {% endif %}
 
             {% if section.settings.sort_enable %}
-<!--             <div class="filters-toolbar__item-child">
+            <div class="filters-toolbar__item-child">
               {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
               <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t
                 }}</label>
@@ -145,7 +145,7 @@
                 </select>
                 {% include 'icon-chevron-down' %}
               </div>
-            </div> -->
+            </div>
             {% endif %}
           </div>
 
@@ -168,11 +168,11 @@
         {% endfor %}
         {% endfor %}
         {% assign sizesArr = sizes | split: '_' | uniq %}
-<!-- 		<ul>
+		<ul>
         {% for size in sizesArr %}
         <li>{{ size }}</li>
         {% endfor %}
-  		</ul> -->
+  		</ul>
   
   <div class="mgbottom">
     <div class="clscontaincollections page-width" id="Collection">
@@ -203,7 +203,7 @@
         store has no products.
         {% endcomment %}
         {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0 %}
-<!--         <li class="grid__item">
+        <li class="grid__item">
           <div class="grid grid--uniform">
             {% for i in (1..limit) %}
             <div class="grid__item {{ grid_item_width }}">
@@ -222,7 +222,7 @@
             </div>
             {% endfor %}
           </div>
-        </li> -->
+        </li>
         {% else %}
         {%- assign is_empty_collection = true -%}
         {% endif %}
@@ -231,9 +231,9 @@
       {% else %}
       <ul class="list-view-items">
         {% for product in collection.products %}
-<!--         <li class="list-view-item">
+        <li class="list-view-item">
           {% include 'product-card-list', product: product, show_vendor: section.settings.show_vendor %}
-        </li> -->
+        </li>
         {% else %}
 
         {% comment %}
@@ -244,7 +244,7 @@
         {% endcomment %}
         {% if collection.handle == 'all' and collection.all_vendors.size == 0 and collection.all_types.size == 0%}
         {% for i in (1..4) %}
-<!--         <li class="list-view-item">
+        <li class="list-view-item">
           <a href="#" class="list-view-item__link">
             <div class="list-view-item__image-column">
               <div class="list-view-item__image-wrapper">
@@ -263,7 +263,7 @@
               <span class="product-price__price">$19.99</span>
             </div>
           </a>
-        </li> -->
+        </li>
         {% endfor %}
         {% else %}
         {%- assign is_empty_collection = true -%}
