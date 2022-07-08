@@ -249,10 +249,10 @@
             "type": "block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Banner-3.jpg",
-              "heading": "subsscribe & save",
-              "text": "",
+              "heading": "Did You Know?",
+              "text": "Subscribe & Save 30%",
               "btn-text": "shop now",
-              "btn-link": "",
+              "btn-link": "shopify:\/\/collections",
               "bgimage": "shopify:\/\/shop_images\/color.jpg"
             }
           }
