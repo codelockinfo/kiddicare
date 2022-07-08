@@ -1464,6 +1464,7 @@ a[href^="tel"] {
   .btn:not([disabled]):hover, .shopify-payment-button .shopify-payment-button__button--unbranded:not([disabled]):hover, .btn:focus, .shopify-payment-button .shopify-payment-button__button--unbranded:focus {
 /*     color: var(--color-btn-primary-text); */
           color: #003e4e;
+    text-decoration: underline;
     background-color: var(--color-btn-primary-focus); }
   .btn .icon-arrow-right, .shopify-payment-button .shopify-payment-button__button--unbranded .icon-arrow-right,
   .btn .icon-arrow-left,
