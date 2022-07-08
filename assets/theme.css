@@ -7331,3 +7331,8 @@ body.template-index .main-slider .slick-slide img {
 .cls-padding{
   padding: 5% 0;
 }
+h1{
+  font-family: 'Hunterswood';
+    font-style: normal;
+    font-weight: 400;
+}
