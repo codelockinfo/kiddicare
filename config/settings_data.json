@@ -252,7 +252,7 @@
               "heading": "Subscribe & Save 30%",
               "text": "",
               "btn-text": "shop now",
-              "btn-link": "shopify:\/\/collections",
+              "btn-link": "shopify:\/\/pages\/collections",
               "bgimage": "shopify:\/\/shop_images\/color.jpg"
             }
           }
