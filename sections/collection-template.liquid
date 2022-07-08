@@ -866,11 +866,16 @@ data-image-loading-animation
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
   $(document).ready(function(){
-    $("option").click(function(){
-      $(this).find(".sold").addClass("active");
-    });
     console.log("hii");
    var abc = $(".filter-cls #FilterTags").val();
     console.log(abc);ddd
   });
+  
+  $('.filter-cls #FilterTags').on('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location/url; // redirect
+          }
+          return false;
+      });
 </script>
