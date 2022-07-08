@@ -177,7 +177,7 @@
 {% for collectioncusotm in collections %}
       {%- assign collectiontitle = collectioncusotm.title | downcase -%}
       {{collectioncusotm.url}}>>>>
-      {{canonical_url}}<<<<
+      {{ current.url.handle}}<<<<
       {% if collectiontitle ==  tutut%}
       {% endif %}
       {% endfor %}
