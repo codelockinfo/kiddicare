@@ -237,6 +237,7 @@
           "68adde1c-ce04-4e0a-b450-9784a49884f7": {
             "type": "block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/nappy-PNG.png",
               "heading": "Free Kiddicare <br>Nappy Sample",
               "text": "Get your Free Kiddicare Nappy Sample",
               "btn-text": "Click Here",
