@@ -155,6 +155,18 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
             <div class="filters-toolbar__item-child">
               <label class="filters-toolbar__label select-label" for="FilterTags">Filter by</label>
               <div class="filters-toolbar__input-wrapper select-group">
+<select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags"
+aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
+<option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
+{% for tag in collection.all_tags %}
+{%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
+<option value="{{ new_url }}" {% if current_tags contains tag %} selected="selected" {% endif %}>{{
+                    tag }}</option>
+{% endfor %}
+</select>
+{% include 'icon-chevron-down' %}
+</div>
+              <div class="filters-toolbar__input-wrapper select-group">
                 <select class="filters-toolbar__input " name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input="">
                   <option value="Select tag"> Select tag </option>
                   {% for block in section.blocks %}
