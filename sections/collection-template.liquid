@@ -866,9 +866,9 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
   $('.filter-cls #FilterTags').on('change', function () {
     var abc = $(this).val(); 
 //     var url = window.location.href;
-    var url = window.location.href = '/collections/{{ collection.handle }}';
-    console.log("url");
-    var redirect = url+'/'+abc;
+//     var url = window.location.href = '/collections/{{ collection.handle }}';
+//     console.log("url");
+//     var redirect = url+'/'+abc;
     window.location = abc; 
   });
 </script>
