@@ -901,41 +901,6 @@
               "collection-tlt": "Shop All",
               "collection-link": "shopify:\/\/collections\/shop-all"
             }
-          },
-          "7d75415b-ee55-4741-9dc2-808bccf8cc85": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "tag-cls": "Valuepack"
-            }
-          },
-          "f40a5b15-05ec-485e-8087-01996eb579e6": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "tag-cls": "Valuepack12*72"
-            }
-          },
-          "3e6e4b47-e418-4b52-9917-9235a30e17cc": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "tag-cls": "8conveniencepacksbundle144s"
-            }
-          },
-          "69e47afa-3a6f-466d-b986-801cc31a71cd": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "tag-cls": "Jumbopack72s"
-            }
-          },
-          "6e5ac7fa-b116-4b9f-8dc4-95ab4d503a8c": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "tag-cls": "4bulkpacksbundle184s"
-            }
           }
         },
         "block_order": [
@@ -943,12 +908,7 @@
           "01c43e7f-d02c-4386-989e-0eefc50778d7",
           "15ac023f-cbea-4eea-88eb-ea8f5e48fc75",
           "0946b636-302c-4b09-8ac0-6004b63fb64e",
-          "5a1653e7-dd8b-45df-adaf-ce9cce526cc1",
-          "7d75415b-ee55-4741-9dc2-808bccf8cc85",
-          "f40a5b15-05ec-485e-8087-01996eb579e6",
-          "3e6e4b47-e418-4b52-9917-9235a30e17cc",
-          "69e47afa-3a6f-466d-b986-801cc31a71cd",
-          "6e5ac7fa-b116-4b9f-8dc4-95ab4d503a8c"
+          "5a1653e7-dd8b-45df-adaf-ce9cce526cc1"
         ],
         "settings": {
           "heading": "KIDDICARE PRODUCTS",
