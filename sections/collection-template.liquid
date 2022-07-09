@@ -865,16 +865,6 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
-  //   $(document).ready(function(){
-  //     console.log("hii");
-  //    var abc = $(".filter-cls #FilterTags").val();
-  //     console.log(abc);ddd
-  //     var url = window.location.href;
-  //     var redirect = url+'/'+abc;
-  //     window.location = redirect; 
-  //   });
-
-
   $('.filter-cls #FilterTags').on('change', function () {
     var abc = $(this).val(); 
     var url = window.location.href;
@@ -883,5 +873,4 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
     var redirect = url+'/'+abc;
     window.location = redirect; 
   });
-
 </script>
