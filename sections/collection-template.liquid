@@ -112,42 +112,42 @@ data-image-loading-animation
           <div class="filters-toolbar__item-wrapper">
             {% if section.settings.tags_enable %}
             {% unless collection.all_tags.size == 0 %}
-            <!--             <div class="filters-toolbar__item-child">
-<label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' |
+<!--             <div class="filters-toolbar__item-child">
+              <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' |
                 t }}</label>
-<div class="filters-toolbar__input-wrapper select-group">
-<select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags"
-aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
-<option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
-{% for tag in collection.all_tags %}
-{%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
-<option value="{{ new_url }}" {% if current_tags contains tag %} selected="selected" {% endif %}>{{
+              <div class="filters-toolbar__input-wrapper select-group">
+                <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags"
+                        aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
+                  <option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
+                  {% for tag in collection.all_tags %}
+                  {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
+                  <option value="{{ new_url }}" {% if current_tags contains tag %} selected="selected" {% endif %}>{{
                     tag }}</option>
-{% endfor %}
-</select>
-{% include 'icon-chevron-down' %}
-</div>
-</div> -->
+                  {% endfor %}
+                </select>
+                {% include 'icon-chevron-down' %}
+              </div>
+            </div> -->
             {% endunless %}
             {% endif %}
 
             {% if section.settings.sort_enable %}
-            <!--             <div class="filters-toolbar__item-child">
-{%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-<label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t
+<!--             <div class="filters-toolbar__item-child">
+              {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+              <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t
                 }}</label>
-<div class="filters-toolbar__input-wrapper select-group">
-<select name="sort_by" id="SortBy" class="filters-toolbar__input hidden"
-aria-describedby="a11y-refresh-page-message a11y-selection-message"
-data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
-{%- for option in collection.sort_options -%}
-<option value="{{ option.value }}" {% if option.value==sort_by %}selected="selected" {% endif %}>{{
+              <div class="filters-toolbar__input-wrapper select-group">
+                <select name="sort_by" id="SortBy" class="filters-toolbar__input hidden"
+                        aria-describedby="a11y-refresh-page-message a11y-selection-message"
+                        data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
+                  {%- for option in collection.sort_options -%}
+                  <option value="{{ option.value }}" {% if option.value==sort_by %}selected="selected" {% endif %}>{{
                     option.name }}</option>
-{%- endfor -%}
-</select>
-{% include 'icon-chevron-down' %}
-</div>
-</div> -->
+                  {%- endfor -%}
+                </select>
+                {% include 'icon-chevron-down' %}
+              </div>
+            </div> -->
             {% endif %}
           </div>
 
@@ -156,16 +156,20 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
               <label class="filters-toolbar__label select-label" for="FilterTags">Filter by</label>
               <div class="filters-toolbar__input-wrapper select-group">
                 <select class="filters-toolbar__input " name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input="">
-                  <option value=""> All Product </option>
-                  {% for tag in collection.all_tags %}
-                  {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
-                  <option value="{{ new_url }}" {% if current_tags contains tag %} selected="selected" {% endif %}>{{ tag }}</option>
-                  {% endfor %}
+                  <option value="Select tag"> Select tag </option>
+                  {% for block in section.blocks %}
+                  {% case block.type %}
+                  {% when 'tag' %}
+                  <option class="sold " value="{{ block.settings.tag-cls }} ">{{ block.settings.tag-cls }} </option>
+                  {% endcase %}
+					{% endfor %}
                 </select>
                 <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#fff"></path></svg>
               </div>
             </div>
           </div>
+          
+
           <div class="filters-toolbar__item filters-toolbar__item--count">
             <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count:
               collection.products_count }}</span>
@@ -174,7 +178,7 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
       </div>
     </div>
     {% endif %}
-
+    
   </header>
 
 
@@ -613,6 +617,17 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
 "label" : "Collection Link"
 }
 ]
+},
+{
+"name" : "tag",
+"type" : "tag",
+"settings" : [
+{
+"id" : "tag-cls",
+"type" : "text",
+"label" : "Filter tag"
+}
+]
 }
 ]
 }
@@ -850,12 +865,22 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
+//   $(document).ready(function(){
+//     console.log("hii");
+//    var abc = $(".filter-cls #FilterTags").val();
+//     console.log(abc);ddd
+//     var url = window.location.href;
+//     var redirect = url+'/'+abc;
+//     window.location = redirect; 
+//   });
+  
+  
   $('.filter-cls #FilterTags').on('change', function () {
-    var abc = $(this).val(); 
-    //     var url = window.location.href;
-    //     var url = window.location.href = '/collections/{{ collection.handle }}';
-    //     console.log("url");
-    //     var redirect = url+'/'+abc;
-    window.location = abc; 
-  });
+          var abc = $(this).val(); // get selected value
+          var url = window.location.href;
+    console.log("url");
+    var redirect = url+'/'+abc;
+    window.location = redirect; 
+      });
+ 
 </script>
