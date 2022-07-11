@@ -156,7 +156,7 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
               <label class="filters-toolbar__label select-label" for="FilterTags">Filter by</label>
               <div class="filters-toolbar__input-wrapper select-group">
                 <select class="filters-toolbar__input " name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input="">
-                  <option value=""> All Product </option>
+                  <option value="Select tag"> Select tag </option>
                   {% for tag in collection.all_tags %}
                   {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
                   <option value="{{ new_url }}" {% if current_tags contains tag %} selected="selected" {% endif %}>{{ tag }}</option>
@@ -613,6 +613,17 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
 "label" : "Collection Link"
 }
 ]
+},
+{
+"name" : "tag",
+"type" : "tag",
+"settings" : [
+{
+"id" : "tag-cls",
+"type" : "text",
+"label" : "Filter tag"
+}
+]
 }
 ]
 }
@@ -852,10 +863,10 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
 <script>
   $('.filter-cls #FilterTags').on('change', function () {
     var abc = $(this).val(); 
-    //     var url = window.location.href;
-    //     var url = window.location.href = '/collections/{{ collection.handle }}';
-    //     console.log("url");
-    //     var redirect = url+'/'+abc;
-    window.location = abc; 
+//     var url = window.location.href;
+    var url = window.location.href = '/collections/{{ collection.handle }}';
+    console.log("url");
+    var redirect = url+'/'+abc;
+    window.location = redirect; 
   });
 </script>
