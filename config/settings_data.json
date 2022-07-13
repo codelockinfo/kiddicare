@@ -914,6 +914,7 @@
           },
           "5a1653e7-dd8b-45df-adaf-ce9cce526cc1": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "collection": "shop-all",
               "collection-tlt": "Shop All",
