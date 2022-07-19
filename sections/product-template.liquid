@@ -290,11 +290,9 @@
         
       </div>
 
-      
-        <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
-      
+      {%- comment -%}
+      Live region for announcing updated price and availability to screen readers
+      {%- endcomment -%}
       <p class="visually-hidden" data-product-status
          aria-live="polite"
          role="status"
@@ -811,11 +809,9 @@
   .the-image {
     background-color: #fff;
     width: 100%;   
-    border-radius:20px;
+    border-radius:20px
  }
-img.product-single__thumbnail-image {
-    border-radius: 20px;
-}
+
 		.slick-slider {
   position: relative;
   display: block;
