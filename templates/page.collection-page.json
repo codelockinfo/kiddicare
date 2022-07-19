@@ -39,7 +39,7 @@
         "bf91352e-8a52-423f-8006-b9e6b37688af": {
           "type": "block",
           "settings": {
-            "collection": "shop-all",
+            "collection": "",
             "collection-tlt": "Shop all",
             "collection-link": ""
           }
