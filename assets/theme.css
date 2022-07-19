@@ -7052,7 +7052,7 @@ footer.site-footer{
 .qty_var{
 display:flex;
 }
-a.tab.active {
+tab:last-child {
     color: #006781;
 }
 #shopify-section-template--16146346672344__165529357205331910{
