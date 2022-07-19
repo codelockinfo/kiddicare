@@ -298,10 +298,11 @@
          role="status"
          ></p>
 
-      {%- comment -%}
-      Live region for announcing that the product form has been submitted and the
-      product is in the process being added to the cart
-      {%- endcomment -%}
+    
+       <div class="product-single__description rte">
+          {{ product.description }}
+        </div>
+      
       <p class="visually-hidden" data-loader-status
          aria-live="assertive"
          role="alert"
@@ -323,9 +324,7 @@
     </div>
   </div>
   
-  <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
+ 
 </div>
 
 {% unless product == empty %}
