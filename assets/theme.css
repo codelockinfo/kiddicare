@@ -2248,8 +2248,8 @@ hr {
 .drawer--top {
   width: 100%;
   -ms-transform: translateY(-100%);
-/*   -webkit-transform: translateY(-100%);
-     transform: translateY(-100%);  */
+  -webkit-transform: translateY(-100%);
+     transform: translateY(-100%); 
     display: flex;
     flex-wrap: wrap;        
 }
