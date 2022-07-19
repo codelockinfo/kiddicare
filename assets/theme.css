@@ -2248,8 +2248,8 @@ hr {
 .drawer--top {
   width: 100%;
   -ms-transform: translateY(-100%);
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%); }
+/*   -webkit-transform: translateY(-100%);
+  transform: translateY(-100%); } */
   .js-drawer-open-top .drawer--top {
     -ms-transform: translateY(0%);
     -webkit-transform: translateY(0%);
@@ -4403,8 +4403,8 @@ hr {
   flex: 1; }
   @media only screen and (min-width: 750px) {
     .search-bar__interior {
-      padding-left: 55px;
-      padding-right: 55px;
+      padding-left: 0px;
+      padding-right: 0px;
       height: auto; } }
 
 .search-form__container {
