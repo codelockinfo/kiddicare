@@ -12,7 +12,7 @@
         "type": "header",
         "settings": {
           "contaurl": "shopify:\/\/pages\/contact-us",
-          "search": "shopify:\/\/collections",
+          "search": "",
           "align_logo": "left",
           "logo": "shopify:\/\/shop_images\/Kiddicare-LOGO__2020.07.02-02_7e2066bc-b82f-4105-b325-38c85d12cc6f_1.png",
           "logo_max_width": 200,
