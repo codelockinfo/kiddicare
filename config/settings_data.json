@@ -766,7 +766,8 @@
         "settings": {
           "heading": "KIDDICARE ARE PROUD SUPPORTERS OF MUMMYS IN NEED",
           "image": "shopify:\/\/shop_images\/mummys-in-need-logo.png",
-          "bgimage": "shopify:\/\/shop_images\/IT4A2764-2_1.webp"
+          "bgimage": "shopify:\/\/shop_images\/IT4A2764-2_1.webp",
+          "blog": ""
         }
       },
       "prd-logo": {
@@ -935,7 +936,7 @@
           "heading": "KIDDICARE PRODUCTS",
           "text": "Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
           "image": "shopify:\/\/shop_images\/imageedit_3_7937065809_cc59304a-ad81-4cc5-a163-4479c0672067.png",
-          "layout": "grid",
+          "layout": "list",
           "grid": 4,
           "rows": 2,
           "show_collection_image": true,
