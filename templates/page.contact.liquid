@@ -65,7 +65,7 @@
                 <textarea rows="10" placeholder="Enter your message here*" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
               </div>
 
-              <input type="submit" class="btn clssubmitbtn" value="submit">
+              <input type="submit" class="Click-here btn clssubmitbtn" value="submit">
       
 <div class="custom-model-main">
     <div class="custom-model-inner">        
@@ -466,10 +466,11 @@
     }
 </style>
 <script>    
-$(".btn").on('click', function() {
+$(".Click-here").on('click', function() {
   $(".custom-model-main").addClass('model-open');
 }); 
 $(".close-btn, .bg-overlay").click(function(){
   $(".custom-model-main").removeClass('model-open');
-});               
+});
+        
 </script>
