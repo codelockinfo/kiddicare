@@ -8,6 +8,7 @@
     {% include 'pagination', paginate: paginate %}
 
 {% endcomment %}
+{% comment %}
 <ul class="list--inline pagination">
   {% unless paginate.previous.is_link %}
     <li aria-hidden="true">
@@ -43,3 +44,4 @@
     </li>
   {% endunless %}
 </ul>
+{% endcomment %}
