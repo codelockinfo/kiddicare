@@ -2746,9 +2746,9 @@ hr {
   width: auto;
   padding-top: 2rem; }
 
-.product-form__controls-group {
+/* .product-form__controls-group {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap; } */
 
 .product-form__controls-group--submit {
   margin-top: 0px; }
