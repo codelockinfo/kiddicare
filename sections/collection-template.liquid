@@ -858,7 +858,7 @@ data-default-sortby="{{ collection.default_sort_by }}" data-select-input>
     var abc = $(this).val(); 
     var url = window.location.href = '/collections/{{ collection.handle }}';
     console.log("url");
-    var redirect = url+'/'+abc;
-    window.location = redirect; 
+    // var redirect = url+'/'+abc;
+    window.location = abc; 
   });
 </script>
