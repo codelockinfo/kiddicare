@@ -333,18 +333,15 @@ Get first variant, or deep linked one
   <div class="fix-sector">
     <div class="main-personal-texts">
       <div class="personal-texts">
+      {%- for field in product.metafields -%}
         <div class="only-texts fade-up animated fadeInUp cls-asap">
-          {%- for field in product.metafields.custom.heading -%}
-          <h2> {{ field  }}: {{ field }} </h2>
-  {%- endfor -%}
-   {%- for text in product.metafields.custom.text -%}
-          <p class="natuepera"> {{ text  }}: {{ text }}   </p>
-  {%- endfor -%}
+          
+          <h2> {{ field  }}: {{ field.custom.heading }} </h2>
+ 
+          <p class="natuepera"> {{ field  }}: {{ field.custom.text }}   </p>
           <h2> DELUXE CRAWLER UNISEX NAPPIES </h2>
           <ul style="list-style-type:disc">   
-             {%- for other in product.metafields.custom.others -%}
-    <li>{{ other  }}: {{ other }}</li> 
-  {%- endfor -%}
+    <li>{{ field  }}: {{ field.custom.others }}</li> 
           </ul> 
           <p></p>
         </div>
@@ -353,14 +350,13 @@ Get first variant, or deep linked one
             <div class="nutri-wipe" data-scroll="in" data-aos="flip-left">
               <div class="cls only-image">
                 <span class="video-sem"><video controls="">
-                  {%- for video in product.metafields.custom.gif_image -%}
-                            <source src="{{ video  }}: {{ video }}">
-      {%- endfor -%}
+                            <source src="{{ field  }}: {{ field.custom.gif_image }}">
                           </video></span>
               </div>
             </div>
           </div>
         </div>
+         {%- endfor -%}
       </div>
     </div>
   </div>
