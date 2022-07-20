@@ -338,7 +338,6 @@ Get first variant, or deep linked one
         <p class="natuepera">{{ product.metafields.custom.text }}</p>
         <ul style="list-style-type:disc">
           {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]" |split:"," -%}
-    {{ r }}
           {%- for p in r -%}
           <li>{{ p }}</li>
           {%- endfor -%}
