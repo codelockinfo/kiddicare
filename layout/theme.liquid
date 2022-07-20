@@ -480,7 +480,7 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
     }
 }
 $(document).ready(function(){
-     var loc = window.location.href;
+     var loc = document.location.pathname.split('/');
     console.log(loc);
   var contact_posted = getParameter('contact_posted');
   console.log(contact_posted);
