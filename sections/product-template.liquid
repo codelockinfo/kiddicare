@@ -199,7 +199,7 @@ Get first variant, or deep linked one
                 {% for option in product.options_with_values %}
     {{ variant.option1 }}///
                   {{ option.values }}>>>
-                     {% if variant.option1 contains option.values %}
+                     
                           <div class="selector-wrapper js product-form__item">
                             <label for="SingleOptionSelector-{{ forloop.index0 }}">
                               {{ option.name }}
@@ -209,11 +209,13 @@ Get first variant, or deep linked one
                                     data-index="option{{ forloop.index }}"
                                     >
                               {% for value in option.values %}
+                                {% if variant.option1 contains option.values %}
                               <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %} data-price="{{  }}">{{ value }}</option>
-                              {% endfor %}
+                              {% endif %}
+                                  {% endfor %}
                             </select>
                           </div>
-                      {% endif %}
+                     
                 {% endfor %}
           {% endfor %}
       </variant-selects>
