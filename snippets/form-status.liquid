@@ -9,13 +9,13 @@
     {% include 'form-status', form: form, form_id: formId, success_message: post_message %}
 {% endcomment %}
 {%- if form.posted_successfully? -%}
-    <div class="popupclsc">
-    <div class="custom-model-mainclsc">
-      <div class="custom-model-innerclsc">        
-        <div class="close-btnclsc">×</div>
-        <div class="custom-model-wrapclsc">
-          <div class="pop-up-content-wrapclsc">
-            <div class="popup-formsclsc">
+    <div class="popupcls">
+    <div class="custom-model-maincls">
+      <div class="custom-model-innercls">        
+        <div class="close-btncls">×</div>
+        <div class="custom-model-wrapcls">
+          <div class="pop-up-content-wrapcls">
+            <div class="popup-formscls">
 {% comment %}                 <p class="form-message form-message--success" tabindex="-1" data-form-status> {% endcomment %}
                   {{ success_message | default: 'contact.form.post_success' | t }}
 {% comment %}                 </p> {% endcomment %}
@@ -28,13 +28,13 @@
 
  <script>
   console.log("HHIIIIIIIIIIII");
-  $(".popupclsc").css("display","block");
-  $(".custom-model-mainclsc").addClass('model-opencls');
+  $(".popupcls").css("display","block");
+  $(".custom-model-maincls").addClass('model-opencls');
   
   setInterval(function () {
     console.log("setinterval");
-    if($(".popupclsc").hasClass("flex-fieldcls")){
-      $(".flex-fieldclsc").css("display","none");
+    if($(".popupcls").hasClass("flex-fieldcls")){
+      $(".flex-fieldcls").css("display","none");
       $(".sample-heading").css("display","none");
     }
   }, 1000);
@@ -88,7 +88,7 @@
 {%- endif -%}
 <style>
 
-  .popup-formsclsc{
+  .popup-formscls{
       margin: 0 2%;
   }
   .flex-field {
@@ -97,7 +97,7 @@
     width: 100%;
     justify-content: space-between;
 }
-  .custom-model-mainclsc {
+  .custom-model-maincls {
     text-align: center;
     overflow: hidden;
     position: fixed;
@@ -117,14 +117,14 @@
     overflow-y: auto;
   }
 
-  .model-openclsc {
+  .model-opencls {
     z-index: 99999;
     opacity: 1;
     overflow: hidden;
     padding: 3%;
   }
 
-  .custom-model-innerclsc {
+  .custom-model-innercls {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
     transform: translate(0, -25%);
@@ -140,7 +140,7 @@
     max-width: 1200px;
   }
 
-  .custom-model-wrapclsc {
+  .custom-model-wrapcls {
     display: block;
     width: 100%;
     position: relative;
@@ -163,12 +163,12 @@
     margin: 1%;
   }
 
-  .pop-up-content-wrapclsc {
+  .pop-up-content-wrapcls {
     border: 2px dashed #84DADE;
     border-radius: 6px;
   }
 
-  .model-openclsc .custom-model-innerclsc {
+  .model-opencls .custom-model-innercls {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
@@ -176,12 +176,12 @@
     z-index: 999;
   }
 
-  .model-openclsc .bg-overlayclsc {
+  .model-opencls .bg-overlaycls {
     background: rgba(0, 0, 0, 0.6);
     z-index: 99;
   }
 
-  .bg-overlayclsc {
+  .bg-overlaycls {
     background: rgba(0, 0, 0, 0);
     height: 100%;
     width: 100%;
@@ -196,7 +196,7 @@
     transition: background 0.15s linear;
   }
 
-  .close-btnclsc {
+  .close-btncls {
     position: absolute;
     right: -37px;
     top: -11px;
@@ -346,7 +346,7 @@
   }
 
   @media screen and (min-width:800px) {
-    .custom-model-mainclsc:before {
+    .custom-model-maincls:before {
       display: inline-block;
       height: auto;
       vertical-align: middle;
@@ -356,7 +356,7 @@
   }
 
   @media screen and (max-width:799px) {
-    .custom-model-innerclsc {
+    .custom-model-innercls {
       margin-top: 45px;
       bottom: 27px;
     }
