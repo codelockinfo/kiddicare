@@ -9,9 +9,22 @@
     {% include 'form-status', form: form, form_id: formId, success_message: post_message %}
 {% endcomment %}
 {%- if form.posted_successfully? -%}
-  <p class="form-message form-message--success" tabindex="-1" data-form-status>
-    {{ success_message | default: 'contact.form.post_success' | t }}
-  </p>
+    <div class="popupcls">
+    <div class="custom-model-maincls">
+      <div class="custom-model-innercls">        
+        <div class="close-btncls">×</div>
+        <div class="custom-model-wrapcls">
+          <div class="pop-up-content-wrapcls">
+            <div class="popup-formscls">
+                <p class="form-message form-message--success" tabindex="-1" data-form-status>
+                  {{ success_message | default: 'contact.form.post_success' | t }}
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
 
 <!-- <script>
   console.log("HHIIIIIIIIIIII");
