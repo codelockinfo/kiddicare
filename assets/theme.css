@@ -7353,3 +7353,7 @@ form label , p a{
     font-weight: 500;
 }
 
+/*Td */
+.filters-toolbar-wrapper.filters-toolbar--has-filter{
+  display:none;
+}
