@@ -335,21 +335,16 @@ Get first variant, or deep linked one
       <div class="personal-texts">
         <div class="only-texts fade-up animated fadeInUp cls-asap">
           {%  if  product.metafields.custom.heading != blank %}
-          {%- for field in product.metafields.custom.heading -%}
-          <h2> {{ field  }}: {{ field }} </h2>
+          {%- for field in product.metafields-%}
+          <h2> {{ field  }}: {{ field }} bgfbgb</h2>
           <p class="natuepera"> {{ text  }}: {{ text }}   </p>
-  {%- endfor -%}
-            {%  endif %}
-   {%- for text in product.metafields.custom.text -%}
-          <p class="natuepera"> {{ text  }}: {{ text }}   </p>
-  {%- endfor -%}
           <h2> DELUXE CRAWLER UNISEX NAPPIES </h2>
           <ul style="list-style-type:disc">   
-             {%- for other in product.metafields.custom.others -%}
     <li>{{ other  }}: {{ other }}</li> 
-  {%- endfor -%}
           </ul> 
           <p></p>
+            {%  endfor  %}
+      {%  endif  %}
         </div>
         <div class="basic_structure2">
           <div class="we_basic_box_image">
