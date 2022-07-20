@@ -205,7 +205,7 @@ Get first variant, or deep linked one
                 data-index="option{{ forloop.index }}"
                 >
           {% for value in option.values %}
-            {{ value.price }}///
+            {{ option.price }}///
           <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %} data-price="{{  }}">{{ value }}</option>
           {% endfor %}
         </select>
