@@ -195,11 +195,8 @@ Get first variant, or deep linked one
     {% unless product.has_only_default_variant %}
     <div class="product-form__controls-group qty_var">
  <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>   
-          {%- for variant in products.options_with_values -%}
+          
                 {% for option in product.options_with_values %}
-    {{ variant.option1 }}///
-                  {{ option }}>>>
-                     {% if variant.option1 contains option %}
                           <div class="selector-wrapper js product-form__item">
                             <label for="SingleOptionSelector-{{ forloop.index0 }}">
                               {{ option.name }}
@@ -213,8 +210,6 @@ Get first variant, or deep linked one
                               {% endfor %}
                             </select>
                           </div>
-                      {% endif %}
-                {% endfor %}
           {% endfor %}
       </variant-selects>
      {% include 'qty-picker' %}
