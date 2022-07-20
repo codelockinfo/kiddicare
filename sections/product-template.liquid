@@ -334,9 +334,8 @@ Get first variant, or deep linked one
     <div class="main-personal-texts">
       <div class="personal-texts">
         <div class="only-texts fade-up animated fadeInUp cls-asap">
-          {%- for field in product.metafields.custom -%}
+          {%- for field in product.metafields.custom.heading -%}
           <h2> {{ field  }}: {{ field.heading }} </h2>
-      <p class="natuepera"> {{ field  }}: {{ field.text }}   </p>
   {%- endfor -%}
    {%- for text in product.metafields.custom.text -%}
           <p class="natuepera"> {{ text  }}: {{ text }}   </p>
