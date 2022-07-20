@@ -349,9 +349,7 @@ Get first variant, or deep linked one
           <div class="nutri-wipe" data-scroll="in" data-aos="flip-left">
             <div class="cls only-image">
               <span class="video-sem"><video controls="">
-                {%- for video in product.metafields.custom.gif_image -%}
-                          <source src="{{ video  }}: {{ video }}">
-    {%- endfor -%}
+                          <source src="{{product.metafields.custom.video}}">
                         </video></span>
             </div>
           </div>
