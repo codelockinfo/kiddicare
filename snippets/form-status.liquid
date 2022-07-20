@@ -16,9 +16,9 @@
         <div class="custom-model-wrapcls">
           <div class="pop-up-content-wrapcls">
             <div class="popup-formscls">
-                <p class="form-message form-message--success" tabindex="-1" data-form-status>
+{% comment %}                 <p class="form-message form-message--success" tabindex="-1" data-form-status> {% endcomment %}
                   {{ success_message | default: 'contact.form.post_success' | t }}
-                </p>
+{% comment %}                 </p> {% endcomment %}
             </div>
             </div>
           </div>
