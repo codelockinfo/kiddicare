@@ -480,16 +480,16 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
     }
 }
 $(document).ready(function(){
-     var loc = document.location.pathname.split('/')[2];
-    console.log(loc);
-  var contact_posted = getParameter('contact_posted');
-  console.log(contact_posted);
-   return false;
-  if(contact_posted == "true"){
-    console.log("true");
-     $(".popupcls").css("display","block");
-      $(".custom-model-maincls").addClass('model-opencls');
+  var loc = document.location.pathname.split('/')[2];
+  if(loc != "contact-us"){
+     var contact_posted = getParameter('contact_posted');
+    if(contact_posted == "true"){
+      console.log("true");
+       $(".popupcls").css("display","block");
+        $(".custom-model-maincls").addClass('model-opencls');
+    }
   }
+ 
   
  $url = document.location.pathname.split('/')[2];
       $('.name-coll a').each(function (i, obj) {
