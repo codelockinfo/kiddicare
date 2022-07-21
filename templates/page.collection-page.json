@@ -41,7 +41,7 @@
           "settings": {
             "collection": "",
             "collection-tlt": "Shop all",
-            "collection-link": ""
+            "collection-link": "shopify:\/\/pages\/collections"
           }
         }
       },
