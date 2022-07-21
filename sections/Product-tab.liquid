@@ -710,21 +710,21 @@
   //   someFunction();
 
 
-  $(".clsAddtoCart").click(function(){
-    var variant_id = $(this).closest(".product-btn").find(".value-var").val();
-    console.log(variant_id);
-    var thisObj = this;
-    var params = {
-      type: 'POST',
-      url: '/cart/add.js',
-      data: {id: variant_id,quantity: '1'},
-      dataType: 'json',
-      success: function(line_item) { 
-        document.location.href = '/cart';
-      },
-    };
-    $.ajax(params);
-  });
+  // $(".clsAddtoCart").click(function(){
+  //   var variant_id = $(this).closest(".product-btn").find(".value-var").val();
+  //   console.log(variant_id);
+  //   var thisObj = this;
+  //   var params = {
+  //     type: 'POST',
+  //     url: '/cart/add.js',
+  //     data: {id: variant_id,quantity: '1'},
+  //     dataType: 'json',
+  //     success: function(line_item) { 
+  //       document.location.href = '/cart';
+  //     },
+  //   };
+  //   $.ajax(params);
+  // });
 //   $(".main-img").hover(function(){
 //     $(this).closest(".Main-product").find(".bg-img").css("opacity","1");
 //   });
