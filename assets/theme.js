@@ -2859,7 +2859,7 @@ theme.Header = (function() {
 
   var cache = {};
 
-//   function init() {
+  function init() {
 //     cacheSelectors();
 //     styleDropdowns(document.querySelectorAll(selectors.siteNavHasDropdown));
 //     positionFullWidthDropdowns();
