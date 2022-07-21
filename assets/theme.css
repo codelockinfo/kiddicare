@@ -7362,6 +7362,6 @@ form label , p a{
 }
 .name-coll a.tab.active{color: #006781; }
 .product-form__controls-group.qty_var{display: flex;}
-.search-form__input-wrapper svg.icon.icon-search{
+.search-form svg.icon.icon-search{
   height: 40px;
 }
