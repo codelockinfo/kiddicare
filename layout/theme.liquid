@@ -493,7 +493,6 @@ $(document).ready(function(){
  $url = document.location.pathname.split('/')[2];
   console.log($url);
       $('.name-coll a').each(function (i, obj) {
-        console.log("each");
         $pageURL = $(this).attr("href").split('/')[2];
         console.log($pageURL + " ....pageURL");
         $matchresult = $pageURL.match($url);
