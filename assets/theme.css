@@ -7361,3 +7361,4 @@ form label , p a{
   width:35%;
 }
 .name-coll a.tab.active{color: #006781; }
+.product-form__controls-group.qty_var{display: flex;}
