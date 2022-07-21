@@ -2860,13 +2860,13 @@ theme.Header = (function() {
   var cache = {};
 
   function init() {
-//     cacheSelectors();
-//     styleDropdowns(document.querySelectorAll(selectors.siteNavHasDropdown));
-//     positionFullWidthDropdowns();
+    cacheSelectors();
+    styleDropdowns(document.querySelectorAll(selectors.siteNavHasDropdown));
+    positionFullWidthDropdowns();
 
-//     cache.parents.forEach(function(element) {
-//       element.addEventListener('click', submenuParentClickHandler);
-//     });
+    cache.parents.forEach(function(element) {
+      element.addEventListener('click', submenuParentClickHandler);
+    });
 
     // check when we're leaving a dropdown and close the active dropdown
     cache.siteNavChildLink.forEach(function(element) {
