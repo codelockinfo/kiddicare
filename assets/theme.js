@@ -2877,9 +2877,9 @@ theme.Header = (function() {
       element.addEventListener('focus', hideDropdown);
     });
 
-    cache.subMenuLinks.forEach(function(element) {
-      element.addEventListener('click', stopImmediatePropagation);
-    });
+    // cache.subMenuLinks.forEach(function(element) {
+    //   element.addEventListener('click', stopImmediatePropagation);
+    // });
 
     window.addEventListener('resize', resizeHandler);
   }
@@ -3012,9 +3012,9 @@ theme.Header = (function() {
       element.removeEventListener('focus', hideDropdown);
     });
 
-    cache.subMenuLinks.forEach(function(element) {
-      element.removeEventListener('click', stopImmediatePropagation);
-    });
+    // cache.subMenuLinks.forEach(function(element) {
+    //   element.removeEventListener('click', stopImmediatePropagation);
+    // });
 
     cache.parents.forEach(function(element) {
       element.removeEventListener('click', submenuParentClickHandler);
