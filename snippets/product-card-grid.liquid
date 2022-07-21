@@ -78,7 +78,9 @@
 
               <span class="kg-title">{{ product.metafields.my_fields.prd_kg}}</span>
               <p class="prd-price"> {{ product.price | money }} </p>
+                   {{ //// }}
               {%- for variant in product.variants -%}
+                {{ //// }}
                       {%- for optionvalue in value.option1 -%}
                         {% if variant.option1 contains optionvalue %}
                           <span  data-price="{{variant.price | money}}"></span>
