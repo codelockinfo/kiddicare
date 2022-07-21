@@ -293,7 +293,7 @@
         <div class="width-cls-cll">
           <h2 class="heading">{{section.settings.heading}}</h2>
           <p class="text">{{section.settings.text}}</p>
-          <div class="name-coll">
+          <div class="name-coll clslastchild">
             {% for block in section.blocks %}
             {%- assign collection = collections[block.settings.collection] -%}
             <a class="tab"  href="{%- if block.settings.collection-link != blank -%}{{block.settings.collection-link}}{%- else -%}{{collection.url}}{%- endif -%}">
