@@ -7056,7 +7056,7 @@ footer.site-footer{
 display:flex;
 } */
 a.tab:clslastchild {
-    color: #006781;
+    color: #006781 !important;
 }
 #shopify-section-template--16146346672344__165529357205331910{
 margin-bottom:3%;
