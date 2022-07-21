@@ -7258,7 +7258,7 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
 #PageContainer {
   padding-top: 70px;
 }
-.product-form__controls-group.qty_var{display:block;}  
+.product-form .product-form__controls-group.qty_var{display:block;}  
 }
 /* header sticky code */
 /* Remove outline for non-keyboard :focus */
