@@ -492,7 +492,8 @@ $(document).ready(function(){
   
  $url = document.location.pathname.split('/')[2];
   console.log($url);
-      $('.name-coll a').each(function (i, obj) {
+  if($url != "collections"){
+    $('.name-coll a').each(function (i, obj) {
         $pageURL = $(this).attr("href").split('/')[2];
         $matchresult = $pageURL.match($url);
         console.log($matchresult +"....$matchresult");
@@ -502,6 +503,8 @@ $(document).ready(function(){
           return false;
         }
       });
+  }
+      
 });
 
   $(".clslogo-cls").on('click', function() {
