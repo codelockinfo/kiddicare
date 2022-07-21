@@ -2884,9 +2884,9 @@ theme.Header = (function() {
     window.addEventListener('resize', resizeHandler);
   }
 
-  function stopImmediatePropagation(event) {
-    event.stopImmediatePropagation();
-  }
+  // function stopImmediatePropagation(event) {
+  //   event.stopImmediatePropagation();
+  // }
 
   function cacheSelectors() {
     var navigation = document.querySelector(selectors.navigation);
