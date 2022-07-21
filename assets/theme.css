@@ -7259,6 +7259,7 @@ div#shopify-section-template--16146346770648__1655396171fb0f120a .heard_flex{
   padding-top: 70px;
 }
 .product-form .product-form__controls-group.qty_var{display:block;}  
+  .qty_var .qtydiv{width:100%}
 }
 /* header sticky code */
 /* Remove outline for non-keyboard :focus */
