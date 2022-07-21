@@ -7364,4 +7364,4 @@ form label , p a{
 .product-form__controls-group.qty_var{display: flex;}
 .search-form svg.icon.icon-search{
   height: 40px;
-}
+.product-form__controls-group.qty_var{display:block;}
