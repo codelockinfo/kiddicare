@@ -71,7 +71,6 @@
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 {% endif %}
-                
                 {% if product.metafields.my_fields.review_count != blank  %}
                 <span class="count">({{ product.metafields.my_fields.review_count }} )</span>
                 {% endif %}
@@ -79,7 +78,15 @@
 
               <span class="kg-title">{{ product.metafields.my_fields.prd_kg}}</span>
               <p class="prd-price"> {{ product.price | money }} </p>
-           
+              {%- for variant in product.variants -%}
+                {{ //// }}
+                      {%- for optionvalue in value.option1 -%}
+                        {% if variant.option1 contains optionvalue %}
+                          <span  data-price="{{variant.price | money}}"></span>
+<!--                         <img class="itemWrapper frameImageClick"  src="{{ variant.metafields.artbird.frame_thumbnail | img_url: '100x' ,  crop: 'center'}}"  data-framesrc="{{ variant.image | img_url: '300x'}}" data-price="{{variant.price | money}}" data-vid="{{variant.id}}" data-color="{{variant.option2}}" data-sw={{ variant.option1 }}" /> -->
+                        {% endif %}
+                      {%- endfor -%}
+                  {%- endfor -%}
             </div>
   {% comment %}
   {% include 'product-price-listing', product: product, show_vendor: show_vendor %}
