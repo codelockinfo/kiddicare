@@ -31,9 +31,6 @@ data-sizes="auto"
 data-parent-fit="cover"
 data-image-loading-animation
 >
-
-
-
 </div>
 <noscript>
 <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
@@ -49,8 +46,7 @@ data-image-loading-animation
           <div>
             <h2 class="kidtitle">{{section.settings.heading}}</h2>
             <p class="text">{{section.settings.text}}</p>
-
-            <div class="name-coll">
+ <div class="name-coll">
               {% for block in section.blocks %}
               {%- assign collectionss = collections[block.settings.collection] -%}
               {% if block.settings.collection-link != blank %}
