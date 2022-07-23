@@ -15,10 +15,7 @@
     background: #fff;
     padding: 2px;
     border-radius: 10px;
-        max-width: 1600px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 10px;
+    
   }
 
   .Free-Sample-sections h2.heading {
@@ -385,12 +382,18 @@
       line-height: 25px;
     }
   }
-
+.nappy_container{
+      max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
   /* POPUP CSS END */
 </style>
 
 
 <div class="Main-Free-Samples" id="{{section.id}}">
+  <div class="nappy_container">
   <div class="Free-Sample-sections">
     <div class="bdradious">
       <div class="CLS brdpadding">
@@ -399,7 +402,7 @@
         <div class="button-sample">
           <button class="btn smp-btn"> {{ section.settings.btn-text }} </button>
         </div>
-
+      </div>
       </div>
     </div>
   </div>
