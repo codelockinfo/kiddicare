@@ -7173,7 +7173,10 @@ button.btn.newsletter__submit {
 /*  CSS end CLS002 */
 
   .Video-Cls{
-      margin: 0 10%;
+       max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
   }
 .clsstorage.site-footer {
     padding-bottom: 0px;
