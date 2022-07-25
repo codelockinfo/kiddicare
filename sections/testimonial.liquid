@@ -1,4 +1,4 @@
-<div class="testimonial_contains">
+ <div class="testimonial_contains">
   <div class="testimonial_slides">
     <h2 class="customer_title">{{section.settings.title}}</h2>
     <div class="testimonial_flex childslider">
@@ -25,7 +25,11 @@
 </div> 
 
 <style>
-
+.testimonial_slides .testimonial_flex{	
+    max-width: 1900px;	
+    width: 100%;	
+    margin: 0 auto;	
+}
   .testimonial_flex {
     display: flex !important;
     align-items: center;
@@ -75,7 +79,7 @@
   }
   img.boysmg {
     border-radius: 20px;
-}
+  }
   /  slick slide start  /
 
   .slick-slider {
