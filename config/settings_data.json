@@ -687,7 +687,7 @@
         "settings": {
           "contacttitle": "Get in touch",
           "generaltitle": "General enquiries",
-          "mal": "<span class=\"mail_title\">Email: <\/span>\nsupport@kiddicare.co.nz<br>\n<span class=\"mail_title\">Hours:<\/span> Monday to Friday 9am-5pm.<br>\n<span class=\"mail_title\">Phone:<\/span> 0800020101 for NZ customers.<br>\n<span class=\"mail_title\">Address:<\/span> 27 Timberly Road, Mangere, Auckland 2022, New Zealand"
+          "mal": "<span class=\"mail_title\">Email: <\/span>\nsupport@kiddicare.co.nz<br>\n<span class=\"mail_title\">Hours:<\/span> Monday to Friday 9am-5pm.<br>\n<span class=\"mail_title\">Phone:<\/span> 0800 020 101 for NZ customers.<br>\n<span class=\"mail_title\">Address:<\/span> 27 Timberly Road, Mangere, Auckland 2022, New Zealand"
         }
       },
       "googleMap": {
