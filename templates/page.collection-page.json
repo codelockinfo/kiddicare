@@ -65,7 +65,7 @@
           "type": "block",
           "settings": {
             "text1": "Newborn",
-            "text2": "upto - 5 Kg",
+            "text2": "Up to 5 KG",
             "text3": "6 - 9",
             "text4": "1 Month"
           }
@@ -83,7 +83,7 @@
           "type": "block",
           "settings": {
             "text1": "Crawler",
-            "text2": "6 - 11KG",
+            "text2": "6 - 11 KG",
             "text3": "6 - 9",
             "text4": "2 - 3 Months"
           }
