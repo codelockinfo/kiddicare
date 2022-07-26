@@ -526,16 +526,16 @@
             "settings": {
               "product": "kiddicare-toy-lion",
               "prdimag5": "shopify:\/\/shop_images\/KIDDICARE-TOY---LIAM-_LION.png",
-              "description5": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "description5": "Kiddicare Lion as featured on Kiddicare Deluxe Walker Nappies",
               "toys5": "shopify:\/\/shop_images\/22_1.png"
             }
           },
           "87c86caf-b1d6-461d-af98-b6a3c69ac9d8": {
             "type": "Toys",
             "settings": {
-              "product": "kiddicare-toy-raccoon",
-              "prdimag5": "shopify:\/\/shop_images\/KIDDICARE-TOY---ROCKY-_RACCOON.png",
-              "description5": "In ut quam vitae odio lacinia tincidunt. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Nam adipiscing.",
+              "product": "kiddicare-toy-hedgehog",
+              "prdimag5": "shopify:\/\/shop_images\/hedgehog.webp",
+              "description5": "Kiddicare",
               "toys5": "shopify:\/\/shop_images\/05_1.png"
             }
           }
