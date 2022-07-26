@@ -7050,6 +7050,11 @@ ul li span.site-nav__label{
 footer.site-footer{
   margin:0;
 }
+@media(min-width:992px){
+#backToCollection{
+margin-top: -80px;
+}
+}
 
 /* cls 007 start */
 
