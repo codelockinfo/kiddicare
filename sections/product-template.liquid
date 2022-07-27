@@ -366,9 +366,9 @@ Get first variant, or deep linked one
       <h2>{{ product.metafields.custom.heading}}</h2>
         <p class="natuepera">{{ product.metafields.custom.text }}</p>
         <ul style="list-style-type:disc">
-          {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]"  -%}
+          {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]" | split:"," -%}
           {%- for p in r -%}
-          <li>{{ p | replace: '"', '' }}</li>
+          <li>{{ p }}</li>
           {%- endfor -%}
         </ul>
         <p></p>
