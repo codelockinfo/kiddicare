@@ -368,7 +368,9 @@ Get first variant, or deep linked one
         <ul style="list-style-type:disc">
           {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]" | remove: "," | split:'"' -%}
           {%- for p in r -%}
-          <li>{{ p | replace: '"', "" }}</li>
+            {% if p != "" %}
+              <li>{{ p | replace: '"', "" }}</li>
+            {% endif %}
           {%- endfor -%}
         </ul>
         <p></p>
