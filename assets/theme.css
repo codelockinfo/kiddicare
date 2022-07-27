@@ -7050,6 +7050,9 @@ ul li span.site-nav__label{
 footer.site-footer{
   margin:0;
 }
+.clsprdcontain iframe{
+  width: 100%;
+}
 @media(min-width:992px){
 #backToCollection{
 margin-top: -80px;
