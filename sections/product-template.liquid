@@ -369,8 +369,9 @@ Get first variant, or deep linked one
           {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]" | split:'"' -%}
           {%- for p in r -%}
             {% if p != "," %}
-              if
-              <li>{{ p | replace: '"', "" }}</li>
+              {% if p != "" %}
+                <li>{{ p | replace: '"', "" }}</li>
+              {% endif %}
             {% endif %}
           {%- endfor -%}
         </ul>
