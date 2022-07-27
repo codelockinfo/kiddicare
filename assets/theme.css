@@ -7055,7 +7055,12 @@ footer.site-footer{
 }
 @media(max-width:1000px){
   .clsprdcontain iframe {
-    max-height: 500px;
+    max-height: 350px;
+}
+}
+@media(max-width:749px){
+  .clsprdcontain iframe {
+    max-height: 350px;
 }
 }
 @media(min-width:992px){
