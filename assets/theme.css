@@ -7073,7 +7073,11 @@ margin-top: -80px;
     max-height: 350px;
 }
 }
-
+@media(max-width:400px){
+  .clsprdcontain iframe {
+    max-height: 300px;
+}
+}
 /* cls 007 start */
 
 
