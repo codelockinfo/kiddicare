@@ -7068,6 +7068,11 @@ footer.site-footer{
 margin-top: -80px;
 }
 }
+@media(max-width:600px){
+  .clsprdcontain iframe {
+    max-height: 350px;
+}
+}
 
 /* cls 007 start */
 
