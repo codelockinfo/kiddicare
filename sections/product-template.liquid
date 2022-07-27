@@ -365,7 +365,7 @@ Get first variant, or deep linked one
       <div class="only-texts fade-up animated fadeInUp cls-asap">
       <h2>{{ product.metafields.custom.heading}}</h2>
         <p class="natuepera">{{ product.metafields.custom.text }}</p>
-        <ul style="list-style-type:disc">
+        <ul style="list-style-type:disc" fhf>
           {%- assign r = product.metafields.custom.others | remove: "[" | remove: "]" |split:"," -%}
           {%- for p in r -%}
           <li>{{ p }}</li>
