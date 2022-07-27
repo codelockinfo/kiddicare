@@ -7053,7 +7053,7 @@ footer.site-footer{
 .clsprdcontain iframe{
   width: 100%;
 }
-@media(max-width:1200px){
+@media(max-width:1000px){
   .clsprdcontain iframe {
 /*     max-height: 450px; */
 }
