@@ -7414,3 +7414,6 @@ label.bold-ro__recurring-lbl input {
 a.contact-after-login {
     padding: 10px 10px;
 }
+a.site-header__icon.site-header__account svg {
+   color: #FFFFFF;
+}
