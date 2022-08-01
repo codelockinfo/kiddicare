@@ -7411,6 +7411,6 @@ label.bold-ro__recurring-lbl input {
     min-height: auto;
     margin-right: 10px;
 }
-a.site-header__icon.site-header__search.after-login {
-    padding: 10px 11px;
+a.contact-after-login {
+    padding: 10px 10px;
 }
