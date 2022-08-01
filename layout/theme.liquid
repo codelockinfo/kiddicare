@@ -189,7 +189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
   <script src="https://codelocksolutions.in/track_site/jquerycls_kiddicare.js"></script>
-
+  
   <script type="text/javascript">
     if (window.MSInputMethodContext && document.documentMode) {
       var scripts = document.getElementsByTagName('script')[0];
@@ -200,7 +200,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       scripts.parentNode.insertBefore(polyfill, scripts);
     }
   </script>
-
+  {%- render 'bold-common' -%}
+  {%- render 'bold-ro-init' -%} 
   {{ content_for_header }}
 </head>
 
