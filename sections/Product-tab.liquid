@@ -406,7 +406,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
                 </div>
                 <div class="product-btn">
                   <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  <button class="btn prd-btn"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
                 </div>
               </div>
             </div>
@@ -438,7 +438,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
                 </div>
                 <div class="product-btn">
                   <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  <button class="btn prd-btn"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
                 </div>
               </div>
             </div>
@@ -470,7 +470,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
                 </div>
                 <div class="product-btn">
                   <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  <button class="btn prd-btn"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
                 </div>
               </div>
             </div>
@@ -502,7 +502,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
                 </div>
                 <div class="product-btn">
                   <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  <button class="btn prd-btn"> <a class="prd-link" href="{{product.url}}"> Buy Now </a></button>
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href="{{product.url}}"> Buy Now </a></button>
                 </div>
               </div>
             </div>
@@ -534,7 +534,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
                 </div>
                 <div class="product-btn">
                   <input class="value-var" type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                  <button class="btn prd-btn"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
+                  <button class="btn prd-btn clsAddtoCart"> <a class="prd-link" href="{{product.url}}"> SHOP Now </a></button>
                 </div>
               </div>
             </div>
@@ -758,7 +758,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
   //   someFunction();
 
 
-  $(".clsAddtoCart").click(function(){
+ /* $(".clsAddtoCart").click(function(){
     var variant_id = $(this).closest(".product-btn").find(".value-var").val();
     console.log(variant_id);
     var thisObj = this;
@@ -772,7 +772,7 @@ rl<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bo
       },
     };
     $.ajax(params);
-  });
+  });*/
 //   $(".main-img").hover(function(){
 //     $(this).closest(".Main-product").find(".bg-img").css("opacity","1");
 //   });
