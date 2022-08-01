@@ -61,10 +61,12 @@
                       {%- endcomment -%}
 
                       {%- assign properties = 'template ' | split: ' ' -%}
+                      <span class="bold_ro_desc" data-product-id="{{item.id}}-{{ forloop.index0 }}"></span>
+            
                       {%- if property_size > 0 -%}
                         {%- assign properties = item.properties -%}
                       {%- endif -%}
-
+                      {% comment %} 
                       {%- for p in properties -%}
                         {% assign property_first_char = p.first | slice: 0 %}
                         <li class="product-details__item product-details__item--property
@@ -83,8 +85,9 @@
                           </span>
                         </li>
                       {%- endfor -%}
+                      {% endcomment %}
                     </ul>
-
+                    <span class="bold_load_cart_item_properties"></span>
                     <p class="cart__remove">
                       <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="text-link text-link--accent" aria-label="{{ 'cart.label.remove' | t: product: item.title }}" data-cart-remove data-role="product-remove">{{ 'cart.general.remove' | t }}</a>
                     </p>
@@ -293,7 +296,7 @@
                 {% include 'icon-error' %}
                 <span class="cart__error-message" data-cart-error-message></span>
               </div>
-
+              
               {%- if additional_checkout_buttons -%}
                 <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
               {%- endif -%}
