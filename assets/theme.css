@@ -7193,8 +7193,11 @@ button.btn.newsletter__submit {
     margin-top: 20px;
   }
   .All-logos .first-logo {
-    width: 50%;
-    padding: 11% 5% 0% 7%;
+    padding: 11% 0% 0% 0%;
+    flex: 0 0 33%;
+    max-width: calc(33% - 20px);
+    margin: 0 10px;
+    width: 33.33%;
   }    
   #shopify-section-prd-logo {
     position: unset !important;
