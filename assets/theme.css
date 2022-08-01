@@ -7403,3 +7403,8 @@ form label , p a{
   height: 40px;
 }
 .globo-form-id-33899 .globo-form-app .footer button.submit{color:#FFFFFF !important;}
+
+label.bold-ro__recurring-lbl input {
+    min-height: auto;
+    margin-right: 10px;
+}
