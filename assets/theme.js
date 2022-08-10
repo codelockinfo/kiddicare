@@ -9700,8 +9700,6 @@ $(document).ready(function(){
 $(window).on("load", headerSize);
 $(window).on("resize", $.debounce(500, headerSize));
 
-$( "#RecoverPassword" ).click(function() {
-  alert( "Handler for .click() called." );
-});
+
   
 });
