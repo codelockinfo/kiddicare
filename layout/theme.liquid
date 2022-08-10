@@ -547,6 +547,11 @@ $(document).ready(function(){
       $("#CustomerLoginForm").addClass("hide");
       $("#RecoverPasswordForm").removeClass("hide");
     });
+
+    $( "#HideRecoverPasswordLink" ).click(function() {
+      $("#CustomerLoginForm").removeClass("hide");
+      $("#RecoverPasswordForm").addClass("hide");
+    });
 });
     
 </script>
