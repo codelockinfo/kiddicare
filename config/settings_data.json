@@ -226,6 +226,7 @@
         "blocks": {
           "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Homepage_banner_image_1.png",
               "heading": "Deluxe nappies<br> you can Count On",
