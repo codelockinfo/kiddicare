@@ -10,6 +10,11 @@
           <img src="{{ block.settings.image | img_url: 'master' }}">
           <div class="testimonial-contant">
             <h2 class="title">{{ block.settings.title }}</h2>
+            <div class="review-rating">
+        {{ block.settings.rating }}
+              {% if block.settings.rating == "5" %}
+                {% endif %}
+            </div>
             <h2 class="heading">{{ block.settings.heading }}</h2>
             <p class="text">{{ block.settings.text }}</p>
           </div>
