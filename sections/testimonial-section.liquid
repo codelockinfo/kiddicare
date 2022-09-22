@@ -1,3 +1,20 @@
+<div class="Main-testimonial-section" id="{{ section.id }}">
+  <div class="Testimonial-sections">
+    <header class="head">
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+      <p class="text">{{ section.settings.text }}</p>
+    </header>
+    <div class="Main-test-block">
+      {% for block in section.blocks %}
+        <div class="testimonial-block">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
     "name": "Testimonial Section ",
@@ -32,6 +49,15 @@
             "id" : "title",
             "type" : "text",
             "label" : "Name"
+          },
+          {
+            "type": "range",
+            "id": "rating",
+            "min": 0,
+            "max": 5,
+            "step": 1,
+            "label": "Rating",
+            "default": 5
           },
           {
             "id" : "review",
