@@ -28,6 +28,7 @@
         "124a0911-e0a7-485e-a4de-d1ce0962bbc1": {
           "type": "block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/6_1_1.png",
             "title": "@sarah",
             "rating": 5,
             "review": "",
