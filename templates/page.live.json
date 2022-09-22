@@ -35,12 +35,24 @@
             "heading": "Amazing Pants!",
             "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
           }
+        },
+        "30427c0c-9e28-45ca-8cb6-904af5583812": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_1_1.png",
+            "title": "@SARAH",
+            "rating": 3,
+            "review": "20",
+            "heading": "AMAZING PANTS!",
+            "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+          }
         }
       },
       "block_order": [
         "7daf510f-eaa1-4c7a-84e7-957d724759c0",
         "718f510a-c457-486b-825a-7b8acea55b80",
-        "124a0911-e0a7-485e-a4de-d1ce0962bbc1"
+        "124a0911-e0a7-485e-a4de-d1ce0962bbc1",
+        "30427c0c-9e28-45ca-8cb6-904af5583812"
       ],
       "settings": {
         "heading": "what our parents are saying",
