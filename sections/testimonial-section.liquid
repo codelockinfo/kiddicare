@@ -37,7 +37,8 @@
       {
         "id" : "background",
         "type" : "color",
-        "label": "Background Color"
+        "label": "Background Color",
+        "default" : "#7CD6DB"
       }
     ],
     "blocks" : [
@@ -94,7 +95,7 @@
 
   .Main-testimonial-section {
     padding: 5% 0;
-    background-color: #7CD6DB;
+    background-color: {{section.settings.background}};
 }
   .Testimonial-sections{
     max-width: 1200px;
