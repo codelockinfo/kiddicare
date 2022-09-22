@@ -1,7 +1,61 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Testimonial Section ",
+    "settings": [
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      },
+      {
+        "id" : "text",
+        "type" : "textarea",
+        "label" : "Text"
+      },
+      {
+        "id" : "background",
+        "type" : "color",
+        "label": "Background Color"
+      }
+    ],
+    "blocks" : [
+      {
+        "name" : "block",
+        "type" : "block",
+        "settings" : [
+          {
+            "id" : "image",
+            "type" : "image_picker",
+            "label" : "Image"
+          },
+          {
+            "id" : "title",
+            "type" : "text",
+            "label" : "Name"
+          },
+          {
+            "id" : "review",
+            "type" : "text",
+            "label" : "Review"
+          },
+          {
+            "id" : "heading",
+            "type" : "text",
+            "label" : "Heading"
+          },
+          {
+            "id" : "text",
+            "type" : "textarea",
+            "label" : "Text"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Testimonial Sections"
+      }
+    ]
   }
 {% endschema %}
 
