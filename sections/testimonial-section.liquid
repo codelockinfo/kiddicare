@@ -4,7 +4,7 @@
       <h2 class="heading">{{ section.settings.heading }}</h2>
       <p class="text">{{ section.settings.text }}</p>
     </header>
-    <div class="Main-test-block">
+    <div class="Main-test-block testi-slider">
       {% for block in section.blocks %}
         <div class="testimonial-block">
           <img src="{{ block.settings.image | img_url: 'master' }}">
@@ -210,10 +210,10 @@
 
 <script>
 
-  $('.childslider').slick({
+  $('.testi-slider').slick({
     dots: false,
     infinite: true,
-    slidesToShow: 1.9,
+    slidesToShow: 1,
     centerMode: true,
     autoplay: true,
     autoplaySpeed: 6000,
