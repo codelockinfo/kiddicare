@@ -105,7 +105,7 @@
       ],
       "settings": {
         "heading": "Kiddicare Products",
-        "background": "#7CD6DB"
+        "background": "#7cd6db"
       }
     },
     "main": {
@@ -212,6 +212,17 @@
       "settings": {
         "heading": "Where To Buy"
       }
+    },
+    "1663935188f0dbbef2": {
+      "type": "Collabrate-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_65773836_1.png",
+        "heading": "",
+        "text": "",
+        "btn-name": "",
+        "btn-link": "",
+        "background": "#7CD6DB"
+      }
     }
   },
   "order": [
@@ -219,6 +230,7 @@
     "1663913352c11335f8",
     "166392803085ef7238",
     "main",
-    "166393300967992f0b"
+    "166393300967992f0b",
+    "1663935188f0dbbef2"
   ]
 }
