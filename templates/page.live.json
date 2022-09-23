@@ -132,28 +132,28 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/diaper.png",
-            "title": ""
+            "title": "Nappies"
           }
         },
         "2678655e-f885-4ff2-8218-45d56c76ed82": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/nappy-pant.png",
-            "title": ""
+            "title": "Nappy Pants"
           }
         },
         "64baba64-586e-48bb-9b5b-d4c1ff93c98b": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/wipes_c134ad54-e67d-4066-8d89-cf30f4bddbe7.png",
-            "title": ""
+            "title": "wipes"
           }
         },
         "603d33bd-0423-4c6e-9831-51cd2a695283": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/monkey_1.png",
-            "title": ""
+            "title": "Toys"
           }
         }
       },
