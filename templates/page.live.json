@@ -65,6 +65,48 @@
         "color": ""
       }
     },
+    "166392803085ef7238": {
+      "type": "icon-with-text",
+      "blocks": {
+        "b0f19e9f-1483-4c25-82dc-0da84c34aa64": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_392.png",
+            "title": "Nappies"
+          }
+        },
+        "2678655e-f885-4ff2-8218-45d56c76ed82": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_393.png",
+            "title": "Nappy Pants"
+          }
+        },
+        "64baba64-586e-48bb-9b5b-d4c1ff93c98b": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_394.png",
+            "title": "wipes"
+          }
+        },
+        "603d33bd-0423-4c6e-9831-51cd2a695283": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_395.png",
+            "title": "Toys"
+          }
+        }
+      },
+      "block_order": [
+        "b0f19e9f-1483-4c25-82dc-0da84c34aa64",
+        "2678655e-f885-4ff2-8218-45d56c76ed82",
+        "64baba64-586e-48bb-9b5b-d4c1ff93c98b",
+        "603d33bd-0423-4c6e-9831-51cd2a695283"
+      ],
+      "settings": {
+        "heading": "Kiddicare Products"
+      }
+    },
     "main": {
       "type": "testimonial-section",
       "blocks": {
@@ -124,54 +166,12 @@
         "text": "",
         "background": "#7cd6db"
       }
-    },
-    "166392803085ef7238": {
-      "type": "icon-with-text",
-      "blocks": {
-        "b0f19e9f-1483-4c25-82dc-0da84c34aa64": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_392.png",
-            "title": "Nappies"
-          }
-        },
-        "2678655e-f885-4ff2-8218-45d56c76ed82": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_393.png",
-            "title": "Nappy Pants"
-          }
-        },
-        "64baba64-586e-48bb-9b5b-d4c1ff93c98b": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_394.png",
-            "title": "wipes"
-          }
-        },
-        "603d33bd-0423-4c6e-9831-51cd2a695283": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_395.png",
-            "title": "Toys"
-          }
-        }
-      },
-      "block_order": [
-        "b0f19e9f-1483-4c25-82dc-0da84c34aa64",
-        "2678655e-f885-4ff2-8218-45d56c76ed82",
-        "64baba64-586e-48bb-9b5b-d4c1ff93c98b",
-        "603d33bd-0423-4c6e-9831-51cd2a695283"
-      ],
-      "settings": {
-        "heading": "Kiddicare Products"
-      }
     }
   },
   "order": [
     "1663918818a9756742",
     "1663913352c11335f8",
-    "main",
-    "166392803085ef7238"
+    "166392803085ef7238",
+    "main"
   ]
 }
