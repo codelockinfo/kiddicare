@@ -1,3 +1,22 @@
+<div class="image-with-text-live" id="{{ section.id }}">
+  <div class="live-image">
+    <div class="flex-images">
+      <div class="images-clas">
+        {% if section.settings.image != blank  %}
+        <img class="desktop" src="{{ section.settings.image | img_url:'master' }}">
+        {% endif %}
+        {% if section.settings.image != blank  %}
+        <img class="mobile" src="{{ section.settings.image | img_url:'master' }}">
+        {% else %}
+          <img class="mobile" src="{{ section.settings.image | img_url:'master' }}">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 {% schema %}
   {
     "name": "Image With Text Live",
