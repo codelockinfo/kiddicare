@@ -381,8 +381,7 @@
     <div class="clsAll-logos logo-slides">
       {% for block in section.blocks %}
       <div class="clsfirst-logo">
-        <div class="clslogo-cls" data-src="{{block.settings.image-pop | img_url: 'master' }}"
-          data-heading="{{block.settings.heading-pop}}" data-text="{{block.settings.text-pop}}">
+        <div class="clslogo-cls">
           <img class="clsimg-normal" src="{{block.settings.image | img_url: 'master'}}">
           <img class="clsimg-hover" src="{{block.settings.hover | img_url: 'master'}}">
         </div>
@@ -429,25 +428,6 @@
 "id" : "hover",
 "type" : "image_picker",
 "label" : "Hover Image"
-},
-{
-"type": "header",
-"content": "Popup Details"
-},
-{
-"id" : "image-pop",
-"type" : "image_picker",
-"label" : "Popup Image"
-},
-{
-"id" : "heading-pop",
-"type" : "text",
-"label" : "Heading"
-},
-{
-"id" : "text-pop",
-"type" : "textarea",
-"label" : "Text"
 }
 ]
 }
