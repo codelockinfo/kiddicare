@@ -1,7 +1,38 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Collabrate Section",
+    "settings": [
+      {
+        "id" : "image",
+        "type" : "image_picker",
+        "label" : "Image"
+      },
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      },
+      {
+        "id" : "text",
+        "type" : "textarea",
+        "label" : "Text"
+      },
+      {
+        "id" : "btn-name",
+        "type" : "text",
+        "label" : "Button"
+      },
+      {
+        "id" : "btn-link",
+        "type" : "url",
+        "label" : "Button Link"
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Collabrate Section"
+      }
+    ]
   }
 {% endschema %}
 
