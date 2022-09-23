@@ -21,6 +21,11 @@
         "id" : "heading",
         "type" : "text",
         "label" : "Heading"
+      },
+      {
+        "id" : "background",
+        "type" : "color",
+        "label" : "Background Color"
       }
     ],
     "blocks" : [
@@ -46,6 +51,9 @@
 
 <style>
 
+  .Grid-sections{
+    background-color: {{section.settings.background}};
+  }
   .Grid-logo-sections{
     max-width: 1200px;
     width: 100%;
