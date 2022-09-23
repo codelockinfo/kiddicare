@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1663918818a9756742": {
+      "type": "image-with-text-live",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IT4A2006_1.png",
+        "mobile-image": "shopify:\/\/shop_images\/slider_1_1.png",
+        "heading": "Deluxe nappies  you can trust",
+        "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
+        "button1": "shop pack",
+        "btn1_link": "",
+        "button2": "shop bundles",
+        "btn2_link": ""
+      }
+    },
     "1663913352c11335f8": {
       "type": "logo-slider",
       "blocks": {
@@ -114,6 +127,7 @@
     }
   },
   "order": [
+    "1663918818a9756742",
     "1663913352c11335f8",
     "main"
   ]
