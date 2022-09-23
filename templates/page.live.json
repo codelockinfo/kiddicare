@@ -59,9 +59,72 @@
         "text": "",
         "background": "#7cd6db"
       }
+    },
+    "1663913352c11335f8": {
+      "type": "logo-slider",
+      "blocks": {
+        "07114ff0-0ddc-4fd0-b921-50aed55a38ae": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Up-to-12-Hr---Gif.gif",
+            "hover": "shopify:\/\/shop_images\/12-Hr---Gif.gif",
+            "heading-pop": "",
+            "text-pop": ""
+          }
+        },
+        "3fb97890-d811-4ef6-9bb4-e9ae637fdf2b": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kiddicare-website-icon--1.gif",
+            "hover": "shopify:\/\/shop_images\/icon--1_1.gif",
+            "heading-pop": "",
+            "text-pop": ""
+          }
+        },
+        "15ee5152-419e-4ad4-9712-792c4e2a1b4a": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our-soft-nappy---gif.gif",
+            "hover": "shopify:\/\/shop_images\/Our-soft-nappy---gif_1.gif",
+            "heading-pop": "",
+            "text-pop": ""
+          }
+        },
+        "0f0682b2-983e-41a4-bb59-b9c2b87fe345": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif.gif",
+            "hover": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif_1.gif",
+            "heading-pop": "",
+            "text-pop": ""
+          }
+        },
+        "d18a4d6c-8ebd-43f0-afd8-6bb9c8f8d9f9": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stylish-Nappy-gif.gif",
+            "hover": "shopify:\/\/shop_images\/Stylish-Nappy-gif_1.gif",
+            "heading-pop": "",
+            "text-pop": ""
+          }
+        }
+      },
+      "block_order": [
+        "07114ff0-0ddc-4fd0-b921-50aed55a38ae",
+        "3fb97890-d811-4ef6-9bb4-e9ae637fdf2b",
+        "15ee5152-419e-4ad4-9712-792c4e2a1b4a",
+        "0f0682b2-983e-41a4-bb59-b9c2b87fe345",
+        "d18a4d6c-8ebd-43f0-afd8-6bb9c8f8d9f9"
+      ],
+      "settings": {
+        "heading": "A different Kind of Nappy",
+        "text": "Crafted with premium cotton blend and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic, and free from harsh chemicals, chlorine, perfumes, lotions, and latex.",
+        "color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663913352c11335f8"
   ]
 }
