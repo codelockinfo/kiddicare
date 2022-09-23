@@ -1,3 +1,20 @@
+<div class="Main-Collabrate-section" id="{{ section.id }}">
+  <div class="Collabrate-sections">
+    <div class="flex-Collabrate">
+      <div class="image-sect width-Collabrate">
+        <img src="{{ section.settings.image | img_url:'master' }}">
+      </div>
+      <div class="width-Collabrate contant-Collabrate">
+        <h2 class="heading">{{ section.settings.heading }}</h2>
+        <p class="text">{{ section.settings.text }}</p>
+        <div class="button-sect">
+          <a href="{{ section.settings.btn-link }}">{{ section.settings.btn-name }}</a>
+        </div>
+      </div>
+    </div>
+  </div>"
+</div>
+
 {% schema %}
   {
     "name": "Collabrate Section",
