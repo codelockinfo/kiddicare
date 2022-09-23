@@ -1,3 +1,20 @@
+<div class="icon-with-text">
+  <div class="icons-txts">
+    <header class="head">
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    </header>
+    <div class="Flex-sections">
+      {% for block in section.blocks %}
+        <div class="icon-with">
+          <img src="{{ block.settings.image | img_url:'master' }}">
+          <h2 class="title">{{ block.settings.title }}</h2>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+  
+</div>
+
 {% schema %}
   {
     "name": "Icon With Text",
