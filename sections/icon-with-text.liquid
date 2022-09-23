@@ -1,4 +1,4 @@
-<div class="icon-with-text">
+<div class="icon-with-text" id="{{ section.id }}">
   <div class="icons-txts">
     <header class="head">
       <h2 class="heading">{{ section.settings.heading }}</h2>
@@ -61,6 +61,7 @@
 
   .icon-with-text{
     background-color: {{section.settings.background}};
+    padding: 5% 0;
   }
   .icons-txts{
     max-width: 1200px;
