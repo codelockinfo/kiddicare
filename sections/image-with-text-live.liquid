@@ -6,7 +6,7 @@
         <img class="desktop" src="{{ section.settings.image | img_url:'master' }}">
         {% endif %}
         {% if section.settings.image != blank  %}
-        <img class="mobile" src="{{ section.settings.image | img_url:'master' }}">
+        <img class="mobile" src="{{ section.settings.mobile-image | img_url:'master' }}">
         {% else %}
           <img class="mobile" src="{{ section.settings.image | img_url:'master' }}">
         {% endif %}
