@@ -1,3 +1,23 @@
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="main-brand-sections" id="{{ section.id }}">
+  <div class="Brand-sections">
+    <header class="head">
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    </header>
+    <div class="flexes-block brand-sliders">
+      {% for block in section.blocks %}
+        <div class="logos-brand">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "Brand Logo Section",
@@ -29,8 +49,35 @@
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<script>
 
-{% javascript %}
-{% endjavascript %}
+  $('.brand-sliders').slick({
+    dots: false,
+    infinite: true,
+    arrows: false,
+    slidesToShow: 5,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    slidesToScroll: 1,    
+    prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
+    nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+ responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2.2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1.2,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+      }
+    }
+    ]
+    });
+</script>
