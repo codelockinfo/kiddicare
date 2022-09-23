@@ -1,7 +1,36 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Icon With Text",
+    "settings": [
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      }
+    ],
+    "blocks" : [
+      {
+        "name" : "block",
+        "type" : "block",
+        "settings" : [
+          {
+        "id" : "image",
+        "type" : "image_picker",
+        "label" : "Image"
+      },
+      {
+        "id" : "title",
+        "type" : "text",
+        "label" : "Heading"
+      }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Icon With Text"
+      }
+    ]
   }
 {% endschema %}
 
