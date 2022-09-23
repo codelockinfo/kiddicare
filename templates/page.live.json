@@ -104,7 +104,8 @@
         "603d33bd-0423-4c6e-9831-51cd2a695283"
       ],
       "settings": {
-        "heading": "Kiddicare Products"
+        "heading": "Kiddicare Products",
+        "background": "#7CD6DB"
       }
     },
     "main": {
@@ -166,12 +167,58 @@
         "text": "",
         "background": "#7cd6db"
       }
+    },
+    "166393300967992f0b": {
+      "type": "brand-logo",
+      "blocks": {
+        "e60a6978-9aee-40ac-ac89-8f01c088373d": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1_1.png"
+          }
+        },
+        "ea51314f-9389-4bfe-a59f-9038f5f1e1b4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images_1_1.png"
+          }
+        },
+        "8d8de315-6dd5-4918-9715-9e0a3401e73f": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1_1.png"
+          }
+        },
+        "c19d506b-c29f-43e3-aedf-8b15df2a3d37": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images_1_1.png"
+          }
+        },
+        "e8b120c1-c87c-4295-a2d8-fc7116b67e7e": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "e60a6978-9aee-40ac-ac89-8f01c088373d",
+        "ea51314f-9389-4bfe-a59f-9038f5f1e1b4",
+        "8d8de315-6dd5-4918-9715-9e0a3401e73f",
+        "c19d506b-c29f-43e3-aedf-8b15df2a3d37",
+        "e8b120c1-c87c-4295-a2d8-fc7116b67e7e"
+      ],
+      "settings": {
+        "heading": "Where To Buy"
+      }
     }
   },
   "order": [
     "1663918818a9756742",
     "1663913352c11335f8",
     "166392803085ef7238",
-    "main"
+    "main",
+    "166393300967992f0b"
   ]
 }
