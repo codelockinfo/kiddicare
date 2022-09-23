@@ -1,7 +1,31 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Grid Logo Section ",
+    "settings": [
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      }
+    ],
+    "blocks" : [
+      {
+        "name" : "block",
+        "type" : "block",
+        "settings" : [
+          {
+            "id" : "image",
+            "type" : "image_picker",
+            "label" : "Image"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Grid Logo Section"
+      }
+    ]
   }
 {% endschema %}
 
