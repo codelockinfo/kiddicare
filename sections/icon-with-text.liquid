@@ -27,7 +27,8 @@
       {
         "id" : "background",
         "type" : "color",
-        "label" : "Background Color"
+        "label" : "Background Color",
+        "default" : "#7CD6DB"
       }
     ],
     "blocks" : [
@@ -63,6 +64,7 @@
     width: 100%;
     margin: auto;
     padding: 0 5%;
+    background-color: {{section.settings.background}};
   }
   .Flex-sections{
     display: flex;
