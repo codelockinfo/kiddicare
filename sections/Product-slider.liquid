@@ -8,6 +8,7 @@
     <header class="head">
       <h2 class="heading">{{ section.settings.heading }}</h2>
     </header>
+    <div class="view_more"><a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a></div>
     <div class="Product-slide-cls product-sliders">
       {% for block in section.blocks %}
          {%- assign product = all_products[block.settings.product] -%}
