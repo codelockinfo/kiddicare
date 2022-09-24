@@ -1,3 +1,20 @@
+<div class="Product-slider-section" id="{{ section.id }}">
+  <div class="Slider-Product">
+    <header class="head">
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    </header>
+    <div class="Product-slide">
+      {% for block in section.blocks %}
+         {%- assign product = all_products[block.settings.product] -%}
+        <div class="Main-product">
+          {{ product.name }}
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
     "name": "Product Slider Section",
