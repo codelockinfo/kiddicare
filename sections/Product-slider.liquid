@@ -141,7 +141,7 @@
 {% endschema %}
 
 <style>
-  .Product-slider-section{
+  #{{ section.id }}.Product-slider-section{
     background-color: {{section.settings.background}};
   }
   .Slider-Product{
@@ -155,7 +155,7 @@
     margin: 0 10px;
     padding: 10px 15px;
   }
-  .Slider-Product .head h2.heading {
+  #{{ section.id }} .Slider-Product .head h2.heading {
     font-family: 'Hunterswood';
     font-style: normal;
     font-weight: 400;
