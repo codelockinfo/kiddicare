@@ -279,6 +279,66 @@
         "SAMPLEfe": ""
       }
     },
+    "166402407645cb50bd": {
+      "type": "Product-slider",
+      "blocks": {
+        "2ef1dc7c-6ff9-439c-bde9-f849d54ecea7": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-infant-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "5586e47a-b34d-4aee-be89-20be1c02dc59": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-junior-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "470ae6d0-b3a2-448a-b2cf-7713c7af02fe": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-crawler-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "5a6a827f-85c5-4ee7-9917-441c5d9215b4": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-toddler-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "6d08cac8-2c03-4b2b-8573-67a58484c8ba": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-toddler-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        }
+      },
+      "block_order": [
+        "2ef1dc7c-6ff9-439c-bde9-f849d54ecea7",
+        "5586e47a-b34d-4aee-be89-20be1c02dc59",
+        "470ae6d0-b3a2-448a-b2cf-7713c7af02fe",
+        "5a6a827f-85c5-4ee7-9917-441c5d9215b4",
+        "6d08cac8-2c03-4b2b-8573-67a58484c8ba"
+      ],
+      "settings": {
+        "heading": "Bundle Offers",
+        "button_name": "View All >>",
+        "button_link": "",
+        "btn-color": "#ffffff",
+        "heading-color": "#ffffff",
+        "background": "#7CD6DB"
+      }
+    },
     "166393300967992f0b": {
       "type": "brand-logo",
       "blocks": {
@@ -420,66 +480,6 @@
         "heading": "",
         "background": "#006781"
       }
-    },
-    "166402407645cb50bd": {
-      "type": "Product-slider",
-      "blocks": {
-        "2ef1dc7c-6ff9-439c-bde9-f849d54ecea7": {
-          "type": "block",
-          "settings": {
-            "product": "deluxe-infant-unisex-nappies",
-            "rating": 5,
-            "review": "22"
-          }
-        },
-        "5586e47a-b34d-4aee-be89-20be1c02dc59": {
-          "type": "block",
-          "settings": {
-            "product": "deluxe-junior-unisex-nappy-pants",
-            "rating": 5,
-            "review": "22"
-          }
-        },
-        "470ae6d0-b3a2-448a-b2cf-7713c7af02fe": {
-          "type": "block",
-          "settings": {
-            "product": "deluxe-crawler-unisex-nappies",
-            "rating": 5,
-            "review": "22"
-          }
-        },
-        "5a6a827f-85c5-4ee7-9917-441c5d9215b4": {
-          "type": "block",
-          "settings": {
-            "product": "deluxe-toddler-unisex-nappy-pants",
-            "rating": 5,
-            "review": "22"
-          }
-        },
-        "6d08cac8-2c03-4b2b-8573-67a58484c8ba": {
-          "type": "block",
-          "settings": {
-            "product": "deluxe-toddler-unisex-nappies",
-            "rating": 5,
-            "review": "22"
-          }
-        }
-      },
-      "block_order": [
-        "2ef1dc7c-6ff9-439c-bde9-f849d54ecea7",
-        "5586e47a-b34d-4aee-be89-20be1c02dc59",
-        "470ae6d0-b3a2-448a-b2cf-7713c7af02fe",
-        "5a6a827f-85c5-4ee7-9917-441c5d9215b4",
-        "6d08cac8-2c03-4b2b-8573-67a58484c8ba"
-      ],
-      "settings": {
-        "heading": "Bundle Offers",
-        "button_name": "View All >>",
-        "button_link": "",
-        "btn-color": "#ffffff",
-        "heading-color": "#ffffff",
-        "background": "#7CD6DB"
-      }
     }
   },
   "order": [
@@ -489,10 +489,10 @@
     "1663996901cc8e7078",
     "main",
     "1664023239203bb5bb",
+    "166402407645cb50bd",
     "166393300967992f0b",
     "1663935188f0dbbef2",
     "1664023511bb23e65b",
-    "16639379338260ee00",
-    "166402407645cb50bd"
+    "16639379338260ee00"
   ]
 }
