@@ -1,12 +1,211 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="customblog">
+  <div class="blogcontainer">
+        <div class="blogstyle">
+        <h3 class="blogtile">{{ section.settings.title }}</h3>
+      </div>
+    <div class="customcontent">
+      <div class="blogimageflex blogslider">
+        {% for block in section.blocks %}
+          <div class="blogimageflex1">
+            <div class="blogcenter">
+                <img src="{{ block.settings.kome | img_url:'master'}}" class="blogkome">
+            </div>
+            <div class="nightitle">
+              <h3 class="blogmaintiutle">{{ block.settings.blogitle }}</h3>
+              <p class="blogmaindiscription">{{ block.settings.discript }}</p>
+              <p class="readbtn"><a href="{{ block.settings.komeurl}}" class="readurl">{{ block.settings.kometag }}</a></p>
+            </div>
+          </div>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .blogtile {
+    font-family: 'Hunterswood';
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 500;
+        margin: 0px;
+        padding: 1% 0 4%;
+}
+  .blogcontainer {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  .blogmaindiscription {
+    color: #006781;
+        margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 20px;
+}
+  .customblog {
+    background-color: #006781;
+}
+  .blogimageflex{
+        display: flex;
+    flex-wrap: wrap;
+        justify-content: center;
+    align-items: baseline;
   }
+  .blogimageflex1{
+    flex: 0 0 25%;
+    max-width: 25%;
+        padding: 0px 10px;
+  }
+  .nightitle {
+    background-color: #84DADE;
+       padding: 13% 5% 6%;
+    margin-top: -11%;
+        border-radius: 15px;
+        height: 235px;
+    
+}
+  .blogmaintiutle {
+    font-size: 18px;
+    line-height: 25px;
+      font-family: 'Manrope';
+        margin-bottom: 5px;
+        font-weight: bold;
+}
+  .blogcenter{
+        text-align: center;
+      }
+  .blogkome {
+    width: 82%;
+    margin: 0 auto;
+}
+  .readurl{
+        font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+  }
+  .customcontent .slick-track{
+        display: flex;
+    align-items: baseline;
+  }
+  .customcontent .slick-dots li.slick-active button:before{
+        opacity: 1;
+  }
+  .blogslider .slick-dots li button:before{
+        font-size: 40px;
+  }
+     @media only screen and (max-width: 1400px) {
+.blogmaintiutle {
+    font-size: 16px;
+    line-height: 20px;
+}
+       .nightitle{
+             height: 260px;
+       }
+       
+     }
+       @media only screen and (max-width: 1200px) {
+.blogmaintiutle {
+    font-size: 14px;
+    line-height: 17px;
+}
+         .blogmaindiscription{
+           font-size: 14px;
+    line-height: 15px;
+         }
+         .nightitle {
+    height: 220px;
+}
+     }
+         @media only screen and (max-width: 991px) {
+           
+         }
+  
+</style>
+
+<script>
+
+   $(document).ready(function () { 
+         console.log('fdsfg');
+$('.blogslider').slick({ 
+   dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+
+  ]
+});
+      });
+</script>
+{% schema %}
+{
+  "name": "customblog",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "kome",
+           "label": "Image"
+         },
+           {
+      "type": "text",
+      "id": "blogitle",
+      "label": "Title"
+    },
+           {
+      "type": "textarea",
+      "id": "discript",
+      "label": "Discription"
+    },
+             {
+    "id" : "komeurl",
+    "type" : "url",
+    "label" : "url"
+  },
+  {
+    "id" : "kometag",
+    "type" : "text",
+    "label" : "know title"
+  }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "customblog",
+      "settings": {
+        "title": "customblog"
+      }
+  
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
