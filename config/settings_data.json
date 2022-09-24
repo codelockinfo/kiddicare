@@ -951,6 +951,57 @@
           "cart_ajax_enable": true,
           "cart_notes_enable": false
         }
+      },
+      "1664022825afe2b785": {
+        "type": "monthlypackage",
+        "blocks": {
+          "fa078039-d474-48bf-a7dc-8d9a835effa1": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
+              "komeurl": "",
+              "kometag": "1 Months",
+              "offtitle": "( 30% Off )"
+            }
+          },
+          "5b711166-304f-4a47-a336-0768a2bb59a1": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/Tiger_3_1c78e077-a950-44ab-abeb-d8db06b9542c.png",
+              "komeurl": "",
+              "kometag": "3 Months",
+              "offtitle": "( 30% Off )"
+            }
+          },
+          "b30ac54a-c73e-4a65-ae54-e29234ac7adb": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/Tiger_3_1c78e077-a950-44ab-abeb-d8db06b9542c.png",
+              "komeurl": "",
+              "kometag": "6 Months",
+              "offtitle": "( 30% Off )"
+            }
+          },
+          "9aed4bcb-efee-443a-8b07-ca15c69b0004": {
+            "type": "block",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
+              "komeurl": "",
+              "kometag": "10 Months",
+              "offtitle": "( 30% Off )"
+            }
+          }
+        },
+        "block_order": [
+          "fa078039-d474-48bf-a7dc-8d9a835effa1",
+          "5b711166-304f-4a47-a336-0768a2bb59a1",
+          "b30ac54a-c73e-4a65-ae54-e29234ac7adb",
+          "9aed4bcb-efee-443a-8b07-ca15c69b0004"
+        ],
+        "settings": {
+          "komtitle": "Subscribe Now and save up to 30%",
+          "SAMPLEfe": ""
+        }
       }
     },
     "content_for_index": [
@@ -962,7 +1013,8 @@
       "165477920102c1e0d7",
       "165477852872814673",
       "1654694633dab7abe9",
-      "1654835811e1444725"
+      "1654835811e1444725",
+      "1664022825afe2b785"
     ],
     "blocks": {
       "6279071938380501511": {
