@@ -264,10 +264,38 @@
           "settings": {
             "product": "deluxe-infant-unisex-nappies"
           }
+        },
+        "86df86ae-6c8c-4185-a960-ccc8db22551f": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-junior-unisex-nappies"
+          }
+        },
+        "aebe6437-108d-4774-adaa-7d3f27ad3bba": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-toddler-unisex-nappy-pants"
+          }
+        },
+        "eab445ef-7daf-449d-b3fd-2a8c8c3e7396": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-walker-unisex-nappy-pants"
+          }
+        },
+        "c8420b78-0a06-4aa6-87be-aad55f5d8758": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-crawler-unisex-nappies"
+          }
         }
       },
       "block_order": [
-        "f4219775-a7c6-4691-a9d5-3c86bcec57b9"
+        "f4219775-a7c6-4691-a9d5-3c86bcec57b9",
+        "86df86ae-6c8c-4185-a960-ccc8db22551f",
+        "aebe6437-108d-4774-adaa-7d3f27ad3bba",
+        "eab445ef-7daf-449d-b3fd-2a8c8c3e7396",
+        "c8420b78-0a06-4aa6-87be-aad55f5d8758"
       ],
       "settings": {
         "heading": "",
