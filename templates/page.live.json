@@ -312,6 +312,7 @@
         "button_name": "View All >>",
         "button_link": "",
         "btn-color": "#006781",
+        "heading-color": "#ffffff",
         "background": "#006781"
       }
     }
