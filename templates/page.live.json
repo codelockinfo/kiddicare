@@ -252,7 +252,28 @@
         "cc47b29c-92da-4834-8636-c8e52fed0850"
       ],
       "settings": {
-        "heading": ""
+        "heading": "",
+        "background": "#006781"
+      }
+    },
+    "1663996901cc8e7078": {
+      "type": "Product-slider",
+      "blocks": {
+        "f4219775-a7c6-4691-a9d5-3c86bcec57b9": {
+          "type": "block",
+          "settings": {
+            "product": "baby-wipes-fragrance-free"
+          }
+        }
+      },
+      "block_order": [
+        "f4219775-a7c6-4691-a9d5-3c86bcec57b9"
+      ],
+      "settings": {
+        "heading": "",
+        "button_name": "",
+        "button_link": "",
+        "background": ""
       }
     }
   },
@@ -263,6 +284,7 @@
     "main",
     "166393300967992f0b",
     "1663935188f0dbbef2",
-    "16639379338260ee00"
+    "16639379338260ee00",
+    "1663996901cc8e7078"
   ]
 }
