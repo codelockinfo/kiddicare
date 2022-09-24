@@ -262,31 +262,41 @@
         "f4219775-a7c6-4691-a9d5-3c86bcec57b9": {
           "type": "block",
           "settings": {
-            "product": "deluxe-infant-unisex-nappies"
+            "product": "deluxe-infant-unisex-nappies",
+            "rating": 5,
+            "review": "22"
           }
         },
         "86df86ae-6c8c-4185-a960-ccc8db22551f": {
           "type": "block",
           "settings": {
-            "product": "deluxe-junior-unisex-nappies"
+            "product": "deluxe-junior-unisex-nappies",
+            "rating": 5,
+            "review": "22"
           }
         },
         "aebe6437-108d-4774-adaa-7d3f27ad3bba": {
           "type": "block",
           "settings": {
-            "product": "deluxe-toddler-unisex-nappy-pants"
+            "product": "deluxe-toddler-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
           }
         },
         "eab445ef-7daf-449d-b3fd-2a8c8c3e7396": {
           "type": "block",
           "settings": {
-            "product": "deluxe-walker-unisex-nappy-pants"
+            "product": "deluxe-walker-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
           }
         },
         "c8420b78-0a06-4aa6-87be-aad55f5d8758": {
           "type": "block",
           "settings": {
-            "product": "deluxe-crawler-unisex-nappies"
+            "product": "deluxe-crawler-unisex-nappies",
+            "rating": 5,
+            "review": "22"
           }
         }
       },
@@ -301,7 +311,8 @@
         "heading": "Bundle Offers",
         "button_name": "View All >>",
         "button_link": "",
-        "background": ""
+        "btn-color": "#006781",
+        "background": "#006781"
       }
     }
   },
