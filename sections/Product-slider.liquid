@@ -5,9 +5,9 @@
     </header>
     <div class="Product-slide">
       {% for block in section.blocks %}
-         {%- assign product = products[block.settings.product] -%}
+         {%- assign product = all_products[block.settings.product] -%}
         <div class="Main-product">
-          {{ product.name }}
+          {{ product.title }}
         </div>
         {% endfor %}
     </div>
