@@ -424,11 +424,11 @@
     "166402407645cb50bd": {
       "type": "Product-slider",
       "settings": {
-        "heading": "",
-        "button_name": "",
+        "heading": "Bundle Offers",
+        "button_name": "View All >>",
         "button_link": "",
-        "btn-color": "#006781",
-        "heading-color": "#fff",
+        "btn-color": "#ffffff",
+        "heading-color": "#ffffff",
         "background": "#7CD6DB"
       }
     }
