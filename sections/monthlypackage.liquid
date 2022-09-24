@@ -1,12 +1,237 @@
+<div class="monthydown">
+  <div class="monthycontainer Testimonial-sections">
+      <div class="mothlytitle">
+        <h3 class="mothtile"><span class="kombotitle">{{ section.settings.komtitle }}</span></h3>
+      </div>
+<div class="blockstander">
+    <div class="blockstander_flex multitoys">
+      {% for block in section.blocks %}
+      <div class="blockstander_flex1">
+        <div class="blockontain">
+          <div>
+            <img src="{{ block.settings.kome | img_url:'master'}}" class="toukome">
+          </div>
+          <div class="toymgleft">
+          <p class="monthlybtn"><a href="{{ block.settings.komeurl}}" class="monthltag">{{ block.settings.kometag }}</a></p>
+          <p class="offtitle">{{ block.settings.offtitle }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  
+</div>
+    
+  </div>
+  
+</div>
+
+<style>
+  .mothtile {
+    text-align: center;
+}
+  .toymgleft{
+        margin-left: 6%;
+  }
+.kombotitle {
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: #006781;
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+  .monthydown {
+    padding-top: 2%;
+    background-color: #7CD6DB;
+    padding-bottom: 5%;
+}
+  .savtitle {
+    color: #F48F89;
+}
+  .blockstander_flex1 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+  .blockstander_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+  .monthltag {
+    background-color: #fff;
+    color: #006781;
+    font-size: 45px;
+    font-family: 'Hunterswood';
+    line-height: 50px;
+    padding: 0 35px 15px;
+    border-radius: 50px;
+}
+  .offtitle {
+    color: #006781;
+    font-size: 22px;
+    line-height: 30px;
+  font-family: 'Manrope';
+  }
+  .monthlybtn {
+    margin-top: -18%;
+}
+  .mothlytitle {
+    margin-bottom: 6%;
+}
+  .multitoys .slick-next:before {
+    content: "";
+}
+ .multitoys .slick-prev:before {
+    content: "";
+} 
+  .multitoys .slick-prev, .multitoys .slick-next{
+        height: 44px;
+    width: 40px;
+  }
+  .multitoys .slick-prev {
+    left: -51px;
+  top: 81%;
+}
+  .multitoys .slick-next {
+        top: 81%;
+  }
+  .multitoys .drag i{
+        background-color: #F48F89;
+  }
+   @media only screen and (max-width: 1440px) {
+.multitoys .slick-prev {
+    left: 0px
+}
+     .multitoys .slick-next {
+    right: 0px;
+}
+   }
+     @media only screen and (max-width: 1250px) {
+.multitoys .slick-prev {
+    left: 21px;
+      z-index: 2;
+}
+            .multitoys .slick-next {
+    right: 10px;
+}
+     }
+       @media only screen and (max-width: 991px) {
+.multitoys .slick-prev{
+      top: 79%;
+}
+       }
+   @media only screen and (max-width: 768px) {
+      .savtitle{
+               display: block;
+    text-align: center;
+         }
+  .kombotitle {
+    background-color: transparent;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 30px;
+}
+     .mothtile {
+    background-color: #fff;
+    width: 82%;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 12px 0px;
+}
+   }
+       @media only screen and (max-width: 540px) {
+.multitoys .slick-prev {
+    left: 24%;
+      top: 82%;
+     }
+.multitoys .slick-next {
+    top: 82%;
+      right: 19%;
+}
+   
+       }
+</style>
+
+<script>
+  $('.multitoys').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
+    nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+        responsive: [
+      {
+        breakpoint: 820,
+        settings: {
+
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 540,
+        settings: {
+                slidesToShow: 1
+        }
+      }
+    ]
+
+});
+</script>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "monthlypackage",
+
+  "settings": [
+  {
+    "id" : "komtitle",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "SAMPLEfe",
+    "type" : "text",
+    "label" : "BUTTON Sample"
   }
-{% endschema %}
+  ],
+  "blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "settings" : [
+      {
+   "id": "kome",
+   "type": "image_picker",
+    "label": "Image"
+   },
+      {
+    "id" : "komeurl",
+    "type" : "url",
+    "label" : "month url"
+  },
+  {
+    "id" : "kometag",
+    "type" : "text",
+    "label" : "month title"
+  },
+     {
+    "id" : "offtitle",
+    "type" : "text",
+    "label" : "offtitle"
+  }
+  ]
+  }
 
-{% stylesheet %}
-{% endstylesheet %}
+  ],
+  "presets" : [
+  {
+    "name" : "monthlypackage",
+    "category" : "monthlypackage"
 
-{% javascript %}
-{% endjavascript %}
+    }
+  ]
+  }
+  {% endschema %}
