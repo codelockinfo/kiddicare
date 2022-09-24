@@ -275,6 +275,60 @@
         "background": "#7cd6db"
       }
     },
+    "1664023511bb23e65b": {
+      "type": "customblog",
+      "blocks": {
+        "e6e22414-73b2-4059-ad6f-cd60ced0d6ea": {
+          "type": "slide",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/image_37_1.png",
+            "blogitle": "Night time diaper changes -how to change your baby's diaper at night",
+            "discript": "How to change your baby's diaper during the night, and how frequently you should change a newborn.",
+            "komeurl": "",
+            "kometag": "Read More"
+          }
+        },
+        "759b0081-f09c-4b74-82ab-96223dbaf571": {
+          "type": "slide",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/image_36.png",
+            "blogitle": "When to size up diapers for your baby",
+            "discript": "Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants. Read More",
+            "komeurl": "",
+            "kometag": "Read More"
+          }
+        },
+        "a29626a7-6734-413b-823d-14510e3e5448": {
+          "type": "slide",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/image_37_1.png",
+            "blogitle": "Night time diaper changes -how to change your baby's diaper at night",
+            "discript": "How to change your baby's diaper during the night, and how frequently you should change a newborn.",
+            "komeurl": "",
+            "kometag": "Read More"
+          }
+        },
+        "33e8e27b-9769-470f-85d6-50a41ce84c8b": {
+          "type": "slide",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/image_36.png",
+            "blogitle": "When to size up diapers for your baby",
+            "discript": "Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants. Read More",
+            "komeurl": "",
+            "kometag": "Read More"
+          }
+        }
+      },
+      "block_order": [
+        "e6e22414-73b2-4059-ad6f-cd60ced0d6ea",
+        "759b0081-f09c-4b74-82ab-96223dbaf571",
+        "a29626a7-6734-413b-823d-14510e3e5448",
+        "33e8e27b-9769-470f-85d6-50a41ce84c8b"
+      ],
+      "settings": {
+        "title": "Mom  &  Baby Blog"
+      }
+    },
     "16639379338260ee00": {
       "type": "Grid-logo",
       "blocks": {
@@ -376,6 +430,7 @@
     "1664023239203bb5bb",
     "166393300967992f0b",
     "1663935188f0dbbef2",
+    "1664023511bb23e65b",
     "16639379338260ee00",
     "1663996901cc8e7078"
   ]
