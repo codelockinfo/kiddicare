@@ -281,6 +281,7 @@
     },
     "166402407645cb50bd": {
       "type": "Product-slider",
+      "disabled": true,
       "blocks": {
         "2ef1dc7c-6ff9-439c-bde9-f849d54ecea7": {
           "type": "block",
