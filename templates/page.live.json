@@ -168,6 +168,57 @@
         "background": "#7cd6db"
       }
     },
+    "1664023239203bb5bb": {
+      "type": "monthlypackage",
+      "blocks": {
+        "a3483e41-1f32-44c0-b92c-15413f7fd743": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
+            "komeurl": "",
+            "kometag": "1 Months",
+            "offtitle": "( 30% Off )"
+          }
+        },
+        "36dea4e3-ea49-4d34-a5de-6380cf649908": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Fox_3_077d37cf-af5c-41c5-a3a4-a74ef1905fa3.png",
+            "komeurl": "",
+            "kometag": "3 Months",
+            "offtitle": "( 30% Off )"
+          }
+        },
+        "c4ab56c1-48f4-4bdd-8934-77a6b9ee60e4": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Tiger_3_1.png",
+            "komeurl": "",
+            "kometag": "6 Months",
+            "offtitle": "( 60% Off )"
+          }
+        },
+        "6a436ee0-09b2-4541-8e27-11bc4eea9ef4": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
+            "komeurl": "",
+            "kometag": "1 Months",
+            "offtitle": "( 30% Off )"
+          }
+        }
+      },
+      "block_order": [
+        "a3483e41-1f32-44c0-b92c-15413f7fd743",
+        "36dea4e3-ea49-4d34-a5de-6380cf649908",
+        "c4ab56c1-48f4-4bdd-8934-77a6b9ee60e4",
+        "6a436ee0-09b2-4541-8e27-11bc4eea9ef4"
+      ],
+      "settings": {
+        "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
+        "SAMPLEfe": ""
+      }
+    },
     "main": {
       "type": "testimonial-section",
       "blocks": {
@@ -226,57 +277,6 @@
         "heading": "what our parents are saying",
         "text": "",
         "background": "#7cd6db"
-      }
-    },
-    "1664023239203bb5bb": {
-      "type": "monthlypackage",
-      "blocks": {
-        "a3483e41-1f32-44c0-b92c-15413f7fd743": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
-            "komeurl": "",
-            "kometag": "1 Months",
-            "offtitle": "( 30% Off )"
-          }
-        },
-        "36dea4e3-ea49-4d34-a5de-6380cf649908": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/Fox_3_077d37cf-af5c-41c5-a3a4-a74ef1905fa3.png",
-            "komeurl": "",
-            "kometag": "3 Months",
-            "offtitle": "( 30% Off )"
-          }
-        },
-        "c4ab56c1-48f4-4bdd-8934-77a6b9ee60e4": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/Tiger_3_1.png",
-            "komeurl": "",
-            "kometag": "6 Months",
-            "offtitle": "( 60% Off )"
-          }
-        },
-        "6a436ee0-09b2-4541-8e27-11bc4eea9ef4": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/Lion_4_9ca189c1-271c-434a-a2fb-9d6a03932446.png",
-            "komeurl": "",
-            "kometag": "1 Months",
-            "offtitle": "( 30% Off )"
-          }
-        }
-      },
-      "block_order": [
-        "a3483e41-1f32-44c0-b92c-15413f7fd743",
-        "36dea4e3-ea49-4d34-a5de-6380cf649908",
-        "c4ab56c1-48f4-4bdd-8934-77a6b9ee60e4",
-        "6a436ee0-09b2-4541-8e27-11bc4eea9ef4"
-      ],
-      "settings": {
-        "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
-        "SAMPLEfe": ""
       }
     },
     "166402407645cb50bd": {
@@ -488,8 +488,8 @@
     "1663913352c11335f8",
     "166392803085ef7238",
     "1663996901cc8e7078",
-    "main",
     "1664023239203bb5bb",
+    "main",
     "166402407645cb50bd",
     "166393300967992f0b",
     "1663935188f0dbbef2",
