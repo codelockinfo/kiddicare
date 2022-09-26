@@ -24,7 +24,7 @@
                      <label>
                           {{ option.name }}
                         </label>
-                        <select class="customslider">size
+                        <select class="customslider">
                           {% for value in option.values %}
                             <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
                           {% endfor %}
