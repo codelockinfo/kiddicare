@@ -8,8 +8,10 @@
     
    {% assign product = all_products[block.settings.product] %}
    {% for image in product.images %}
+        {% if forloop.first == true %}
         <h3 class="prodtitle">{{product.title}}</h3>      
         <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
+    {% endif %}
    {% endfor %}
  </div>
 {% endfor %}
