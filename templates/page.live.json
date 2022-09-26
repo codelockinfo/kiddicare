@@ -337,7 +337,7 @@
         "button_link": "",
         "btn-color": "#ffffff",
         "heading-color": "#ffffff",
-        "background": "#7CD6DB"
+        "background": "#7cd6db"
       }
     },
     "166393300967992f0b": {
@@ -481,6 +481,66 @@
         "heading": "",
         "background": "#006781"
       }
+    },
+    "16641665564bd3c619": {
+      "type": "Product-slider",
+      "blocks": {
+        "358aae6d-1c16-4d64-ada7-c509b492260f": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-infant-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "85b619bc-4648-4fd1-b110-df0d21600dca": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-junior-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "95832408-a7c8-442f-a00b-96c8ff237f34": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-toddler-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "e1b40d22-424b-47bb-85a8-6deb331f0ca0": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-walker-unisex-nappy-pants",
+            "rating": 5,
+            "review": "22"
+          }
+        },
+        "ab83f235-79be-4168-9b99-0dfa858104fa": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-junior-unisex-nappies",
+            "rating": 5,
+            "review": "22"
+          }
+        }
+      },
+      "block_order": [
+        "358aae6d-1c16-4d64-ada7-c509b492260f",
+        "85b619bc-4648-4fd1-b110-df0d21600dca",
+        "95832408-a7c8-442f-a00b-96c8ff237f34",
+        "e1b40d22-424b-47bb-85a8-6deb331f0ca0",
+        "ab83f235-79be-4168-9b99-0dfa858104fa"
+      ],
+      "settings": {
+        "heading": "",
+        "button_name": "",
+        "button_link": "",
+        "btn-color": "#006781",
+        "heading-color": "#fff",
+        "background": "#7CD6DB"
+      }
     }
   },
   "order": [
@@ -494,6 +554,7 @@
     "166393300967992f0b",
     "1663935188f0dbbef2",
     "1664023511bb23e65b",
-    "16639379338260ee00"
+    "16639379338260ee00",
+    "16641665564bd3c619"
   ]
 }
