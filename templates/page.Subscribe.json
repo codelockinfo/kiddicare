@@ -20,12 +20,19 @@
           "settings": {
             "product": "deluxe-infant-unisex-nappies"
           }
+        },
+        "b8bf6bfb-c88e-4e93-8648-83b76b5ac593": {
+          "type": "block",
+          "settings": {
+            "product": "baby-wipes-lightly-scented"
+          }
         }
       },
       "block_order": [
         "5f8ed1c2-6a9c-44b3-8663-bba1f9f00915",
         "9f9a3902-57f1-40ef-b06c-9e4c56fcc454",
-        "d35a19d5-45f3-45db-85c4-e0912c57a097"
+        "d35a19d5-45f3-45db-85c4-e0912c57a097",
+        "b8bf6bfb-c88e-4e93-8648-83b76b5ac593"
       ],
       "settings": {
         "textbox": "",
