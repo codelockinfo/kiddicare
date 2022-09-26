@@ -583,6 +583,7 @@ $(document).ready(function(){
 
 <script>
 
+  // ............................................... Product slider section ..............................
    $('.product-sliders').slick({
     dots: false,
     infinite: true,
@@ -615,7 +616,7 @@ $(document).ready(function(){
     }
     ]
     });
-
+// ...................................................... Brand logo section ..................................................................
   $('.brand-sliders').slick({
     dots: false,
     infinite: true,
@@ -639,6 +640,38 @@ $(document).ready(function(){
       breakpoint: 500,
       settings: {
         slidesToShow: 1.1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+      }
+    }
+    ]
+    });
+// ..........................................testimonial section .........................................
+  $('.testi-slider').slick({
+    dots: false,
+    infinite: true,
+    arrows: true,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    slidesToScroll: 1,    
+    prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-long-arrow-left' aria-hidden='true'></i></button>",
+    nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+ responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+         dots: true
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         dots: true
