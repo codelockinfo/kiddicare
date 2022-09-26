@@ -2,20 +2,17 @@
   <div class="subscribeciontain">
     <div class="subscribedaa">
       <div class="sudalldata">
-     
+     <div class="subscribe_flex">
 {% for block in section.blocks %}
-  
+  <div class="subscribleflex1">
    {% assign product = all_products[block.settings.product] %}
    {% for image in product.images %}
-        <h3 class="prodtitle">{{product.title}}</h3>
-        {% if product.featured_image %}
-        <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce">
-      {% endif %}
-   
+        <h3 class="prodtitle">{{product.title}}</h3>      
+        <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
    {% endfor %}
-
+ </div>
 {% endfor %}
-       
+     </div>
       </div>
     </div>
   </div>
