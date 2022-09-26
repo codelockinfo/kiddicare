@@ -5,8 +5,9 @@
 {% for block in section.blocks %}
    {% assign product = all_products[block.settings.product] %}
    {% for image in product.images %} 
+        <h3 class="prodtitle">{{product.title}}</h3>
         <img src="{{ image.src | product_img_url: 'grande' }}" >
-      {{product.title}}
+    
       {{ product.price | money_without_trailing_zeros }} 
   
    {% endfor %}
