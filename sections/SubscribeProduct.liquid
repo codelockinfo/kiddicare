@@ -1,6 +1,9 @@
 <div class="subscribetab">
   <div class="subscribeciontain">
     <div class="subscribedaa">
+      <div class="choicetitle">
+        <h3 class="chocetitle">{{ section.settings.komtitle }}</h3>
+      </div>
       <div class="sudalldata">
      <div class="subscribe_flex">
 {% for block in section.blocks %}
@@ -55,14 +58,9 @@
 
   "settings": [
   {
-    "id" : "textbox",
+    "id" : "komtitle",
     "type" : "text",
     "label" : "Heading"
-  },
-  {
-    "id" : "SAMPLEfe",
-    "type" : "text",
-    "label" : "BUTTON Sample"
   }
   ],
   "blocks":[
