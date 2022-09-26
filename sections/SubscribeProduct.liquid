@@ -6,7 +6,7 @@
    {% assign product = all_products[block.settings.product] %}
    {% for image in product.images %} 
         <h3 class="prodtitle">{{product.title}}</h3>
-        <img src="{{ image.src | product_img_url: 'grande' }}" >
+        <img src="{{ image.src | img_url:'master' }}" class="customproduce">
     
       {{ product.price | money_without_trailing_zeros }} 
   
