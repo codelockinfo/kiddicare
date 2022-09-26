@@ -1,7 +1,7 @@
 <div class="monthydown">
   <div class="monthycontainer Testimonial-sections">
       <div class="mothlytitle">
-        <h3 class="mothtile"><span class="kombotitle">{{ section.settings.komtitle }}</span></h3>
+        <h3 class="mothtile"><a href="{{ section.settings.titleurl }}"><span class="kombotitle">{{ section.settings.komtitle }}</span></a></h3>
       </div>
 <div class="blockstander">
     <div class="blockstander_flex multitoys">
@@ -198,6 +198,11 @@
     "id" : "SAMPLEfe",
     "type" : "text",
     "label" : "BUTTON Sample"
+  },
+      {
+    "id" : "titleurl",
+    "type" : "url",
+    "label" : "Title Url"
   }
   ],
   "blocks":[
