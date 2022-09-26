@@ -17,7 +17,9 @@
             <img src="{{ product.featured_image | img_url: 'master' }}">
           </div>
           <div class="product-data">
+            <a href="{{ product.url }}">
             <h2 class="title">{{ product.title }}</h2>
+            </a>
             <div class="review-rating">
               {% if block.settings.rating == 5 %}
                 <span class="fa fa-star checked"></span>
@@ -288,7 +290,7 @@
     {
       breakpoint: 500,
       settings: {
-        slidesToShow: 1.1,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         dots: true
