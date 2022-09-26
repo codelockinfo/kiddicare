@@ -7,11 +7,11 @@
   
    {% assign product = all_products[block.settings.product] %}
    {% for image in product.images %}
-     <div class="subscribleflex1">
+  
         <h3 class="prodtitle">{{product.title}}</h3>
         <img src="{{ image.src[0] | img_url:'master' }}" class="customproduce">
     
-    </div>
+   
    {% endfor %}
 
 {% endfor %}
