@@ -1,3 +1,31 @@
+<div class="Main-Sizeing-section" id="{{ section.id }}">
+  <div class="Size-guide-section">
+    <div class="All-flexes">
+      {% if section.settings.image1 != blank %}
+      <div class="first-image flexes-block">
+        <img src="{{ section.settings.image1 | img_url:'master' }}">
+      </div>
+      {% endif %}
+      {% if section.settings.image2 != blank %}
+      <div class="first-image flexes-block">
+        <img src="{{ section.settings.image2 | img_url:'master' }}">
+      </div>
+      {% endif %}
+      {% if section.settings.image3 != blank %}
+      <div class="first-image flexes-block">
+        <img src="{{ section.settings.image3 | img_url:'master' }}">
+      </div>
+        {% endif %}
+      {% if section.settings.image4 != blank %}
+      <div class="first-image flexes-block">
+        <img src="{{ section.settings.image4 | img_url:'master' }}">
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
     "name": "Kidding Size Section",
