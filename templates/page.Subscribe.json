@@ -2,6 +2,17 @@
   "sections": {
     "166418843780298500": {
       "type": "SubscribeProduct",
+      "blocks": {
+        "5f8ed1c2-6a9c-44b3-8663-bba1f9f00915": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-crawler-unisex-nappies"
+          }
+        }
+      },
+      "block_order": [
+        "5f8ed1c2-6a9c-44b3-8663-bba1f9f00915"
+      ],
       "settings": {
         "textbox": "",
         "SAMPLEfe": ""
