@@ -8,7 +8,7 @@
           {%- for product in collection.products %}
           <div class="subscribleflex1">
               <div class="subscribecontain">
-                <
+                
               </div>
             
           </div>
@@ -19,7 +19,18 @@
     </div>
   </div>
 </div>
-  
+  <style>
+      .subscribleflex1 {
+    flex: 0 0 24%;
+    max-width: 24%;
+}
+  .subscribe_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+  </style>
 {% schema %}
   {
   "name": "SubscribeProduct",
