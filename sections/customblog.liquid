@@ -126,8 +126,8 @@
 <script>
 
    $(document).ready(function () { 
-         console.log('fdsfg');
-$('.blogslider').slick({ 
+     if ($(window).width() < 500){
+ $('.blogslider').slick({ 
    dots: true,
   infinite: false,
   speed: 300,
@@ -153,6 +153,7 @@ $('.blogslider').slick({
   ]
 });
       });
+  }
 </script>
 {% schema %}
 {
