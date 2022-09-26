@@ -14,7 +14,18 @@
 
         <select id="product-select" name="id" data-id="{{ 304164943 }}">
 {% for variants in product.variants %}   
-      <option value="{{ variant.id }}">{{ variant.title }}</option>
+      {% for option in product.options_with_values %}
+<div class="customslide">
+       <label for="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}">
+                          {{ option.name }}
+                        </label>
+                        <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+                          {% for value in option.values %}
+                            <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+                          {% endfor %}
+                        </select>
+</div>
+          {% endfor %}
       {% endfor %}
 </select> 
     {% endif %}
