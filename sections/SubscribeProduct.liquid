@@ -9,7 +9,7 @@
    {% for image in product.images %}
   
         <h3 class="prodtitle">{{product.title}}</h3>
-        <img src="{{ product.image[0] | product_img_url:'master' }}" class="customproduce">
+        <img src="{{ product.images[0] | product_img_url:'master' }}" class="customproduce">
     
    
    {% endfor %}
