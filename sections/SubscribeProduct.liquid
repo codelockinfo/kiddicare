@@ -2,15 +2,14 @@
   <div class="subscribeciontain">dvfgf
     <div class="subscribedaa">
       <div class="sudalldata">
-        {% for block in section.blocks %}
-            {%- assign collection = collections[block.settings.collection] -%}
+        {% for block in section.blocks %}      
       <div class="subscribe_flex">
         {%- for product in collection.products %}
           <div class="subscribleflex1">
               <div class="subscribecontain">
                     <div class="hav_pro">
                       <h3 class="prodtutitle">{{ product.title }}</h3>
-                 		<a href="{{ product.url}}"class="cool_img"> <img src="{{product.featured_image[0]  | img_url: 'master' }}" class="avenue_img"></a>     
+                 		<a href="{{ product.url}}"class="cool_img"> <img src="{{product.image[0]  | img_url: 'master' }}" class="avenue_img"></a>     
                   </div>
               </div>
             
