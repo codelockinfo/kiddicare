@@ -19,7 +19,7 @@
        <label for="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}">
                           {{ option.name }}
                         </label>
-                        <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-index="option{{ forloop.index }}">
+                        <select class="customslider">
                           {% for value in option.values %}
                             <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
                           {% endfor %}
