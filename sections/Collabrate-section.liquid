@@ -1,5 +1,6 @@
 <div class="Main-Collabrate-section" id="{{ section.id }}">
   <div class="Collabrate-sections">
+  
     <div class="flex-Collabrate">
       <div class="image-sect width-Collabrate">
         <img src="{{ section.settings.image | img_url:'master' }}">
@@ -10,8 +11,9 @@
         <div class="button-sect">
           <a href="{{ section.settings.btn-link }}">{{ section.settings.btn-name }}</a>
         </div>
-
+      <div class="popcls">
         {% render 'clspopup' %}
+    </div>
       </div>
     </div>
   </div>
@@ -51,7 +53,42 @@
         "type" : "color",
         "label" : "Background color",
         "default" : "#7CD6DB"
-      }
+      },
+         {
+        "id" : "popkommbg",
+        "type" : "image_picker",
+        "label" : "Background Image"
+      },
+       {
+        "id" : "poptitle",
+        "type" : "text",
+        "label" : "title"
+      },
+      {
+        "id" : "popupsubtitle",
+        "type" : "text",
+        "label" : "Sub Title"
+      },
+        {
+        "id" : "popdiscript",
+        "type" : "textarea",
+        "label" : "Discription1"
+      },
+        {
+        "id" : "popdiscript2",
+        "type" : "textarea",
+        "label" : "Discription2"
+      },
+            {
+    "id" : "popurl",
+    "type" : "url",
+    "label" : "poup url"
+  },
+  {
+    "id" : "poptag",
+    "type" : "text",
+    "label" : "popup title"
+  }
     ],
     "presets" : [
       {
