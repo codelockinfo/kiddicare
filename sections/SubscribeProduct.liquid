@@ -13,7 +13,7 @@
         <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
     {% endif %}
      {% for variant in product.variants %}
- {{ variant.price | money }}
+ {{ variant.title }}
 
 {% endfor %}
    {% endfor %}
