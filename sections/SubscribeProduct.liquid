@@ -12,10 +12,12 @@
         <h3 class="prodtitle">{{product.title}}</h3>      
         <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
 
-{% for variants in product.variants %}   
+ 
       {% for option in product.options_with_values %}
 <div class="customslide">
-   
+                     <label>
+                          {{ option.name }}
+                        </label>
                         <select class="customslider">
                           {% for value in option.values %}
                             <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
@@ -23,7 +25,7 @@
                         </select>
 </div>
           {% endfor %}
-      {% endfor %}
+   
     {% endif %}
   
    {% endfor %}
