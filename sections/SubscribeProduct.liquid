@@ -4,6 +4,7 @@
       <div class="sudalldata">
         {% for block in section.blocks %}      
       <div class="subscribe_flex">
+        {% assign product = all_products[block.settings.product] %}
              {%- for product in product.media -%}
           <div class="subscribleflex1">
               <div class="subscribecontain">
