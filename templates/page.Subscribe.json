@@ -8,10 +8,17 @@
           "settings": {
             "product": "deluxe-crawler-unisex-nappies"
           }
+        },
+        "9f9a3902-57f1-40ef-b06c-9e4c56fcc454": {
+          "type": "block",
+          "settings": {
+            "product": "deluxe-infant-unisex-nappies"
+          }
         }
       },
       "block_order": [
-        "5f8ed1c2-6a9c-44b3-8663-bba1f9f00915"
+        "5f8ed1c2-6a9c-44b3-8663-bba1f9f00915",
+        "9f9a3902-57f1-40ef-b06c-9e4c56fcc454"
       ],
       "settings": {
         "textbox": "",
