@@ -1,0 +1,29 @@
+<div class="popupbackground">
+  <div class="popucontain">
+    <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
+      <div class="kidcontain">
+      <h3 class="poptitle">{{ section.settings.poptitle }}</h3>
+      <h4 class="popupsubtitle">{{ section.settings.popupsubtitle }}</h4>
+      <p class="popdiscript">{{ section.settings.popdiscript }}</p>
+      <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
+      <p class="popbtn"><a href="{{ block.settings.popurl}}" class="popltag">{{ block.settings.poptag }}</a></p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<style>
+  .kiddcarepops {
+background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 600px;
+    padding: 19%;
+}
+</style>
