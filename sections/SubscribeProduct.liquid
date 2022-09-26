@@ -8,7 +8,12 @@
           {%- for product in collection.products %}
           <div class="subscribleflex1">
               <div class="subscribecontain">
-                
+                    <div class="hav_pro">
+            {% if product.featured_image != blank %}
+        		<a href="{{ product.url}}"class="cool_img"> <img src="{{ product.featured_image | img_url: 'master' }}" class="avenue_img"></a>
+            {% endif  %}
+        
+          </div>
               </div>
             
           </div>
