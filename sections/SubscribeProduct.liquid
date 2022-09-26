@@ -1,4 +1,26 @@
-  {% schema %}
+<div class="subscribetab">
+  <div class="subscribeci=ontain">
+    <div class="subscribedaa">
+      <div class="sudalldata">
+        {% for block in section.blocks %}
+            {%- assign collection = collections[block.settings.collection] -%}
+      <div class="subscribe_flex">
+          {%- for product in collection.products %}
+          <div class="subscribleflex1">
+              <div class="subscribecontain">
+                <
+              </div>
+            
+          </div>
+                  {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+  
+{% schema %}
   {
   "name": "SubscribeProduct",
 
