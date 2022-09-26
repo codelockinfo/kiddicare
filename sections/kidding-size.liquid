@@ -12,10 +12,19 @@
       </div>
       {% endif %}
       <div class="other-content head-section">
-       <div class="button-cls">
-         <h2 class="heading">{{ section.settings.heading }}</h2>
-       </div>
-        <a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
+        <div class="mobile-image-with-content">
+          {% if section.settings.image2 != blank %}
+          <div class="only-mobile">
+            <img src="{{ section.settings.mobile_image |img_url:'master' }}">
+          </div>
+            {% endif %}
+          <div class="main-cls-cls">
+             <div class="button-cls">
+               <h2 class="heading">{{ section.settings.heading }}</h2>
+             </div>
+              <a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
+          </div>
+        </div>
       </div>
       {% if section.settings.image3 != blank %}
       <div class="third-image flexes-block">
@@ -143,4 +152,7 @@
     text-transform: capitalize;
     color: #006781;
 }
+  .only-mobile img{
+    width: 100%;
+  }
 </style>
