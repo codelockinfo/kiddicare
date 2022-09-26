@@ -480,6 +480,20 @@
         "heading": "",
         "background": "#006781"
       }
+    },
+    "16641722937f317975": {
+      "type": "kidding-size",
+      "settings": {
+        "heading": "KIDDING SIZING GUIDE",
+        "button_name": "View all sizes  >>",
+        "button_link": "",
+        "image1": "shopify:\/\/shop_images\/tiger1_1.png",
+        "image2": "shopify:\/\/shop_images\/bear2_1.png",
+        "image3": "shopify:\/\/shop_images\/Hedgehog1_1_e9cc2029-0378-4713-b435-6c10faecaf32.png",
+        "image4": "shopify:\/\/shop_images\/lion1_1.png",
+        "mobile_image": "shopify:\/\/shop_images\/Group_463.png",
+        "background": ""
+      }
     }
   },
   "order": [
@@ -493,6 +507,7 @@
     "166393300967992f0b",
     "1663935188f0dbbef2",
     "1664023511bb23e65b",
-    "16639379338260ee00"
+    "16639379338260ee00",
+    "16641722937f317975"
   ]
 }
