@@ -1,5 +1,12 @@
 {
   "sections": {
+    "166418843780298500": {
+      "type": "SubscribeProduct",
+      "settings": {
+        "textbox": "",
+        "SAMPLEfe": ""
+      }
+    },
     "1664023239203bb5bb": {
       "type": "monthlypackage",
       "blocks": {
@@ -48,12 +55,12 @@
       ],
       "settings": {
         "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
-        "SAMPLEfe": "",
         "titleurl": ""
       }
     }
   },
   "order": [
+    "166418843780298500",
     "1664023239203bb5bb"
   ]
 }
