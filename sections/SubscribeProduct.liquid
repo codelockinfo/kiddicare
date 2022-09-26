@@ -11,11 +11,14 @@
         {% if forloop.first == true %}
         <h3 class="prodtitle">{{product.title}}</h3>      
         <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
-    {% endif %}
-     {% for variant in product.variants %}
- {{ variant.title }}
 
-{% endfor %}
+        <select id="product-select" name="id" data-id="{{ 304164943 }}">
+{% for variants in product.variants %}   
+      <option value="{{ variant.id }}">{{ variant.title }}</option>
+      {% endfor %}
+</select> 
+    {% endif %}
+  
    {% endfor %}
  </div>
 {% endfor %}
