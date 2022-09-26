@@ -12,6 +12,17 @@
         <h3 class="prodtitle">{{product.title}}</h3>      
         <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
     {% endif %}
+     {% for variant in product.variants %}
+  {% if forloop.index == 1 %}
+     {% assign product_pricetocompare = variant.price %}
+  {% else %}
+    {% if variant.available %}
+      {% if variant.price < product_pricetocompare %}
+        {% assign product_pricetocompare = variant.price %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
    {% endfor %}
  </div>
 {% endfor %}
