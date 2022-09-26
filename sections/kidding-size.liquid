@@ -7,17 +7,23 @@
       </div>
       {% endif %}
       {% if section.settings.image2 != blank %}
-      <div class="first-image flexes-block">
+      <div class="second-image flexes-block">
         <img src="{{ section.settings.image2 | img_url:'master' }}">
       </div>
       {% endif %}
+      <div class="other-content flexes-block">
+       <div class="button-cls">
+         <h2 class="heading">{{ section.settings.heading }}</h2>
+       </div>
+        <a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
+      </div>
       {% if section.settings.image3 != blank %}
-      <div class="first-image flexes-block">
+      <div class="third-image flexes-block">
         <img src="{{ section.settings.image3 | img_url:'master' }}">
       </div>
         {% endif %}
       {% if section.settings.image4 != blank %}
-      <div class="first-image flexes-block">
+      <div class="forth-image flexes-block">
         <img src="{{ section.settings.image4 | img_url:'master' }}">
       </div>
       {% endif %}
