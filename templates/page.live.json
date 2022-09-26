@@ -406,7 +406,14 @@
         "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
         "btn-name": "Join Us",
         "btn-link": "",
-        "background": "#7cd6db"
+        "background": "#7cd6db",
+        "popkommbg": "shopify:\/\/shop_images\/pop-up-page_1.png",
+        "poptitle": "",
+        "popupsubtitle": "",
+        "popdiscript": "",
+        "popdiscript2": "",
+        "popurl": "",
+        "poptag": ""
       }
     },
     "1664023511bb23e65b": {
