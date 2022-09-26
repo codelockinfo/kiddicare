@@ -3,11 +3,9 @@
     <div class="subscribedaa">
       <div class="sudalldata">
         {% for block in section.blocks %}      
-      <div class="subscribe_flex">
-        {% assign product = all_products[block.settings.product] %}
-
-      
+      <div class="subscribe_flex">    
                {%- for product in collection.products %}
+                         {% assign product = all_products[block.settings.product] %}
                   cls+ {{ product }}
           <div class="subscribleflex1">
               <div class="subscribecontain">
