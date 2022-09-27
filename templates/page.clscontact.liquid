@@ -64,6 +64,10 @@
                 <label for="{{ formId }}-phone">SOCIAL MEDIA HANDLE</label>
                 <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" placeholder="Enter your phone number here" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
               </div>
+                  <div class="form_details">
+                <label for="{{ formId }}-phone">PAGE FOLLOWERS</label>
+                <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" placeholder="Enter your phone number here" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+              </div>
            
 
               <input type="submit" class="Click-here btn clssubmitbtn" value="submit">
