@@ -1,7 +1,9 @@
 <div class="monthydown">
   <div class="monthycontainer Testimonial-sections">
       <div class="mothlytitle">
+        {%if  section.settings.komtitle!= blank %}
         <h3 class="mothtile"><a href="{{ section.settings.titleurl }}"><span class="kombotitle">{{ section.settings.komtitle }}</span></a></h3>
+        {% endif %}
       </div>
 <div class="blockstander">
     <div class="blockstander_flex multitoys">
