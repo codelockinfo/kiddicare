@@ -72,28 +72,32 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_392.png",
-            "title": "Nappies"
+            "title": "Nappies",
+            "kome": "#"
           }
         },
         "2678655e-f885-4ff2-8218-45d56c76ed82": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_393.png",
-            "title": "Nappy Pants"
+            "title": "Nappy Pants",
+            "kome": "shopify:\/\/pages\/delivery-info"
           }
         },
         "64baba64-586e-48bb-9b5b-d4c1ff93c98b": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_394.png",
-            "title": "wipes"
+            "title": "wipes",
+            "kome": "shopify:\/\/collections\/wipe"
           }
         },
         "603d33bd-0423-4c6e-9831-51cd2a695283": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_395.png",
-            "title": "Toys"
+            "title": "Toys",
+            "kome": "shopify:\/\/collections\/toys"
           }
         }
       },
@@ -216,7 +220,9 @@
       ],
       "settings": {
         "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
-        "SAMPLEfe": ""
+        "titleurl": "",
+        "subkome": "",
+        "subkomtag": ""
       }
     },
     "16641665564bd3c619": {
