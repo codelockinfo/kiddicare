@@ -1,44 +1,38 @@
 <div class="subscrimg" style ="background-image: url('https://cdn.shopify.com/s/files/1/0431/8039/2600/files/DSC06690_3_1.png?v=1664195091')">
-  <h2 class="subkatitle">subscribe and save </h2>
+   <h2 class="subkatitle">subscribe and save </h2>
 </div>
 <div class="subscribetab">
-  <div class="subscribeciontain">
-    <div class="subscribedaa">
-      <div class="choicetitle">
-        <h3 class="chocetitle">{{ section.settings.komtitle }}</h3>
+   <div class="subscribeciontain">
+      <div class="subscribedaa">
+         <div class="choicetitle">
+            <h3 class="chocetitle">{{ section.settings.komtitle }}</h3>
+         </div>
+         <div class="sudalldata">
+            <div class="subscribe_flex">
+               {% for block in section.blocks %}
+               <div class="subscribleflex1">
+                  {% assign product = all_products[block.settings.product] %}
+                  {% for image in product.images %}
+                  {% if forloop.first == true %}
+                  <h3 class="prodtitle">{{product.title}}</h3>
+                  <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
+                  {% for option in product.options_with_values %}
+                  <div class="customslide">
+                     <select class="customslider">
+                     {% for value in option.values %}
+                     <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+                     {% endfor %}
+                     </select>
+                  </div>
+                  {% endfor %}
+                  {% endif %}
+                  {% endfor %}
+               </div>
+               {% endfor %}
+            </div>
+         </div>
       </div>
-      <div class="sudalldata">
-     <div class="subscribe_flex">
-{% for block in section.blocks %}
-  <div class="subscribleflex1">
-    
-   {% assign product = all_products[block.settings.product] %}
-   {% for image in product.images %}
-        {% if forloop.first == true %}
-        <h3 class="prodtitle">{{product.title}}</h3>      
-        <img src="{{ product.images[0] | img_url:'master' }}" class="customproduce"> 
-
- 
-      {% for option in product.options_with_values %}
-<div class="customslide">
-                
-                        <select class="customslider">
-                          {% for value in option.values %}
-                            <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
-                          {% endfor %}
-                        </select>
-</div>
-          {% endfor %}
-   
-    {% endif %}
-  
-   {% endfor %}
- </div>
-{% endfor %}
-     </div>
-      </div>
-    </div>
-  </div>
+   </div>
 </div>
   <style>
       .subscribleflex1 {
@@ -54,7 +48,7 @@
         align-items: flex-end;
 }
     .subscrimg {
-    height: 50vh;
+    height: 38vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -66,7 +60,6 @@
       content: " ";
     position: absolute;
     background: rgba(0, 0, 0, 0.2);
-    /* height: 59vh; */
     top: -6px;
     bottom: 0%;
     right: 0%;
