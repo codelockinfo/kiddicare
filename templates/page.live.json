@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_392.png",
             "title": "Nappies",
-            "kome": "#"
+            "kome": "shopify:\/\/collections\/nappies"
           }
         },
         "2678655e-f885-4ff2-8218-45d56c76ed82": {
@@ -81,7 +81,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_393.png",
             "title": "Nappy Pants",
-            "kome": "shopify:\/\/pages\/delivery-info"
+            "kome": "shopify:\/\/collections\/nappy-pants"
           }
         },
         "64baba64-586e-48bb-9b5b-d4c1ff93c98b": {
