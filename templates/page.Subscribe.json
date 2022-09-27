@@ -86,7 +86,9 @@
       ],
       "settings": {
         "komtitle": "",
-        "titleurl": ""
+        "titleurl": "",
+        "subkome": "#",
+        "subkomtag": "check now"
       }
     }
   },
