@@ -8,7 +8,9 @@
     <div class="logos-flexs">
       {% for block in section.blocks %}
         <div class="Main-logo">
+           <a href="{{ block.settings.kome}}">
           <img src="{{ block.settings.image | img_url:'master' }}">
+           </a>
         </div>
         {% endfor %}
     </div>
@@ -40,7 +42,12 @@
             "id" : "image",
             "type" : "image_picker",
             "label" : "Image"
-          }
+          },
+                        {
+        "id" : "kome",
+        "type" : "url",
+        "label" : "URl"
+      }
         ]
       }
     ],
