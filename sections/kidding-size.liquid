@@ -20,7 +20,9 @@
             {% endif %}
           <div class="main-cls-cls">
              <div class="button-cls">
+                 <a href="{{ block.settings.kome}}">
                <h2 class="heading">{{ section.settings.heading }}</h2>
+                 </a>
              </div>
               <a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
           </div>
@@ -90,6 +92,11 @@
         "type" : "color",
         "label" : "Background Color",
         "default" : "#84DADE"
+      },
+               {
+        "id" : "kome",
+        "type" : "url",
+        "label" : "URl"
       }
     ],
     "presets" : [
