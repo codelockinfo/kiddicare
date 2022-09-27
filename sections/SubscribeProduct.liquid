@@ -20,8 +20,7 @@
                   <div class="customslide">
                      <select class="customslider">
                      {% for value in option.values %}
-                       <option>size</option>
-                     <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+                        <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>size{{ value }}</option>
                      {% endfor %}
                      </select>
                   </div>
