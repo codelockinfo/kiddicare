@@ -85,57 +85,6 @@
         "6a436ee0-09b2-4541-8e27-11bc4eea9ef4"
       ],
       "settings": {
-        "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
-        "titleurl": ""
-      }
-    },
-    "166425090596bc1c5d": {
-      "type": "subscribepackage",
-      "blocks": {
-        "eb72b500-b37c-41b0-8af0-85217f312f03": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/lion1_1.png",
-            "komeurl": "",
-            "kometag": "1 Months",
-            "offtitle": "( 10% Off )"
-          }
-        },
-        "d666aae1-16b6-4b6f-a14e-9b04b05bbe55": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/tiger1_1.png",
-            "komeurl": "",
-            "kometag": "3 Months",
-            "offtitle": "( 15% Off )"
-          }
-        },
-        "5121cd34-7d8d-4cd0-84db-3fcad75e3dc6": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/Fox_3_077d37cf-af5c-41c5-a3a4-a74ef1905fa3.png",
-            "komeurl": "",
-            "kometag": "6 Months",
-            "offtitle": "( 20% Off )"
-          }
-        },
-        "f75d055e-c747-4924-91a2-467ea8034cf6": {
-          "type": "block",
-          "settings": {
-            "kome": "shopify:\/\/shop_images\/tiger1_1.png",
-            "komeurl": "",
-            "kometag": "1 Months",
-            "offtitle": "( 10% Off )"
-          }
-        }
-      },
-      "block_order": [
-        "eb72b500-b37c-41b0-8af0-85217f312f03",
-        "d666aae1-16b6-4b6f-a14e-9b04b05bbe55",
-        "5121cd34-7d8d-4cd0-84db-3fcad75e3dc6",
-        "f75d055e-c747-4924-91a2-467ea8034cf6"
-      ],
-      "settings": {
         "komtitle": "",
         "titleurl": ""
       }
@@ -143,7 +92,6 @@
   },
   "order": [
     "166418843780298500",
-    "1664023239203bb5bb",
-    "166425090596bc1c5d"
+    "1664023239203bb5bb"
   ]
 }
