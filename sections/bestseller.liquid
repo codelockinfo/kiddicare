@@ -1,12 +1,47 @@
+<div class="bestcontainer">
+  <div class="bestdesigner">
+    <div class="bundletitle">
+      <h3 class="bundmeta">{{ section.settings.kometitle }}</h3>
+    </div>
+  </div>
+</div>
+  
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+  "name": "bestseller",
+
+  "settings": [
+  {
+    "id" : "kometitle",
+    "type" : "text",
+    "label" : "Heading"
+  },
+  {
+    "id" : "SAMPLEfe",
+    "type" : "text",
+    "label" : "BUTTON Sample"
   }
-{% endschema %}
+  ],
+  "blocks":[
+  {
+  "type" : "block",
+  "name" : "block",
+  "settings" : [
+      {
+   "id": "kom_clape2",
+   "type": "image_picker",
+    "label": "Banner Image"
+   }
+  ]
+  }
 
-{% stylesheet %}
-{% endstylesheet %}
+  ],
+  "presets" : [
+  {
+    "name" : "bestseller",
+    "category" : "bestseller"
 
-{% javascript %}
-{% endjavascript %}
+    }
+  ]
+  }
+  {% endschema %}
