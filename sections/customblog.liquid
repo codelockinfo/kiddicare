@@ -5,7 +5,7 @@
       </div>
     <div class="customcontent">
       <div class="blogimageflex blogslider">
-        {% for block in section.blocks %}
+        {% for block in section.blocks limit:4 %}
           <div class="blogimageflex1">
             <div class="blogcenter">
                 <img src="{{ block.settings.kome | img_url:'master'}}" class="blogkome">
