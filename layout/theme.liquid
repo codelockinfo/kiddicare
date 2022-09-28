@@ -544,8 +544,12 @@ $(document).ready(function(){
           
     }); 
     $(".close-btnclsc, .bg-overlayclsc").click(function(){
-        $(".popupclsc").css("display","none");
-        window.location.href = 'https://kiddicare.co.nz/pages/contact-us';
+       var loc = document.location.pathname.split('/')[2];
+        console.log(loc);
+        if(loc != "contact-us" && loc != "contactcolborate"){
+            $(".popupclsc").css("display","none");
+            window.location.href = 'https://kiddicare.co.nz/pages/contact-us';
+        }
       });
   $(document).ready(function () {
     var loc = window.location.href;
