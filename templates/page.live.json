@@ -244,7 +244,7 @@
       ],
       "settings": {
         "komtitle": "Subscribe Now and <span class=\"savtitle\">save up to 30%<\/span>",
-        "titleurl": "",
+        "titleurl": "shopify:\/\/pages\/subscribe",
         "subkome": "",
         "subkomtag": ""
       }
