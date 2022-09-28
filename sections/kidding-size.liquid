@@ -24,7 +24,7 @@
                <h2 class="heading">{{ section.settings.heading }}</h2>
                  </a>
              </div>
-              <a href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
+              <a class="btn-cls" href="{{ section.settings.button_link }}">{{ section.settings.button_name }}</a>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@
     #{{section.id}}.Main-Sizeing-section{
     background-color: {{section.settings.mobile-background}};
   }
-    .main-cls-cls a{
+    .main-cls-cls a.btn-cls{
       display: none;
     }
     .only-mobile{
