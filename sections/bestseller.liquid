@@ -11,7 +11,7 @@
   
           {%- assign collection = collections[section.settings.collection] -%}
         <div class="desginerstudio komslider">
-          {% for product in collection.products %}
+          {% for product in collection.products limit:6 %}
             <div class="desginerstudio1">
               <div class="hav_pro">
             {% if product.featured_image != blank %}
