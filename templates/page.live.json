@@ -114,6 +114,17 @@
     },
     "1664337293460bcee8": {
       "type": "bestseller",
+      "blocks": {
+        "671151cd-1f62-4436-8984-9fea36c2e091": {
+          "type": "block",
+          "settings": {
+            "collection": "best-selling"
+          }
+        }
+      },
+      "block_order": [
+        "671151cd-1f62-4436-8984-9fea36c2e091"
+      ],
       "settings": {
         "kometitle": "Bundle Offers",
         "veiwall": "View all",
