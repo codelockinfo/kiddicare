@@ -118,8 +118,6 @@
         "671151cd-1f62-4436-8984-9fea36c2e091": {
           "type": "block",
           "settings": {
-            "rating": 4,
-            "review": "22"
           }
         }
       },
@@ -130,7 +128,9 @@
         "kometitle": "Bundle Offers",
         "veiwall": "View all",
         "wieurl": "shopify:\/\/collections",
-        "collection": "best-selling"
+        "collection": "best-selling",
+        "rating": 4,
+        "review": "22"
       }
     },
     "1663996901cc8e7078": {
