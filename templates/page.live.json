@@ -494,13 +494,24 @@
             "komeurl": "",
             "kometag": "Read More"
           }
+        },
+        "cecdab3d-7eea-4ef9-8d12-d695dfb3b924": {
+          "type": "slide",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/image_37_1.png",
+            "blogitle": "When to size up diapers for your baby",
+            "discript": "Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants.",
+            "komeurl": "",
+            "kometag": "Read More"
+          }
         }
       },
       "block_order": [
         "e6e22414-73b2-4059-ad6f-cd60ced0d6ea",
         "759b0081-f09c-4b74-82ab-96223dbaf571",
         "a29626a7-6734-413b-823d-14510e3e5448",
-        "33e8e27b-9769-470f-85d6-50a41ce84c8b"
+        "33e8e27b-9769-470f-85d6-50a41ce84c8b",
+        "cecdab3d-7eea-4ef9-8d12-d695dfb3b924"
       ],
       "settings": {
         "title": "Mom  &  Baby Blog"
