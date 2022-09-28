@@ -62,11 +62,11 @@
               </div>	
                   <div class="form_details">
                 <label for="{{ formId }}-phone">SOCIAL MEDIA HANDLE</label>
-                <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" placeholder="Enter your social media hadle" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+                <input type="text" id="{{ formId }}-phone" name="contact[{{ 'contact.form.social' | t }}]" placeholder="Enter your social media hadle" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
               </div>
                   <div class="form_details">
                 <label for="{{ formId }}-phone">PAGE FOLLOWERS</label>
-                <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" placeholder="Enter your page followers" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+                <input type="text" id="{{ formId }}-phone" name="contact[{{ 'contact.form.follow' | t }}]" placeholder="Enter your page followers" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
               </div>
            
 
