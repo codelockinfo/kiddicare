@@ -17,9 +17,51 @@
         		<a href="{{ product.url}}"class="cool_img"> <img src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
                 {% endif %}
              </div>
-              <div class="customsemtitle">
-                <h3 class="kiddiprdtitle">{{ product.title }}</h3>
-              </div>
+               <div class="product-data">
+            <a href="{{ product.url }}">
+            <h2 class="title">{{ product.title }}</h2>
+            </a>
+            <div class="review-rating">
+              {% if block.settings.rating == 5 %}
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                {% endif %}
+              {% if block.settings.rating == 4 %}
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                {% endif %}
+              {% if block.settings.rating == 3 %}
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                {% endif %}
+              {% if block.settings.rating == 2 %}
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                {% endif %}
+              {% if block.settings.rating == 1 %}
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                {% endif %}
+              <span class="review-cls">( {{ block.settings.review }} )</span>
+            </div>
+            <p class="vendor">{{ product.vendor }}</p>
+            <p class="price">{{ product.price |money }}</p>
+          </div>
               
             </div>
         {% endfor %}
