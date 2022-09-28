@@ -191,7 +191,7 @@
         "button_link": "",
         "btn-color": "#ffffff",
         "heading-color": "#006781",
-        "mobile-heading-color": "#fff",
+        "mobile-heading-color": "#ffffff",
         "background": "#7cd6db",
         "mobile-background": "#006781"
       }
@@ -306,7 +306,7 @@
         "button_link": "",
         "btn-color": "#006781",
         "heading-color": "#006781",
-        "mobile-heading-color": "#fff",
+        "mobile-heading-color": "#ffffff",
         "background": "#f3f3f3",
         "mobile-background": "#006781"
       }
@@ -323,7 +323,8 @@
         "image3": "shopify:\/\/shop_images\/Hedgehog1_1_e9cc2029-0378-4713-b435-6c10faecaf32.png",
         "image4": "shopify:\/\/shop_images\/lion1_1.png",
         "mobile_image": "shopify:\/\/shop_images\/Group_463.png",
-        "background": "#84dade"
+        "background": "#f3f3f3",
+        "mobile-background": "#84DADE"
       }
     },
     "main": {
