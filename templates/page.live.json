@@ -125,7 +125,7 @@
         "671151cd-1f62-4436-8984-9fea36c2e091"
       ],
       "settings": {
-        "kometitle": "Bundle Offers",
+        "kometitle": "Best Selling",
         "veiwall": "View all",
         "wieurl": "shopify:\/\/collections",
         "collection": "best-selling",
@@ -299,9 +299,9 @@
         "ab83f235-79be-4168-9b99-0dfa858104fa"
       ],
       "settings": {
-        "heading": "Bundle Offers",
-        "button_name": "View all  >>",
-        "button_link": "shopify:\/\/collections",
+        "heading": "",
+        "button_name": "",
+        "button_link": "",
         "btn-color": "#006781",
         "heading-color": "#006781",
         "background": "#ffffff"
@@ -434,7 +434,7 @@
         "heading": "Collabrate with us",
         "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
         "btn-name": "Join Us",
-        "btn-link": "shopify:\/\/pages\/contactcolborate",
+        "btn-link": "",
         "background": "#7cd6db",
         "popkommbg": "shopify:\/\/shop_images\/pop-up-page_1.png",
         "poptitle": "GET A FREE",
