@@ -112,8 +112,16 @@
         "background": "#7cd6db"
       }
     },
+    "1664337293460bcee8": {
+      "type": "bestseller",
+      "settings": {
+        "kometitle": "Bundle Offers",
+        "SAMPLEfe": ""
+      }
+    },
     "1663996901cc8e7078": {
       "type": "Product-slider",
+      "disabled": true,
       "blocks": {
         "f4219775-a7c6-4691-a9d5-3c86bcec57b9": {
           "type": "block",
@@ -517,6 +525,7 @@
     "1663918818a9756742",
     "1663913352c11335f8",
     "166392803085ef7238",
+    "1664337293460bcee8",
     "1663996901cc8e7078",
     "1664023239203bb5bb",
     "16641665564bd3c619",
