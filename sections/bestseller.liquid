@@ -142,8 +142,8 @@
 }
        }
       @media(max-width: 500px){
-.bgcolorblue {
-    background-color: #006781;
+.bgcolorblue{
+  background-color:{{section.settings.color_accent}};
 }
         .bundmeta {
     color: #fff;
@@ -158,6 +158,12 @@
   "name": "bestseller",
 
   "settings": [
+    {
+  "type": "color",
+  "id": "color_accent",
+  "label": "Buttons color",
+  "default": "#FFFFFF"
+},
   {
     "id" : "kometitle",
     "type" : "text",
