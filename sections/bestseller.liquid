@@ -3,7 +3,7 @@
     <div class="bundletitle">
       <h3 class="bundmeta">{{ section.settings.kometitle }}</h3>
     </div>
-    <p class="vieall">{{ section.settings.veiwall }} <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    <p class="vieall"><a href="{{ section.settings.wieurl }}">{{ section.settings.veiwall }} <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 </p>
   </div>
 </div>
@@ -45,6 +45,11 @@
     "id" : "veiwall",
     "type" : "text",
     "label" : "Veiw All"
+  },
+      {
+    "id" : "wieurl",
+    "type" : "url",
+    "label" : "Veiw LInk"
   }
   ],
   "blocks":[
