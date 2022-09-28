@@ -12,11 +12,14 @@
         <div class="desginerstudio">
           {% for product in collection.products %}
             <div class="desginerstudio1">
-                     <div class="hav_pro">
+              <div class="hav_pro">
             {% if product.featured_image != blank %}
         		<a href="{{ product.url}}"class="cool_img"> <img src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
-            {% endif  %}
-                     </div>
+                {% endif %}
+             </div>
+              <div class="customsemtitle">
+                <h3 class="kiddiprdtitle">{{ product.title }}</h3>
+              </div>
               
             </div>
         {% endfor %}
