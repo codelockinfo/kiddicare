@@ -547,9 +547,11 @@ $(document).ready(function(){
        var loc = document.location.pathname.split('/')[2];
         console.log(loc + "HII........");
         if(loc != "contact-us"){
+          console.log("contact");
             $(".popupclsc").css("display","none");
             window.location.href = 'https://kiddicare.co.nz/pages/contact-us';
         }else if(loc != "contactcolborate"){
+          console.log("contactcolborate");
            $(".popupclsc").css("display","none");
             window.location.href = 'https://kiddicare.co.nz/pages/contactcolborate';
         }
