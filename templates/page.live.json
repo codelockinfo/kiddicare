@@ -116,7 +116,8 @@
       "type": "bestseller",
       "settings": {
         "kometitle": "Bundle Offers",
-        "veiwall": "View all"
+        "veiwall": "View all",
+        "wieurl": "shopify:\/\/collections"
       }
     },
     "1663996901cc8e7078": {
