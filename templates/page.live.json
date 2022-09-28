@@ -299,9 +299,9 @@
         "ab83f235-79be-4168-9b99-0dfa858104fa"
       ],
       "settings": {
-        "heading": "",
-        "button_name": "",
-        "button_link": "",
+        "heading": "Bundle Offers",
+        "button_name": "View all  >>",
+        "button_link": "shopify:\/\/collections",
         "btn-color": "#006781",
         "heading-color": "#006781",
         "background": "#ffffff"
