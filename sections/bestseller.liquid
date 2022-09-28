@@ -72,6 +72,9 @@
 </div>
 </div>
   <style>
+    .bgcolorblue{
+          background-color: {{section.settings.backgroundcls}};
+    }
     .bestcontainer {
     max-width: 1600px;
     margin: 0 auto;
@@ -143,7 +146,7 @@
        }
       @media(max-width: 500px){
 .bgcolorblue{
-  background-color:{{section.settings.color_accent}};
+  background-color:{{section.settings.color_accent}}
 }
         .bundmeta {
     color: #fff;
@@ -161,6 +164,12 @@
     {
   "type": "color",
   "id": "color_accent",
+  "label": "Buttons color",
+  "default": "#FFFFFF"
+},
+        {
+  "type": "color",
+  "id": "backgroundcls",
   "label": "Buttons color",
   "default": "#FFFFFF"
 },
