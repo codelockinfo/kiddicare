@@ -125,6 +125,8 @@
         "671151cd-1f62-4436-8984-9fea36c2e091"
       ],
       "settings": {
+        "color_accent": "#e76b6b",
+        "backgroundcls": "#006781",
         "kometitle": "Best Sellers Product",
         "veiwall": "View all",
         "wieurl": "shopify:\/\/collections",
@@ -324,7 +326,7 @@
         "image4": "shopify:\/\/shop_images\/lion1_1.png",
         "mobile_image": "shopify:\/\/shop_images\/Group_463.png",
         "background": "#f3f3f3",
-        "mobile-background": "#84DADE"
+        "mobile-background": "#84dade"
       }
     },
     "main": {
