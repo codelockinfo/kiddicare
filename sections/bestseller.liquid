@@ -5,6 +5,24 @@
     </div>
     <p class="vieall"><a href="{{ section.settings.wieurl }}">{{ section.settings.veiwall }} <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 </p>
+
+    <div class="designflex">
+      {% for block in section.blocks %}
+          {%- assign collection = collections[block.settings.collection] -%}
+        <div class="desginerstudio">
+          {% for product in collection.products %}
+            <div class="desginerstudio1">
+                     <div class="hav_pro">
+            {% if product.featured_image != blank %}
+        		<a href="{{ product.url}}"class="cool_img"> <img src="{{ product.featured_image | img_url: 'master' }}" / class="lazyload avenue_img"></a>
+            {% endif  %}
+                     </div>
+              
+            </div>
+        {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
   <style>
