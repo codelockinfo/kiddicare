@@ -4,7 +4,7 @@
     <div class="bundletitle">
       <h3 class="bundmeta">{{ section.settings.kometitle }}</h3>
     </div>
-    <a href="{{ section.settings.wieurl }}"><p class="vieall">{{ section.settings.veiwall }} <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    <a class="hide-cl" href="{{ section.settings.wieurl }}"><p class="vieall">{{ section.settings.veiwall }} <i class="fa fa-angle-double-right" aria-hidden="true"></i>
 </p></a>
 
     <div class="designflex">
@@ -157,6 +157,9 @@
     font-size: 35px;
     line-height: 40px;
 }
+         .bestdesigner a.hide-cl{
+           display: none;
+         }
        }
       @media(max-width: 500px){
  #{{section.id}}.bgcolorblue{
