@@ -7069,11 +7069,18 @@ footer.site-footer{
     max-height: 350px;
 }
 }
+@media(max-width:768px){
+  #shopify-block-3c9ad42e-a8fd-4115-a780-47d8799dd505 #insta-feed h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
 @media(max-width:749px){
   .clsprdcontain iframe {
     max-height: 600px;
 }
 }
+
 @media(min-width:992px){
 #backToCollection{
 margin-top: -80px;
