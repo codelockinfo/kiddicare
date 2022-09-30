@@ -5,9 +5,11 @@
 
 <div class="main-brand-sections" id="{{ section.id }}">
   <div class="Brand-sections">
+    {% if section.settings.heading != blank %}
     <header class="head">
       <h2 class="heading">{{ section.settings.heading }}</h2>
     </header>
+    {% endif %}
     <div class="flexes-block brand-sliders">
       {% for block in section.blocks %}
         <div class="logos-brand">
