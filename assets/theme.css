@@ -7017,6 +7017,9 @@ padding: 0;
 
 
 /* CSS START BY CLS 001 */
+#shopify-section-template--16548453449944__1664525526ebba3c98{
+  display: none;
+}
 #shopify-block-3c9ad42e-a8fd-4115-a780-47d8799dd505 #insta-feed h2 {
     font-size: 50px;
     line-height: 60px;
@@ -7074,6 +7077,9 @@ footer.site-footer{
     font-size: 35px;
     line-height: 40px;
 }
+  #shopify-section-template--16548453449944__1664525526ebba3c98{
+    display: block;
+  }
 }
 @media(max-width:749px){
   .clsprdcontain iframe {
