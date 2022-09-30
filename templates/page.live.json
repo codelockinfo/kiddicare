@@ -331,6 +331,30 @@
         "mobile-background": "#84dade"
       }
     },
+    "1664525526ebba3c98": {
+      "type": "brand-logo",
+      "blocks": {
+        "2e28c38a-7a7e-4c0f-933b-8511e019be7b": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our-soft-nappy---gif.gif"
+          }
+        },
+        "6ea2724d-e14a-431d-b368-4487a1827061": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif.gif"
+          }
+        }
+      },
+      "block_order": [
+        "2e28c38a-7a7e-4c0f-933b-8511e019be7b",
+        "6ea2724d-e14a-431d-b368-4487a1827061"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
     "main": {
       "type": "testimonial-section",
       "blocks": {
@@ -454,30 +478,6 @@
         "poptag": "GET MY FREE SAMPLE"
       }
     },
-    "1664525526ebba3c98": {
-      "type": "brand-logo",
-      "blocks": {
-        "2e28c38a-7a7e-4c0f-933b-8511e019be7b": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Our-soft-nappy---gif.gif"
-          }
-        },
-        "6ea2724d-e14a-431d-b368-4487a1827061": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif.gif"
-          }
-        }
-      },
-      "block_order": [
-        "2e28c38a-7a7e-4c0f-933b-8511e019be7b",
-        "6ea2724d-e14a-431d-b368-4487a1827061"
-      ],
-      "settings": {
-        "heading": ""
-      }
-    },
     "1664023511bb23e65b": {
       "type": "customblog",
       "blocks": {
@@ -595,10 +595,10 @@
     "1664023239203bb5bb",
     "16641665564bd3c619",
     "16641722937f317975",
+    "1664525526ebba3c98",
     "main",
     "166393300967992f0b",
     "1663935188f0dbbef2",
-    "1664525526ebba3c98",
     "1664023511bb23e65b",
     "16639379338260ee00",
     "16644539111af25378"
