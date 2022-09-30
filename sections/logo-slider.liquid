@@ -20,10 +20,11 @@
       </div>
       {% endfor %}
     </div>
+    {% if section.settings.button != blank %}
     <div class="contans-button-cls">
           <a class="cls-btn" href="{{ section.settings.btn_link }}">{{ section.settings.button }}</a>
         </div>
-      
+      {% endif %}
   </div>
 </div>
 
