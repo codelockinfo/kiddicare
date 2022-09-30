@@ -560,6 +560,30 @@
       ],
       "settings": {
       }
+    },
+    "1664525526ebba3c98": {
+      "type": "brand-logo",
+      "blocks": {
+        "2e28c38a-7a7e-4c0f-933b-8511e019be7b": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our-soft-nappy---gif.gif"
+          }
+        },
+        "6ea2724d-e14a-431d-b368-4487a1827061": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif.gif"
+          }
+        }
+      },
+      "block_order": [
+        "2e28c38a-7a7e-4c0f-933b-8511e019be7b",
+        "6ea2724d-e14a-431d-b368-4487a1827061"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -576,6 +600,7 @@
     "1663935188f0dbbef2",
     "1664023511bb23e65b",
     "16639379338260ee00",
-    "16644539111af25378"
+    "16644539111af25378",
+    "1664525526ebba3c98"
   ]
 }
