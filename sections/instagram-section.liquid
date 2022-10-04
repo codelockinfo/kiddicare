@@ -1,7 +1,37 @@
+<div class="main-Inastagram-section" id="{{ section.id }}">
+  <div class="Insta-sections">
+    <heading class="insta">
+      <h2 class="{{ section.settings.heading }}">
+        <img src="{{ section.settings.image | img_url:'master' }}">
+    </heading>
+  </div>"
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Instagram Section",
+    "settings": [
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      },
+      {
+        "id" : "image",
+        "type" : "image_picker",
+        "label" : "Image"
+      },
+      {
+        "id" : "background",
+        "type" : "color",
+        "label" : "Background Color"
+      },
+      {
+        "id" : "text-color",
+        "type" : "color",
+        "label" : "Text Color"
+      }
+    ]
   }
 {% endschema %}
 
