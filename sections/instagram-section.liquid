@@ -29,7 +29,8 @@
       {
         "id" : "text-color",
         "type" : "color",
-        "label" : "Text Color"
+        "label" : "Text Color",
+        "default" : "#fff"
       }
     ],
     "presets" : [
@@ -60,7 +61,7 @@
     font-size: 65px;
     line-height: normal;
     text-align: center;
-    color: #FFFFFF;
+    color: {{section.settings.text-color}};
 }
   .insta img {
     max-width: 60px;
