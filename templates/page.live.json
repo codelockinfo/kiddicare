@@ -567,6 +567,15 @@
         "background": "#006781"
       }
     },
+    "1664863247caa06a5e": {
+      "type": "instagram-section",
+      "settings": {
+        "heading": "FOLLOW US",
+        "image": "shopify:\/\/shop_images\/1_Instagram_colored_svg_1-512_2.png",
+        "background": "",
+        "text-color": ""
+      }
+    },
     "16644539111af25378": {
       "type": "apps",
       "blocks": {
@@ -601,6 +610,7 @@
     "1663935188f0dbbef2",
     "1664023511bb23e65b",
     "16639379338260ee00",
+    "1664863247caa06a5e",
     "16644539111af25378"
   ]
 }
