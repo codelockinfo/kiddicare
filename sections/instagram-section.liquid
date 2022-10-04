@@ -24,7 +24,8 @@
       {
         "id" : "background",
         "type" : "color",
-        "label" : "Background Color"
+        "label" : "Background Color",
+        "default" : "#006781"
       },
       {
         "id" : "text-color",
@@ -44,7 +45,7 @@
 <style>
 
   .Insta-sections{
-    background: #006781;
+    background: {{section.settings.background}};
     margin-bottom: 3%;
   }
   heading.insta {
