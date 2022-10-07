@@ -227,7 +227,7 @@ Get first variant, or deep linked one
                               {{ option.name }}
                             </label>
                             <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input"
-                                    id="SingleOptionSelector-{{ forloop.index0 }}"
+                                    id="Option-{{ section.id }}-{{ forloop.index0 }}"
                                     data-index="option{{ forloop.index }}"
                                     >
                               {% for value in option.values %}
