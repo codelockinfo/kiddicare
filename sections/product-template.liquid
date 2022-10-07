@@ -219,6 +219,7 @@ Get first variant, or deep linked one
                     {{ product.variants | json }}
                   </script>
                </variant-selects>  -->
+      <input type="hidden" value="{{current_variant.id}}" class="variant_hidden_id"/>
       {% unless product.has_only_default_variant %}
               <div class="CLS product-form__controls-group">
                 {% for option in product.options_with_values %}
