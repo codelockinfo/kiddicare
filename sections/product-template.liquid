@@ -46,7 +46,7 @@ Get first variant, or deep linked one
   
   <div class="productslide slider-for">
     {%- for media in product.media -%}
-   <div class="CLS ratiototle">
+   <div class="ratiototle" data-select-value="">
         <div class="ratio-box">            
           <img class="the-image" src="{{ media.src | img_url: 'master' }}">
   
@@ -1526,7 +1526,8 @@ border-radius: 50%;
 height: unset;
 }
 .productslide .slick-dots{
-    position: absolute;
+/*     position: absolute; */
+      margin-top: -5%;
 left: 44%;
 bottom: 2%;
 }
