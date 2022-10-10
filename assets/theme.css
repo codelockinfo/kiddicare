@@ -2959,7 +2959,7 @@ hr {
   .product-single__media-group {
     margin-bottom: 30px; }
   .product-single__media--has-thumbnails {
-    margin-bottom: 30px; } }
+    margin-bottom: 0px; } }
 
 .product-single__media-group--full {
   margin-bottom: 30px; }
