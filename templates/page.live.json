@@ -322,10 +322,8 @@
         "kome": "#",
         "button_name": "View all sizes  >>",
         "button_link": "",
-        "image1": "shopify:\/\/shop_images\/tiger1_1.png",
-        "image2": "shopify:\/\/shop_images\/bear2_1.png",
-        "image3": "shopify:\/\/shop_images\/Hedgehog1_1_e9cc2029-0378-4713-b435-6c10faecaf32.png",
-        "image4": "shopify:\/\/shop_images\/lion1_1.png",
+        "image1": "shopify:\/\/shop_images\/tiger1_1_c174f218-f031-4b3e-8bd8-b406f1362763.png",
+        "image3": "shopify:\/\/shop_images\/Hedgehog1_1_1.png",
         "mobile_image": "shopify:\/\/shop_images\/Group_463.png",
         "background": "#f3f3f3",
         "mobile-background": "#84dade"
@@ -463,7 +461,7 @@
     "1663935188f0dbbef2": {
       "type": "Collabrate-section",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_65773836_1.png",
+        "image": "shopify:\/\/shop_images\/happy-mother-with-cute-newborn-baby_2.png",
         "heading": "Collabrate with us",
         "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
         "btn-name": "Join Us",
