@@ -44,7 +44,7 @@ Get first variant, or deep linked one
   {%- endfor -%} 
   {% endcomment %}
   
-  <div class="productslide">
+  <div class="productslide slider-for">
     {%- for media in product.media -%}
    <div class="ratiototle" data-select-value="">
         <div class="ratio-box">            
@@ -78,7 +78,7 @@ Get first variant, or deep linked one
 
 
   {% if product.media.size > 1 %}
-  {% if product.media.size > 4 %}
+  {% if product.media.size > 40 %}
   {%- assign enable_thumbnail_slides = true -%}
   {% endif %}
 
@@ -91,7 +91,7 @@ Get first variant, or deep linked one
       </button>
       {% endif %}
 
-      <ul class=" product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
+      <ul class="slider-nav product-single__thumbnails product-single__thumbnails-{{ section.id }}" data-slider-container>
         {% if enable_thumbnail_slides == false %}
         <div class="product-single__thumbnails-slider-track" data-slider-track>
           {% endif %}
