@@ -6,11 +6,6 @@
         <img src="{{ section.settings.image1 | img_url:'master' }}">
       </div>
       {% endif %}
-      {% if section.settings.image2 != blank %}
-      <div class="second-image flexes-block">
-        <img src="{{ section.settings.image2 | img_url:'master' }}">
-      </div>
-      {% endif %}
       <div class="other-content head-section">
         <div class="mobile-image-with-content">
           {% if section.settings.image2 != blank %}
@@ -33,11 +28,6 @@
         <img src="{{ section.settings.image3 | img_url:'master' }}">
       </div>
         {% endif %}
-      {% if section.settings.image4 != blank %}
-      <div class="forth-image flexes-block">
-        <img src="{{ section.settings.image4 | img_url:'master' }}">
-      </div>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -73,17 +63,7 @@
         "label" : "Image"
       },
       {
-        "id" : "image2",
-        "type" : "image_picker",
-        "label" : "Image"
-      },
-      {
         "id" : "image3",
-        "type" : "image_picker",
-        "label" : "Image"
-      },
-      {
-        "id" : "image4",
         "type" : "image_picker",
         "label" : "Image"
       },
