@@ -8,11 +8,6 @@
       {% endif %}
       <div class="other-content head-section">
         <div class="mobile-image-with-content">
-          {% if section.settings.image2 != blank %}
-          <div class="only-mobile">
-            <img src="{{ section.settings.mobile_image |img_url:'master' }}">
-          </div>
-            {% endif %}
           <div class="main-cls-cls">
              <div class="button-cls">
                  <a href="{{ block.settings.kome}}">
@@ -69,11 +64,6 @@
         "id" : "image3",
         "type" : "image_picker",
         "label" : "Image"
-      },
-      {
-        "id" : "mobile_image",
-        "type" : "image_picker",
-        "label" : "Mobile Image"
       },
       {
         "id" : "background",
