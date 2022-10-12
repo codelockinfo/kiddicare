@@ -28,6 +28,12 @@
         "id" : "heading",
         "type" : "text",
         "label" : "Heading"
+      },
+      {
+        "id" : "background",
+        "type" : "color",
+        "label" : "Background Color",
+        "default" : "#006781"
       }
     ],
     "blocks" : [
@@ -53,6 +59,9 @@
 
 <style>
 
+  .main-brand-sections{
+    background-color: {{section.settings.background}};
+  }
   .Brand-sections{
     max-width: 1200px;
     width: 100%;
