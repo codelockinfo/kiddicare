@@ -4,6 +4,11 @@
       {% if section.settings.image1 != blank %}
       <div class="first-image flexes-block">
         <img class="desktop" src="{{ section.settings.image1 | img_url:'master' }}">
+        {% if ection.settings.mobileimage1  != blank %}
+        <img class="mobile" src="{{ section.settings.mobileimage1 | img_url:'master'}}">
+          {% else %}
+          <img class="mobile" src="{{ section.settings.image1 | img_url:'master'}}">
+          {% endif %}
       </div>
       {% endif %}
       <div class="other-content head-section">
