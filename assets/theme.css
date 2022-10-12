@@ -7020,6 +7020,9 @@ padding: 0;
 #shopify-section-template--16548453449944__1664525526ebba3c98{
   display: none;
 }
+.instafeed-container img {
+    height: 98% !important;
+}
 #insta-feed h2{
   display: none;
 }
