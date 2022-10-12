@@ -6,7 +6,7 @@
     "color_body_bg": "#ededed",
     "type_header_base_size": 36,
     "type_base_size": 18,
-    "share_pinterest": false,
+    "share_pinterest": true,
     "favicon": "shopify:\/\/shop_images\/05515f5b90f0ccdd9c69f50916256ca1.png",
     "currency_code_enabled": false,
     "sections": {
