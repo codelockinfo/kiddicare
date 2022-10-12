@@ -1,4 +1,4 @@
-<div class="customblog">
+<div id="{{ section.id }}" class="customblog">
   <div class="blogcontainer">
         <div class="blogstyle">
         <h3 class="blogtile">{{ section.settings.title }}</h3>
@@ -106,6 +106,9 @@
   .customcontent .slick-next:before {
     content: "";
 }
+    #{{section.id}}.customblog{
+          background-color: {{section.settings.backgroundcls}};
+    }
   
        @media only screen and (max-width: 1024px) {
          .nightitle {
@@ -127,6 +130,9 @@
     font-size: 35px;
   line-height: 40px;
   padding: 15px 0 30px;
+}
+     #{{section.id}}.bgcolorblue{
+  background-color:{{section.settings.color_accent}}
 }
     }
   @media only screen and (max-width: 540px) {
