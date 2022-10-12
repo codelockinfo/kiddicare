@@ -19,6 +19,7 @@
                 {% endif %}
              </div>
                <div class="product-data">
+                 <div class="height-cls">
             <a href="{{ product.url }}">
             <h2 class="kiddiprdtitle">{{ product.title }}</h2>
             </a>
@@ -61,6 +62,7 @@
               <span class="review-cls">( {{ section.settings.review }} )</span>
             </div>
             <p class="vendor">{{ product.vendor }}</p>
+            </div>
             <p class="price">{{ product.price |money }}</p>
           </div>              
             </div>
