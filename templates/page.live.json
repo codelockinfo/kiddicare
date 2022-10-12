@@ -324,7 +324,9 @@
         "button_name": "View all sizes",
         "button_link": "",
         "image1": "shopify:\/\/shop_images\/tiger1_1_c174f218-f031-4b3e-8bd8-b406f1362763.png",
+        "mobileimage1": "shopify:\/\/shop_images\/Hedgehog1_1_2.png",
         "image3": "shopify:\/\/shop_images\/Hedgehog1_1_1.png",
+        "mobileimage3": "shopify:\/\/shop_images\/tiger1_1_1.png",
         "background": "#f3f3f3",
         "mobile-background": "#84dade"
       }
