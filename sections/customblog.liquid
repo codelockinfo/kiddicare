@@ -131,7 +131,7 @@
   line-height: 40px;
   padding: 15px 0 30px;
 }
-     #{{section.id}}.bgcolorblue{
+     #{{section.id}}.customblog{
   background-color:{{section.settings.color_accent}}
 }
     }
@@ -198,6 +198,18 @@
 {
   "name": "customblog",
   "settings": [
+        {
+  "type": "color",
+  "id": "backgroundcls",
+  "label": "desktop color",
+  "default": "#FFFFFF"
+},
+        {
+  "type": "color",
+  "id": "color_accent",
+  "label": "mobile color",
+  "default": "#FFFFFF"
+},
     {
       "type": "text",
       "id": "title",
