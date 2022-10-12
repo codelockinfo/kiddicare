@@ -23,9 +23,7 @@
       </div>
       {% if section.settings.image3 != blank %}
       <div class="third-image flexes-block">
-        {% if section.settings.image3 != blank %}
         <img class="desktop" src="{{ section.settings.image3 | img_url:'master' }}">
-          {% endif %}
         {% if ection.settings.mobileimage3  != blank %}
         <img class="mobile" src="{{ section.settings.mobileimage3 | img_url:'master'}}">
           {% else %}
