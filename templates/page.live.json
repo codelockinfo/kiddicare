@@ -352,7 +352,8 @@
         "6ea2724d-e14a-431d-b368-4487a1827061"
       ],
       "settings": {
-        "heading": ""
+        "heading": "",
+        "background": "#7cd6db"
       }
     },
     "main": {
@@ -457,7 +458,8 @@
         "e8b120c1-c87c-4295-a2d8-fc7116b67e7e"
       ],
       "settings": {
-        "heading": "Where To Buy"
+        "heading": "Where To Buy",
+        "background": "#006781"
       }
     },
     "1663935188f0dbbef2": {
