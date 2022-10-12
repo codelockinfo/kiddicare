@@ -1,8 +1,12 @@
 <div class="monthydown">
   <div class="monthycontainer Testimonial-sections">
       <div class="mothlytitle">
+        <h2 class="subscribtn">{{ section.settings.subscribe }}</h2>
         {%if  section.settings.komtitle!= blank %}
-        <h3 class="mothtile"><a href="{{ section.settings.titleurl }}"><span class="kombotitle">{{ section.settings.komtitle }}</span></a></h3>
+        <h3 class="mothtile"><a href="{{ section.settings.titleurl }}">
+          <span class="kombotitle">{{ section.settings.komtitle }}</span>
+        </a>
+        </h3>
         {% endif %}
       </div>
 <div class="blockstander">
@@ -358,6 +362,11 @@
   "name": "monthlypackage",
 
   "settings": [
+    {
+    "id" : "subscribe",
+    "type" : "text",
+    "label" : "Subscribe Heading"
+  },
   {
     "id" : "komtitle",
     "type" : "text",
