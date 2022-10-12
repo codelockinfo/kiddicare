@@ -3,7 +3,7 @@
     <div class="All-flexes">
       {% if section.settings.image1 != blank %}
       <div class="first-image flexes-block">
-        <img src="{{ section.settings.image1 | img_url:'master' }}">
+        <img class="desktop" src="{{ section.settings.image1 | img_url:'master' }}">
       </div>
       {% endif %}
       <div class="other-content head-section">
@@ -23,7 +23,14 @@
       </div>
       {% if section.settings.image3 != blank %}
       <div class="third-image flexes-block">
-        <img src="{{ section.settings.image3 | img_url:'master' }}">
+        {% if section.settings.image3 != blank %}
+        <img class="desktop" src="{{ section.settings.image3 | img_url:'master' }}">
+          {% endif %}
+        {% if ection.settings.mobileimage3  != blank %}
+        <img class="mobile" src="{{ section.settings.mobileimage3 | img_url:'master'}}">
+          {% else %}
+          <img class="mobile" src="{{ section.settings.image3 | img_url:'master'}}">
+          {% endif %}
       </div>
         {% endif %}
     </div>
