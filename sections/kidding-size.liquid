@@ -201,7 +201,7 @@
   .only-mobile img{
     width: 85%;
   }
-  .only-mobile{
+  .flexes-block img.mobile{
     display: none;
   }
   @media(max-width:1024px){
@@ -216,15 +216,19 @@
     .Size-guide-section {
     padding: 0px 0;
 }
+    .flexes-block img.mobile{
+      display: block;
+    }
+    .flexes-block img.desktop{
+      display: none;
+    }
   }
   @media(max-width: 768px){
     .head-section {
     width: 100%;
 }
     
-    .only-mobile{
-      display: block;
-    }
+    
     .All-flexes .flexes-block img {
     max-width: 150px;
 }
