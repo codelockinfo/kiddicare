@@ -32,6 +32,12 @@
         "type" : "color",
         "label" : "Text Color",
         "default" : "#fff"
+      },
+      {
+        "id" : "mobile-text-color",
+        "type" : "color",
+        "label" : "Text Color",
+        "default" : "#fff"
       }
     ],
     "presets" : [
@@ -73,7 +79,9 @@
   @media(max-width:768px){
     #{{ section.id }} .insta h2.heading {
     font-size: 35px;
+      color: {{section.settings.mobile-text-color}};
 }
+    
     .insta img {
     max-width: 25px;
     width: 100%;
