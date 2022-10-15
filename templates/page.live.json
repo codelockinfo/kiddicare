@@ -481,6 +481,23 @@
         "poptag": "GET MY FREE SAMPLE"
       }
     },
+    "326558eb-85e9-4f33-8067-037b47cc7a6f": {
+      "type": "livepopup",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/happy-mother-with-cute-newborn-baby_2.png",
+        "heading": "",
+        "text": "",
+        "btn-name": "",
+        "btn-link": "",
+        "background": "#7CD6DB",
+        "poptitle": "",
+        "popupsubtitle": "",
+        "popdiscript": "",
+        "popdiscript2": "",
+        "popurl": "",
+        "poptag": ""
+      }
+    },
     "1664023511bb23e65b": {
       "type": "customblog",
       "blocks": {
@@ -615,6 +632,7 @@
     "main",
     "166393300967992f0b",
     "1663935188f0dbbef2",
+    "326558eb-85e9-4f33-8067-037b47cc7a6f",
     "1664023511bb23e65b",
     "16639379338260ee00",
     "1664863247caa06a5e",
