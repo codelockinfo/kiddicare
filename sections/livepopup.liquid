@@ -1,4 +1,4 @@
-{% comment %}  <div class="popupbackground">
+ <div class="popupbackground">
   <div class="popucontain">
     <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
       <div class="kidcontain">
@@ -45,6 +45,10 @@
   .popbtn {
     text-align: center;
 }
+  .close-btn {
+    position: absolute;
+    right: 0;
+}
   .popltag {
    background-color: #F48F89;
     color: #fff;
@@ -53,6 +57,9 @@
     font-family: 'Hunterswood';
     font-size: 26px;
     letter-spacing: 1px;
+}
+  .popupbackground {
+    position: relative;
 }
 
 </style> 
@@ -135,4 +142,3 @@
     ]
   }
 {% endschema %}
-  {% endcomment %}
