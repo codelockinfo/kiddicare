@@ -1,19 +1,26 @@
- <div class="popupbackground">
-  <div class="custom-model-main ">
-    <div class="custom-model-inner">
-       <div class="close-btn">
-         <img src="https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Group_352_1.png?v=1665820292">
-       </div>
-    <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
-      <div class="kidcontain">
-      <h3 class="poptitle">{{ section.settings.poptitle }}</h3>
-      <h4 class="popupsubtitle">{{ section.settings.popupsubtitle }}</h4>
-      <p class="popdiscript">{{ section.settings.popdiscript }}</p>
-      <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
-      <p class="popbtn"><a href="{{ section.settings.popurl}}" class="popltag">{{ section.settings.poptag }}</a></p>
+<div class="main-popup-cls" id="{{ section.id }}">
+  <div class="popups-cls popupbackground">
+<div class="custom-model-main">
+    <div class="custom-model-inner">        
+    <div class="close-btn">
+           <img src="https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Group_352_1.png?v=1665820292">
+         </div>
+        <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+              <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
+        <div class="kidcontain">
+        <h3 class="poptitle">{{ section.settings.poptitle }}</h3>
+        <h4 class="popupsubtitle">{{ section.settings.popupsubtitle }}</h4>
+        <p class="popdiscript">{{ section.settings.popdiscript }}</p>
+        <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
+        <p class="popbtn"><a href="{{ section.settings.popurl}}" class="popltag">{{ section.settings.poptag }}</a></p>
+        </div>
       </div>
-    </div>
-  </div>
+            </div>
+        </div>  
+    </div>  
+    <div class="bg-overlay"></div>
+</div> 
   </div>
 </div>
 
@@ -65,19 +72,91 @@
     font-size: 26px;
     letter-spacing: 1px;
 }
-/*   .popupbackground {
-       position: fixed;
-   top: 0%;
-    left: 0%;
-    background: rgba(12, 11, 11, 0.40);
-    width: 100%;
-    height: 100%;
-/*     display: none; */
-    z-index: 99;
-    overflow: auto;
-  }
-  .popucontain {
-    width: 28%;
-    margin: 8% auto 20px;
-} */
+.custom-model-main {
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear, z-index 0.15;
+  -o-transition: opacity 0.15s linear, z-index 0.15;
+  transition: opacity 0.15s linear, z-index 0.15;
+  z-index: -1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 20px;
+    border: none;
+}
+.img-pop img.mobile{
+  display: none;
+}
+.model-open {
+  z-index: 99999;
+  opacity: 1;
+  overflow: hidden;
+}
+.custom-model-inner {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 700px;
+}
+.custom-model-wrap {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: {{section.settings.bg-color}};
+/*   border: 1px solid #999; */
+/*   border: 1px solid rgba(0, 0, 0, 0.2); */
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: 0;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.model-open .custom-model-inner {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  position: relative;
+  z-index: 999;
+}
+.model-open .bg-overlay {
+  background: #ffffff00;
+  z-index: 99;
+}
+.bg-overlay {
+  background: #ffffff00;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
 </style> 
