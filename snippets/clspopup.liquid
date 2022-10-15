@@ -1,7 +1,6 @@
  <div class="popupbackground">
   <div class="custom-model-main ">
     <div class="custom-model-inner">
-          <div class="bg-overlay"></div>
        <div class="close-btn">
          <img src="https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Group_352_1.png?v=1665820292">
        </div>
@@ -16,7 +15,6 @@
     </div>
   </div>
   </div>
-
 </div>
 
 
@@ -51,13 +49,7 @@
   .popbtn {
     text-align: center;
 }
-  .popupbackground {
-    position: relative;
-}
-  .close-btn {
-    position: absolute;
-    right: 0;
-}
+  
   .popltag {
    background-color: #F48F89;
     color: #fff;
@@ -66,70 +58,6 @@
     font-family: 'Hunterswood';
     font-size: 26px;
     letter-spacing: 1px;
-}
-  .custom-model-main{
-     text-align: center;
-  overflow: visible;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-overflow-scrolling: touch;
-  outline: 0;
-  opacity: 1;
-  -webkit-transition: opacity 0.15s linear, z-index 0.15;
-  -o-transition: opacity 0.15s linear, z-index 0.15;
-  transition: opacity 0.15s linear, z-index 0.15;
-  z-index: 1;
-  overflow-x: visible;
-  overflow-y: auto;
-  }
-  .model-open {
-  z-index: 99999;
-  opacity: 1;
-  overflow: visible;
-}
-  .custom-model-inner{
-    -webkit-transform: translate(0, -25%);
-  -ms-transform: translate(0, -25%);
-  transform: translate(0, -25%);
-  -webkit-transition: -webkit-transform 0.3s ease-out;
-  -o-transition: -o-transform 0.3s ease-out;
-  transition: -webkit-transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  display: inline-block;
-  vertical-align: middle;
-  width: 600px;
-  margin: 30px auto;
-  max-width: 97%;
-  }
-  .model-open .custom-model-inner {
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  position: relative;
-  z-index: 999;
-}
-.model-open .bg-overlay {
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 99;
-}
-.bg-overlay {
-  background: rgba(0, 0, 0, 0);
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-  -webkit-transition: background 0.15s linear;
-  -o-transition: background 0.15s linear;
-  transition: background 0.15s linear;
 }
 
 </style> 
