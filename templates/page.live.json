@@ -220,6 +220,7 @@
     },
     "1664023239203bb5bb": {
       "type": "monthlypackage",
+      "disabled": true,
       "blocks": {
         "a3483e41-1f32-44c0-b92c-15413f7fd743": {
           "type": "block",
@@ -326,7 +327,7 @@
       "settings": {
         "heading": "Bundle Offers",
         "button_name": "View All >>",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections",
         "btn-color": "#006781",
         "heading-color": "#006781",
         "mobile-heading-color": "#006781",
