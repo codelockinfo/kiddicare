@@ -469,6 +469,10 @@ $(document).ready(function(){
     $(".popdiscript1").html($datapopdiscript);
       $datapopdiscript2 =  $("#clspopupurvashilive").attr('data-popdiscript2');
     $(".popdiscript2").html($datapopdiscript2);
+      $datapoptag =  $("#clspopupurvashilive").attr('data-poptag');
+    $(".popltag").html($datapoptag);
+      $datapopurl =  $("#clspopupurvashilive").attr('data-popurl');
+    $(".popltag").attr('href',$datapopurl);
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
      var contact_posted = getParameter('contact_posted');
