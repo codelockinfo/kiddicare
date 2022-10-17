@@ -397,7 +397,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <h3 class="poptitle"></h3>
                   <h4 class="popupsubtitle">}</h4>
                   <p class="popdiscript1"></p>
-                  <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
+                  <p class="popdiscript2"></p>
                   <p class="popbtn"><a href="{{ section.settings.popurl}}" class="popltag">{{ section.settings.poptag }}</a></p>
                   </div>
                 </div>
@@ -467,6 +467,8 @@ $(document).ready(function(){
     $(".popupsubtitle").html($datasubtitle);
       $datapopdiscript =  $("#clspopupurvashilive").attr('data-popdiscript');
     $(".popdiscript1").html($datapopdiscript);
+      $datapopdiscript2 =  $("#clspopupurvashilive").attr('data-popdiscript2');
+    $(".popdiscript2").html($datapopdiscript2);
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
      var contact_posted = getParameter('contact_posted');
