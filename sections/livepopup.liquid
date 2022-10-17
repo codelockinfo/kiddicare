@@ -104,3 +104,82 @@
 	}
 }
 </style>
+
+{% schema %}
+  {
+    "name": "livepopup",
+    "settings": [
+      {
+        "id" : "image",
+        "type" : "image_picker",
+        "label" : "Image"
+      },
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      },
+      {
+        "id" : "text",
+        "type" : "textarea",
+        "label" : "Text"
+      },
+      {
+        "id" : "btn-name",
+        "type" : "text",
+        "label" : "Button"
+      },
+      {
+        "id" : "btn-link",
+        "type" : "url",
+        "label" : "Button Link"
+      },
+      {
+        "id" : "background",
+        "type" : "color",
+        "label" : "Background color",
+        "default" : "#7CD6DB"
+      },
+         {
+        "id" : "popkommbg",
+        "type" : "image_picker",
+        "label" : "Background Image"
+      },
+       {
+        "id" : "poptitle",
+        "type" : "text",
+        "label" : "title"
+      },
+      {
+        "id" : "popupsubtitle",
+        "type" : "text",
+     "label" : "Sub Title" 
+      },
+        {
+        "id" : "popdiscript",
+        "type" : "textarea",
+        "label" : "Discription1"
+      },
+        {
+        "id" : "popdiscript2",
+        "type" : "textarea",
+        "label" : "Discription2"
+      },
+            {
+    "id" : "popurl",
+    "type" : "url",
+    "label" : "poup url"
+  },
+  {
+    "id" : "poptag",
+    "type" : "text",
+    "label" : "popup title"
+  }
+    ],
+    "presets" : [
+      {
+        "name" : "livepopup"
+      }
+    ]
+  }
+{% endschema %}
