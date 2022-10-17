@@ -3,17 +3,19 @@
     "326558eb-85e9-4f33-8067-037b47cc7a6f": {
       "type": "livepopup",
       "settings": {
-        "heading": "",
-        "text": "",
-        "btn-name": "",
-        "btn-link": "",
+        "image": "shopify:\/\/shop_images\/happy-mother-with-cute-newborn-baby_2.png",
+        "heading": "Collabrate with us",
+        "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
+        "btn-name": "Join Us",
+        "btn-link": "shopify:\/\/pages\/contactcolborate",
         "background": "#7CD6DB",
-        "poptitle": "",
-        "popupsubtitle": "",
-        "popdiscript": "",
-        "popdiscript2": "",
+        "popkommbg": "shopify:\/\/shop_images\/pop-up-page_1_a028ebb5-3100-4db4-978b-9e4c5e20cd9c.png",
+        "poptitle": "GET A FREE",
+        "popupsubtitle": "KIDDICARE NAPPY SAMPLE",
+        "popdiscript": "we put so much love into making kiddicare napples and we truly believe our nappies are the best!",
+        "popdiscript2": "we would so love for you to try them out that we're giving you the opportuninty for FREE! so just tell us a bit about yourself and your little one and we will send you a free kiddicare nappy sample pack.",
         "popurl": "",
-        "poptag": ""
+        "poptag": "GET MY FREE SAMPLE"
       }
     },
     "1663918818a9756742": {
