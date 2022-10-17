@@ -115,7 +115,27 @@
 	}
 }
 </style>
-
+ <div class="clslivepopuppage">
+  <div class="custom-model-main ">
+    <div class="custom-model-inner">
+        <div class="close-btn">×</div>
+        <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+               <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
+                  <div class="kidcontain">
+                  <h3 class="poptitle">{{ section.settings.poptitle }}</h3>
+                  <h4 class="popupsubtitle">{{ section.settings.popupsubtitle }}</h4>
+                  <p class="popdiscript">{{ section.settings.popdiscript }}</p>
+                  <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
+                  <p class="popbtn"><a href="{{ section.settings.popurl}}" class="popltag">{{ section.settings.poptag }}</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-overlay"></div>
+</div>
+    </div>
 {% schema %}
   {
     "name": "livepopup",
