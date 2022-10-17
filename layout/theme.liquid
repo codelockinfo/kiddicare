@@ -392,7 +392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="close-btn">×</div>
         <div class="custom-model-wrap">
             <div class="pop-up-content-wrap">
-               <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
+               <div class="kiddcarepops" >
                   <div class="kidcontain">
                   <h3 class="poptitle"></h3>
                   <h4 class="popupsubtitle">}</h4>
@@ -472,6 +472,8 @@ $(document).ready(function(){
       $datapoptag =  $("#clspopupurvashilive").attr('data-poptag');
     $(".popltag").html($datapoptag);
       $datapopurl =  $("#clspopupurvashilive").attr('data-popurl');
+    $(".popltag").attr('href',$datapopurl);
+     $dataimage =  $("#clspopupurvashilive").attr('data-image');
     $(".popltag").attr('href',$datapopurl);
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
