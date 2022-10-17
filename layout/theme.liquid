@@ -474,7 +474,7 @@ $(document).ready(function(){
       $datapopurl =  $("#clspopupurvashilive").attr('data-popurl');
     $(".popltag").attr('href',$datapopurl);
      $dataimage =  $("#clspopupurvashilive").attr('data-image');
-    $(".popltag").attr('href',$datapopurl);
+    $(".kiddcarepops").css( {"background-image" : "url( $dataimage )"} );
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
      var contact_posted = getParameter('contact_posted');
