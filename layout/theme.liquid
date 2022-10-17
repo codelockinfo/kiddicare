@@ -480,7 +480,7 @@ function getCookie(cName) {
   var loc = document.location.pathname.split('/')[2];
   console.log(loc);
   if(loc == "live-page"){
-    if(getCookie("islivepage") == undefined || getCookie("islivepage   setCookie('islogincustomer', "islogincustomer");") == ""){
+  if(getCookie("islivepage") == undefined || getCookie("islivepage") == ""){
      $(".custom-model-main").addClass('model-open');
        setCookie('islivepage',"true");
     $datatitle =  $("#clspopupurvashilive").attr('data-title');
