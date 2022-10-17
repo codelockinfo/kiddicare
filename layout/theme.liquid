@@ -463,9 +463,9 @@ function setCookie(cName, cValue,expDays) {
         const expires = "expires=" + date.toUTCString();	
         document.cookie = cName + "=" + cValue + "; " + expDays + "; path=/";	
 }	
-function deleteCookie(cName){	
-    setCookie(cName,"",-1);	
-}	
+// function deleteCookie(cName){	
+//     setCookie(cName,"",-1);	
+// }	
 function getCookie(cName) {	
       const name = cName + "=";	
       const cDecoded = decodeURIComponent(document.cookie); //to be careful	
