@@ -480,7 +480,7 @@ function getCookie(cName) {
   var loc = document.location.pathname.split('/')[2];
   console.log(loc);
   if(loc == "live-page"){
-    
+    if(getCookie("islivepage") == undefined || getCookie("islivepage") == ""){
      $(".custom-model-main").addClass('model-open');
     
     $datatitle =  $("#clspopupurvashilive").attr('data-title');
@@ -497,6 +497,7 @@ function getCookie(cName) {
     $(".popltag").attr('href',$datapopurl);
      $dataimage =  $("#clspopupurvashilive").attr('data-image');
     $(".kiddcarepops").css( {"background-image" : "url(" + $dataimage + ")"} );
+    }
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
      var contact_posted = getParameter('contact_posted');
