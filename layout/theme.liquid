@@ -457,10 +457,32 @@ src: url("https://cdn.shopify.com/s/files/1/0431/8039/2600/files/Hunterswood-Reg
     }
 }
 $(document).ready(function(){
+function setCookie(cName, cValue,expDays) {	
+          let date = new Date();	
+        date.setTime(date.getTime() + (expDays * 0));	
+        const expires = "expires=" + date.toUTCString();	
+        document.cookie = cName + "=" + cValue + "; " + expDays + "; path=/";	
+}	
+function deleteCookie(cName){	
+    setCookie(cName,"",-1);	
+}	
+function getCookie(cName) {	
+      const name = cName + "=";	
+      const cDecoded = decodeURIComponent(document.cookie); //to be careful	
+      const cArr = cDecoded .split('; ');	
+      let res;	
+      cArr.forEach(val => {	
+          if (val.indexOf(name) === 0) res = val.substring(name.length);	
+      })	
+      console.log(res);	
+      return res;	
+}
   var loc = document.location.pathname.split('/')[2];
   console.log(loc);
   if(loc == "live-page"){
+    
      $(".custom-model-main").addClass('model-open');
+    
     $datatitle =  $("#clspopupurvashilive").attr('data-title');
     $(".poptitle").html($datatitle);
       $datasubtitle =  $("#clspopupurvashilive").attr('data-subtitle');
