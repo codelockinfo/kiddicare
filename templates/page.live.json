@@ -8,7 +8,7 @@
         "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
         "btn-name": "Join Us",
         "btn-link": "shopify:\/\/pages\/contactcolborate",
-        "background": "#7CD6DB",
+        "background": "#7cd6db",
         "popkommbg": "shopify:\/\/shop_images\/pop-up-page_1_a028ebb5-3100-4db4-978b-9e4c5e20cd9c.png",
         "poptitle": "GET A FREE",
         "popupsubtitle": "KIDDICARE NAPPY SAMPLE",
@@ -26,9 +26,9 @@
         "heading": "Deluxe nappies  you can trust",
         "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
         "button1": "shop pack",
-        "btn1_link": "",
+        "btn1_link": "shopify:\/\/collections\/nappies",
         "button2": "shop bundles",
-        "btn2_link": ""
+        "btn2_link": "shopify:\/\/collections\/nappies"
       }
     },
     "1663913352c11335f8": {
