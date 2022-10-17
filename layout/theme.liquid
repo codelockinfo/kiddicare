@@ -394,7 +394,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="pop-up-content-wrap">
                <div class="kiddcarepops" style="background-image: url({{ section.settings.popkommbg | img_url: 'master'}}); ">
                   <div class="kidcontain">
-                  <h3 class="poptitle">{{ section.settings.poptitle }}</h3>
+                  <h3 class="poptitle"></h3>
                   <h4 class="popupsubtitle">{{ section.settings.popupsubtitle }}</h4>
                   <p class="popdiscript">{{ section.settings.popdiscript }}</p>
                   <p class="popdiscript">{{ section.settings.popdiscript2 }}</p>
@@ -461,6 +461,8 @@ $(document).ready(function(){
   console.log(loc);
   if(loc == "live-page"){
      $(".custom-model-main").addClass('model-open');
+    $datatitle =  $("#clspopupurvashilive").attr('data-title');
+    $(".poptitle").html($datatitle);
   }
   if(loc != "contact-us" && loc != "contactcolborate"){
      var contact_posted = getParameter('contact_posted');
