@@ -3,6 +3,17 @@
     "326558eb-85e9-4f33-8067-037b47cc7a6f": {
       "type": "livepopup",
       "settings": {
+        "heading": "",
+        "text": "",
+        "btn-name": "",
+        "btn-link": "",
+        "background": "#7CD6DB",
+        "poptitle": "",
+        "popupsubtitle": "",
+        "popdiscript": "",
+        "popdiscript2": "",
+        "popurl": "",
+        "poptag": ""
       }
     },
     "1663918818a9756742": {
