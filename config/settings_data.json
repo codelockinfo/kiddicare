@@ -1159,6 +1159,153 @@
           "background": "#ffffff",
           "mobile-background": "#ffffff"
         }
+      },
+      "cbb6c38a-f7e4-41d3-bfc5-083cfdc2f0d8": {
+        "type": "kidding-size",
+        "settings": {
+          "heading": "KIDDING SIZING GUIDE",
+          "kome": "",
+          "textmobile": "KIDDING NAPPY SIZING GUIDE",
+          "button_name": "View All Sizes",
+          "button_link": "",
+          "image1": "shopify:\/\/shop_images\/tiger1_1_c174f218-f031-4b3e-8bd8-b406f1362763.png",
+          "mobileimage1": "shopify:\/\/shop_images\/Hedgehog1_1_2.png",
+          "image3": "shopify:\/\/shop_images\/Hedgehog1_1_1.png",
+          "mobileimage3": "shopify:\/\/shop_images\/tiger1_1_1.png",
+          "background": "#F3F3F3",
+          "mobile-background": "#84DADE"
+        }
+      },
+      "184a3e6b-6399-4ce9-860b-fe47af02ea5a": {
+        "type": "brand-logo",
+        "blocks": {
+          "08d0db2b-a9b8-4578-9157-d20ec56d0bc2": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Our-soft-nappy---gif.gif"
+            }
+          },
+          "19ba31d2-cb55-408e-87b9-104d8b871dad": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/no-harsh-chemicals---Gif.gif"
+            }
+          }
+        },
+        "block_order": [
+          "08d0db2b-a9b8-4578-9157-d20ec56d0bc2",
+          "19ba31d2-cb55-408e-87b9-104d8b871dad"
+        ],
+        "settings": {
+          "heading": "",
+          "background": "#006781"
+        }
+      },
+      "d3300b80-1f77-4cca-b265-562cb18fb6c6": {
+        "type": "testimonial-section",
+        "blocks": {
+          "2c77c0ea-4d31-4a92-a405-bd9f4a3ae930": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_36.png",
+              "title": "@SARAH",
+              "rating": 5,
+              "review": "22",
+              "heading": "AMAZING PANTS!",
+              "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+            }
+          },
+          "5a82e6a7-02fd-4064-8312-7978ad7437fb": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_37_1.png",
+              "title": "@SARAH",
+              "rating": 5,
+              "review": "22",
+              "heading": "AMAZING PANTS!",
+              "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+            }
+          },
+          "fbb67ba7-9977-45f8-a696-f19bcfd4a19b": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_36_1.png",
+              "title": "@SARAH",
+              "rating": 5,
+              "review": "22",
+              "heading": "AMAZING PANTS!",
+              "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+            }
+          },
+          "90e82ccb-c59d-4b96-93fa-c5c770b533ea": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_37_1.png",
+              "title": "@SARAH",
+              "rating": 5,
+              "review": "22",
+              "heading": "AMAZING PANTS!",
+              "text": "The pants are very good made. The absorption is the best of all! They are quite soft and pleasant on to skin as well."
+            }
+          }
+        },
+        "block_order": [
+          "2c77c0ea-4d31-4a92-a405-bd9f4a3ae930",
+          "5a82e6a7-02fd-4064-8312-7978ad7437fb",
+          "fbb67ba7-9977-45f8-a696-f19bcfd4a19b",
+          "90e82ccb-c59d-4b96-93fa-c5c770b533ea"
+        ],
+        "settings": {
+          "heading": "WHAT OUR PARENTS ARE SAYING",
+          "text": "",
+          "background": "#7CD6DB"
+        }
+      },
+      "485fd609-6121-454e-bc5a-603d033fa4cf": {
+        "type": "brand-logo",
+        "blocks": {
+          "ab7b5ee1-ff10-4d18-91c8-aebd13c62d7e": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download_1_1.png"
+            }
+          },
+          "474a4882-9bd7-4f57-8b54-4096d403ebdb": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/images_1_1.png"
+            }
+          },
+          "d94667cd-9ed0-4166-ab73-09af861d9ffd": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download_1_1.png"
+            }
+          },
+          "e6035edf-c714-40fb-84b7-f7510c04dd04": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/images_1_1.png"
+            }
+          },
+          "e1096103-0d28-4927-97a7-ae3517f59ef9": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download_1_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "ab7b5ee1-ff10-4d18-91c8-aebd13c62d7e",
+          "474a4882-9bd7-4f57-8b54-4096d403ebdb",
+          "d94667cd-9ed0-4166-ab73-09af861d9ffd",
+          "e6035edf-c714-40fb-84b7-f7510c04dd04",
+          "e1096103-0d28-4927-97a7-ae3517f59ef9"
+        ],
+        "settings": {
+          "heading": "WHERE TO BUY",
+          "background": "#006781"
+        }
       }
     },
     "content_for_index": [
@@ -1176,7 +1323,11 @@
       "db02a843-649d-4661-a85d-3fd4e207cf16",
       "fd915757-6d02-4103-8cc7-642e6117e5c9",
       "125e4bbe-9691-482c-a7c5-621bbb3f0ff7",
-      "c1b42184-29c4-4c15-9aee-0ca4771c6006"
+      "c1b42184-29c4-4c15-9aee-0ca4771c6006",
+      "cbb6c38a-f7e4-41d3-bfc5-083cfdc2f0d8",
+      "184a3e6b-6399-4ce9-860b-fe47af02ea5a",
+      "d3300b80-1f77-4cca-b265-562cb18fb6c6",
+      "485fd609-6121-454e-bc5a-603d033fa4cf"
     ],
     "blocks": {
       "6279071938380501511": {
