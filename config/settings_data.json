@@ -1091,6 +1091,7 @@
       },
       "125e4bbe-9691-482c-a7c5-621bbb3f0ff7": {
         "type": "bestseller",
+        "disabled": true,
         "settings": {
           "backgroundcls": "#7cd6db",
           "color_accent": "#fffbfb",
@@ -1105,6 +1106,7 @@
       },
       "c1b42184-29c4-4c15-9aee-0ca4771c6006": {
         "type": "Product-slider",
+        "disabled": true,
         "blocks": {
           "9c080aff-98e4-4a16-8ac9-bd877d2664b0": {
             "type": "block",
