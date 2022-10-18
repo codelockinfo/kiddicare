@@ -1039,7 +1039,7 @@
         "settings": {
           "heading": "A DIFFERENT KIND OF NAPPY",
           "text": "Crafted with premium cotton blend and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic, and free from harsh chemicals, chlorine, perfumes, lotions, and latex.",
-          "button": "",
+          "button": "Refer & Earn",
           "btn_link": "",
           "color": ""
         }
@@ -1184,7 +1184,6 @@
       },
       "184a3e6b-6399-4ce9-860b-fe47af02ea5a": {
         "type": "brand-logo",
-        "disabled": true,
         "blocks": {
           "08d0db2b-a9b8-4578-9157-d20ec56d0bc2": {
             "type": "block",
