@@ -158,6 +158,7 @@
     },
     "375582ff-7987-4c9e-87c7-accebf76230a": {
       "type": "bestseller",
+      "disabled": true,
       "blocks": {
         "d84f23f9-5573-4985-abc4-7f629c4c0ba8": {
           "type": "block",
@@ -170,8 +171,8 @@
       ],
       "settings": {
         "backgroundcls": "#006781",
-        "color_accent": "#c7dd73",
-        "clscolor": "#ed5e5e",
+        "color_accent": "#c8e16b",
+        "clscolor": "#e7cfcf",
         "kometitle": "cfdsfrgf",
         "veiwall": "gdfg",
         "wieurl": "",
