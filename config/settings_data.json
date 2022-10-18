@@ -1368,6 +1368,41 @@
           "color_accent": "#FFFFFF",
           "title": "customblog"
         }
+      },
+      "7a6a78c1-d255-420a-ab4f-a2056bfc21f5": {
+        "type": "Grid-logo",
+        "blocks": {
+          "f717fa17-62cd-47f1-b83b-5c6ebb2168f8": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/starter-pack.png",
+              "kome": ""
+            }
+          },
+          "027ad288-9350-4e53-9ae8-18026a1ae5d3": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/convenient-delivery.png",
+              "kome": ""
+            }
+          },
+          "edc79607-7ce2-4e4e-ad49-2d46c4c51ac3": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fast-delivery.png",
+              "kome": ""
+            }
+          }
+        },
+        "block_order": [
+          "f717fa17-62cd-47f1-b83b-5c6ebb2168f8",
+          "027ad288-9350-4e53-9ae8-18026a1ae5d3",
+          "edc79607-7ce2-4e4e-ad49-2d46c4c51ac3"
+        ],
+        "settings": {
+          "heading": "",
+          "background": "#7cd6db"
+        }
       }
     },
     "content_for_index": [
@@ -1391,7 +1426,8 @@
       "d3300b80-1f77-4cca-b265-562cb18fb6c6",
       "485fd609-6121-454e-bc5a-603d033fa4cf",
       "b250e689-8cb6-4614-b7cb-d8685fa585b0",
-      "da659756-1aee-4ec7-865c-dccbb6bd1a72"
+      "da659756-1aee-4ec7-865c-dccbb6bd1a72",
+      "7a6a78c1-d255-420a-ab4f-a2056bfc21f5"
     ],
     "blocks": {
       "6279071938380501511": {
