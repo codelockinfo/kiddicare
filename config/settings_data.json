@@ -1184,6 +1184,7 @@
       },
       "184a3e6b-6399-4ce9-860b-fe47af02ea5a": {
         "type": "brand-logo",
+        "disabled": true,
         "blocks": {
           "08d0db2b-a9b8-4578-9157-d20ec56d0bc2": {
             "type": "block",
@@ -1372,7 +1373,7 @@
         "settings": {
           "backgroundcls": "#7cd6db",
           "color_accent": "#ffffff",
-          "title": "customblog"
+          "title": "Mom & Baby Blog"
         }
       },
       "7a6a78c1-d255-420a-ab4f-a2056bfc21f5": {
