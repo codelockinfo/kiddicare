@@ -156,6 +156,31 @@
         "review": "22"
       }
     },
+    "375582ff-7987-4c9e-87c7-accebf76230a": {
+      "type": "bestseller",
+      "disabled": true,
+      "blocks": {
+        "d84f23f9-5573-4985-abc4-7f629c4c0ba8": {
+          "type": "block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d84f23f9-5573-4985-abc4-7f629c4c0ba8"
+      ],
+      "settings": {
+        "backgroundcls": "#006781",
+        "color_accent": "#c7dd73",
+        "clscolor": "#ed5e5e",
+        "kometitle": "cfdsfrgf",
+        "veiwall": "gdfg",
+        "wieurl": "",
+        "collection": "",
+        "rating": 5,
+        "review": "22"
+      }
+    },
     "1663996901cc8e7078": {
       "type": "Product-slider",
       "disabled": true,
@@ -628,6 +653,7 @@
     "1663913352c11335f8",
     "166392803085ef7238",
     "1664337293460bcee8",
+    "375582ff-7987-4c9e-87c7-accebf76230a",
     "1663996901cc8e7078",
     "1664023239203bb5bb",
     "16641665564bd3c619",
