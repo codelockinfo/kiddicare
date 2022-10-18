@@ -1,4 +1,4 @@
-<div id="{{ section.id }}" class="bgcolorblue">
+<div class="bgcolorblue" id="{{ section.id }}" >
 <div class="bestcontainer">
   <div class="bestdesigner">
     <div class="bundletitle">
@@ -74,7 +74,7 @@
 </div>
 
   <style>
-     div#{{ section.id }}{
+     #{{ section.id }}.bgcolorblue{
           background-color: {{section.settings.backgroundcls}};
     }
         .bundmeta{
@@ -175,11 +175,12 @@
          .bestcontainer {
     padding: 0 15px 10%;
 }
+              #{{ section.id }}.bgcolorblue{
+  background-color:{{section.settings.color_accent}};
+}
        }
       @media(max-width: 500px){
-div.bgcolorblue{
-  background-color:{{section.settings.color_accent}}
-}
+
         .designflex .slick-dots li button:before{
           font-size: 40px;
         }
