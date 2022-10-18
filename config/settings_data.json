@@ -339,6 +339,7 @@
       },
       "1654694633dab7abe9": {
         "type": "testimonial",
+        "disabled": true,
         "blocks": {
           "5aba6f18-ef45-48c3-8c57-a40947a32ad8": {
             "type": "block",
@@ -394,6 +395,7 @@
       },
       "165475038718521ee4": {
         "type": "shop-our-product",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/swiming-monkey-gif.gif",
           "heading": "Kiddicare Critters",
@@ -405,6 +407,7 @@
       },
       "1654757751d2f0dda8": {
         "type": "Product-tab",
+        "disabled": true,
         "blocks": {
           "b00a852a-8951-483c-84f9-6c37072ef15e": {
             "type": "Nappies",
@@ -586,6 +589,7 @@
       },
       "165477852872814673": {
         "type": "haveheard",
+        "disabled": true,
         "blocks": {
           "b9d5e691-b45d-46ea-aec4-98cf54f1841d": {
             "type": "block",
@@ -643,6 +647,7 @@
       },
       "165477920102c1e0d7": {
         "type": "free-sample",
+        "disabled": true,
         "settings": {
           "heading": "Get a FREE Kiddicare<sup>® <\/sup>nappy sample",
           "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack containing two Kiddicare nappies.",
@@ -652,6 +657,7 @@
       },
       "1654835811e1444725": {
         "type": "home-page-last",
+        "disabled": true,
         "settings": {
           "heading": "Kiddicare Nappies - Gentle on your Baby's Skin & Leak Protection",
           "image": "shopify:\/\/shop_images\/kiddicare-01_4da59e60-51c7-449c-ae8c-2f2505f46ac7.png",
@@ -1082,14 +1088,14 @@
         ],
         "settings": {
           "heading": "KIDDICARE PRODUCTS",
-          "background": "#7CD6DB"
+          "background": "#7cd6db"
         }
       },
       "125e4bbe-9691-482c-a7c5-621bbb3f0ff7": {
         "type": "bestseller",
         "settings": {
           "backgroundcls": "#7cd6db",
-          "color_accent": "#FFFFFF",
+          "color_accent": "#ffffff",
           "kometitle": "Best Sellers Product",
           "veiwall": "View ALL",
           "wieurl": "",
@@ -1172,8 +1178,8 @@
           "mobileimage1": "shopify:\/\/shop_images\/Hedgehog1_1_2.png",
           "image3": "shopify:\/\/shop_images\/Hedgehog1_1_1.png",
           "mobileimage3": "shopify:\/\/shop_images\/tiger1_1_1.png",
-          "background": "#F3F3F3",
-          "mobile-background": "#84DADE"
+          "background": "#f3f3f3",
+          "mobile-background": "#84dade"
         }
       },
       "184a3e6b-6399-4ce9-860b-fe47af02ea5a": {
@@ -1258,7 +1264,7 @@
         "settings": {
           "heading": "WHAT OUR PARENTS ARE SAYING",
           "text": "",
-          "background": "#7CD6DB"
+          "background": "#7cd6db"
         }
       },
       "485fd609-6121-454e-bc5a-603d033fa4cf": {
@@ -1315,7 +1321,7 @@
           "text": "If you are blogger, mom, baby, or simply dad. Please join us",
           "btn-name": "JoinUs",
           "btn-link": "shopify:\/\/pages\/contactcolborate",
-          "background": "#7CD6DB",
+          "background": "#7cd6db",
           "poptitle": "",
           "popupsubtitle": "",
           "popdiscript": "",
@@ -1365,7 +1371,7 @@
         ],
         "settings": {
           "backgroundcls": "#7cd6db",
-          "color_accent": "#FFFFFF",
+          "color_accent": "#ffffff",
           "title": "customblog"
         }
       },
@@ -1410,8 +1416,8 @@
           "heading": "FOLLOW US",
           "image": "shopify:\/\/shop_images\/1_Instagram_colored_svg_1-512_2.png",
           "background": "#7cd6db",
-          "text-color": "#fff",
-          "mobile-text-color": "#fff"
+          "text-color": "#ffffff",
+          "mobile-text-color": "#ffffff"
         }
       },
       "a492602b-bd32-4d9d-acbd-c0781660e53e": {
