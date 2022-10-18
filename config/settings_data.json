@@ -1093,7 +1093,7 @@
         "type": "bestseller",
         "settings": {
           "backgroundcls": "#7cd6db",
-          "color_accent": "#d90606",
+          "color_accent": "#fffbfb",
           "kometitle": "Best Sellers Product",
           "veiwall": "View ALL",
           "wieurl": "shopify:\/\/collections\/best-selling",
