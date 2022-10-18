@@ -1084,6 +1084,81 @@
           "heading": "KIDDICARE PRODUCTS",
           "background": "#7CD6DB"
         }
+      },
+      "125e4bbe-9691-482c-a7c5-621bbb3f0ff7": {
+        "type": "bestseller",
+        "settings": {
+          "backgroundcls": "#7cd6db",
+          "color_accent": "#FFFFFF",
+          "kometitle": "Best Sellers Product",
+          "veiwall": "View ALL",
+          "wieurl": "",
+          "collection": "best-selling",
+          "rating": 5,
+          "review": "22"
+        }
+      },
+      "c1b42184-29c4-4c15-9aee-0ca4771c6006": {
+        "type": "Product-slider",
+        "blocks": {
+          "9c080aff-98e4-4a16-8ac9-bd877d2664b0": {
+            "type": "block",
+            "settings": {
+              "product": "deluxe-junior-unisex-nappy-pants",
+              "rating": 5,
+              "review": "22"
+            }
+          },
+          "b280fd87-616b-4d54-9063-ac6ebf9f93d9": {
+            "type": "block",
+            "settings": {
+              "product": "deluxe-crawler-unisex-nappies",
+              "rating": 5,
+              "review": "22"
+            }
+          },
+          "5577a2ff-e182-4e68-ad1f-00abd04d7c3a": {
+            "type": "block",
+            "settings": {
+              "product": "deluxe-toddler-unisex-nappies",
+              "rating": 5,
+              "review": "22"
+            }
+          },
+          "968efeb3-8993-4873-a19c-1c8f93b4e135": {
+            "type": "block",
+            "settings": {
+              "product": "deluxe-infant-unisex-nappies",
+              "rating": 5,
+              "review": "22"
+            }
+          },
+          "8a25059f-a508-4314-8399-d76fbd159f8f": {
+            "type": "block",
+            "settings": {
+              "product": "deluxe-toddler-unisex-nappy-pants",
+              "rating": 5,
+              "review": "22"
+            }
+          }
+        },
+        "block_order": [
+          "9c080aff-98e4-4a16-8ac9-bd877d2664b0",
+          "b280fd87-616b-4d54-9063-ac6ebf9f93d9",
+          "5577a2ff-e182-4e68-ad1f-00abd04d7c3a",
+          "968efeb3-8993-4873-a19c-1c8f93b4e135",
+          "8a25059f-a508-4314-8399-d76fbd159f8f"
+        ],
+        "settings": {
+          "heading": "BUNDLE OFFERS",
+          "button_name": "VIEW ALL >>",
+          "button_link": "",
+          "btn-color": "#006781",
+          "heading-color": "#006781",
+          "mobile-heading-color": "#006781",
+          "background": "#ffffff",
+          "mobile-background": "#ffffff"
+        }
       }
     },
     "content_for_index": [
@@ -1099,7 +1174,9 @@
       "1654694633dab7abe9",
       "1654835811e1444725",
       "db02a843-649d-4661-a85d-3fd4e207cf16",
-      "fd915757-6d02-4103-8cc7-642e6117e5c9"
+      "fd915757-6d02-4103-8cc7-642e6117e5c9",
+      "125e4bbe-9691-482c-a7c5-621bbb3f0ff7",
+      "c1b42184-29c4-4c15-9aee-0ca4771c6006"
     ],
     "blocks": {
       "6279071938380501511": {
