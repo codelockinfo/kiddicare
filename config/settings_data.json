@@ -1403,6 +1403,16 @@
           "heading": "",
           "background": "#7cd6db"
         }
+      },
+      "c4709849-340a-4961-8668-917de9fe8659": {
+        "type": "instagram-section",
+        "settings": {
+          "heading": "FOLLOW US",
+          "image": "shopify:\/\/shop_images\/1_Instagram_colored_svg_1-512_2.png",
+          "background": "#006781",
+          "text-color": "#fff",
+          "mobile-text-color": "#fff"
+        }
       }
     },
     "content_for_index": [
@@ -1427,7 +1437,8 @@
       "485fd609-6121-454e-bc5a-603d033fa4cf",
       "b250e689-8cb6-4614-b7cb-d8685fa585b0",
       "da659756-1aee-4ec7-865c-dccbb6bd1a72",
-      "7a6a78c1-d255-420a-ab4f-a2056bfc21f5"
+      "7a6a78c1-d255-420a-ab4f-a2056bfc21f5",
+      "c4709849-340a-4961-8668-917de9fe8659"
     ],
     "blocks": {
       "6279071938380501511": {
