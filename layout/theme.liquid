@@ -477,10 +477,10 @@ function getCookie(cName) {
       console.log(res);	
       return res;	
 }
-  console.log(window.location.href);
+  $livehome  = window.location.href;
   var loc = document.location.pathname.split('/')[2];
   console.log(loc);
-  if(loc == "live-page"){
+  if($livehome == "https://kiddicare.co.nz/"){
   if(getCookie("islivepage") == undefined || getCookie("islivepage") == ""){
      $(".custom-model-main").addClass('model-open');
        setCookie('islivepage',"true");
