@@ -952,6 +952,57 @@
           "cart_ajax_enable": true,
           "cart_notes_enable": false
         }
+      },
+      "0b5b2458-4a4e-4cc6-918c-3a80d93be2ec": {
+        "type": "image-with-text-live",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/DSC06588-Edit_1.png",
+          "mobile-image": "shopify:\/\/shop_images\/Untitled-2_1.png",
+          "heading": "DELUXE NAPPIES YOU CAN TRUST",
+          "text": "Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.",
+          "button1": "shop pack",
+          "btn1_link": "shopify:\/\/collections\/nappies",
+          "button2": "shop bundle",
+          "btn2_link": "shopify:\/\/collections\/nappies"
+        }
+      },
+      "db02a843-649d-4661-a85d-3fd4e207cf16": {
+        "type": "livepopup",
+        "settings": {
+          "heading": "",
+          "text": "",
+          "btn-name": "",
+          "btn-link": "",
+          "background": "#7CD6DB",
+          "poptitle": "",
+          "popupsubtitle": "",
+          "popdiscript": "",
+          "popdiscript2": "",
+          "popurl": "",
+          "poptag": ""
+        }
+      },
+      "80e6f7ed-e040-445f-a1c4-46bfeb43d678": {
+        "type": "logo-slider",
+        "blocks": {
+          "305bf2e0-1c92-4854-a1a3-7d0313a838db": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Up-to-12-Hr---Gif.gif",
+              "hover": "shopify:\/\/shop_images\/12-Hr---Gif.gif"
+            }
+          }
+        },
+        "block_order": [
+          "305bf2e0-1c92-4854-a1a3-7d0313a838db"
+        ],
+        "settings": {
+          "heading": "A DIFFERENT KIND OF NAPPY",
+          "text": "Crafted with premium cotton blend and other well-chosen materials, our nappies are luxuriously soft, breathable, hypoallergenic, and free from harsh chemicals, chlorine, perfumes, lotions, and latex.",
+          "button": "",
+          "btn_link": "",
+          "color": ""
+        }
       }
     },
     "content_for_index": [
@@ -963,7 +1014,10 @@
       "165477920102c1e0d7",
       "165477852872814673",
       "1654694633dab7abe9",
-      "1654835811e1444725"
+      "1654835811e1444725",
+      "db02a843-649d-4661-a85d-3fd4e207cf16",
+      "0b5b2458-4a4e-4cc6-918c-3a80d93be2ec",
+      "80e6f7ed-e040-445f-a1c4-46bfeb43d678"
     ],
     "blocks": {
       "6279071938380501511": {
