@@ -147,6 +147,7 @@
       "settings": {
         "backgroundcls": "#7cd6db",
         "color_accent": "#ffffff",
+        "clscolor": "#006781",
         "kometitle": "Best Sellers Product",
         "veiwall": "View all",
         "wieurl": "shopify:\/\/collections",
