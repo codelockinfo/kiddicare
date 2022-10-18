@@ -1413,6 +1413,14 @@
           "text-color": "#fff",
           "mobile-text-color": "#fff"
         }
+      },
+      "a492602b-bd32-4d9d-acbd-c0781660e53e": {
+        "type": "instafeed",
+        "settings": {
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
       }
     },
     "content_for_index": [
@@ -1438,7 +1446,8 @@
       "b250e689-8cb6-4614-b7cb-d8685fa585b0",
       "da659756-1aee-4ec7-865c-dccbb6bd1a72",
       "7a6a78c1-d255-420a-ab4f-a2056bfc21f5",
-      "c4709849-340a-4961-8668-917de9fe8659"
+      "c4709849-340a-4961-8668-917de9fe8659",
+      "a492602b-bd32-4d9d-acbd-c0781660e53e"
     ],
     "blocks": {
       "6279071938380501511": {
