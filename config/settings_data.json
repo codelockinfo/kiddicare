@@ -224,6 +224,7 @@
       },
       "1654664828cbe0068f": {
         "type": "home-banner-section",
+        "disabled": true,
         "blocks": {
           "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c": {
             "type": "block",
@@ -270,6 +271,7 @@
       },
       "1654682159a4d71e27": {
         "type": "logo-section",
+        "disabled": true,
         "blocks": {
           "ef1d1790-2246-4438-a4fa-c1b5be8556c3": {
             "type": "block",
@@ -973,7 +975,7 @@
           "text": "",
           "btn-name": "",
           "btn-link": "",
-          "background": "#7CD6DB",
+          "background": "#7cd6db",
           "poptitle": "",
           "popupsubtitle": "",
           "popdiscript": "",
@@ -1035,9 +1037,58 @@
           "btn_link": "",
           "color": ""
         }
+      },
+      "fd915757-6d02-4103-8cc7-642e6117e5c9": {
+        "type": "icon-with-text",
+        "blocks": {
+          "1787a0fd-03bf-41ac-aacb-27999fa8530d": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_392.png",
+              "title": "",
+              "kome": ""
+            }
+          },
+          "7382a1f8-8b4a-44f2-aafb-2c309df0c174": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_393.png",
+              "title": "",
+              "kome": ""
+            }
+          },
+          "f6d6ed43-48a9-478f-9cc4-77cccb270ea0": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_394.png",
+              "title": "",
+              "kome": ""
+            }
+          },
+          "3c2da2be-bc23-43dd-a641-c693cf5ee095": {
+            "type": "block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_395.png",
+              "title": "",
+              "kome": ""
+            }
+          }
+        },
+        "block_order": [
+          "1787a0fd-03bf-41ac-aacb-27999fa8530d",
+          "7382a1f8-8b4a-44f2-aafb-2c309df0c174",
+          "f6d6ed43-48a9-478f-9cc4-77cccb270ea0",
+          "3c2da2be-bc23-43dd-a641-c693cf5ee095"
+        ],
+        "settings": {
+          "heading": "KIDDICARE PRODUCTS",
+          "background": "#7CD6DB"
+        }
       }
     },
     "content_for_index": [
+      "0b5b2458-4a4e-4cc6-918c-3a80d93be2ec",
+      "80e6f7ed-e040-445f-a1c4-46bfeb43d678",
       "1654664828cbe0068f",
       "1654682159a4d71e27",
       "165475038718521ee4",
@@ -1048,8 +1099,7 @@
       "1654694633dab7abe9",
       "1654835811e1444725",
       "db02a843-649d-4661-a85d-3fd4e207cf16",
-      "0b5b2458-4a4e-4cc6-918c-3a80d93be2ec",
-      "80e6f7ed-e040-445f-a1c4-46bfeb43d678"
+      "fd915757-6d02-4103-8cc7-642e6117e5c9"
     ],
     "blocks": {
       "6279071938380501511": {
