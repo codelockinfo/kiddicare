@@ -1306,6 +1306,68 @@
           "heading": "WHERE TO BUY",
           "background": "#006781"
         }
+      },
+      "b250e689-8cb6-4614-b7cb-d8685fa585b0": {
+        "type": "Collabrate-section",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/307873933_5547615525345426_6050339954162261295_n_2.png",
+          "heading": "COLLABRATE WITH US",
+          "text": "If you are blogger, mom, baby, or simply dad. Please join us",
+          "btn-name": "JoinUs",
+          "btn-link": "shopify:\/\/pages\/contactcolborate",
+          "background": "#7CD6DB",
+          "poptitle": "",
+          "popupsubtitle": "",
+          "popdiscript": "",
+          "popdiscript2": "",
+          "popurl": "",
+          "poptag": ""
+        }
+      },
+      "da659756-1aee-4ec7-865c-dccbb6bd1a72": {
+        "type": "customblog",
+        "blocks": {
+          "48761d48-b6f4-4c69-ad6a-963efd1e7774": {
+            "type": "slide",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/307690301_125804606881768_9141670350774649574_n_1.png",
+              "blogitle": "When to size up diapers for your baby",
+              "discript": "Leaking through the night? Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants.",
+              "komeurl": "",
+              "kometag": "Read More"
+            }
+          },
+          "51772d78-73ad-40fb-aff7-4aa8b0de7d55": {
+            "type": "slide",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/306754913_782730079740437_8475148959409961795_n_1.png",
+              "blogitle": "When to size up diapers for your baby",
+              "discript": "Leaking through the night? Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants.",
+              "komeurl": "",
+              "kometag": "Read More"
+            }
+          },
+          "55dda7e3-79df-4c57-8b3f-6138c32c56ab": {
+            "type": "slide",
+            "settings": {
+              "kome": "shopify:\/\/shop_images\/305337733_1231876507766262_8057091987448514789_n_1.png",
+              "blogitle": "When to size up diapers for your baby",
+              "discript": "Leaking through the night? Diaper too snug? It may be time to size up your baby's diaper! In this article, we cover signs that your baby is ready to size up, how to choose the right size and the transition to training pants.",
+              "komeurl": "",
+              "kometag": "Read More"
+            }
+          }
+        },
+        "block_order": [
+          "48761d48-b6f4-4c69-ad6a-963efd1e7774",
+          "51772d78-73ad-40fb-aff7-4aa8b0de7d55",
+          "55dda7e3-79df-4c57-8b3f-6138c32c56ab"
+        ],
+        "settings": {
+          "backgroundcls": "#7cd6db",
+          "color_accent": "#FFFFFF",
+          "title": "customblog"
+        }
       }
     },
     "content_for_index": [
@@ -1327,7 +1389,9 @@
       "cbb6c38a-f7e4-41d3-bfc5-083cfdc2f0d8",
       "184a3e6b-6399-4ce9-860b-fe47af02ea5a",
       "d3300b80-1f77-4cca-b265-562cb18fb6c6",
-      "485fd609-6121-454e-bc5a-603d033fa4cf"
+      "485fd609-6121-454e-bc5a-603d033fa4cf",
+      "b250e689-8cb6-4614-b7cb-d8685fa585b0",
+      "da659756-1aee-4ec7-865c-dccbb6bd1a72"
     ],
     "blocks": {
       "6279071938380501511": {
