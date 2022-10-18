@@ -977,17 +977,19 @@
       "db02a843-649d-4661-a85d-3fd4e207cf16": {
         "type": "livepopup",
         "settings": {
-          "heading": "",
-          "text": "",
-          "btn-name": "",
+          "image": "shopify:\/\/shop_images\/happy-mother-with-cute-newborn-baby_2.png",
+          "heading": "Collabrate with us",
+          "text": "If you are blogger, mom, baby, or simply dad. \nPlease join us",
+          "btn-name": "Join Us",
           "btn-link": "",
           "background": "#7cd6db",
-          "poptitle": "",
-          "popupsubtitle": "",
-          "popdiscript": "",
-          "popdiscript2": "",
+          "popkommbg": "shopify:\/\/shop_images\/pop-up-page_1_a028ebb5-3100-4db4-978b-9e4c5e20cd9c.png",
+          "poptitle": "GET A FREE",
+          "popupsubtitle": "KIDDICARE NAPPY SAMPLE",
+          "popdiscript": "we put so much love into making kiddicare napples and we truly believe our nappies are the best!",
+          "popdiscript2": "we would so love for you to try them out that we're giving you the opportuninty for FREE! so just tell us a bit about yourself and your little one and we will send you a free kiddicare nappy sample pack.",
           "popurl": "",
-          "poptag": ""
+          "poptag": "GET MY FREE SAMPLE"
         }
       },
       "80e6f7ed-e040-445f-a1c4-46bfeb43d678": {
@@ -1098,7 +1100,7 @@
           "color_accent": "#ffffff",
           "kometitle": "Best Sellers Product",
           "veiwall": "View ALL",
-          "wieurl": "",
+          "wieurl": "shopify:\/\/collections\/best-selling",
           "collection": "best-selling",
           "rating": 5,
           "review": "22"
@@ -1158,7 +1160,7 @@
         "settings": {
           "heading": "BUNDLE OFFERS",
           "button_name": "VIEW ALL >>",
-          "button_link": "",
+          "button_link": "shopify:\/\/collections",
           "btn-color": "#006781",
           "heading-color": "#006781",
           "mobile-heading-color": "#006781",
