@@ -7020,6 +7020,9 @@ padding: 0;
 #shopify-section-template--16548453449944__1664525526ebba3c98{
   display: none;
 }
+#shopify-section-184a3e6b-6399-4ce9-860b-fe47af02ea5a{
+  display: none;
+}
 #insta-feed .instafeed-overlay {
     height: 98% !important;
 }
@@ -7191,6 +7194,9 @@ button.btn.newsletter__submit {
     min-height: 50px;
 }
 @media screen and (max-width: 768px){
+  #shopify-section-184a3e6b-6399-4ce9-860b-fe47af02ea5a{
+  display: block;
+}
   h1.product-single__title{
     line-height: 45px;
   }
