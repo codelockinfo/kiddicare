@@ -1052,7 +1052,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_392.png",
               "title": "NAPPIES",
-              "kome": ""
+              "kome": "shopify:\/\/collections\/nappies"
             }
           },
           "7382a1f8-8b4a-44f2-aafb-2c309df0c174": {
@@ -1060,7 +1060,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_393.png",
               "title": "NAPPY PANTS",
-              "kome": ""
+              "kome": "shopify:\/\/collections\/nappy-pants"
             }
           },
           "f6d6ed43-48a9-478f-9cc4-77cccb270ea0": {
@@ -1068,7 +1068,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_394.png",
               "title": "WIPES",
-              "kome": ""
+              "kome": "shopify:\/\/collections\/wipe"
             }
           },
           "3c2da2be-bc23-43dd-a641-c693cf5ee095": {
@@ -1076,7 +1076,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Group_395.png",
               "title": "TOYS",
-              "kome": ""
+              "kome": "shopify:\/\/collections\/toys"
             }
           }
         },
