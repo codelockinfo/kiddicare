@@ -145,7 +145,7 @@
         "671151cd-1f62-4436-8984-9fea36c2e091"
       ],
       "settings": {
-        "backgroundcls": "#ec3737",
+        "backgroundcls": "#7cd6db",
         "color_accent": "#ffffff",
         "clscolor": "#006781",
         "kometitle": "Best Sellers Product",
@@ -158,7 +158,6 @@
     },
     "375582ff-7987-4c9e-87c7-accebf76230a": {
       "type": "bestseller",
-      "disabled": true,
       "blocks": {
         "d84f23f9-5573-4985-abc4-7f629c4c0ba8": {
           "type": "block",
