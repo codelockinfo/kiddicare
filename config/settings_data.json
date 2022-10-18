@@ -224,7 +224,6 @@
       },
       "1654664828cbe0068f": {
         "type": "home-banner-section",
-        "disabled": true,
         "blocks": {
           "e637e9fe-9c78-4bc8-b719-67c1a1f61a0c": {
             "type": "block",
@@ -271,7 +270,6 @@
       },
       "1654682159a4d71e27": {
         "type": "logo-section",
-        "disabled": true,
         "blocks": {
           "ef1d1790-2246-4438-a4fa-c1b5be8556c3": {
             "type": "block",
@@ -339,7 +337,6 @@
       },
       "1654694633dab7abe9": {
         "type": "testimonial",
-        "disabled": true,
         "blocks": {
           "5aba6f18-ef45-48c3-8c57-a40947a32ad8": {
             "type": "block",
@@ -395,7 +392,6 @@
       },
       "165475038718521ee4": {
         "type": "shop-our-product",
-        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/swiming-monkey-gif.gif",
           "heading": "Kiddicare Critters",
@@ -407,7 +403,6 @@
       },
       "1654757751d2f0dda8": {
         "type": "Product-tab",
-        "disabled": true,
         "blocks": {
           "b00a852a-8951-483c-84f9-6c37072ef15e": {
             "type": "Nappies",
@@ -589,7 +584,6 @@
       },
       "165477852872814673": {
         "type": "haveheard",
-        "disabled": true,
         "blocks": {
           "b9d5e691-b45d-46ea-aec4-98cf54f1841d": {
             "type": "block",
@@ -647,7 +641,6 @@
       },
       "165477920102c1e0d7": {
         "type": "free-sample",
-        "disabled": true,
         "settings": {
           "heading": "Get a FREE Kiddicare<sup>® <\/sup>nappy sample",
           "text": "We put so much love into making Kiddicare nappies and we truly believe our nappies are the best! <br>\n\nWe would so love for you to try them out that we're giving you the opportunity for FREE! So just tell us a bit about yourself and your little one and we will send you a free Kiddicare nappy sample pack containing two Kiddicare nappies.",
@@ -657,7 +650,6 @@
       },
       "1654835811e1444725": {
         "type": "home-page-last",
-        "disabled": true,
         "settings": {
           "heading": "Kiddicare Nappies - Gentle on your Baby's Skin & Leak Protection",
           "image": "shopify:\/\/shop_images\/kiddicare-01_4da59e60-51c7-449c-ae8c-2f2505f46ac7.png",
@@ -963,6 +955,7 @@
       },
       "0b5b2458-4a4e-4cc6-918c-3a80d93be2ec": {
         "type": "image-with-text-live",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/DSC06588-Edit_1.png",
           "mobile-image": "shopify:\/\/shop_images\/Untitled-2_1.png",
@@ -976,6 +969,7 @@
       },
       "db02a843-649d-4661-a85d-3fd4e207cf16": {
         "type": "livepopup",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/happy-mother-with-cute-newborn-baby_2.png",
           "heading": "Collabrate with us",
@@ -994,6 +988,7 @@
       },
       "80e6f7ed-e040-445f-a1c4-46bfeb43d678": {
         "type": "logo-slider",
+        "disabled": true,
         "blocks": {
           "305bf2e0-1c92-4854-a1a3-7d0313a838db": {
             "type": "block",
@@ -1048,6 +1043,7 @@
       },
       "fd915757-6d02-4103-8cc7-642e6117e5c9": {
         "type": "icon-with-text",
+        "disabled": true,
         "blocks": {
           "1787a0fd-03bf-41ac-aacb-27999fa8530d": {
             "type": "block",
@@ -1095,6 +1091,7 @@
       },
       "125e4bbe-9691-482c-a7c5-621bbb3f0ff7": {
         "type": "bestseller",
+        "disabled": true,
         "settings": {
           "backgroundcls": "#7cd6db",
           "color_accent": "#ffffff",
@@ -1108,6 +1105,7 @@
       },
       "c1b42184-29c4-4c15-9aee-0ca4771c6006": {
         "type": "Product-slider",
+        "disabled": true,
         "blocks": {
           "9c080aff-98e4-4a16-8ac9-bd877d2664b0": {
             "type": "block",
@@ -1170,6 +1168,7 @@
       },
       "cbb6c38a-f7e4-41d3-bfc5-083cfdc2f0d8": {
         "type": "kidding-size",
+        "disabled": true,
         "settings": {
           "heading": "KIDDING SIZING GUIDE",
           "kome": "",
@@ -1186,6 +1185,7 @@
       },
       "184a3e6b-6399-4ce9-860b-fe47af02ea5a": {
         "type": "brand-logo",
+        "disabled": true,
         "blocks": {
           "08d0db2b-a9b8-4578-9157-d20ec56d0bc2": {
             "type": "block",
@@ -1211,6 +1211,7 @@
       },
       "d3300b80-1f77-4cca-b265-562cb18fb6c6": {
         "type": "testimonial-section",
+        "disabled": true,
         "blocks": {
           "2c77c0ea-4d31-4a92-a405-bd9f4a3ae930": {
             "type": "block",
@@ -1271,6 +1272,7 @@
       },
       "485fd609-6121-454e-bc5a-603d033fa4cf": {
         "type": "brand-logo",
+        "disabled": true,
         "blocks": {
           "ab7b5ee1-ff10-4d18-91c8-aebd13c62d7e": {
             "type": "block",
@@ -1317,6 +1319,7 @@
       },
       "b250e689-8cb6-4614-b7cb-d8685fa585b0": {
         "type": "Collabrate-section",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/307873933_5547615525345426_6050339954162261295_n_2.png",
           "heading": "COLLABRATE WITH US",
@@ -1334,6 +1337,7 @@
       },
       "da659756-1aee-4ec7-865c-dccbb6bd1a72": {
         "type": "customblog",
+        "disabled": true,
         "blocks": {
           "48761d48-b6f4-4c69-ad6a-963efd1e7774": {
             "type": "slide",
@@ -1379,6 +1383,7 @@
       },
       "7a6a78c1-d255-420a-ab4f-a2056bfc21f5": {
         "type": "Grid-logo",
+        "disabled": true,
         "blocks": {
           "f717fa17-62cd-47f1-b83b-5c6ebb2168f8": {
             "type": "block",
@@ -1414,6 +1419,7 @@
       },
       "c4709849-340a-4961-8668-917de9fe8659": {
         "type": "instagram-section",
+        "disabled": true,
         "settings": {
           "heading": "FOLLOW US",
           "image": "shopify:\/\/shop_images\/1_Instagram_colored_svg_1-512_2.png",
@@ -1424,6 +1430,7 @@
       },
       "a492602b-bd32-4d9d-acbd-c0781660e53e": {
         "type": "instafeed",
+        "disabled": true,
         "settings": {
           "heading_size": 20,
           "feed_width": 100,
