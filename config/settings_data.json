@@ -1105,7 +1105,6 @@
       },
       "c1b42184-29c4-4c15-9aee-0ca4771c6006": {
         "type": "Product-slider",
-        "disabled": true,
         "blocks": {
           "9c080aff-98e4-4a16-8ac9-bd877d2664b0": {
             "type": "block",
@@ -1162,7 +1161,7 @@
           "btn-color": "#006781",
           "heading-color": "#006781",
           "mobile-heading-color": "#006781",
-          "background": "#ebebeb",
+          "background": "#006781",
           "mobile-background": "#ffffff"
         }
       },
